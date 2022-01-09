@@ -1,2 +1,2 @@
-# mathme_study
+# Mathematica_study
 Wolfram 공부하기
