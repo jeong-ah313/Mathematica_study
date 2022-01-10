@@ -1,8 +1,0 @@
-Notebook[{Cell[
-CellGroupData[{Cell[
-BoxData[RowBox[{"1","+","2","+","3"}]],"Input",
-CellLabel -> "In[2]:= ",ExpressionUUID -> "b55130a7-5fd3-48c0-87c6-c1a7986fff06"],Cell[
-BoxData[
-"6",StandardForm],"Output",CellLabel -> "Out[2]= ",ExpressionUUID -> "25ec9711-1046-4499-938c-17b02d4e9909"]},
-Open],ExpressionUUID -> "f098c791-e86a-4358-8837-d0d6faf46585"]},StyleDefinitions -> "Default.nb",
-FrontEndVersion -> "13. for Wolfram Cloud 1.61.2 (November 30, 2021)"]
