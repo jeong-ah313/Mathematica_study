@@ -1,0 +1,29 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[RowBox[{"Import","[","\"sample.jpg\"","]"}]],
+"Input",CellLabel -> "In[16]:= ",ExpressionUUID -> "e9cdfdee-28f3-43fd-b4a1-1ee3394f4877"],Cell[
+BoxData[
+TemplateBox[{"Import","nffil","\"File \\!\\(\\*TagBox[\\\"\\\\\\\"sample.jpg\\\\\\\"\\\", Short[#1, 5] & ]\\) not found during \\!\\(\\*TagBox[\\\"Import\\\", Short[#1, 5] & ]\\).\"",2,16,6,29168385456077304934,"Local"},
+"MessageTemplate"],StandardForm],"Message","MSG",ExpressionUUID -> "7f36ea5b-50a5-40a0-80dd-371be6c1d459"],Cell[
+BoxData[
+"$Failed",StandardForm],"Output",CellLabel -> "Out[16]= ",ExpressionUUID -> "8372c2a3-1972-4065-bd8e-b29737890904"]},
+Open],ExpressionUUID -> "8a4e1d47-fc24-47df-a11b-67f3774a3e43"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"ColorNegative","[","]"}]],"Input",CellLabel -> "In[17]:= ",
+ExpressionUUID -> "8913bb4b-6a95-49fe-a81b-7be6f9a5fc3e"],Cell[
+BoxData[RowBox[{"ColorNegative","[","]"}],
+StandardForm],"Output",CellLabel -> "Out[17]= ",ExpressionUUID -> "743bdd28-0bae-420c-90b6-322f83558425"]},
+Open],ExpressionUUID -> "7e4020c0-5d8b-4821-8189-176d42e64172"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Blur","[","]"}]],"Input",CellLabel -> "In[18]:= ",ExpressionUUID -> "94f2eb26-2220-4da9-b0dc-bec385919430"],Cell[
+BoxData[
+TemplateBox[{"Blur","argt","\"\\!\\(\\*TagBox[\\\"Blur\\\", Short[#1, 5] & ]\\) called with \\!\\(\\*TagBox[\\\"0\\\", Short[#1, 5] & ]\\) arguments; \\!\\(\\*TagBox[\\\"1\\\", Short[#1, 5] & ]\\) or \\!\\(\\*TagBox[\\\"2\\\", Short[#1, 5] & ]\\) arguments are expected.\"",2,18,7,29168385456077304934,"Local"},
+"MessageTemplate"],StandardForm],"Message","MSG",ExpressionUUID -> "01a636c0-9a13-4b5f-a8fe-de29ac4c1ba8"],Cell[
+BoxData[
+RowBox[{"Blur","[","]"}],StandardForm],"Output",CellLabel -> "Out[18]= ",ExpressionUUID -> "79824ca5-037b-4566-9588-208d7e56798a"]},
+Open],ExpressionUUID -> "5720981d-2c27-4078-9f6f-9030b5eb9ce0"],Cell[
+BoxData["Blur"],
+"Input",ExpressionUUID -> "8601417e-ff52-4581-8b52-eb22a66b543f"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "13. for Wolfram Cloud 1.61.2 (November 30, 2021)"]
