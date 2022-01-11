@@ -1,0 +1,871 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData["\"This is a string\""],"Input",CellLabel -> "In[19]:= ",
+ExpressionUUID -> "16fbe676-d9b8-4773-9522-1e90abc717fa"],Cell[
+BoxData["\"This is a string\"",
+StandardForm],"Output",CellLabel -> "Out[19]= ",ExpressionUUID -> "489bece4-b795-4f48-ba1a-2cf9a6fc2526"]},
+Open],ExpressionUUID -> "d0605d1e-71e4-4c56-a1af-c7c1d75d8d83"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"InputForm","[","\"This is a string\"","]"}]],"Input",CellLabel -> "In[21]:= ",
+ExpressionUUID -> "6ad0823b-e6bf-47b8-9d13-b6e8a563e1ab"],Cell[
+"\<\"\\\"This is a string\\\"\"\>",
+"Output",CellLabel -> "Out[21]//InputForm= ",ExpressionUUID -> "a8a58b21-b463-4ee2-80a1-22c304c788de"]},
+Open],ExpressionUUID -> "802c8863-e4c4-42d8-b717-23e06488aee5"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"StringLength","[","\"hello\"","]"}]],"Input",CellLabel -> "In[22]:= ",
+ExpressionUUID -> "397b8a19-b04a-4cc2-a3d1-017a03fafdd8"],Cell[
+BoxData["5",StandardForm],
+"Output",CellLabel -> "Out[22]= ",ExpressionUUID -> "5f93c2d9-3eb6-435b-b3a4-dee2300731f0"]},
+Open],ExpressionUUID -> "f7106c9c-4ca4-4f70-9fd0-8393dd93cf52"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"StringReverse","[","\"hello\"","]"}]],"Input",CellLabel -> "In[23]:= ",
+ExpressionUUID -> "0e623d75-5ae2-4581-ae4d-b25b8c7bb754"],Cell[
+BoxData["\"olleh\"",
+StandardForm],"Output",CellLabel -> "Out[23]= ",ExpressionUUID -> "3606d677-1ae3-4c2f-ae90-663fef23403c"]},
+Open],ExpressionUUID -> "317f01e2-893d-4896-8bad-dfd2dfa96bed"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"ToUpperCase","[","\"I'm coding in the Wolfram Language!\"","]"}]],
+"Input",CellLabel -> "In[25]:= ",ExpressionUUID -> "d0c84375-ed87-4504-bf33-21bd3fce707d"],Cell[
+BoxData[
+"\"I'M CODING IN THE WOLFRAM LANGUAGE!\"",StandardForm],"Output",CellLabel -> "Out[25]= ",
+ExpressionUUID -> "72a891a3-5f17-432c-8378-7de8f1ee1ca3"]},Open],ExpressionUUID -> "e161ed9b-7b01-4d21-8336-e8b286a38e17"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"StringTake","[",RowBox[{"\"This is about strings\"",","," ","10"}],"]"}]],
+"Input",CellLabel -> "In[26]:= ",ExpressionUUID -> "efc3a718-567c-4904-8816-0c3ae37b2844"],Cell[
+BoxData[
+"\"This is ab\"",StandardForm],"Output",CellLabel -> "Out[26]= ",ExpressionUUID -> "62dd9d75-60ca-4b63-8969-f412956467d5"]},
+Open],ExpressionUUID -> "e8f92c86-4358-4f6e-8be7-97edcffa2363"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"StringJoin","[",RowBox[{"\"Hello\"",","," ","\" \"",","," ","\"there!\"",","," ","\" How are you?\""}],"]"}]],
+"Input",CellLabel -> "In[28]:= ",ExpressionUUID -> "0ff3418a-a324-4370-9470-74cf31c531a9"],Cell[
+BoxData[
+"\"Hello there! How are you?\"",StandardForm],"Output",CellLabel -> "Out[28]= ",ExpressionUUID -> "aece7dac-88ac-4af5-b31f-19c768448891"]},
+Open],ExpressionUUID -> "0c6a4e24-f910-4054-8dea-6449c38c6561"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"StringTake","[",RowBox[{RowBox[{"{",RowBox[{"\"apple\"",",","\"banana\"",","," ","\"strawberry\""}],"}"}],",","2"}],"]"}]],
+"Input",CellLabel -> "In[30]:= ",ExpressionUUID -> "1c7548a0-ef09-4b1e-a575-7914513e0360"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"\"ap\"",",","\"ba\"",",","\"st\""}],"}"}],StandardForm],"Output",
+CellLabel -> "Out[30]= ",ExpressionUUID -> "7dc0039f-0402-4b14-a87c-31ac5f48f5d7"]},
+Open],ExpressionUUID -> "63bfa967-fa6a-4f47-aeb6-7c4b40406eb2"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"StringJoin","[",RowBox[{"{",RowBox[{"\"apple\"",","," ","\"banana\"",","," ","\"strawberry\""}],"}"}],"]"}]],
+"Input",CellLabel -> "In[31]:= ",ExpressionUUID -> "8703fde1-6d5c-495f-89e1-4469a63cffa9"],Cell[
+BoxData[
+"\"applebananastrawberry\"",StandardForm],"Output",CellLabel -> "Out[31]= ",ExpressionUUID -> "da895fcd-3764-4f23-bc5d-c172cd24dd57"]},
+Open],ExpressionUUID -> "f727e7f7-da45-4960-b42d-90826766c86b"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Characters","[","\"a string is made up of characters\"","]"}]],
+"Input",CellLabel -> "In[32]:= ",ExpressionUUID -> "54c5775c-0c1e-45c6-9efc-8475c97c7851"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"\"a\"",",","\" \"",",","\"s\"",",","\"t\"",",","\"r\"",",","\"i\"",",","\"n\"",",","\"g\"",",","\" \"",",","\"i\"",",","\"s\"",",","\" \"",",","\"m\"",",","\"a\"",",","\"d\"",",","\"e\"",",","\" \"",",","\"u\"",",","\"p\"",",","\" \"",",","\"o\"",",","\"f\"",",","\" \"",",","\"c\"",",","\"h\"",",","\"a\"",",","\"r\"",",","\"a\"",",","\"c\"",",","\"t\"",",","\"e\"",",","\"r\"",",","\"s\""}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[32]= ",ExpressionUUID -> "70b813cf-0fa5-4c05-b549-89be436cde2c"]},
+Open],ExpressionUUID -> "423d0ca2-3caa-45e5-87e3-8bbaf28dcfcc"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"InputForm","[",RowBox[{"Characters","[","\"a string is made up of characters\"","]"}],"]"}]],
+"Input",CellLabel -> "In[33]:= ",ExpressionUUID -> "02bc8721-f02c-4599-8391-487780445324"],Cell[
+
+"\<\"{\\\"a\\\", \\\" \\\", \\\"s\\\", \\\"t\\\", \\\"r\\\", \\\"i\\\", \\\"n\\\", \\\"g\\\", \\\" \\\", \\\"i\\\", \\\"s\\\", \\\" \\\", \\\"m\\\", \\\"a\\\", \\\"d\\\", \\\"e\\\", \\n \\\" \\\", \\\"u\\\", \\\"p\\\", \\\" \\\", \\\"o\\\", \\\"f\\\", \\\" \\\", \\\"c\\\", \\\"h\\\", \\\"a\\\", \\\"r\\\", \\\"a\\\", \\\"c\\\", \\\"t\\\", \\\"e\\\", \\\"r\\\", \\\"s\\\"}\"\>",
+"Output",CellLabel -> "Out[33]//InputForm= ",ExpressionUUID -> "92317b09-f16b-4b49-b378-e3d50a2a2411"]},
+Open],ExpressionUUID -> "64df7f68-f2a8-4ed6-8467-a12bd44d047c"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Sort","[",RowBox[{"Characters","[","\"a string is made up of characters\"","]"}],"]"}]],
+"Input",CellLabel -> "In[34]:= ",ExpressionUUID -> "66f2f083-dc29-4c39-a4e2-1d8dca1a1e8b"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"\" \"",",","\" \"",",","\" \"",",","\" \"",",","\" \"",",","\" \"",",","\"a\"",",","\"a\"",",","\"a\"",",","\"a\"",",","\"c\"",",","\"c\"",",","\"d\"",",","\"e\"",",","\"e\"",",","\"f\"",",","\"g\"",",","\"h\"",",","\"i\"",",","\"i\"",",","\"m\"",",","\"n\"",",","\"o\"",",","\"p\"",",","\"r\"",",","\"r\"",",","\"r\"",",","\"s\"",",","\"s\"",",","\"s\"",",","\"t\"",",","\"t\"",",","\"u\""}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[34]= ",ExpressionUUID -> "cae639e7-3619-4d12-9bab-e1bb214544bc"]},
+Open],ExpressionUUID -> "8258b587-4d9a-4243-abb4-72de238d8a70"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"InputForm","[",RowBox[{"Sort","[",RowBox[{"Characters","[","\"a string is made up of characters\"","]"}],"]"}],"]"}]],
+"Input",CellLabel -> "In[37]:= ",ExpressionUUID -> "40ed7973-2090-46bc-a0d4-75041033f1dd"],Cell[
+
+"\<\"{\\\" \\\", \\\" \\\", \\\" \\\", \\\" \\\", \\\" \\\", \\\" \\\", \\\"a\\\", \\\"a\\\", \\\"a\\\", \\\"a\\\", \\\"c\\\", \\\"c\\\", \\\"d\\\", \\\"e\\\", \\\"e\\\", \\\"f\\\", \\n \\\"g\\\", \\\"h\\\", \\\"i\\\", \\\"i\\\", \\\"m\\\", \\\"n\\\", \\\"o\\\", \\\"p\\\", \\\"r\\\", \\\"r\\\", \\\"r\\\", \\\"s\\\", \\\"s\\\", \\\"s\\\", \\\"t\\\", \\\"t\\\", \\\"u\\\"}\"\>",
+"Output",CellLabel -> "Out[37]//InputForm= ",ExpressionUUID -> "b2e41916-d33d-4b87-946a-cfd302a1f525"]},
+Open],ExpressionUUID -> "75313a4a-02b8-4f1d-bd2b-d6e634b2df70"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"TextWords","[","\"This is a sentence. Sentences are made up of words.\"","]"}]],
+"Input",CellLabel -> "In[38]:= ",ExpressionUUID -> "fca4aef8-863b-47d5-a9d5-80fe4ddd0e18"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"\"This\"",",","\"is\"",",","\"a\"",",","\"sentence\"",",","\"Sentences\"",",","\"are\"",",","\"made\"",",","\"up\"",",","\"of\"",",","\"words\""}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[38]= ",ExpressionUUID -> "24500c7a-d456-4773-a95f-f92fa3786bc3"]},
+Open],ExpressionUUID -> "82345a50-70c2-439a-9ccf-02172f198da0"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"InputForm","[",RowBox[{"TextWords","[","\"This is a sentence. Sentences are made up of words.\"","]"}],"]"}]],
+"Input",CellLabel -> "In[39]:= ",ExpressionUUID -> "899ba69b-df42-4db8-ac4a-1d6bca450db4"],Cell[
+
+"\<\"{\\\"This\\\", \\\"is\\\", \\\"a\\\", \\\"sentence\\\", \\\"Sentences\\\", \\\"are\\\", \\\"made\\\", \\\"up\\\", \\\"of\\\", \\\"words\\\"}\"\>",
+"Output",CellLabel -> "Out[39]//InputForm= ",ExpressionUUID -> "eb7e0ff0-3fb0-43f0-86ba-82e24cc752c0"]},
+Open],ExpressionUUID -> "d349dede-3839-420a-a506-86bb9e5e011c"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"TextSentences","[","\"This is a sentence. Sentences are up of words.\"","]"}]],
+"Input",CellLabel -> "In[41]:= ",ExpressionUUID -> "c195016a-98a4-4442-950f-10cc89ee5346"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"\"This is a sentence.\"",",","\"Sentences are up of words.\""}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[41]= ",ExpressionUUID -> "c09585f3-79d5-43b8-8820-cf00d0bf0a75"]},
+Open],ExpressionUUID -> "a402adee-c4db-43b0-b44a-bf3f6294412a"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"WikipediaData","[","\"computers\"","]"}]],"Input",CellLabel -> "In[42]:= ",
+ExpressionUUID -> "65365e56-fc27-4b65-a3f1-6b32a99f8403"],Cell[
+BoxData["\"A computer is a machine that can be programmed to carry out sequences of arithmetic or logical operations automatically. Modern computers can perform generic sets of operations known as programs. These programs enable computers to perform a wide range of tasks. A computer system is a \\\"complete\\\" computer that includes the hardware, operating system (main software), and peripheral equipment needed and used for \\\"full\\\" operation. This term may also refer to a group of computers that are linked and function together, such as a computer network or computer cluster.\\nA broad range of industrial and consumer products use computers as control systems. Simple special-purpose devices like microwave ovens and remote controls are included, as are factory devices like industrial robots and computer-aided design, as well as general-purpose devices like personal computers and mobile devices like smartphones. Computers power the Internet, which links billions of other computers and users.\\nEarly computers were meant to be used only for calculations. Simple manual instruments like the abacus have aided people in doing calculations since ancient times. Early in the Industrial Revolution, some mechanical devices were built to automate long tedious tasks, such as guiding patterns for looms. More sophisticated electrical machines did specialized analog calculations in the early 20th century. The first digital electronic calculating machines were developed during World War II. The first semiconductor transistors in the late 1940s were followed by the silicon-based MOSFET (MOS transistor) and monolithic integrated circuit (IC) chip technologies in the late 1950s, leading to the microprocessor and the microcomputer revolution in the 1970s. The speed, power and versatility of computers have been increasing dramatically ever since then, with transistor counts increasing at a rapid pace (as predicted by Moore's law), leading to the Digital Revolution during the late 20th to early 21st centuries.\\nConventionally, a modern computer consists of at least one processing element, typically a central processing unit (CPU) in the form of a microprocessor, along with some type of computer memory, typically semiconductor memory chips. The processing element carries out arithmetic and logical operations, and a sequencing and control unit can change the order of operations in response to stored information. Peripheral devices include input devices (keyboards, mice, joystick, etc.), output devices (monitor screens, printers, etc.), and input/output devices that perform both functions (e.g., the 2000s-era touchscreen). Peripheral devices allow information to be retrieved from an external source and they enable the result of operations to be saved and retrieved.\\n\\n\\n== Etymology ==\\n\\nAccording to the Oxford English Dictionary, the first known use of computer was in a 1613 book called The Yong Mans Gleanings by the English writer Richard Brathwait: \\\"I haue  [sic] read the truest computer of Times, and the best Arithmetician that euer [sic] breathed, and he reduceth thy dayes into a short number.\\\" This usage of the term referred to a human computer, a person who carried out calculations or computations. The word continued with the same meaning until the middle of the 20th century. During the latter part of this period women were often hired as computers because they could be paid less than their male counterparts. By 1943, most human computers were women.The Online Etymology Dictionary gives the first attested use of computer in the 1640s, meaning 'one who calculates'; this is an \\\"agent noun from compute (v.)\\\". The Online Etymology Dictionary states that the use of the term to mean \\\"'calculating machine' (of any type) is from 1897.\\\"  The Online Etymology Dictionary indicates that the \\\"modern use\\\" of the term, to mean 'programmable digital electronic computer' dates from \\\"1945 under this name; [in a] theoretical [sense] from 1937, as Turing machine\\\".\\n\\n\\n== History ==\\n\\n\\n=== Pre-20th century ===\\n\\nDevices have been used to aid computation for thousands of years, mostly using one-to-one correspondence with fingers. The earliest counting device was probably a form of tally stick. Later record keeping aids throughout the Fertile Crescent included calculi (clay spheres, cones, etc.) which represented counts of items, probably livestock or grains, sealed in hollow unbaked clay containers. The use of counting rods is one example.\\n\\nThe abacus was initially used for arithmetic tasks. The Roman abacus was developed from devices used in Babylonia as early as 2400 BC. Since then, many other forms of reckoning boards or tables have been invented. In a medieval European counting house, a checkered cloth would be placed on a table, and markers moved around on it according to certain rules, as an aid to calculating sums of money.\\n\\nThe Antikythera mechanism is believed to be the earliest mechanical analog computer, according to Derek J. de Solla Price. It was designed to calculate astronomical positions. It was discovered in 1901 in the Antikythera wreck off the Greek island of Antikythera, between Kythera and Crete, and has been dated to c.\[ThinSpace]100 BC. Devices of a level of complexity comparable to that of the Antikythera mechanism would not reappear until a thousand years later.\\nMany mechanical aids to calculation and measurement were constructed for astronomical and navigation use. The planisphere was a star chart invented by Ab\:016b Rayh\[ABar]n al-B\:012br\:016bn\:012b in the early 11th century. The astrolabe was invented in the Hellenistic world in either the 1st or 2nd centuries BC and is often attributed to Hipparchus. A combination of the planisphere and dioptra, the astrolabe was effectively an analog computer capable of working out several different kinds of problems in spherical astronomy. An astrolabe incorporating a mechanical calendar computer and gear-wheels was invented by Abi Bakr of Isfahan, Persia in 1235. Ab\:016b Rayh\[ABar]n al-B\:012br\:016bn\:012b invented the first mechanical geared lunisolar calendar astrolabe, an early fixed-wired knowledge processing machine with a gear train and gear-wheels, c.\[ThinSpace]1000 AD.\\nThe sector, a calculating instrument used for solving problems in proportion, trigonometry, multiplication and division, and for various functions, such as squares and cube roots, was developed in the late 16th century and found application in gunnery, surveying and navigation.\\nThe planimeter was a manual instrument to calculate the area of a closed figure by tracing over it with a mechanical linkage.\\n\\nThe slide rule was invented around 1620\[Dash]1630 by the English clergyman William Oughtred, shortly after the publication of the concept of the logarithm. It is a hand-operated analog computer for doing multiplication and division. As slide rule development progressed, added scales provided reciprocals, squares and square roots, cubes and cube roots, as well as transcendental functions such as logarithms and exponentials, circular and hyperbolic trigonometry and other functions. Slide rules with special scales are still used for quick performance of routine calculations, such as the E6B circular slide rule used for time and distance calculations on light aircraft.\\nIn the 1770s, Pierre Jaquet-Droz, a Swiss watchmaker, built a mechanical doll (automaton) that could write holding a quill pen. By switching the number and order of its internal wheels different letters, and hence different messages, could be produced. In effect, it could be mechanically \\\"programmed\\\" to read instructions. Along with two other complex machines, the doll is at the Mus\[EAcute]e d'Art et d'Histoire of Neuch\[AHat]tel, Switzerland, and still operates.In 1831\[Dash]1835, mathematician and engineer Giovanni Plana devised a Perpetual Calendar machine, which, though a system of pulleys and cylinders and over, could predict the perpetual calendar for every year from AD 0 (that is, 1 BC) to AD 4000, keeping track of leap years and varying day length. The tide-predicting machine invented by the Scottish scientist Sir William Thomson in 1872 was of great utility to navigation in shallow waters. It used a system of pulleys and wires to automatically calculate predicted tide levels for a set period at a particular location.\\nThe differential analyser, a mechanical analog computer designed to solve differential equations by integration, used wheel-and-disc mechanisms to perform the integration. In 1876, Sir William Thomson had already discussed the possible construction of such calculators, but he had been stymied by the limited output torque of the ball-and-disk integrators. In a differential analyzer, the output of one integrator drove the input of the next integrator, or a graphing output. The torque amplifier was the advance that allowed these machines to work. Starting in the 1920s, Vannevar Bush and others developed mechanical differential analyzers.\\n\\n\\n=== First computer ===\\n\\nCharles Babbage, an English mechanical engineer and polymath, originated the concept of a programmable computer. Considered the \\\"father of the computer\\\", he conceptualized and invented the first mechanical computer in the early 19th century. After working on his revolutionary difference engine, designed to aid in navigational calculations, in 1833 he realized that a much more general design, an Analytical Engine, was possible. The input of programs and data was to be provided to the machine via punched cards, a method being used at the time to direct mechanical looms such as the Jacquard loom. For output, the machine would have a printer, a curve plotter and a bell. The machine would also be able to punch numbers onto cards to be read in later. The Engine incorporated an arithmetic logic unit, control flow in the form of conditional branching and loops, and integrated memory, making it the first design for a general-purpose computer that could be described in modern terms as Turing-complete.The machine was about a century ahead of its time. All the parts for his machine had to be made by hand \[Dash] this was a major problem for a device with thousands of parts. Eventually, the project was dissolved with the decision of the British Government to cease funding. Babbage's failure to complete the analytical engine can be chiefly attributed to political and financial difficulties as well as his desire to develop an increasingly sophisticated computer and to move ahead faster than anyone else could follow. Nevertheless, his son, Henry Babbage, completed a simplified version of the analytical engine's computing unit (the mill) in 1888. He gave a successful demonstration of its use in computing tables in 1906.\\n\\n\\n=== Analog computers ===\\n\\nDuring the first half of the 20th century, many scientific computing needs were met by increasingly sophisticated analog computers, which used a direct mechanical or electrical model of the problem as a basis for computation. However, these were not programmable and generally lacked the versatility and accuracy of modern digital computers. The first modern analog computer was a tide-predicting machine, invented by Sir William Thomson (later to become Lord Kelvin) in 1872. The differential analyser, a mechanical analog computer designed to solve differential equations by integration using wheel-and-disc mechanisms, was conceptualized in 1876 by James Thomson, the elder brother of the more famous Sir William Thomson.The art of mechanical analog computing reached its zenith with the differential analyzer, built by H. L. Hazen and Vannevar Bush at MIT starting in 1927. This built on the mechanical integrators of James Thomson and the torque amplifiers invented by H. W. Nieman. A dozen of these devices were built before their obsolescence became obvious. By the 1950s, the success of digital electronic computers had spelled the end for most analog computing machines, but analog computers remained in use during the 1950s in some specialized applications such as education (slide rule) and aircraft (control systems).\\n\\n\\n=== Digital computers ===\\n\\n\\n==== Electromechanical ====\\nBy 1938, the United States Navy had developed an electromechanical analog computer small enough to use aboard a submarine. This was the Torpedo Data Computer, which used trigonometry to solve the problem of firing a torpedo at a moving target. During World War II similar devices were developed in other countries as well.\\n\\nEarly digital computers were electromechanical; electric switches drove mechanical relays to perform the calculation. These devices had a low operating speed and were eventually superseded by much faster all-electric computers, originally using vacuum tubes. The Z2, created by German engineer Konrad Zuse in 1939, was one of the earliest examples of an electromechanical relay computer.In 1941, Zuse followed his earlier machine up with the Z3, the world's first working electromechanical programmable, fully automatic digital computer. The Z3 was built with 2000 relays, implementing a 22 bit word length that operated at a clock frequency of about 5\[Dash]10 Hz. Program code was supplied on punched film while data could be stored in 64 words of memory or supplied from the keyboard. It was quite similar to modern machines in some respects, pioneering numerous advances such as floating-point numbers. Rather than the harder-to-implement decimal system (used in Charles Babbage's earlier design), using a binary system meant that Zuse's machines were easier to build and potentially more reliable, given the technologies available at that time. The Z3 was not itself a universal computer but could be extended to be Turing complete.\\n\\n\\n==== Vacuum tubes and digital electronic circuits ====\\n\\nPurely electronic circuit elements soon replaced their mechanical and electromechanical equivalents, at the same time that digital calculation replaced analog. The engineer Tommy Flowers, working at the Post Office Research Station in London in the 1930s, began to explore the possible use of electronics for the telephone exchange. Experimental equipment that he built in 1934 went into operation five years later, converting a portion of the telephone exchange network into an electronic data processing system, using thousands of vacuum tubes. In the US, John Vincent Atanasoff and Clifford E. Berry of Iowa State University developed and tested the Atanasoff\[Dash]Berry Computer (ABC) in 1942, the first \\\"automatic electronic digital computer\\\". This design was also all-electronic and used about 300 vacuum tubes, with capacitors fixed in a mechanically rotating drum for memory.\\n\\nDuring World War II, the British code-breakers at Bletchley Park achieved a number of successes at breaking encrypted German military communications. The German encryption machine, Enigma, was first attacked with the help of the electro-mechanical bombes which were often run by women. To crack the more sophisticated German Lorenz SZ 40/42 machine, used for high-level Army communications, Max Newman and his colleagues commissioned Flowers to build the Colossus. He spent eleven months from early February 1943 designing and building the first Colossus. After a functional test in December 1943, Colossus was shipped to Bletchley Park, where it was delivered on 18 January 1944 and attacked its first message on 5 February.Colossus was the world's first electronic digital programmable computer. It used a large number of valves (vacuum tubes). It had paper-tape input and was capable of being configured to perform a variety of boolean logical operations on its data, but it was not Turing-complete. Nine Mk II Colossi were built (The Mk I was converted to a Mk II making ten machines in total). Colossus Mark I contained 1,500 thermionic valves (tubes), but Mark II with 2,400 valves, was both five times faster and simpler to operate than Mark I, greatly speeding the decoding process.\\n\\nThe ENIAC (Electronic Numerical Integrator and Computer) was the first electronic programmable computer built in the U.S. Although the ENIAC was similar to the Colossus, it was much faster, more flexible, and it was Turing-complete. Like the Colossus, a \\\"program\\\" on the ENIAC was defined by the states of its patch cables and switches, a far cry from the stored program electronic machines that came later. Once a program was written, it had to be mechanically set into the machine with manual resetting of plugs and switches. The programmers of the ENIAC were six women, often known collectively as the \\\"ENIAC girls\\\".It combined the high speed of electronics with the ability to be programmed for many complex problems. It could add or subtract 5000 times a second, a thousand times faster than any other machine. It also had modules to multiply, divide, and square root. High speed memory was limited to 20 words (about 80 bytes). Built under the direction of John Mauchly and J. Presper Eckert at the University of Pennsylvania, ENIAC's development and construction lasted from 1943 to full operation at the end of 1945. The machine was huge, weighing 30 tons, using 200 kilowatts of electric power and contained over 18,000 vacuum tubes, 1,500 relays, and hundreds of thousands of resistors, capacitors, and inductors.\\n\\n\\n=== Modern computers ===\\n\\n\\n==== Concept of modern computer ====\\nThe principle of the modern computer was proposed by Alan Turing in his seminal 1936 paper, On Computable Numbers. Turing proposed a simple device that he called \\\"Universal Computing machine\\\" and that is now known as a universal Turing machine. He proved that such a machine is capable of computing anything that is computable by executing instructions (program) stored on tape, allowing the machine to be programmable. The fundamental concept of Turing's design is the stored program, where all the instructions for computing are stored in memory. Von Neumann acknowledged that the central concept of the modern computer was due to this paper. Turing machines are to this day a central object of study in theory of computation. Except for the limitations imposed by their finite memory stores, modern computers are said to be Turing-complete, which is to say, they have algorithm execution capability equivalent to a universal Turing machine.\\n\\n\\n==== Stored programs ====\\n\\nEarly computing machines had fixed programs. Changing its function required the re-wiring and re-structuring of the machine. With the proposal of the stored-program computer this changed. A stored-program computer includes by design an instruction set and can store in memory a set of instructions (a program) that details the computation. The theoretical basis for the stored-program computer was laid by Alan Turing in his 1936 paper. In 1945, Turing joined the National Physical Laboratory and began work on developing an electronic stored-program digital computer. His 1945 report \\\"Proposed Electronic Calculator\\\" was the first specification for such a device. John von Neumann at the University of Pennsylvania also circulated his First Draft of a Report on the EDVAC in 1945.The Manchester Baby was the world's first stored-program computer. It was built at the University of Manchester in England by Frederic C. Williams, Tom Kilburn and Geoff Tootill, and ran its first program on 21 June 1948. It was designed as a testbed for the Williams tube, the first random-access digital storage device. Although the computer was considered \\\"small and primitive\\\" by the standards of its time, it was the first working machine to contain all of the elements essential to a modern electronic computer. As soon as the Baby had demonstrated the feasibility of its design, a project was initiated at the university to develop it into a more usable computer, the Manchester Mark 1. Grace Hopper was the first person to develop a compiler for programming language.The Mark 1 in turn quickly became the prototype for the Ferranti Mark 1, the world's first commercially available general-purpose computer. Built by Ferranti, it was delivered to the University of Manchester in February 1951. At least seven of these later machines were delivered between 1953 and 1957, one of them to Shell labs in Amsterdam. In October 1947, the directors of British catering company J. Lyons & Company decided to take an active role in promoting the commercial development of computers. The LEO I computer became operational in April 1951 and ran the world's first regular routine office computer job.\\n\\n\\n==== Transistors ====\\n\\nThe concept of a field-effect transistor was proposed by Julius Edgar Lilienfeld in 1925. John Bardeen and Walter Brattain, while working under William Shockley at Bell Labs, built the first working transistor, the point-contact transistor, in 1947, which was followed by Shockley's bipolar junction transistor in 1948. From 1955 onwards, transistors replaced vacuum tubes in computer designs, giving rise to the \\\"second generation\\\" of computers. Compared to vacuum tubes, transistors have many advantages: they are smaller, and require less power than vacuum tubes, so give off less heat. Junction transistors were much more reliable than vacuum tubes and had longer, indefinite, service life. Transistorized computers could contain tens of thousands of binary logic circuits in a relatively compact space. However, early junction transistors were relatively bulky devices that were difficult to manufacture on a mass-production basis, which limited them to a number of specialised applications.At the University of Manchester, a team under the leadership of Tom Kilburn designed and built a machine using the newly developed transistors instead of valves. Their first transistorised computer and the first in the world, was operational by 1953, and a second version was completed there in April 1955. However, the machine did make use of valves to generate its 125 kHz clock waveforms and in the circuitry to read and write on its magnetic drum memory, so it was not the first completely transistorized computer. That distinction goes to the Harwell CADET of 1955, built by the electronics division of the Atomic Energy Research Establishment at Harwell.\\n\\nThe metal\[Dash]oxide\[Dash]silicon field-effect transistor (MOSFET), also known as the MOS transistor, was invented by Mohamed M. Atalla and Dawon Kahng at Bell Labs in 1959. It was the first truly compact transistor that could be miniaturised and mass-produced for a wide range of uses. With its high scalability, and much lower power consumption and higher density than bipolar junction transistors, the MOSFET made it possible to build high-density integrated circuits. In addition to data processing, it also enabled the practical use of MOS transistors as memory cell storage elements, leading to the development of MOS semiconductor memory, which replaced earlier magnetic-core memory in computers. The MOSFET led to the microcomputer revolution, and became the driving force behind the computer revolution. The MOSFET is the most widely used transistor in computers, and is the fundamental building block of digital electronics.\\n\\n\\n==== Integrated circuits ====\\n\\nThe next great advance in computing power came with the advent of the integrated circuit (IC).\\nThe idea of the integrated circuit was first conceived by a radar scientist working for the Royal Radar Establishment of the Ministry of Defence, Geoffrey W.A. Dummer. Dummer presented the first public description of an integrated circuit at the Symposium on Progress in Quality Electronic Components in Washington, D.C. on 7 May 1952.The first working ICs were invented by Jack Kilby at Texas Instruments and Robert Noyce at Fairchild Semiconductor. Kilby recorded his initial ideas concerning the integrated circuit in July 1958, successfully demonstrating the first working integrated example on 12 September 1958. In his patent application of 6 February 1959, Kilby described his new device as \\\"a body of semiconductor material ... wherein all the components of the electronic circuit are completely integrated\\\". However, Kilby's invention was a hybrid integrated circuit (hybrid IC), rather than a monolithic integrated circuit (IC) chip. Kilby's IC had external wire connections, which made it difficult to mass-produce.Noyce also came up with his own idea of an integrated circuit half a year later than Kilby. Noyce's invention was the first true monolithic IC chip. His chip solved many practical problems that Kilby's had not. Produced at Fairchild Semiconductor, it was made of silicon, whereas Kilby's chip was made of germanium. Noyce's monolithic IC was fabricated using the planar process, developed by his colleague Jean Hoerni in early 1959. In turn, the planar process was based on Mohamed M. Atalla's work on semiconductor surface passivation by silicon dioxide in the late 1950s.Modern monolithic ICs are predominantly MOS (metal-oxide-semiconductor) integrated circuits, built from MOSFETs (MOS transistors). The earliest experimental MOS IC to be fabricated was a 16-transistor chip built by Fred Heiman and Steven Hofstein at RCA in 1962. General Microelectronics later introduced the first commercial MOS IC in 1964, developed by Robert Norman. Following the development of the self-aligned gate (silicon-gate) MOS transistor by Robert Kerwin, Donald Klein and John Sarace at Bell Labs in 1967, the first silicon-gate MOS IC with self-aligned gates was developed by Federico Faggin at Fairchild Semiconductor in 1968. The MOSFET has since become the most critical device component in modern ICs.The development of the MOS integrated circuit led to the invention of the microprocessor, and heralded an explosion in the commercial and personal use of computers. While the subject of exactly which device was the first microprocessor is contentious, partly due to lack of agreement on the exact definition of the term \\\"microprocessor\\\", it is largely undisputed that the first single-chip microprocessor was the Intel 4004, designed and realized by Federico Faggin with his silicon-gate MOS IC technology, along with Ted Hoff, Masatoshi Shima and Stanley Mazor at Intel. In the early 1970s, MOS IC technology enabled the integration of more than 10,000 transistors on a single chip.System on a Chip (SoCs) are complete computers on a microchip (or chip) the size of a coin. They may or may not have integrated RAM and flash memory. If not integrated, the RAM is usually placed directly above (known as Package on package) or below (on the opposite side of the circuit board) the SoC, and the flash memory is usually placed right next to the SoC, this all done to improve data transfer speeds, as the data signals don't have to travel long distances. Since ENIAC in 1945, computers have advanced enormously, with modern SoCs (Such as the Snapdragon 865) being the size of a coin while also being hundreds of thousands of times more powerful than ENIAC, integrating billions of transistors, and consuming only a few watts of power.\\n\\n\\n=== Mobile computers ===\\nThe first mobile computers were heavy and ran from mains power. The 50 lb (23 kg) IBM 5100 was an early example. Later portables such as the Osborne 1 and Compaq Portable were considerably lighter but still needed to be plugged in. The first laptops, such as the Grid Compass, removed this requirement by incorporating batteries \[Dash] and with the continued miniaturization of computing resources and advancements in portable battery life, portable computers grew in popularity in the 2000s. The same developments allowed manufacturers to integrate computing resources into cellular mobile phones by the early 2000s.\\nThese smartphones and tablets run on a variety of operating systems and recently became the dominant computing device on the market. These are powered by System on a Chip (SoCs), which are complete computers on a microchip the size of a coin.\\n\\n\\n== Types ==\\n\\nComputers can be classified in a number of different ways, including:\\n\\n\\n=== By architecture ===\\nAnalog computer\\nDigital computer\\nHybrid computer\\nHarvard architecture\\nVon Neumann architecture\\nComplex instruction set computer\\nReduced instruction set computer\\n\\n\\n=== By size, form-factor and purpose ===\\nSupercomputer\\nMainframe computer\\nMinicomputer (term no longer used)\\nServer\\nRackmount server\\nBlade server\\nTower server\\nPersonal computer\\nWorkstation\\nMicrocomputer (term no longer used)\\nHome computer\\nDesktop computer\\nTower desktop\\nSlimline desktop\\nMultimedia computer (non-linear editing system computers, video editing PCs and the like)\\nGaming computer\\nAll-in-one PC\\nNettop (Small form factor PCs, Mini PCs)\\nHome theater PC\\nKeyboard computer\\nPortable computer\\nThin client\\nInternet appliance\\nLaptop\\nDesktop replacement computer\\nGaming laptop\\nRugged laptop\\n2-in-1 PC\\nUltrabook\\nChromebook\\nSubnotebook\\nNetbook\\nMobile computers:\\nTablet computer\\nSmartphone\\nUltra-mobile PC\\nPocket PC\\nPalmtop PC\\nHandheld PC\\nWearable computer\\nSmartwatch\\nSmartglasses\\nSingle-board computer\\nPlug computer\\nStick PC\\nProgrammable logic controller\\nComputer-on-module\\nSystem on module\\nSystem in a package\\nSystem-on-chip (Also known as an Application Processor or AP if it lacks circuitry such as radio circuitry)\\nMicrocontroller\\n\\n\\n== Hardware ==\\n\\nThe term hardware covers all of those parts of a computer that are tangible physical objects. Circuits, computer chips, graphic cards, sound cards, memory (RAM), motherboard, displays, power supplies, cables, keyboards, printers and \\\"mice\\\" input devices are all hardware.\\n\\n\\n=== History of computing hardware ===\\n\\n\\n=== Other hardware topics ===\\nA general-purpose computer has four main components: the arithmetic logic unit (ALU), the control unit, the memory, and the input and output devices (collectively termed I/O). These parts are interconnected by buses, often made of groups of wires. Inside each of these parts are thousands to trillions of small electrical circuits which can be turned off or on by means of an electronic switch. Each circuit represents a bit (binary digit) of information so that when the circuit is on it represents a \\\"1\\\", and when off it represents a \\\"0\\\" (in positive logic representation). The circuits are arranged in logic gates so that one or more of the circuits may control the state of one or more of the other circuits.\\n\\n\\n=== Input devices ===\\nWhen unprocessed data is sent to the computer with the help of input devices, the data is processed and sent to output devices. The input devices may be hand-operated or automated. The act of processing is mainly regulated by the CPU. Some examples of input devices are:\\n\\nComputer keyboard\\nDigital camera\\nDigital video\\nGraphics tablet\\nImage scanner\\nJoystick\\nMicrophone\\nMouse\\nOverlay keyboard\\nReal-time clock\\nTrackball\\nTouchscreen\\nLight pen\\n\\n\\n=== Output devices ===\\nThe means through which computer gives output are known as output devices. Some examples of output devices are:\\n\\nComputer monitor\\nPrinter\\nPC speaker\\nProjector\\nSound card\\nVideo card\\n\\n\\n=== Control unit ===\\n\\nThe control unit (often called a control system or central controller) manages the computer's various components; it reads and interprets (decodes) the program instructions, transforming them into control signals that activate other parts of the computer. Control systems in advanced computers may change the order of execution of some instructions to improve performance.\\nA key component common to all CPUs is the program counter, a special memory cell (a register) that keeps track of which location in memory the next instruction is to be read from.The control system's function is as follows\[LongDash] this is a simplified description, and some of these steps may be performed concurrently or in a different order depending on the type of CPU:\\n\\nRead the code for the next instruction from the cell indicated by the program counter.\\nDecode the numerical code for the instruction into a set of commands or signals for each of the other systems.\\nIncrement the program counter so it points to the next instruction.\\nRead whatever data the instruction requires from cells in memory (or perhaps from an input device). The location of this required data is typically stored within the instruction code.\\nProvide the necessary data to an ALU or register.\\nIf the instruction requires an ALU or specialized hardware to complete, instruct the hardware to perform the requested operation.\\nWrite the result from the ALU back to a memory location or to a register or perhaps an output device.\\nJump back to step (1).Since the program counter is (conceptually) just another set of memory cells, it can be changed by calculations done in the ALU. Adding 100 to the program counter would cause the next instruction to be read from a place 100 locations further down the program. Instructions that modify the program counter are often known as \\\"jumps\\\" and allow for loops (instructions that are repeated by the computer) and often conditional instruction execution (both examples of control flow).\\nThe sequence of operations that the control unit goes through to process an instruction is in itself like a short computer program, and indeed, in some more complex CPU designs, there is another yet smaller computer called a microsequencer, which runs a microcode program that causes all of these events to happen.\\n\\n\\n=== Central processing unit (CPU) ===\\n\\nThe control unit, ALU, and registers are collectively known as a central processing unit (CPU). Early CPUs were composed of many separate components. Since the 1970s, CPUs have typically been constructed on a single MOS integrated circuit chip called a microprocessor.\\n\\n\\n=== Arithmetic logic unit (ALU) ===\\n\\nThe ALU is capable of performing two classes of operations: arithmetic and logic. The set of arithmetic operations that a particular ALU supports may be limited to addition and subtraction, or might include multiplication, division, trigonometry functions such as sine, cosine, etc., and square roots. Some can operate only on whole numbers (integers) while others use floating point to represent real numbers, albeit with limited precision. However, any computer that is capable of performing just the simplest operations can be programmed to break down the more complex operations into simple steps that it can perform. Therefore, any computer can be programmed to perform any arithmetic operation\[LongDash]although it will take more time to do so if its ALU does not directly support the operation. An ALU may also compare numbers and return Boolean truth values (true or false) depending on whether one is equal to, greater than or less than the other (\\\"is 64 greater than 65?\\\"). Logic operations involve Boolean logic: AND, OR, XOR, and NOT. These can be useful for creating complicated conditional statements and processing Boolean logic.\\nSuperscalar computers may contain multiple ALUs, allowing them to process several instructions simultaneously. Graphics processors and computers with SIMD and MIMD features often contain ALUs that can perform arithmetic on vectors and matrices.\\n\\n\\n=== Memory ===\\n\\nA computer's memory can be viewed as a list of cells into which numbers can be placed or read. Each cell has a numbered \\\"address\\\" and can store a single number. The computer can be instructed to \\\"put the number 123 into the cell numbered 1357\\\" or to \\\"add the number that is in cell 1357 to the number that is in cell 2468 and put the answer into cell 1595.\\\" The information stored in memory may represent practically anything. Letters, numbers, even computer instructions can be placed into memory with equal ease. Since the CPU does not differentiate between different types of information, it is the software's responsibility to give significance to what the memory sees as nothing but a series of numbers.\\nIn almost all modern computers, each memory cell is set up to store binary numbers in groups of eight bits (called a byte). Each byte is able to represent 256 different numbers (28 = 256); either from 0 to 255 or \[Minus]128 to +127. To store larger numbers, several consecutive bytes may be used (typically, two, four or eight). When negative numbers are required, they are usually stored in two's complement notation. Other arrangements are possible, but are usually not seen outside of specialized applications or historical contexts. A computer can store any kind of information in memory if it can be represented numerically. Modern computers have billions or even trillions of bytes of memory.\\nThe CPU contains a special set of memory cells called registers that can be read and written to much more rapidly than the main memory area. There are typically between two and one hundred registers depending on the type of CPU. Registers are used for the most frequently needed data items to avoid having to access main memory every time data is needed. As data is constantly being worked on, reducing the need to access main memory (which is often slow compared to the ALU and control units) greatly increases the computer's speed.\\nComputer main memory comes in two principal varieties:\\n\\nrandom-access memory or RAM\\nread-only memory or ROMRAM can be read and written to anytime the CPU commands it, but ROM is preloaded with data and software that never changes, therefore the CPU can only read from it. ROM is typically used to store the computer's initial start-up instructions. In general, the contents of RAM are erased when the power to the computer is turned off, but ROM retains its data indefinitely. In a PC, the ROM contains a specialized program called the BIOS that orchestrates loading the computer's operating system from the hard disk drive into RAM whenever the computer is turned on or reset. In embedded computers, which frequently do not have disk drives, all of the required software may be stored in ROM. Software stored in ROM is often called firmware, because it is notionally more like hardware than software. Flash memory blurs the distinction between ROM and RAM, as it retains its data when turned off but is also rewritable. It is typically much slower than conventional ROM and RAM however, so its use is restricted to applications where high speed is unnecessary.In more sophisticated computers there may be one or more RAM cache memories, which are slower than registers but faster than main memory. Generally computers with this sort of cache are designed to move frequently needed data into the cache automatically, often without the need for any intervention on the programmer's part.\\n\\n\\n=== Input/output (I/O) ===\\n\\nI/O is the means by which a computer exchanges information with the outside world. Devices that provide input or output to the computer are called peripherals. On a typical personal computer, peripherals include input devices like the keyboard and mouse, and output devices such as the display and printer. Hard disk drives, floppy disk drives and optical disc drives serve as both input and output devices. Computer networking is another form of I/O.\\nI/O devices are often complex computers in their own right, with their own CPU and memory. A graphics processing unit might contain fifty or more tiny computers that perform the calculations necessary to display 3D graphics. Modern desktop computers contain many smaller computers that assist the main CPU in performing I/O. A 2016-era flat screen display contains its own computer circuitry.\\n\\n\\n=== Multitasking ===\\n\\nWhile a computer may be viewed as running one gigantic program stored in its main memory, in some systems it is necessary to give the appearance of running several programs simultaneously. This is achieved by multitasking i.e. having the computer switch rapidly between running each program in turn. One means by which this is done is with a special signal called an interrupt, which can periodically cause the computer to stop executing instructions where it was and do something else instead. By remembering where it was executing prior to the interrupt, the computer can return to that task later. If several programs are running \\\"at the same time\\\". then the interrupt generator might be causing several hundred interrupts per second, causing a program switch each time. Since modern computers typically execute instructions several orders of magnitude faster than human perception, it may appear that many programs are running at the same time even though only one is ever executing in any given instant. This method of multitasking is sometimes termed \\\"time-sharing\\\" since each program is allocated a \\\"slice\\\" of time in turn.Before the era of inexpensive computers, the principal use for multitasking was to allow many people to share the same computer. Seemingly, multitasking would cause a computer that is switching between several programs to run more slowly, in direct proportion to the number of programs it is running, but most programs spend much of their time waiting for slow input/output devices to complete their tasks. If a program is waiting for the user to click on the mouse or press a key on the keyboard, then it will not take a \\\"time slice\\\" until the event it is waiting for has occurred. This frees up time for other programs to execute so that many programs may be run simultaneously without unacceptable speed loss.\\n\\n\\n=== Multiprocessing ===\\n\\nSome computers are designed to distribute their work across several CPUs in a multiprocessing configuration, a technique once employed in only large and powerful machines such as supercomputers, mainframe computers and servers. Multiprocessor and multi-core (multiple CPUs on a single integrated circuit) personal and laptop computers are now widely available, and are being increasingly used in lower-end markets as a result.\\nSupercomputers in particular often have highly unique architectures that differ significantly from the basic stored-program architecture and from general-purpose computers. They often feature thousands of CPUs, customized high-speed interconnects, and specialized computing hardware. Such designs tend to be useful for only specialized tasks due to the large scale of program organization required to successfully utilize most of the available resources at once. Supercomputers usually see usage in large-scale simulation, graphics rendering, and cryptography applications, as well as with other so-called \\\"embarrassingly parallel\\\" tasks.\\n\\n\\n== Software ==\\n\\nSoftware refers to parts of the computer which do not have a material form, such as programs, data, protocols, etc. Software is that part of a computer system that consists of encoded information or computer instructions, in contrast to the physical hardware from which the system is built. Computer software includes computer programs, libraries and related non-executable data, such as online documentation or digital media. It is often divided into system software and application software Computer hardware and software require each other and neither can be realistically used on its own. When software is stored in hardware that cannot easily be modified, such as with BIOS ROM in an IBM PC compatible computer, it is sometimes called \\\"firmware\\\".\\n\\n\\n=== Languages ===\\nThere are thousands of different programming languages\[LongDash]some intended for general purpose, others useful for only highly specialized applications.\\n\\n\\n=== Programs ===\\nThe defining feature of modern computers which distinguishes them from all other machines is that they can be programmed. That is to say that some type of instructions (the program) can be given to the computer, and it will process them. Modern computers based on the von Neumann architecture often have machine code in the form of an imperative programming language. In practical terms, a computer program may be just a few instructions or extend to many millions of instructions, as do the programs for word processors and web browsers for example. A typical modern computer can execute billions of instructions per second (gigaflops) and rarely makes a mistake over many years of operation. Large computer programs consisting of several million instructions may take teams of programmers years to write, and due to the complexity of the task almost certainly contain errors.\\n\\n\\n==== Stored program architecture ====\\n\\nThis section applies to most common RAM machine\[Dash]based computers.\\nIn most cases, computer instructions are simple: add one number to another, move some data from one location to another, send a message to some external device, etc. These instructions are read from the computer's memory and are generally carried out (executed) in the order they were given. However, there are usually specialized instructions to tell the computer to jump ahead or backwards to some other place in the program and to carry on executing from there. These are called \\\"jump\\\" instructions (or branches). Furthermore, jump instructions may be made to happen conditionally so that different sequences of instructions may be used depending on the result of some previous calculation or some external event. Many computers directly support subroutines by providing a type of jump that \\\"remembers\\\" the location it jumped from and another instruction to return to the instruction following that jump instruction.\\nProgram execution might be likened to reading a book. While a person will normally read each word and line in sequence, they may at times jump back to an earlier place in the text or skip sections that are not of interest. Similarly, a computer may sometimes go back and repeat the instructions in some section of the program over and over again until some internal condition is met. This is called the flow of control within the program and it is what allows the computer to perform tasks repeatedly without human intervention.\\nComparatively, a person using a pocket calculator can perform a basic arithmetic operation such as adding two numbers with just a few button presses. But to add together all of the numbers from 1 to 1,000 would take thousands of button presses and a lot of time, with a near certainty of making a mistake. On the other hand, a computer may be programmed to do this with just a few simple instructions. The following example is written in the MIPS assembly language:\\n\\nOnce told to run this program, the computer will perform the repetitive addition task without further human intervention. It will almost never make a mistake and a modern PC can complete the task in a fraction of a second.\\n\\n\\n==== Machine code ====\\nIn most computers, individual instructions are stored as machine code with each instruction being given a unique number (its operation code or opcode for short). The command to add two numbers together would have one opcode; the command to multiply them would have a different opcode, and so on. The simplest computers are able to perform any of a handful of different instructions; the more complex computers have several hundred to choose from, each with a unique numerical code. Since the computer's memory is able to store numbers, it can also store the instruction codes. This leads to the important fact that entire programs (which are just lists of these instructions) can be represented as lists of numbers and can themselves be manipulated inside the computer in the same way as numeric data. The fundamental concept of storing programs in the computer's memory alongside the data they operate on is the crux of the von Neumann, or stored program, architecture. In some cases, a computer might store some or all of its program in memory that is kept separate from the data it operates on. This is called the Harvard architecture after the Harvard Mark I computer. Modern von Neumann computers display some traits of the Harvard architecture in their designs, such as in CPU caches.\\nWhile it is possible to write computer programs as long lists of numbers (machine language) and while this technique was used with many early computers, it is extremely tedious and potentially error-prone to do so in practice, especially for complicated programs. Instead, each basic instruction can be given a short name that is indicative of its function and easy to remember \[Dash] a mnemonic such as ADD, SUB, MULT or JUMP. These mnemonics are collectively known as a computer's assembly language. Converting programs written in assembly language into something the computer can actually understand (machine language) is usually done by a computer program called an assembler.\\n\\n\\n==== Programming language ====\\n\\nProgramming languages provide various ways of specifying programs for computers to run. Unlike natural languages, programming languages are designed to permit no ambiguity and to be concise. They are purely written languages and are often difficult to read aloud. They are generally either translated into machine code by a compiler or an assembler before being run, or translated directly at run time by an interpreter. Sometimes programs are executed by a hybrid method of the two techniques.\\n\\n\\n===== Low-level languages =====\\n\\nMachine languages and the assembly languages that represent them (collectively termed low-level programming languages) are generally unique to the particular architecture of a computer's central processing unit (CPU). For instance, an ARM architecture CPU (such as may be found in a smartphone or a hand-held videogame) cannot understand the machine language of an x86 CPU that might be in a PC. Historically a significant number of other cpu architectures were created and saw extensive use, notably including the MOS Technology 6502 and 6510 in addition to the Zilog Z80.\\n\\n\\n===== High-level languages =====\\n\\nAlthough considerably easier than in machine language, writing long programs in assembly language is often difficult and is also error prone. Therefore, most practical programs are written in more abstract high-level programming languages that are able to express the needs of the programmer more conveniently (and thereby help reduce programmer error). High level languages are usually \\\"compiled\\\" into machine language (or sometimes into assembly language and then into machine language) using another computer program called a compiler. High level languages are less related to the workings of the target computer than assembly language, and more related to the language and structure of the problem(s) to be solved by the final program. It is therefore often possible to use different compilers to translate the same high level language program into the machine language of many different types of computer. This is part of the means by which software like video games may be made available for different computer architectures such as personal computers and various video game consoles.\\n\\n\\n==== Program design ====\\nProgram design of small programs is relatively simple and involves the analysis of the problem, collection of inputs, using the programming constructs within languages, devising or using established procedures and algorithms, providing data for output devices and solutions to the problem as applicable. As problems become larger and more complex, features such as subprograms, modules, formal documentation, and new paradigms such as object-oriented programming are encountered. Large programs involving thousands of line of code and more require formal software methodologies.\\nThe task of developing large software systems presents a significant intellectual challenge. Producing software with an acceptably high reliability within a predictable schedule and budget has historically been difficult; the academic and professional discipline of software engineering concentrates specifically on this challenge.\\n\\n\\n==== Bugs ====\\n\\nErrors in computer programs are called \\\"bugs\\\". They may be benign and not affect the usefulness of the program, or have only subtle effects. But in some cases, they may cause the program or the entire system to \\\"hang\\\", becoming unresponsive to input such as mouse clicks or keystrokes, to completely fail, or to crash. Otherwise benign bugs may sometimes be harnessed for malicious intent by an unscrupulous user writing an exploit, code designed to take advantage of a bug and disrupt a computer's proper execution. Bugs are usually not the fault of the computer. Since computers merely execute the instructions they are given, bugs are nearly always the result of programmer error or an oversight made in the program's design.\\nAdmiral Grace Hopper, an American computer scientist and developer of the first compiler, is credited for having first used the term \\\"bugs\\\" in computing after a dead moth was found shorting a relay in the Harvard Mark II computer in September 1947.\\n\\n\\n== Networking and the Internet ==\\n\\nComputers have been used to coordinate information between multiple locations since the 1950s. The U.S. military's SAGE system was the first large-scale example of such a system, which led to a number of special-purpose commercial systems such as Sabre. In the 1970s, computer engineers at research institutions throughout the United States began to link their computers together using telecommunications technology. The effort was funded by ARPA (now DARPA), and the computer network that resulted was called the ARPANET. The technologies that made the Arpanet possible spread and evolved.\\nIn time, the network spread beyond academic and military institutions and became known as the Internet. The emergence of networking involved a redefinition of the nature and boundaries of the computer. Computer operating systems and applications were modified to include the ability to define and access the resources of other computers on the network, such as peripheral devices, stored information, and the like, as extensions of the resources of an individual computer. Initially these facilities were available primarily to people working in high-tech environments, but in the 1990s the spread of applications like e-mail and the World Wide Web, combined with the development of cheap, fast networking technologies like Ethernet and ADSL saw computer networking become almost ubiquitous. In fact, the number of computers that are networked is growing phenomenally. A very large proportion of personal computers regularly connect to the Internet to communicate and receive information. \\\"Wireless\\\" networking, often utilizing mobile phone networks, has meant networking is becoming increasingly ubiquitous even in mobile computing environments.\\n\\n\\n== Unconventional computers ==\\n\\nA computer does not need to be electronic, nor even have a processor, nor RAM, nor even a hard disk. While popular usage of the word \\\"computer\\\" is synonymous with a personal electronic computer, the modern definition of a computer is literally: \\\"A device that computes, especially a programmable [usually] electronic machine that performs high-speed mathematical or logical operations or that assembles, stores, correlates, or otherwise processes information.\\\" Any device which processes information qualifies as a computer, especially if the processing is purposeful.\\n\\n\\n== Future ==\\nThere is active research to make computers out of many promising new types of technology, such as optical computers, DNA computers, neural computers, and quantum computers. Most computers are universal, and are able to calculate any computable function, and are limited only by their memory capacity and operating speed. However different designs of computers can give very different performance for particular problems; for example quantum computers can potentially break some modern encryption algorithms (by quantum factoring) very quickly.\\n\\n\\n=== Computer architecture paradigms ===\\nThere are many types of computer architectures:\\n\\nQuantum computer vs. Chemical computer\\nScalar processor vs. Vector processor\\nNon-Uniform Memory Access (NUMA) computers\\nRegister machine vs. Stack machine\\nHarvard architecture vs. von Neumann architecture\\nCellular architectureOf all these abstract machines, a quantum computer holds the most promise for revolutionizing computing. Logic gates are a common abstraction which can apply to most of the above digital or analog paradigms. The ability to store and execute lists of instructions called programs makes computers extremely versatile, distinguishing them from calculators. The Church\[Dash]Turing thesis is a mathematical statement of this versatility: any computer with a minimum capability (being Turing-complete) is, in principle, capable of performing the same tasks that any other computer can perform. Therefore, any type of computer (netbook, supercomputer, cellular automaton, etc.) is able to perform the same computational tasks, given enough time and storage capacity.\\n\\n\\n=== Artificial intelligence ===\\nA computer will solve problems in exactly the way it is programmed to, without regard to efficiency, alternative solutions, possible shortcuts, or possible errors in the code. Computer programs that learn and adapt are part of the emerging field of artificial intelligence and machine learning. Artificial intelligence based products generally fall into two major categories: rule-based systems and pattern recognition systems. Rule-based systems attempt to represent the rules used by human experts and tend to be expensive to develop. Pattern-based systems use data about a problem to generate conclusions. Examples of pattern-based systems include voice recognition, font recognition, translation and the emerging field of on-line marketing.\\n\\n\\n== Professions and organizations ==\\nAs the use of computers has spread throughout society, there are an increasing number of careers involving computers.\\n\\nThe need for computers to work well together and to be able to exchange information has spawned the need for many standards organizations, clubs and societies of both a formal and informal nature.\\n\\n\\n== See also ==\\n\\n\\n== References ==\\n\\n\\n== Notes ==\\n\\n\\n== External links ==\\n Media related to Computers at Wikimedia Commons\\n Wikiversity has a quiz on this article\\nWarhol & The Computer\"",
+StandardForm],"Output",CellLabel -> "Out[42]= ",ExpressionUUID -> "57acb97b-4860-4930-b290-a069560b4af6"]},
+Open],ExpressionUUID -> "f772ecbc-8784-483b-9253-180c29860638"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"WordCloud","[",RowBox[{"WikipediaData","[","\"computers\"","]"}],"]"}]],
+"Input",CellLabel -> "In[43]:= ",ExpressionUUID -> "e29cfb73-f8ae-4a1d-a0cf-5ce2811bd824"],Cell[
+BoxData[
+GraphicsBox[{StyleBox[{InsetBox[BoxData[FormBox[StyleBox["\"computer\"",FontSize -> Scaled[
+0.24054982817869416`],FontColor -> RGBColor[0.368417`,0.506779`,0.709798`],StripOnInput -> False],
+TraditionalForm]],{0,0},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"computers\"",
+FontSize -> Scaled[0.14451819422868709`],FontColor -> RGBColor[0.880722`,0.611041`,
+0.142051`],StripOnInput -> False],TraditionalForm]],{0.`,37.`},Center,Automatic],InsetBox[
+BoxData[FormBox[StyleBox["\"memory\"",FontSize -> Scaled[0.08944122769853598`],FontColor -> RGBColor[
+0.560181`,0.691569`,0.194885`],StripOnInput -> False],TraditionalForm]],{0.`,-47.`},
+Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"Program\"",FontSize -> Scaled[
+0.08379230805441792`],FontColor -> RGBColor[0.528488`,0.470624`,0.701351`],StripOnInput -> False],
+TraditionalForm]],{0.`,59.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"programs\"",FontSize -> Scaled[0.06825777903309325`],FontColor -> RGBColor[1,0.75`,
+0],StripOnInput -> False],TraditionalForm]],{-53.`,-32.`},Center,Automatic],InsetBox[
+BoxData[FormBox[StyleBox["\"instructions\"",FontSize -> Scaled[0.06825777903309325`],
+FontColor -> RGBColor[0.363898`,0.618501`,0.782349`],StripOnInput -> False],TraditionalForm]],
+{0.`,-68.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"machine\"",FontSize -> Scaled[
+0.08520453796544744`],FontColor -> RGBColor[0.922526`,0.385626`,0.209179`],StripOnInput -> False],
+TraditionalForm]],{15.`,74.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"devices\"",FontSize -> Scaled[0.0724944687661818`],FontColor -> RGBColor[0.772079`,
+0.431554`,0.102387`],StripOnInput -> False],TraditionalForm]],{0.`,-86.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"computing\"",FontSize -> Scaled[0.048486560278680035`],
+FontColor -> RGBColor[0.6753413537738198`,0.3589675436319385`,0.5991466155654507`],
+StripOnInput -> False],TraditionalForm]],{55.`,-34.`},Center,Automatic],InsetBox[
+BoxData[FormBox[StyleBox["\"integrated\"",FontSize -> Scaled[0.049898790189709545`],
+FontColor -> RGBColor[0.5833680111493557`,0.4126186601628758`,0.8290799721266107`],
+StripOnInput -> False],TraditionalForm]],{-17.`,88.`},Center,Automatic],InsetBox[
+BoxData[FormBox[StyleBox["\"language\"",FontSize -> Scaled[0.048486560278680035`],
+FontColor -> RGBColor[0.47401116530937026`,0.47809330081437784`,0.85`],StripOnInput -> False],
+TraditionalForm]],{-73.`,-48.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"Modern\"",FontSize -> Scaled[0.06119662947794567`],FontColor -> RGBColor[0.915`,
+0.3325`,0.2125`],StripOnInput -> False],TraditionalForm]],{-71.`,51.`},Center,Automatic],InsetBox[
+BoxData[FormBox[StyleBox["\"mechanical\"",FontSize -> Scaled[0.048486560278680035`],
+FontColor -> RGBColor[0.9874666782805795`,0.6948333914028977`,0.033839968642435214`],
+StripOnInput -> False],TraditionalForm]],{79.`,50.`},Center,Automatic],InsetBox[BoxData[
+FormBox[StyleBox["\"programmable\"",FontSize -> Scaled[0.0357764910794144`],FontColor -> RGBColor[
+0.8510135028964549`,0.47400900193096995`,0.018912152606809424`],StripOnInput -> False],
+TraditionalForm]],{80.`,-47.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"processing\"",FontSize -> Scaled[0.04142541072353246`],FontColor -> RGBColor[0.596786740995709`,
+0.404791067752503`,0.7955331475107271`],StripOnInput -> False],TraditionalForm]],
+{76.`,-59.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"instruction\"",
+FontSize -> Scaled[0.049898790189709545`],FontColor -> RGBColor[0.838355547812947`,
+0.44746667828057946`,0.0208888695323676`],StripOnInput -> False],TraditionalForm]],
+{-65.`,74.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"programming\"",
+FontSize -> Scaled[0.03718872099044391`],FontColor -> RGBColor[0.26512246998569167`,
+0.6229020240114467`,0.73314696398283`],StripOnInput -> False],TraditionalForm]],{0.`,99.`},
+Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"operations\"",FontSize -> Scaled[
+0.04142541072353246`],FontColor -> RGBColor[0.2187618985811806`,0.715`,0.5074848563512248`],
+StripOnInput -> False],TraditionalForm]],{-76.`,-64.`},Center,Automatic],InsetBox[
+BoxData[FormBox[StyleBox["\"Languages\"",FontSize -> Scaled[0.044249870545591485`],
+FontColor -> RGBColor[0.5472001045252132`,0.43417993728487203`,0.85`],StripOnInput -> False],
+TraditionalForm]],{-11.`,-99.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"system\"",FontSize -> Scaled[0.049898790189709545`],FontColor -> RGBColor[0.8439466852489265`,
+0.3467106629502147`,0.3309221912517893`],StripOnInput -> False],TraditionalForm]],
+{-55.`,-80.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"computer's\"",
+FontSize -> Scaled[0.038600950901473426`],FontColor -> RGBColor[0.9930578157165594`,
+0.7227890785827968`,0.01874389756528967`],StripOnInput -> False],TraditionalForm]],
+{61.`,-80.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"perform\"",FontSize -> Scaled[
+0.04707433036765052`],FontColor -> RGBColor[0.7678998606330495`,0.7317110956258943`,
+0.`],StripOnInput -> False],TraditionalForm]],{82.`,62.`},Center,Automatic],InsetBox[
+BoxData[FormBox[StyleBox["\"software\"",FontSize -> Scaled[0.048486560278680035`],
+FontColor -> RGBColor[0.7748409210981391`,0.358`,0.4444755060028629`],StripOnInput -> False],
+TraditionalForm]],{61.`,86.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"electronic\"",FontSize -> Scaled[0.05131102010073907`],FontColor -> RGBColor[0.28026441037696703`,
+0.715`,0.4292089322474965`],StripOnInput -> False],TraditionalForm]],{-15.`,108.`},
+Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"developed\"",FontSize -> Scaled[
+0.038600950901473426`],FontColor -> RGBColor[0.8781534541180211`,0.4921023027453475`,
+0.04333810870621905`],StripOnInput -> False],TraditionalForm]],{43.`,-101.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"applications\"",FontSize -> Scaled[
+0.03436426116838488`],FontColor -> RGBColor[0.8633598745697435`,0.40996018814538476`,
+0.08339968642435877`],StripOnInput -> False],TraditionalForm]],{0.`,-112.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"digital\"",FontSize -> Scaled[0.05131102010073907`],
+FontColor -> RGBColor[0.736782672705901`,0.358`,0.5030266573755369`],StripOnInput -> False],
+TraditionalForm]],{-68.`,88.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"numbers\"",FontSize -> Scaled[0.049898790189709545`],FontColor -> RGBColor[0.8996399512215667`,
+0.7463488834690629`,0.`],StripOnInput -> False],TraditionalForm]],{58.`,99.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"architecture\"",FontSize -> Scaled[
+0.04283764063456197`],FontColor -> RGBColor[0.9052934053395919`,0.510195603559728`,
+0.06776406480563275`],StripOnInput -> False],TraditionalForm]],{-71.`,-94.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"output\"",FontSize -> Scaled[0.04566210045662101`],
+FontColor -> RGBColor[0.7132613816472081`,0.358`,0.5392132590042952`],StripOnInput -> False],
+TraditionalForm]],{108.`,-33.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"analog\"",FontSize -> Scaled[0.04566210045662101`],FontColor -> RGBColor[0.8878600487784333`,
+0.33792799024431336`,0.2577332520359445`],StripOnInput -> False],TraditionalForm]],
+{114.`,21.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"information\"",
+FontSize -> Scaled[0.04283764063456197`],FontColor -> RGBColor[0.6361597700445392`,
+0.7170733077827265`,0.`],StripOnInput -> False],TraditionalForm]],{0.`,119.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"different\"",FontSize -> Scaled[0.04566210045662101`],
+FontColor -> RGBColor[0.9637822400302223`,0.5764112001511111`,0.0977879519184`],StripOnInput -> False],
+TraditionalForm]],{-119.`,18.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"used\"",FontSize -> Scaled[0.06543331921103422`],FontColor -> RGBColor[0.647624`,
+0.37816`,0.614037`],StripOnInput -> False],TraditionalForm]],{115.`,36.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"specialized\"",FontSize -> Scaled[
+0.0357764910794144`],FontColor -> RGBColor[0.7989994773739094`,0.735166608597101`,
+0.`],StripOnInput -> False],TraditionalForm]],{-116.`,-32.`},Center,Automatic],InsetBox[
+BoxData[FormBox[StyleBox["\"designed\"",FontSize -> Scaled[0.038600950901473426`],
+FontColor -> RGBColor[0.19193353076984873`,0.681453175384121`,0.6453202369238185`],
+StripOnInput -> False],TraditionalForm]],{-67.`,101.`},Center,Automatic],InsetBox[
+BoxData[FormBox[StyleBox["\"number\"",FontSize -> Scaled[0.04707433036765052`],FontColor -> RGBColor[
+0.6184987019729621`,0.39212575718243875`,0.7412532450675947`],StripOnInput -> False],
+TraditionalForm]],{-52.`,-109.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"systems\"",FontSize -> Scaled[0.04283764063456197`],FontColor -> RGBColor[0.428777913273419`,
+0.5052332520359486`,0.85`],StripOnInput -> False],TraditionalForm]],{52.`,110.`},
+Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"Early\"",FontSize -> Scaled[
+0.048486560278680035`],FontColor -> RGBColor[0.8857244243136628`,0.3764133635295058`,
+0.1393110607841571`],StripOnInput -> False],TraditionalForm]],{-112.`,34.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"working\"",FontSize -> Scaled[0.038600950901473426`],
+FontColor -> RGBColor[0.31827505306025683`,0.715`,0.3808317506505822`],StripOnInput -> False],
+TraditionalForm]],{0.`,-123.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"operation\"",FontSize -> Scaled[0.0357764910794144`],FontColor -> RGBColor[0.15725938678540247`,
+0.715`,0.5857607804549424`],StripOnInput -> False],TraditionalForm]],{84.`,74.`},
+Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"complete\"",FontSize -> Scaled[
+0.03436426116838488`],FontColor -> RGBColor[0.9986489531525362`,0.7507447657626809`,
+0.0036478264881522893`],StripOnInput -> False],TraditionalForm]],{51.`,-112.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"data\"",FontSize -> Scaled[0.06260885938897519`],
+FontColor -> RGBColor[0.571589`,0.586483`,0.`],StripOnInput -> False],TraditionalForm]],
+{-95.`,-79.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"control\"",FontSize -> Scaled[
+0.04707433036765052`],FontColor -> RGBColor[0.8613800418100862`,0.48092002787339083`,
+0.02824203762907758`],StripOnInput -> False],TraditionalForm]],{89.`,-90.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"transistors\"",FontSize -> Scaled[
+0.04001318081250294`],FontColor -> RGBColor[0.8745421494417032`,0.39318677583744527`,
+0.11135537360425793`],StripOnInput -> False],TraditionalForm]],{0.`,129.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"thousands\"",FontSize -> Scaled[0.038600950901473426`],
+FontColor -> RGBColor[0.38354466123747527`,0.5323732032575149`,0.85`],StripOnInput -> False],
+TraditionalForm]],{-48.`,-121.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"arithmetic\"",FontSize -> Scaled[0.038600950901473426`],FontColor -> RGBColor[
+0.5019668524892619`,0.46131988850644284`,0.85`],StripOnInput -> False],TraditionalForm]],
+{47.`,-123.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"hardware\"",
+FontSize -> Scaled[0.04142541072353246`],FontColor -> RGBColor[0.7513196300394465`,
+0.358`,0.48066210763162087`],StripOnInput -> False],TraditionalForm]],{-71.`,111.`},
+Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"machines\"",FontSize -> Scaled[
+0.044249870545591485`],FontColor -> RGBColor[0.9810598048862722`,0.7553955338762525`,
+0.`],StripOnInput -> False],TraditionalForm]],{55.`,120.`},Center,Automatic],InsetBox[
+BoxData[FormBox[StyleBox["\"personal\"",FontSize -> Scaled[0.03436426116838488`],
+FontColor -> RGBColor[0.9107287510704583`,0.33890687339431275`,0.20182187767614543`],
+StripOnInput -> False],TraditionalForm]],{-119.`,45.`},Center,Automatic],InsetBox[
+BoxData[FormBox[StyleBox["\"typically\"",FontSize -> Scaled[0.0357764910794144`],
+FontColor -> RGBColor[0.9603267270590103`,0.5591336352950514`,0.10711783694067224`],
+StripOnInput -> False],TraditionalForm]],{-121.`,-44.`},Center,Automatic],InsetBox[
+BoxData[FormBox[StyleBox["\"calculations\"",FontSize -> Scaled[0.0357764910794144`],
+FontColor -> RGBColor[0.4567336004533182`,0.4884598397280091`,0.85`],StripOnInput -> False],
+TraditionalForm]],{0.`,-134.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"complex\"",FontSize -> Scaled[0.03436426116838488`],FontColor -> RGBColor[0.8064401951137368`,
+0.3542119609772526`,0.39343300814377197`],StripOnInput -> False],TraditionalForm]],
+{103.`,-70.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"transistor\"",
+FontSize -> Scaled[0.038600950901473426`],FontColor -> RGBColor[0.969373377466199`,
+0.6043668873309952`,0.08269188084126262`],StripOnInput -> False],TraditionalForm]],
+{-56.`,121.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"stored\"",FontSize -> Scaled[
+0.048486560278680035`],FontColor -> RGBColor[0.16397784358994957`,0.7038177251280403`,
+0.6117734123079395`],StripOnInput -> False],TraditionalForm]],{-118.`,56.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"possible\"",FontSize -> Scaled[0.03718872099044391`],
+FontColor -> RGBColor[0.9307395679624266`,0.7498043964402695`,0.`],StripOnInput -> False],
+TraditionalForm]],{-123.`,-54.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"circuit\"",FontSize -> Scaled[0.04566210045662101`],FontColor -> RGBColor[0.35558897405758294`,
+0.5505288207539337`,0.8417067688690995`],StripOnInput -> False],TraditionalForm]],
+{-116.`,68.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"called\"",FontSize -> Scaled[
+0.05131102010073907`],FontColor -> RGBColor[0.9728288904374106`,0.621644452187053`,
+0.07336199581899142`],StripOnInput -> False],TraditionalForm]],{106.`,85.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"design\"",FontSize -> Scaled[0.038600950901473426`],
+FontColor -> RGBColor[0.7896667828057927`,0.3575666434388414`,0.4213886953236787`],
+StripOnInput -> False],TraditionalForm]],{85.`,-102.`},Center,Automatic],InsetBox[
+BoxData[FormBox[StyleBox["\"century\"",FontSize -> Scaled[0.03436426116838488`],FontColor -> RGBColor[
+0.529922539669161`,0.44454647619850335`,0.85`],StripOnInput -> False],TraditionalForm]],
+{123.`,-55.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"invented\"",
+FontSize -> Scaled[0.04001318081250294`],FontColor -> RGBColor[0.9492067688690977`,
+0.5394711792460651`,0.10728609198218791`],StripOnInput -> False],TraditionalForm]],
+{-109.`,85.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"usually\"",FontSize -> Scaled[
+0.03718872099044391`],FontColor -> RGBColor[0.5788038738141875`,0.715`,0.049249615145579635`],
+StripOnInput -> False],TraditionalForm]],{122.`,61.`},Center,Automatic],InsetBox[
+BoxData[FormBox[StyleBox["\"using\"",FontSize -> Scaled[0.04142541072353246`],FontColor -> RGBColor[
+0.8493197142977551`,0.7407577460330839`,0.`],StripOnInput -> False],TraditionalForm]],
+{131.`,-43.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"input\"",FontSize -> Scaled[
+0.044249870545591485`],FontColor -> RGBColor[0.8564488486273256`,0.42032672705901153`,
+0.06612212156831418`],StripOnInput -> False],TraditionalForm]],{40.`,130.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"Turing\"",FontSize -> Scaled[0.03718872099044391`],
+FontColor -> RGBColor[0.6670481226429111`,0.3638052617916352`,0.6198796933927223`],
+StripOnInput -> False],TraditionalForm]],{-89.`,-105.`},Center,Automatic],InsetBox[
+BoxData[FormBox[StyleBox["\"power\"",FontSize -> Scaled[0.03718872099044391`],FontColor -> RGBColor[
+0.8335801463353031`,0.3487839707329394`,0.3481997561078282`],StripOnInput -> False],
+TraditionalForm]],{-120.`,-62.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"device\"",FontSize -> Scaled[0.04283764063456197`],FontColor -> RGBColor[0.6536293927965667`,
+0.37163285420200276`,0.6534265180085832`],StripOnInput -> False],TraditionalForm]],
+{-43.`,131.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"built\"",FontSize -> Scaled[
+0.048486560278680035`],FontColor -> RGBColor[0.9324333565611593`,0.5282889043741062`,
+0.0921900209050434`],StripOnInput -> False],TraditionalForm]],{99.`,97.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"time\"",FontSize -> Scaled[0.049898790189709545`],
+FontColor -> RGBColor[0.28240003484173815`,0.6090799721266095`,0.7538800418100857`],
+StripOnInput -> False],TraditionalForm]],{-42.`,-134.`},Center,Automatic],InsetBox[
+BoxData[FormBox[StyleBox["\"Jump\"",FontSize -> Scaled[0.03436426116838488`],FontColor -> RGBColor[
+0.6453361616656581`,0.37647057236169945`,0.6741595958358548`],StripOnInput -> False],
+TraditionalForm]],{5.`,139.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"known\"",FontSize -> Scaled[0.04001318081250294`],FontColor -> RGBColor[0.6897400905885174`,
+0.358`,0.5753998606330502`],StripOnInput -> False],TraditionalForm]],{44.`,-135.`},
+Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"logic\"",FontSize -> Scaled[
+0.04001318081250294`],FontColor -> RGBColor[0.47929071933511125`,0.715`,0.1759027208462221`],
+StripOnInput -> False],TraditionalForm]],{-102.`,97.`},Center,Automatic],InsetBox[
+BoxData[FormBox[StyleBox["\"vacuum\"",FontSize -> Scaled[0.03718872099044391`],FontColor -> RGBColor[
+0.8926354502560807`,0.366046824615879`,0.15658862564020168`],StripOnInput -> False],
+TraditionalForm]],{92.`,108.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"CPU\"",FontSize -> Scaled[0.048486560278680035`],FontColor -> RGBColor[0.5407932311309059`,
+0.715`,0.09762679674248334`],StripOnInput -> False],TraditionalForm]],{86.`,-116.`},
+Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"given\"",FontSize -> Scaled[
+0.03436426116838488`],FontColor -> RGBColor[0.2198892179497479`,0.6590886256402017`,
+0.6788670615396974`],StripOnInput -> False],TraditionalForm]],{119.`,71.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"read\"",FontSize -> Scaled[0.04566210045662101`],
+FontColor -> RGBColor[0.37977756485605163`,0.715`,0.3025558265468435`],StripOnInput -> False],
+TraditionalForm]],{122.`,-80.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"circuits\"",FontSize -> Scaled[0.03718872099044391`],FontColor -> RGBColor[0.5750747800184488`,
+0.4174563783225715`,0.8498130499538777`],StripOnInput -> False],TraditionalForm]],
+{-26.`,141.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"use\"",FontSize -> Scaled[
+0.05272325001176858`],FontColor -> RGBColor[0.40082222609352647`,0.5220066643438841`,
+0.85`],StripOnInput -> False],TraditionalForm]],{-86.`,-117.`},Center,Automatic],InsetBox[
+BoxData[FormBox[StyleBox["\"tubes\"",FontSize -> Scaled[0.038600950901473426`],FontColor -> RGBColor[
+0.7277983389807635`,0.358`,0.5168487092603637`],StripOnInput -> False],TraditionalForm]],
+{33.`,140.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"code\"",FontSize -> Scaled[
+0.04142541072353246`],FontColor -> RGBColor[0.9784200278733908`,0.649600139366954`,
+0.058265924741844846`],StripOnInput -> False],TraditionalForm]],{-127.`,-73.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"Later\"",FontSize -> Scaled[0.038600950901473426`],
+FontColor -> RGBColor[0.6319174318193065`,0.38429816477207124`,0.7077064204517338`],
+StripOnInput -> False],TraditionalForm]],{68.`,130.`},Center,Automatic],InsetBox[
+BoxData[FormBox[StyleBox["\"high\"",FontSize -> Scaled[0.03436426116838488`],FontColor -> RGBColor[
+0.8949268664259606`,0.5032845776173072`,0.05843417978336459`],StripOnInput -> False],
+TraditionalForm]],{8.`,-32.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"chip\"",FontSize -> Scaled[0.03718872099044391`],FontColor -> RGBColor[0.845266573755366`,
+0.437100139366951`,0.03816643438841502`],StripOnInput -> False],TraditionalForm]],
+{-113.`,-92.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"MOS\"",FontSize -> Scaled[
+0.044249870545591485`],FontColor -> RGBColor[0.8168067340273636`,0.3521386531945273`,
+0.3761554432877274`],StripOnInput -> False],TraditionalForm]],{92.`,116.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"RAM\"",FontSize -> Scaled[0.038600950901473426`],
+FontColor -> RGBColor[0.7175796237092107`,0.7261199581899123`,0.`],StripOnInput -> False],
+TraditionalForm]],{-68.`,-133.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"unit\"",FontSize -> Scaled[0.044249870545591485`],FontColor -> RGBColor[0.23716678280579248`,
+0.645266573755366`,0.699600139366951`],StripOnInput -> False],TraditionalForm]],{-72.`,131.`},
+Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"tasks\"",FontSize -> Scaled[
+0.0357764910794144`],FontColor -> RGBColor[0.8774935098648088`,0.34000129802703827`,
+0.2750108168919853`],StripOnInput -> False],TraditionalForm]],{-55.`,141.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"Mark\"",FontSize -> Scaled[0.03436426116838488`],
+FontColor -> RGBColor[0.6672593867853922`,0.7205288207539324`,0.`],StripOnInput -> False],
+TraditionalForm]],{113.`,-101.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"main\"",FontSize -> Scaled[0.0357764910794144`],FontColor -> RGBColor[0.7658565873730018`,
+0.358`,0.4582975578876895`],StripOnInput -> False],TraditionalForm]],{73.`,-132.`},
+Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"store\"",FontSize -> Scaled[
+0.03718872099044391`],FontColor -> RGBColor[0.922066817647527`,0.5213778784316846`,
+0.08286013588277422`],StripOnInput -> False],TraditionalForm]],{59.`,140.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"term\"",FontSize -> Scaled[0.0357764910794144`],
+FontColor -> RGBColor[0.3383114092015346`,0.5643508726387724`,0.8209736910418415`],
+StripOnInput -> False],TraditionalForm]],{134.`,-65.`},Center,Automatic],InsetBox[
+BoxData[FormBox[StyleBox["\"ROM\"",FontSize -> Scaled[0.0357764910794144`],FontColor -> RGBColor[
+0.6102054708420535`,0.39696347534213544`,0.7619863228948663`],StripOnInput -> False],
+TraditionalForm]],{-106.`,107.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"ALU\"",FontSize -> Scaled[0.04001318081250294`],FontColor -> RGBColor[0.8607200975568693`,
+0.34335598048862614`,0.30296650407188447`],StripOnInput -> False],TraditionalForm]],
+{-94.`,121.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"like\"",FontSize -> Scaled[
+0.04283764063456197`],FontColor -> RGBColor[0.9038177251280404`,0.3492734123079395`,
+0.18454431282010084`],StripOnInput -> False],TraditionalForm]],{-114.`,-103.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"able\"",FontSize -> Scaled[0.03436426116838488`],
+FontColor -> RGBColor[0.4177882075393331`,0.715`,0.25417864494993975`],StripOnInput -> False],
+TraditionalForm]],{92.`,126.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"set\"",FontSize -> Scaled[0.038600950901473426`],FontColor -> RGBColor[0.9046334610863751`,
+0.334573307782725`,0.22977756485604156`],StripOnInput -> False],TraditionalForm]],
+{-119.`,-5.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"PC\"",FontSize -> Scaled[
+0.04142541072353246`],FontColor -> RGBColor[0.8342400905885153`,0.4628267270590103`,
+0.0038160815296638794`],StripOnInput -> False],TraditionalForm]],{-135.`,30.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"cell\"",FontSize -> Scaled[0.0357764910794144`],
+FontColor -> RGBColor[0.9840111653093676`,0.677555826546838`,0.04316985366470745`],
+StripOnInput -> False],TraditionalForm]],{137.`,-29.`},Center,Automatic],InsetBox[
+BoxData[FormBox[StyleBox["\"IC\"",FontSize -> Scaled[0.04001318081250294`],FontColor -> RGBColor[
+0.3103557220216354`,0.5867154223826917`,0.7874268664259625`],StripOnInput -> False],
+TraditionalForm]],{119.`,46.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"1\"",FontSize -> Scaled[0.03436426116838488`],FontColor -> RGBColor[0.7042770479220728`,
+0.358`,0.5530353108891188`],StripOnInput -> False],TraditionalForm]],{3.`,-3.`},Center,
+Automatic]},{{}},StripOnInput -> False]},PlotRange -> {{-144.5`,146.5`},{-141.5`,146.5`}},
+DefaultBaseStyle -> {"Graphics",FontFamily -> "Source Sans Pro"},Method -> CompressedData[
+"1:eJylUttKBDEMHVdFfBERn3zzG/wA2Ys3cGXYWXyvs6lbzDRDkoLz3f6A7YDuOpR5sdBy0iQnySHXb7Syh0VRyFF8np2onfxYq4BQXUawAGsC6oyC3xjuKu0Q5DQ6pkGpMerqQdLVLumBTbt1tTx5BTa1OvKj9U4ieAWWGMc3/fm6HYRcRLCOXB9LCgIlietZJ/usPVhzADmO4N6gQKbQnbVQq4w2lOZ8dO9bjFftwUhkqsRRDXLpf+A826cpyfl/cKWWFkwtOg/yd+6MVJYBLHEzDyzES9rArzgZ3hZNDQ14HeVNrX9WSbYpYsbXVcl8IT8scb7bjBJJM6v0Df+umJs="]],
+StandardForm],"Output",CellLabel -> "Out[43]= ",ExpressionUUID -> "39979d30-3ef9-4d87-9d75-b5e7d287a859"]},
+Open],ExpressionUUID -> "c5ec36d3-c6bf-47a4-93ad-11d07900aceb"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Take","[",RowBox[{RowBox[{"WordList","[","]"}],",","20"}],"]"}]],
+"Input",CellLabel -> "In[44]:= ",ExpressionUUID -> "9741710b-8a52-4da3-9c08-35c69d6e009c"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"\"a\"",",","\"aah\"",",","\"aardvark\"",",","\"aback\"",",","\"abacus\"",",","\"abaft\"",",","\"abalone\"",",","\"abandon\"",",","\"abandoned\"",",","\"abandonment\"",",","\"abase\"",",","\"abasement\"",",","\"abash\"",",","\"abashed\"",",","\"abashment\"",",","\"abate\"",",","\"abatement\"",",","\"abattoir\"",",","\"abbe\"",",","\"abbess\""}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[44]= ",ExpressionUUID -> "e643616a-d8f7-43f2-aeda-12cc6b5f02c2"]},
+Open],ExpressionUUID -> "fccf6245-6c7e-46c5-aa7f-fb6703b547b7"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"WordCloud","[",RowBox[{"StringTake","[",RowBox[{RowBox[{"WordList","[","]"}],",","1"}],"]"}],"]"}]],
+"Input",CellLabel -> "In[45]:= ",ExpressionUUID -> "e06be9b0-56da-4dfd-8869-51418b92b556"],Cell[
+BoxData[
+GraphicsBox[{StyleBox[{InsetBox[BoxData[FormBox[StyleBox["\"p\"",FontSize -> Scaled[
+0.49227977620591745`],FontColor -> RGBColor[0.560181`,0.691569`,0.194885`],StripOnInput -> False],
+TraditionalForm]],{0,0},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"s\"",
+FontSize -> Scaled[0.660377358490566`],FontColor -> RGBColor[0.368417`,0.506779`,
+0.709798`],StripOnInput -> False],TraditionalForm]],{-27.`,0.`},Center,Automatic],InsetBox[
+BoxData[FormBox[StyleBox["\"c\"",FontSize -> Scaled[0.5585611317394445`],FontColor -> RGBColor[
+0.880722`,0.611041`,0.142051`],StripOnInput -> False],TraditionalForm]],{27.`,0.`},
+Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"m\"",FontSize -> Scaled[0.34484786370738757`],
+FontColor -> RGBColor[1,0.75`,0],StripOnInput -> False],TraditionalForm]],{0.`,23.`},
+Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"d\"",FontSize -> Scaled[0.4000403232581192`],
+FontColor -> RGBColor[0.922526`,0.385626`,0.209179`],StripOnInput -> False],TraditionalForm]],
+{25.`,27.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"a\"",FontSize -> Scaled[
+0.3951259261748349`],FontColor -> RGBColor[0.528488`,0.470624`,0.701351`],StripOnInput -> False],
+TraditionalForm]],{11.`,-28.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"b\"",FontSize -> Scaled[0.3636233807691661`],FontColor -> RGBColor[0.772079`,0.431554`,
+0.102387`],StripOnInput -> False],TraditionalForm]],{-26.`,27.`},Center,Automatic],InsetBox[
+BoxData[FormBox[StyleBox["\"g\"",FontSize -> Scaled[0.24252759622977538`],FontColor -> RGBColor[
+0.28026441037696703`,0.715`,0.4292089322474965`],StripOnInput -> False],TraditionalForm]],
+{-7.`,-37.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"r\"",FontSize -> Scaled[
+0.35152640333338936`],FontColor -> RGBColor[0.363898`,0.618501`,0.782349`],StripOnInput -> False],
+TraditionalForm]],{25.`,-32.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"e\"",FontSize -> Scaled[0.3015003612291873`],FontColor -> RGBColor[0.40082222609352647`,
+0.5220066643438841`,0.85`],StripOnInput -> False],TraditionalForm]],{0.`,41.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"t\"",FontSize -> Scaled[0.34245367025655676`],
+FontColor -> RGBColor[0.647624`,0.37816`,0.614037`],StripOnInput -> False],TraditionalForm]],
+{-21.`,-39.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"f\"",FontSize -> Scaled[
+0.30376854449839547`],FontColor -> RGBColor[0.915`,0.3325`,0.2125`],StripOnInput -> False],
+TraditionalForm]],{-42.`,9.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"h\"",FontSize -> Scaled[0.2699978158235185`],FontColor -> RGBColor[0.736782672705901`,
+0.358`,0.5030266573755369`],StripOnInput -> False],TraditionalForm]],{42.`,20.`},
+Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"w\"",FontSize -> Scaled[0.21467934609116415`],
+FontColor -> RGBColor[0.8996399512215667`,0.7463488834690629`,0.`],StripOnInput -> False],
+TraditionalForm]],{-16.`,43.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"u\"",FontSize -> Scaled[0.2871352005242023`],FontColor -> RGBColor[0.9728288904374106`,
+0.621644452187053`,0.07336199581899142`],StripOnInput -> False],TraditionalForm]],
+{-36.`,-33.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"o\"",FontSize -> Scaled[
+0.21505737663603217`],FontColor -> RGBColor[0.5833680111493557`,0.4126186601628758`,
+0.8290799721266107`],StripOnInput -> False],TraditionalForm]],{45.`,-3.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"I\"",FontSize -> Scaled[0.3313647742737613`],
+FontColor -> RGBColor[0.571589`,0.586483`,0.`],StripOnInput -> False],TraditionalForm]],
+{-50.`,-4.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"v\"",FontSize -> Scaled[
+0.17208790470269997`],FontColor -> RGBColor[0.28240003484173815`,0.6090799721266095`,
+0.7538800418100857`],StripOnInput -> False],TraditionalForm]],{15.`,41.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"n\"",FontSize -> Scaled[0.19640786975587626`],
+FontColor -> RGBColor[0.8439466852489265`,0.3467106629502147`,0.3309221912517893`],
+StripOnInput -> False],TraditionalForm]],{39.`,-29.`},Center,Automatic],InsetBox[
+BoxData[FormBox[StyleBox["\"l\"",FontSize -> Scaled[0.2402594129605672`],FontColor -> RGBColor[
+0.838355547812947`,0.44746667828057946`,0.0208888695323676`],StripOnInput -> False],
+TraditionalForm]],{-39.`,33.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"j\"",FontSize -> Scaled[0.132898738218048`],FontColor -> RGBColor[0.9324333565611593`,
+0.5282889043741062`,0.0921900209050434`],StripOnInput -> False],TraditionalForm]],
+{49.`,-20.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"q\"",FontSize -> Scaled[
+0.11752549606008166`],FontColor -> RGBColor[0.5407932311309059`,0.715`,0.09762679674248334`],
+StripOnInput -> False],TraditionalForm]],{-48.`,-22.`},Center,Automatic],InsetBox[
+BoxData[FormBox[StyleBox["\"y\"",FontSize -> Scaled[0.1061845797140409`],FontColor -> RGBColor[
+0.8857244243136628`,0.3764133635295058`,0.1393110607841571`],StripOnInput -> False],
+TraditionalForm]],{30.`,-5.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox[
+"\"k\"",FontSize -> Scaled[0.12193585241687528`],FontColor -> RGBColor[0.6753413537738198`,
+0.3589675436319385`,0.5991466155654507`],StripOnInput -> False],TraditionalForm]],
+{31.`,-42.`},Center,Automatic],InsetBox[BoxData[FormBox[StyleBox["\"x\"",FontSize -> Scaled[
+0.09433962264150943`],FontColor -> RGBColor[0.9874666782805795`,0.6948333914028977`,
+0.033839968642435214`],StripOnInput -> False],TraditionalForm]],{5.`,-48.`},Center,
+Automatic],InsetBox[BoxData[FormBox[StyleBox["\"z\"",FontSize -> Scaled[0.10013609099615248`],
+FontColor -> RGBColor[0.47401116530937026`,0.47809330081437784`,0.85`],StripOnInput -> False],
+TraditionalForm]],{13.`,-48.`},Center,Automatic]},{{}},StripOnInput -> False]},PlotRange -> {{-53.5`,52.5`},{-54.5`,47.5`}},
+DefaultBaseStyle -> {"Graphics",FontFamily -> "Source Sans Pro"},Method -> CompressedData[
+"1:eJylUttKBDEMHVdFfBERn3zzG/wA2Ys3cGXYWXyvs6lbzDRDkoLz3f6A7YDuOpR5sdBy0iQnySHXb7Syh0VRyFF8np2onfxYq4BQXUawAGsC6oyC3xjuKu0Q5DQ6pkGpMerqQdLVLumBTbt1tTx5BTa1OvKj9U4ieAWWGMc3/fm6HYRcRLCOXB9LCgIlietZJ/usPVhzADmO4N6gQKbQnbVQq4w2lOZ8dO9bjFftwUhkqsRRDXLpf+A826cpyfl/cKWWFkwtOg/yd+6MVJYBLHEzDyzES9rArzgZ3hZNDQ14HeVNrX9WSbYpYsbXVcl8IT8scb7bjBJJM6v0Df+umJs="]],
+StandardForm],"Output",CellLabel -> "Out[45]= ",ExpressionUUID -> "7559e4ca-fb43-44a6-a43d-33b132c7e666"]},
+Open],ExpressionUUID -> "46ce9a64-6994-4e38-bb33-313acc4cfb6b"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"RomanNumeral","[","1988","]"}]],"Input",CellLabel -> "In[46]:= ",
+ExpressionUUID -> "e6025389-ae39-4d75-b740-206cf4ecb239"],Cell[
+BoxData["\"MCMLXXXVIII\"",
+StandardForm],"Output",CellLabel -> "Out[46]= ",ExpressionUUID -> "0e9e6919-8d06-4e03-bac5-dcbd760ca990"]},
+Open],ExpressionUUID -> "0bf62b27-d739-430e-9541-677cbd624738"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"InputForm","[",RowBox[{"RomanNumeral","[","1988","]"}],"]"}]],
+"Input",CellLabel -> "In[47]:= ",ExpressionUUID -> "c13e8cc1-fba2-41c2-9045-b338320bbf46"],Cell[
+
+"\<\"\\\"MCMLXXXVIII\\\"\"\>","Output",CellLabel -> "Out[47]//InputForm= ",ExpressionUUID -> "3aa0d0cf-415b-41d5-8946-b18808304fac"]},
+Open],ExpressionUUID -> "bafa730b-b284-4407-bd3d-9841102e797b"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Table","[",RowBox[{RowBox[{"RomanNumeral","[","1988","]"}],",",RowBox[
+{"{",RowBox[{"n",",","20"}],"}"}]}],"]"}]],"Input",CellLabel -> "In[49]:= ",ExpressionUUID -> "38c84569-3036-4366-b1a7-235dae3568d9"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"\"MCMLXXXVIII\"",",","\"MCMLXXXVIII\"",",","\"MCMLXXXVIII\"",",","\"MCMLXXXVIII\"",",","\"MCMLXXXVIII\"",",","\"MCMLXXXVIII\"",",","\"MCMLXXXVIII\"",",","\"MCMLXXXVIII\"",",","\"MCMLXXXVIII\"",",","\"MCMLXXXVIII\"",",","\"MCMLXXXVIII\"",",","\"MCMLXXXVIII\"",",","\"MCMLXXXVIII\"",",","\"MCMLXXXVIII\"",",","\"MCMLXXXVIII\"",",","\"MCMLXXXVIII\"",",","\"MCMLXXXVIII\"",",","\"MCMLXXXVIII\"",",","\"MCMLXXXVIII\"",",","\"MCMLXXXVIII\""}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[49]= ",ExpressionUUID -> "7f3944de-b37a-47b3-8ba6-20c120f1301c"]},
+Open],ExpressionUUID -> "80da6df2-c7f5-468d-8f6b-9d6853cc0107"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"ListLinePlot","[",RowBox[{"Table","[",RowBox[{RowBox[{"StringLength","[",RowBox[
+{"RomanNumeral","[","n","]"}],"]"}],","," ",RowBox[{"{",RowBox[{"n",","," ","100"}],"}"}]}],"]"}],"]"}]],
+"Input",CellLabel -> "In[50]:= ",ExpressionUUID -> "b5530928-72de-49b6-a57c-31036435a03e"],Cell[
+BoxData[
+GraphicsBox[{{},{{{},{},{Hue[0.67`,0.6`,0.6`],Directive[PointSize[NCache[Rational[
+1,72],0.013888888888888888`]],RGBColor[0.368417`,0.506779`,0.709798`],AbsoluteThickness[
+1.6`]],LineBox[CompressedData["1:eJxdlDlOQ0EQRFtEhAQEBASAEEIIIbPv/MFmMYsNNsZAiiDmCn20OZKPgBH9gi5LVumpumrmz3z95c+f4feMmX1N/3/6/5s0Wa1knRWdE3++5PyC+IuSX5KeFZlflb418delb0P6NsXfknxL/G3J74TyXLsyvyd9++IfSN+h9B2Jfyz5E/FPJX8Wyjmfy/yF9DXil9znMH2X4sPk2+LD5Duhce/eyfN2FRrn5zD7vc7rOUz+RnyY/K34MPlu3q9387zdhcb75zD3fZ/Xc5j8g/gw+UfxYfK9vF/v5Xnr5z7vi/+U+xzm+Z+zX2D2I36FyQ9C4/zKIM87HH1VfBvmvgJzH+JXmPyL5GHycLx/VeZtlPvKKPsOR1+F+Y69Zr/A5MWvMPlxaHwHyzjPOxz3W2Hu9032D7O++BUm/y55mDzM/mXePkInzS9arW7V"]]}}},{{},{}}},
+{DisplayFunction -> Identity,DisplayFunction -> Identity,AspectRatio -> NCache[Power[
+GoldenRatio,-1],0.6180339887498948`],Axes -> {True,True},AxesLabel -> {None,None},AxesOrigin -> {0.`,0},RuleDelayed[
+DisplayFunction,Identity],Frame -> {{False,False},{False,False}},FrameLabel -> {{None,None},{None,None}},FrameTicks -> {{Automatic,Automatic},{Automatic,Automatic}},GridLines -> {None,None},GridLinesStyle -> Directive[
+GrayLevel[0.5`,0.4`]],Method -> CompressedData["1:eJzNUD0LwjAUjB+Dm4Pg7m+pCIJiaYt7NC/wMOaF5GWov96kaIvQSReX4y539ziyuVClZ0KIME9wwMB6+lZVNFCvEjk5xjs+oDTER+lv4EMXaHyE3+LrRAoir9BKhtAQmdwmG4bgyKhlIlsMzsh2F+01F/QkJxYJ+pfPC72/V2AZuR38UvqXn1WdZmNWHXzTy4GRfynIIaizNBH+dfUT3rB0HA=="],PlotRange -> {{0.`,100},{0,8.`}},PlotRangeClipping -> True,PlotRangePadding -> {{Scaled[
+0.02`],Scaled[0.02`]},{Scaled[0.02`],Scaled[0.05`]}},Ticks -> {Automatic,Automatic}}],
+StandardForm],"Output",CellLabel -> "Out[50]= ",ExpressionUUID -> "0e73ea68-d0c0-4709-abe8-78bdff46869f"]},
+Open],ExpressionUUID -> "aa69a3e2-b49e-4038-94ff-c76e4e593591"],Cell[
+BoxData[RowBox[
+{"IntegerName","[","56","]"}]],"Input",CellLabel -> "In[51]:= ",ExpressionUUID -> "6622dc85-2f2d-4264-8138-13120ca35b5b"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"ListLinePlot","[",RowBox[{"Table","[",RowBox[{RowBox[{"StringLength","[",RowBox[
+{"IntegerName","[","n","]"}],"]"}],",",RowBox[{"{",RowBox[{"n",",","100"}],"}"}]}],"]"}],"]"}]],
+"Input",CellLabel -> "In[53]:= ",ExpressionUUID -> "980cb324-891b-4b6c-a763-f87b52ac8071"],Cell[
+BoxData[
+GraphicsBox[{{},{{{},{},{Hue[0.67`,0.6`,0.6`],Directive[PointSize[NCache[Rational[
+1,72],0.013888888888888888`]],RGBColor[0.368417`,0.506779`,0.709798`],AbsoluteThickness[
+1.6`]],LineBox[CompressedData["1:eJxd00lKQ0EUQNHCkUMHDhw40CAiIhL73pSx7zX2U9GxW6il1ZJcgkreFeoGQnE+ue+/kPzp96/B50hK6eP3/XcOX9+94Tma40JuzTke55hOX59QN6nPTckd9TPqZzV3Tp7X3AV5UXt05SXtsax+RV7V/de097q8ob034+R7bcnb6nfU78p76ve1X0/zcuuCmXfQzity6qvH9IetC6Y/ijN+/4I7cR63Lpj+RPeX06l6TH/WumD6c+2H2e9C8zHzL7WfnK7UY/pr7Yfpb7QfZr9bzcfMv2vnZbng6Cumv2+dMT2O56vq82mgHsdzXHD8f6qcHtRjerli+sc44/nImP3liumfdH+5YHpM/9w6Y3oc+1XM7//SOmOeNxzzqpxe1WN6uWL6t3//AFQ/cao="]]}}},{{},{}}},
+{DisplayFunction -> Identity,DisplayFunction -> Identity,AspectRatio -> NCache[Power[
+GoldenRatio,-1],0.6180339887498948`],Axes -> {True,True},AxesLabel -> {None,None},AxesOrigin -> {0.`,0},RuleDelayed[
+DisplayFunction,Identity],Frame -> {{False,False},{False,False}},FrameLabel -> {{None,None},{None,None}},FrameTicks -> {{Automatic,Automatic},{Automatic,Automatic}},GridLines -> {None,None},GridLinesStyle -> Directive[
+GrayLevel[0.5`,0.4`]],Method -> CompressedData["1:eJzNUD0LwjAUjB+Dm4Pg7m+pCIJiaYt7NC/wMOaF5GWov96kaIvQSReX4y539ziyuVClZ0KIME9wwMB6+lZVNFCvEjk5xjs+oDTER+lv4EMXaHyE3+LrRAoir9BKhtAQmdwmG4bgyKhlIlsMzsh2F+01F/QkJxYJ+pfPC72/V2AZuR38UvqXn1WdZmNWHXzTy4GRfynIIaizNBH+dfUT3rB0HA=="],PlotRange -> {{0.`,100},{0,13.`}},PlotRangeClipping -> True,PlotRangePadding -> {{Scaled[
+0.02`],Scaled[0.02`]},{Scaled[0.02`],Scaled[0.05`]}},Ticks -> {Automatic,Automatic}}],
+StandardForm],"Output",CellLabel -> "Out[53]= ",ExpressionUUID -> "d686d35d-bfcb-4922-b29d-4c01cbea993c"]},
+Open],ExpressionUUID -> "21c11d2c-b3da-49df-893e-299fb7db0828"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Alphabet","[","]"}]],"Input",CellLabel -> "In[54]:= ",ExpressionUUID -> "4a4c9571-141f-42e7-8c4e-b520384dc6d1"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"\"a\"",",","\"b\"",",","\"c\"",",","\"d\"",",","\"e\"",",","\"f\"",",","\"g\"",",","\"h\"",",","\"i\"",",","\"j\"",",","\"k\"",",","\"l\"",",","\"m\"",",","\"n\"",",","\"o\"",",","\"p\"",",","\"q\"",",","\"r\"",",","\"s\"",",","\"t\"",",","\"u\"",",","\"v\"",",","\"w\"",",","\"x\"",",","\"y\"",",","\"z\""}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[54]= ",ExpressionUUID -> "e1702b56-ea88-4b89-8f1a-7b73ff819014"]},
+Open],ExpressionUUID -> "83f0448d-98cb-4f8d-abed-e3625c301af4"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"LetterNumber","[",RowBox[{"{",RowBox[{"\"a\"",",","\"b\"",",","\"c\"",",","\"x\"",",","\"y\"",",","\"z\""}],"}"}],"]"}]],
+"Input",CellLabel -> "In[55]:= ",ExpressionUUID -> "df568440-c1a1-45ca-ad6a-d4cd185fe5f1"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"1",",","2",",","3",",","24",",","25",",","26"}],"}"}],StandardForm],
+"Output",CellLabel -> "Out[55]= ",ExpressionUUID -> "88fc6317-3951-43b0-b166-1750e2674e24"]},
+Open],ExpressionUUID -> "1ff8e106-d4a8-402d-9710-79e098ac086d"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"FromLetterNumber","[",RowBox[{"{",RowBox[{"1",",","2",",","3",",","24",",","25",",","26"}],"}"}],"]"}]],
+"Input",CellLabel -> "In[57]:= ",ExpressionUUID -> "c28aabe6-0fc5-4195-9f71-0943bfadb614"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"\"a\"",",","\"b\"",",","\"c\"",",","\"x\"",",","\"y\"",",","\"z\""}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[57]= ",ExpressionUUID -> "78dce02b-377f-4c0a-868d-121aa6ce0b13"]},
+Open],ExpressionUUID -> "0d6d0bec-0307-424f-a168-251f69730915"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Alphabet","[","\"Russian\"","]"}]],"Input",CellLabel -> "In[58]:= ",
+ExpressionUUID -> "0e247054-b4df-4429-b187-5a449985f33a"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{"\"\:0430\"",",","\"\:0431\"",",","\"\:0432\"",",","\"\:0433\"",",","\"\:0434\"",",","\"\:0435\"",",","\"\:0451\"",",","\"\:0436\"",",","\"\:0437\"",",","\"\:0438\"",",","\"\:0439\"",",","\"\:043a\"",",","\"\:043b\"",",","\"\:043c\"",",","\"\:043d\"",",","\"\:043e\"",",","\"\:043f\"",",","\"\:0440\"",",","\"\:0441\"",",","\"\:0442\"",",","\"\:0443\"",",","\"\:0444\"",",","\"\:0445\"",",","\"\:0446\"",",","\"\:0447\"",",","\"\:0448\"",",","\"\:0449\"",",","\"\:044a\"",",","\"\:044b\"",",","\"\:044c\"",",","\"\:044d\"",",","\"\:044e\"",",","\"\:044f\""}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[58]= ",ExpressionUUID -> "8ea39ea6-7dab-4140-8ef5-0812fc1f7f2b"]},
+Open],ExpressionUUID -> "8182845a-2c99-48ef-a895-7394b8c7f0b3"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Transliterate","[",RowBox[{"Alphabet","[","\"Russian\"","]"}],"]"}]],
+"Input",CellLabel -> "In[59]:= ",ExpressionUUID -> "b7ca62dc-b346-4c02-b1fc-c4bfc075d10d"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"\"a\"",",","\"b\"",",","\"v\"",",","\"g\"",",","\"d\"",",","\"e\"",",","\"e\"",",","\"z\"",",","\"z\"",",","\"i\"",",","\"j\"",",","\"k\"",",","\"l\"",",","\"m\"",",","\"n\"",",","\"o\"",",","\"p\"",",","\"r\"",",","\"s\"",",","\"t\"",",","\"u\"",",","\"f\"",",","\"h\"",",","\"c\"",",","\"c\"",",","\"s\"",",","\"s\"",",","\"\\\"\"",",","\"y\"",",","\"'\"",",","\"e\"",",","\"u\"",",","\"a\""}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[59]= ",ExpressionUUID -> "fa08db5c-e291-4291-bd52-6501e7698bed"]},
+Open],ExpressionUUID -> "7946e976-6d57-4d04-86e7-14456d5a2f0f"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Transliterate","[",RowBox[{"\"wolfram\"",",","\"Russian\""}],"]"}]],
+"Input",CellLabel -> "In[60]:= ",ExpressionUUID -> "f6a45638-dfe4-454b-afaf-aa7ce92b7b59"],Cell[
+BoxData[
+"\"\:0443\:043e\:043b\:0444\:0440\:0430\:043c\"",StandardForm],"Output",CellLabel -> "Out[60]= ",
+ExpressionUUID -> "86e528ca-e6ad-435f-a716-792c5ffb6a81"]},Open],ExpressionUUID -> "e45d0fa0-699c-4d71-9c1a-cc89dc1830e3"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Style","[",RowBox[{"\"ABC\"",",","100"}],"]"}]],"Input",CellLabel -> "In[61]:= ",
+ExpressionUUID -> "43d6d772-b92f-434f-8757-a6ae9d7d4f8c"],Cell[
+BoxData[StyleBox[
+"\"ABC\"",100,StripOnInput -> False],StandardForm],"Output",CellLabel -> "Out[61]= ",
+ExpressionUUID -> "2c1e81d4-f8a4-4057-8548-13e1b6b0cb2c"]},Open],ExpressionUUID -> "9081d571-c045-46d0-a435-f90fcc755370"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Rasterize","[",RowBox[{"Style","[",RowBox[{"\"ABC\"",",","100"}],"]"}],"]"}]],
+"Input",CellLabel -> "In[62]:= ",ExpressionUUID -> "e40c99c6-e79c-45f1-aa50-aea1fa80b093"],Cell[
+BoxData[
+GraphicsBox[TagBox[RasterBox[CompressedData["1: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"],
+{{0,127.`},{180.`,0}},{0,255},ColorFunction -> RGBColor,ImageResolution -> 72.`],
+BoxForm`ImageTag["Byte",ColorSpace -> "RGB",Interleaving -> True],Selectable -> False],
+DefaultBaseStyle -> "ImageGraphics",ImageSizeRaw -> {180.`,127.`},PlotRange -> {{0,180.`},{0,127.`}}],
+StandardForm],"Output",CellLabel -> "Out[62]= ",ExpressionUUID -> "4e32654a-ff0b-41b3-a12f-2e45223797eb"]},
+Open],ExpressionUUID -> "41fdaa23-c653-4143-a98d-5508f661c210"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"EdgeDetect","[",RowBox[{"Rasterize","[",RowBox[{"Style","[",RowBox[
+{"\"ABC\"",",","100"}],"]"}],"]"}],"]"}]],"Input",CellLabel -> "In[63]:= ",ExpressionUUID -> "e45cd4ba-7c12-4ed1-89f1-aba30e34adef"],Cell[
+BoxData[
+GraphicsBox[TagBox[RasterBox[CompressedData["1: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"],
+{{0,127.`},{180.`,0}},{0,1},ColorFunction -> GrayLevel,ImageResolution -> 72.`],BoxForm`ImageTag[
+"Bit",ColorSpace -> Automatic,Interleaving -> None],Selectable -> False],DefaultBaseStyle -> "ImageGraphics",
+ImageSizeRaw -> {180.`,127.`},PlotRange -> {{0,180.`},{0,127.`}}],StandardForm],"Output",
+CellLabel -> "Out[63]= ",ExpressionUUID -> "e250718e-d5c9-49b7-a67a-8c005a192997"]},
+Open],ExpressionUUID -> "96fd416f-9fd0-47a5-a40e-35cfea389fb3"],Cell[
+"\<Vocalbulary\>",
+"Text",ExpressionUUID -> "70285a6c-8fff-4140-8720-00ca92080f61"],Cell[
+CellGroupData[
+{Cell[
+BoxData["\"sting\""],"Input",CellLabel -> "In[64]:= ",ExpressionUUID -> "43d22841-c40b-47e8-af14-3dac1c012358"],Cell[
+BoxData[
+"\"sting\"",StandardForm],"Output",CellLabel -> "Out[64]= ",ExpressionUUID -> "4aa09ede-fe69-4010-82d2-7738f6f6612a"]},
+Open],ExpressionUUID -> "f378abf1-0e00-46a1-b7a1-2d367cab739f"],Cell[
+BoxData[""],
+"Input",ExpressionUUID -> "8fd495ec-26d2-4d95-88ae-fad8db7d9548"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"InputForm","[","\"sting\"","]"}]],"Input",CellLabel -> "In[65]:= ",
+ExpressionUUID -> "4960dfd4-dff7-4350-8b79-ab9a94595e19"],Cell[
+"\<\"\\\"sting\\\"\"\>",
+"Output",CellLabel -> "Out[65]//InputForm= ",ExpressionUUID -> "41cb9200-eb17-4e5b-a6a5-232d163f5119"]},
+Open],ExpressionUUID -> "9be3f782-01a9-47d9-ada1-8d2fbc910ed7"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"StringLength","[","\"string\"","]"}]],"Input",CellLabel -> "In[66]:= ",
+ExpressionUUID -> "41ee151e-6e7b-43f2-8f58-ba8a7ced500c"],Cell[
+BoxData["6",StandardForm],
+"Output",CellLabel -> "Out[66]= ",ExpressionUUID -> "2642c668-fba8-4914-9b89-8abaa92035e8"]},
+Open],ExpressionUUID -> "0dad84af-81de-441e-833c-de1dfa686625"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"StringReverse","[","\"string\"","]"}]],"Input",CellLabel -> "In[67]:= ",
+ExpressionUUID -> "4204b5ed-4e55-4e0d-ae2d-9d6fe0e4df08"],Cell[
+BoxData["\"gnirts\"",
+StandardForm],"Output",CellLabel -> "Out[67]= ",ExpressionUUID -> "27599c8a-d927-4e1e-a6ae-bc6ad74b5bfd"]},
+Open],ExpressionUUID -> "d970206f-57b7-4e9d-b3e1-6dc80455a73b"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"StringTake","[",RowBox[{"\"string\"",",","2"}],"]"}]],"Input",
+CellLabel -> "In[69]:= ",ExpressionUUID -> "d16f651f-79a0-4eea-a1ff-4e1a0adf3505"],Cell[
+BoxData[
+"\"st\"",StandardForm],"Output",CellLabel -> "Out[69]= ",ExpressionUUID -> "99c8afea-3e70-41e1-a89a-c483b4ba40c4"]},
+Open],ExpressionUUID -> "45097b92-23c9-4df7-8010-ff94f15a7428"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"StringDrop","[",RowBox[{"\"string\"",",","2"}],"]"}]],"Input",
+CellLabel -> "In[71]:= ",ExpressionUUID -> "795dffbb-75ad-4a05-af29-42900c8a6682"],Cell[
+BoxData[
+"\"ring\"",StandardForm],"Output",CellLabel -> "Out[71]= ",ExpressionUUID -> "b643b4d9-d6ae-414e-bbad-818b657055c6"]},
+Open],ExpressionUUID -> "62dafcf8-a517-4790-b045-82fa32431530"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"StringJoin","[",RowBox[{"\"sting1\"",","," ","\"string2\""}],"]"}]],
+"Input",CellLabel -> "In[73]:= ",ExpressionUUID -> "bcd7575f-13d8-4ea7-a155-deba25e57105"],Cell[
+BoxData[
+"\"sting1string2\"",StandardForm],"Output",CellLabel -> "Out[73]= ",ExpressionUUID -> "1cad9ac0-9a02-4759-8172-efa2616ac667"]},
+Open],ExpressionUUID -> "33384880-6b93-4068-af04-881e18e6453d"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"StringJoin","[",RowBox[{"{",RowBox[{"\"string1\"",","," ","\"string2\""}],"}"}],"]"}]],
+"Input",CellLabel -> "In[74]:= ",ExpressionUUID -> "6d331e79-8098-4dff-8d1f-f4569051516b"],Cell[
+BoxData[
+"\"string1string2\"",StandardForm],"Output",CellLabel -> "Out[74]= ",ExpressionUUID -> "ab428b38-9b07-4c02-8c8a-fb507e834013"]},
+Open],ExpressionUUID -> "e7e30e3d-0145-42e8-a623-86a132343d66"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Characters","[","\"string\"","]"}]],"Input",CellLabel -> "In[75]:= ",
+ExpressionUUID -> "7fdad566-8880-4468-865a-03361375a687"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{"\"s\"",",","\"t\"",",","\"r\"",",","\"i\"",",","\"n\"",",","\"g\""}],"}"}],StandardForm],
+"Output",CellLabel -> "Out[75]= ",ExpressionUUID -> "85b1316f-bda8-403a-aa7b-6198530f41ac"]},
+Open],ExpressionUUID -> "2263449d-eb03-434e-a9a5-c1986b095c3c"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"ToUpperCase","[","\"string\"","]"}]],"Input",CellLabel -> "In[76]:= ",
+ExpressionUUID -> "316409ef-38c4-406d-832c-3bdb3c9285aa"],Cell[
+BoxData["\"STRING\"",
+StandardForm],"Output",CellLabel -> "Out[76]= ",ExpressionUUID -> "b2a8f413-a5dc-49a6-a227-992d5535b0e3"]},
+Open],ExpressionUUID -> "170a112b-3123-47e6-99d0-069f83976ee6"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"ToLowerCase","[","\"STRING\"","]"}]],"Input",CellLabel -> "In[77]:= ",
+ExpressionUUID -> "cc7ea923-5e4c-4d96-a5dd-168bafc95341"],Cell[
+BoxData["\"string\"",
+StandardForm],"Output",CellLabel -> "Out[77]= ",ExpressionUUID -> "6a42f648-15f1-4490-bb0c-2af82fa1ae4d"]},
+Open],ExpressionUUID -> "68e1abcc-5cec-4a15-84c1-e292ec6061ea"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"TextWords","[","\"string\"","]"}]],"Input",CellLabel -> "In[78]:= ",
+ExpressionUUID -> "99e34055-5d71-4ddb-a024-c139ce043b15"],Cell[
+BoxData[RowBox[{"{","\"string\"","}"}],
+StandardForm],"Output",CellLabel -> "Out[78]= ",ExpressionUUID -> "cf862471-bd29-4a06-922e-243b6cb180ee"]},
+Open],ExpressionUUID -> "acc1bd2a-c5cc-4057-9df5-fea9dbb7f36d"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"TextSentences","[","\"string\"","]"}]],"Input",CellLabel -> "In[79]:= ",
+ExpressionUUID -> "3869e852-203f-45e1-a831-408e1ebb3c5a"],Cell[
+BoxData[RowBox[{"{","\"string\"","}"}],
+StandardForm],"Output",CellLabel -> "Out[79]= ",ExpressionUUID -> "8c1b06fc-7209-4c10-892b-26aea5db79dd"]},
+Open],ExpressionUUID -> "8c5666bf-ff5b-4d15-82dd-e6e561f15f1b"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"WikipediaData","[","\"topic\"","]"}]],"Input",CellLabel -> "In[81]:= ",
+ExpressionUUID -> "e614bbb9-c0de-4fa8-bb80-58952d30f0d2"],Cell[
+BoxData["\"Topics is a book by Aristotle. From then on, topic, topics, TOPIC, topical, topicality or Topix may refer to:\\n\\n\\n== Topic / Topics ==\\nIn topic-based authoring, a topic is a discrete piece of content that is about a specific subject, has an identifiable purpose, and can stand alone\\nTopic (chocolate bar), a brand of confectionery bar\\nTopic (linguistics), the information motivating a sentence or clause's structure\\nTopic: The Washington & Jefferson College Review, an academic journal\\nTopic, a streaming video website run by First Look Media\\nTopic map, a standard method of representing knowledge and its interchange\\nTopic Records, a British record label\\nTopics (Aristotle), a work by Aristotle\\nTopic (DJ), a German musician\\nTopi\[CAcute], a Slavic surname\\n\\n\\n== TOPIC ==\\nTOPIC, an Internet Relay Chat (IRC) command setting a channel's title\\nBID 770, a British cipher machine codenamed \\\"TOPIC\\\"\\n\\n\\n== Topical ==\\nTopical medication, a medication (\\\"topic\\\") applied to body surfaces\\nTopical song, a song commenting on politics, society or a particular event or events\\nTopical stamp collecting, the collecting of postage stamps relating to a particular subject\\n\\n\\n== Topicality ==\\nTopicality (policy debate), a stock issue in policy debate\\n\\n\\n== Topix ==\\nTopix (website) a discussion board website\\n\\n\\n== See also ==\\nSubject (disambiguation)\\nOn-topic\"",
+StandardForm],"Output",CellLabel -> "Out[81]= ",ExpressionUUID -> "5db2446e-7040-4f90-9796-2ae89217e4e0"]},
+Open],ExpressionUUID -> "38cc8c1a-17d8-43dd-937c-71b294b62587"],Cell[
+BoxData[RowBox[
+{"WordCloud","[",RowBox[{"{",RowBox[{"\"string1\"",",","..."}],"}"}],"]"}]],"Input",
+CellLabel -> "In[82]:= ",ExpressionUUID -> "6087cd9a-7b5a-49af-bc1f-eb645e7b5ca3"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"WordList","[","]"}]],"Input",CellLabel -> "In[82]:= ",ExpressionUUID -> "3556b50c-5a3b-49c1-a6d6-c149c170399d"],Cell[
+BoxData[
+InterpretationBox[TagBox[FrameBox[GridBox[{{ItemBox[TagBox[RowBox[{"{",RowBox[{"\"a\"",",","\"aah\"",",","\"aardvark\"",",","\"aback\"",",","\"abacus\"",",","\"abaft\"",",","\"abalone\"",",","\"abandon\"",",","\"abandoned\"",",","\"abandonment\"",",","\"abase\"",",","\"abasement\"",",","\"abash\"",",","\"abashed\"",",",TemplateBox[
+{"39148"},"OutputSizeLimit`Skeleton"],",","\"zone\"",",","\"zoning\"",",","\"zoo\"",",","\"zoological\"",",","\"zoologist\"",",","\"zoology\"",",","\"zoom\"",",","\"zoophyte\"",",","\"zounds\"",",","\"zucchini\"",",","\"zwieback\"",",","\"zydeco\"",",","\"zygote\"",",","\"zygotic\""}],"}"}],
+Function[Short[Slot[1],5]]],BaseStyle -> {Deployed -> False},StripOnInput -> False]},{GridBox[
+{{PaneBox[TagBox[TooltipBox[StyleBox[StyleBox[DynamicBox[ToBoxes[FEPrivate`FrontEndResource[
+"FEStrings","sizeBriefExplanation"],StandardForm]],DynamicUpdating -> True,LineIndent -> 0,
+LinebreakAdjustments -> {1.`,100,0,0,0},LineSpacing -> {1,2},StripOnInput -> False],
+"OSLText",StripOnInput -> False],StyleBox[DynamicBox[ToBoxes[FEPrivate`FrontEndResource[
+"FEStrings","sizeExplanation"],StandardForm]],DynamicUpdating -> True,LineIndent -> 0,
+LinebreakAdjustments -> {1.`,100,0,0,0},LineSpacing -> {1,2},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[Dynamic[FEPrivate`FrontEndResource["FEStrings",
+"sizeExplanation"]],DynamicUpdating -> True,LineIndent -> 0,LinebreakAdjustments -> {1.`,100,0,0,0},
+LineSpacing -> {1,2}],"Tooltip"]]],ImageSize -> {Automatic,{25,Full}},Alignment -> Center,
+BaselinePosition -> Baseline],ButtonBox[PaneSelectorBox[{False -> StyleBox[StyleBox[
+DynamicBox[ToBoxes[FEPrivate`FrontEndResource["FEStrings","sizeShowLess"],StandardForm]],
+DynamicUpdating -> True,LineIndent -> 0,LinebreakAdjustments -> {1.`,100,0,0,0},LineSpacing -> {1,2},
+StripOnInput -> False],"OSLControl",StripOnInput -> False],True -> StyleBox[StyleBox[
+DynamicBox[ToBoxes[FEPrivate`FrontEndResource["FEStrings","sizeShowLess"],StandardForm]],
+DynamicUpdating -> True,LineIndent -> 0,LinebreakAdjustments -> {1.`,100,0,0,0},LineSpacing -> {1,2},
+StripOnInput -> False],"OSLControlActive",StripOnInput -> False]},Dynamic[CurrentValue[
+"MouseOver"]],ImageSize -> {Automatic,{25,Full}},Alignment -> Center,ImageSize -> Automatic,
+FrameMargins -> 0],RuleDelayed[ButtonFunction,OutputSizeLimit`ButtonFunction[OutputSizeLimit`Defer,
+82,29168385456077304934,Times[5,Power[2,-1]]]],Appearance -> None,Enabled -> True,
+BaselinePosition -> Baseline,Method -> "Queued",Evaluator -> Automatic],ButtonBox[
+PaneSelectorBox[{False -> StyleBox[StyleBox[DynamicBox[ToBoxes[FEPrivate`FrontEndResource[
+"FEStrings","sizeShowMore"],StandardForm]],DynamicUpdating -> True,LineIndent -> 0,
+LinebreakAdjustments -> {1.`,100,0,0,0},LineSpacing -> {1,2},StripOnInput -> False],
+"OSLControl",StripOnInput -> False],True -> StyleBox[StyleBox[DynamicBox[ToBoxes[
+FEPrivate`FrontEndResource["FEStrings","sizeShowMore"],StandardForm]],DynamicUpdating -> True,
+LineIndent -> 0,LinebreakAdjustments -> {1.`,100,0,0,0},LineSpacing -> {1,2},StripOnInput -> False],
+"OSLControlActive",StripOnInput -> False]},Dynamic[CurrentValue["MouseOver"]],ImageSize -> {Automatic,{25,Full}},
+Alignment -> Center,ImageSize -> Automatic,FrameMargins -> 0],RuleDelayed[ButtonFunction,
+OutputSizeLimit`ButtonFunction[OutputSizeLimit`Defer,82,29168385456077304934,Times[
+5,2]]],Appearance -> None,Enabled -> True,BaselinePosition -> Baseline,Method -> "Queued",
+Evaluator -> Automatic],ButtonBox[PaneSelectorBox[{False -> StyleBox[StyleBox[DynamicBox[
+ToBoxes[FEPrivate`FrontEndResource["FEStrings","sizeShowAll"],StandardForm]],DynamicUpdating -> True,
+LineIndent -> 0,LinebreakAdjustments -> {1.`,100,0,0,0},LineSpacing -> {1,2},StripOnInput -> False],
+"OSLControl",StripOnInput -> False],True -> StyleBox[StyleBox[DynamicBox[ToBoxes[
+FEPrivate`FrontEndResource["FEStrings","sizeShowAll"],StandardForm]],DynamicUpdating -> True,
+LineIndent -> 0,LinebreakAdjustments -> {1.`,100,0,0,0},LineSpacing -> {1,2},StripOnInput -> False],
+"OSLControlActive",StripOnInput -> False]},Dynamic[CurrentValue["MouseOver"]],ImageSize -> {Automatic,{25,Full}},
+Alignment -> Center,ImageSize -> Automatic,FrameMargins -> 0],RuleDelayed[ButtonFunction,
+OutputSizeLimit`ButtonFunction[OutputSizeLimit`Defer,82,29168385456077304934,Infinity]],
+Appearance -> None,Enabled -> True,BaselinePosition -> Baseline,Method -> "Queued",
+Evaluator -> Automatic],ButtonBox[PaneSelectorBox[{False -> StyleBox[StyleBox[DynamicBox[
+ToBoxes[FEPrivate`FrontEndResource["FEStrings","sizeChangeLimit"],StandardForm]],
+DynamicUpdating -> True,LineIndent -> 0,LinebreakAdjustments -> {1.`,100,0,0,0},LineSpacing -> {1,2},
+StripOnInput -> False],"OSLControl",StripOnInput -> False],True -> StyleBox[StyleBox[
+DynamicBox[ToBoxes[FEPrivate`FrontEndResource["FEStrings","sizeChangeLimit"],StandardForm]],
+DynamicUpdating -> True,LineIndent -> 0,LinebreakAdjustments -> {1.`,100,0,0,0},LineSpacing -> {1,2},
+StripOnInput -> False],"OSLControlActive",StripOnInput -> False]},Dynamic[CurrentValue[
+"MouseOver"]],ImageSize -> {Automatic,{25,Full}},Alignment -> Center,ImageSize -> Automatic,
+FrameMargins -> 0],RuleDelayed[ButtonFunction,FrontEndExecute[{FrontEnd`SetOptions[
+FrontEnd`$FrontEnd,FrontEnd`PreferencesSettings -> {"Page" -> "Advanced"}],FrontEnd`FrontEndToken[
+"PreferencesDialog"]}]],Appearance -> None,BaselinePosition -> Baseline,Evaluator -> None,
+Method -> "Preemptive"]}},AutoDelete -> False,GridBoxDividers -> {"Columns" -> {False,{True}}},
+GridBoxItemSize -> {"Columns" -> {{Automatic}},"Rows" -> {{Automatic}}},GridBoxSpacings -> {"Columns" -> {{2}}},
+FrameStyle -> GrayLevel[0.85`]]}},GridBoxAlignment -> {"Columns" -> {{Left}}},DefaultBaseStyle -> "Column",
+GridBoxItemSize -> {"Columns" -> {{Automatic}},"Rows" -> {{Automatic}}},ColumnWidths -> Automatic,
+ColumnAlignments -> Left,RowLines -> False,RowSpacings -> {3,1}],BaseStyle -> "OutputSizeLimit",
+FrameMargins -> {{12,12},{0,15}},FrameStyle -> GrayLevel[0.85`],RoundingRadius -> 5,
+StripOnInput -> False],Deploy,DefaultBaseStyle -> "Deploy"],If[SameQ[29168385456077304934,
+$SessionID],Out[82],CompoundExpression[Message[MessageName[Syntax,"noinfoker"]],Missing[
+"NotAvailable"],Null]]],StandardForm],"Output",CellLabel -> "Out[82]= ",ExpressionUUID -> "bb1da4ea-c342-4409-a417-35c028432111"]},
+Open],ExpressionUUID -> "1b736794-2727-4222-bfa5-94a4344a80f1"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Alphabet","[","]"}]],"Input",CellLabel -> "In[83]:= ",ExpressionUUID -> "87effc54-fdfe-4c7e-8b3d-c74a000a59ae"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"\"a\"",",","\"b\"",",","\"c\"",",","\"d\"",",","\"e\"",",","\"f\"",",","\"g\"",",","\"h\"",",","\"i\"",",","\"j\"",",","\"k\"",",","\"l\"",",","\"m\"",",","\"n\"",",","\"o\"",",","\"p\"",",","\"q\"",",","\"r\"",",","\"s\"",",","\"t\"",",","\"u\"",",","\"v\"",",","\"w\"",",","\"x\"",",","\"y\"",",","\"z\""}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[83]= ",ExpressionUUID -> "95b8a0f5-2aef-49ab-8a60-640d0a568676"]},
+Open],ExpressionUUID -> "d2dd60c5-aa58-4d57-9d38-ae24f83202f9"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"LetterNumber","[","\"string\"","]"}]],"Input",CellLabel -> "In[85]:= ",
+ExpressionUUID -> "169b7512-936f-43aa-9400-208b8be3972f"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{"19",",","20",",","18",",","9",",","14",",","7"}],"}"}],StandardForm],"Output",CellLabel -> "Out[85]= ",
+ExpressionUUID -> "db4af210-4fa1-4ba0-bd44-dd7c0a2d65f1"]},Open],ExpressionUUID -> "6a58ed9b-a5de-4834-aa11-5a975c97c503"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"FromLetterNumber","[","3","]"}]],"Input",CellLabel -> "In[87]:= ",
+ExpressionUUID -> "1372a853-bdb7-4185-b158-2d1bfe273e3d"],Cell[
+BoxData["\"c\"",StandardForm],
+"Output",CellLabel -> "Out[87]= ",ExpressionUUID -> "33479e25-65c9-4fc2-9878-0a66a86fd427"]},
+Open],ExpressionUUID -> "f7efffbc-4151-40ea-bb7c-4b3cb4c5a12a"],Cell[
+BoxData[RowBox[
+{"Transliterate","[","\"string\"","]"}]],"Input",CellLabel -> "In[88]:= ",ExpressionUUID -> "8c62b4e7-a1a5-4412-901c-8f7e27c27725"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Transliterate","[",RowBox[{"{",RowBox[{"\"text\"",","," ","\"alphabet\""}],"}"}],"]"}]],
+"Input",CellLabel -> "In[89]:= ",ExpressionUUID -> "85166557-7404-454a-98db-ba93e16e0d37"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"\"text\"",",","\"alphabet\""}],"}"}],StandardForm],"Output",
+CellLabel -> "Out[89]= ",ExpressionUUID -> "a830babf-168a-4cc2-9399-a5c200f7b155"]},
+Open],ExpressionUUID -> "571ae1cf-d9d0-41b3-bd68-3440b0d1e715"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"RomanNumeral","[","3","]"}]],"Input",CellLabel -> "In[94]:= ",
+ExpressionUUID -> "45e5c2a6-554b-463a-a83a-4daee5427669"],Cell[
+BoxData["\"III\"",
+StandardForm],"Output",CellLabel -> "Out[94]= ",ExpressionUUID -> "97eaff1c-2f77-4ee4-b32f-3652d47a0af2"]},
+Open],ExpressionUUID -> "7681bfa1-f63a-4ada-a1d4-60ce5e4c9bae"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"IntegerName","[","3","]"}]],"Input",CellLabel -> "In[93]:= ",
+ExpressionUUID -> "e2179d6e-a9e4-4f01-8f14-4ff2f52df9ab"],Cell[
+BoxData["\"three\"",
+StandardForm],"Output",CellLabel -> "Out[93]= ",ExpressionUUID -> "d343d748-8b81-4965-a429-abd9f9158459"]},
+Open],ExpressionUUID -> "a037b0f7-4096-4bc3-aa9b-41070a26c543"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Rasterize","[","\"string\"","]"}]],"Input",CellLabel -> "In[95]:= ",
+ExpressionUUID -> "64b5783f-0945-4cfe-9a08-eaf294d7cfdf"],Cell[
+BoxData[GraphicsBox[
+TagBox[RasterBox[CompressedData["1:eJztnM1um0AUhdOfRZftI/QJyvwwA8suI3WVqg+QqkmUTSIlkaq+fWPMgnt0ZDCGGJuz4ZOTL/ZlYDjMDM7X349Xt+8vLi6eP71urq7/fn96uv738/Pri18Pz/d3Dzd/Lh9ebu5unqrbLxvt4+vmx/3zy+038+pD99Xl5pUvS6QsWbJkyZJ1NpZyUJYsWbJkrdlSDsqSJUuWrDVbykFZstZqBSRYm6WWGCzIG7mYkAvZQVmyFIKnbLlYI5nlA3IR1cs6fWsTe3W2YKdgrpBHL12WLIXg6VsueKRCUJYsWbKWmYOhQJLbylxaEMXXFkwJFuz+1Vuwin1Ejs+rnJDj6naFBVOcxbgP6lGanXAROXfsFwFJGzsg6Ti6b46umd4rLFhLeQv2WSkgx7eBq5DjToIe5d1mf7tb2oYBefTL2GZnytKClV47JHmjqrAgSkgWrBxvQS82Djl3S/qEJKWn2oI1gLcg55Hrbsnvi+52z99vw8QhJ4otVzgk7ZMeecDRc0h6jfNIeoxr5NH757Z9HHKlw7f+RGsuGYXF+FMwZuQBO1ggF9GkwyKiLi3OJ92aH2YLem2okDP256aRK4uZmylni5mPsEsRuf8AZ9snA5IWFZFTRV50yHH3NK4ukQN35Ni9bGpLebdf3qXKYhGln6513nnXlPrma42uCkhWerKYuaV8ZTH3QDNGJJtniBaTtsFbLtK5XCJZwicLNmIOFjQxSiQd91bIo/fYbbXKu71mLNt5iw4XUf3pWmuIvBo597k8aMo0ZouZW6ryFvQgF8iZR3kpW5xs5E1qtc3fIeu0ux8sazK1tljE3rn2fqrD8bG+1COoyFuwpchbQeQ1RZQeydpz9xRwE0yFBYvXZEFHlH0LiYc1QH/eDZlAdEWNpMc7I+knDlmiG1hXiEgWedHi6D22KTXVSNY5+r8u5UNC0qL6vp21PfsyUnl3lpbybgV513yAt6C93iOPfpAPsyZayxt0PHuWW5pp22xBFJ8tWIwNWP2c8KnLaa1Bj+UUBZI1ZmXBGnPA45eD7miUdKdvKelWkHRNEe1Fr0N2+ZjkGXDnLYgSnAWt2CPfNOBkyZIlS9aCLV8i2SBk92Rk84ftv7zo8IDSh8zOeVcjwdp8JaHsbun8Vo1U/MmSJUvW+VvtbEmHbKSZLGj8OeTc49FUIlnplYUGgLJkyZIla5+waVf/O2Rhs3sxcEAeNZPQwYKVM2ixw7f/gKpDxZ8sWbJkyZLVZ/0HP6lBzA=="],
+{{0,17.`},{47.`,0}},{0,255},ColorFunction -> RGBColor,ImageResolution -> 72.`],BoxForm`ImageTag[
+"Byte",ColorSpace -> "RGB",Interleaving -> True],Selectable -> False],DefaultBaseStyle -> "ImageGraphics",
+ImageSizeRaw -> {47.`,17.`},PlotRange -> {{0,47.`},{0,17.`}}],StandardForm],"Output",
+CellLabel -> "Out[95]= ",ExpressionUUID -> "45c90d69-59b5-4d3a-a2da-9b620a5a5b8a"]},
+Open],ExpressionUUID -> "e8120bb9-8b30-4e08-85b1-cf66482f5b8a"],Cell[
+BoxData[""],
+"Input",ExpressionUUID -> "902eb784-6ad8-454e-a398-68810211d27c"],Cell[
+"\<----------------------------------------------------------------------------------------------------------------\>",
+"Text",ExpressionUUID -> "f5db4cb4-83fe-416a-9b24-7a989a1a339f"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Last","[",RowBox[{"Sort","[",RowBox[{"Table","[",RowBox[{RowBox[
+{"StringLength","[",RowBox[{"RomanNumeral","[","n","]"}],"]"}],",",RowBox[{"{",RowBox[
+{"n",",","2020"}],"}"}]}],"]"}],"]"}],"]"}]],"Input",CellLabel -> "In[98]:= ",ExpressionUUID -> "4105dc5f-9043-41d5-9817-19428d2b9651"],Cell[
+BoxData[
+"13",StandardForm],"Output",CellLabel -> "Out[98]= ",ExpressionUUID -> "4bfa2fab-87b9-41d7-9d6a-324743348721"]},
+Open],ExpressionUUID -> "3080c6c9-c9e4-44b7-aacd-c4430ce15d47"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Last","[",RowBox[{"Sort","[",RowBox[{"Table","[",RowBox[{RowBox[
+{"{",RowBox[{RowBox[{"StringLength","[",RowBox[{"RomanNumeral","[","n","]"}],"]"}],",",RowBox[
+{"RomanNumeral","[","n","]"}],",","n"}],"}"}],",",RowBox[{"{",RowBox[{"n",",","2020"}],"}"}]}],"]"}],"]"}],"]"}]],
+"Input",CellLabel -> "In[100]:= ",ExpressionUUID -> "9cf23dc9-7260-4547-abd8-5521bc3c3c48"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"13",",","\"MDCCCLXXXVIII\"",",","1888"}],"}"}],StandardForm],
+"Output",CellLabel -> "Out[100]= ",ExpressionUUID -> "888022c8-ac36-4bad-9886-c66a7cad4abb"]},
+Open],ExpressionUUID -> "e2d0967e-c1bb-45b3-bd8e-d0c863b7373b"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "13. for Wolfram Cloud 1.61.2 (November 30, 2021)"]
