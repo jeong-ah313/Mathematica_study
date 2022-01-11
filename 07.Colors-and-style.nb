@@ -1,0 +1,382 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData["Red"],"Input",CellLabel -> "In[1]:= ",
+ExpressionUUID -> "41386055-f969-4ce2-afe4-30bd3b5fcd8f"],Cell[
+BoxData[TemplateBox[
+Association["color" -> RGBColor[1,0,0]],"RGBColorSwatchTemplate"],StandardForm],"Output",
+CellLabel -> "Out[1]= ",ExpressionUUID -> "cde89eb4-ac0a-4fda-9369-9b3bfb38f832"]},
+Open],ExpressionUUID -> "fd231051-13f5-4c30-a621-492d866a53a2"],Cell[
+CellGroupData[
+{Cell[
+BoxData["Green"],"Input",CellLabel -> "In[2]:= ",ExpressionUUID -> "d017aef9-2c89-48a8-be0a-d6b60b66adac"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[0,1,0]],"RGBColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[2]= ",ExpressionUUID -> "475dae14-05df-4278-a954-ae7345237769"]},
+Open],ExpressionUUID -> "9b65dd61-90ab-4ef8-b569-654efaa4693f"],Cell[
+CellGroupData[
+{Cell[
+BoxData["Blue"],"Input",CellLabel -> "In[3]:= ",ExpressionUUID -> "87129756-d3c3-456c-bda8-cc6806abacfe"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[0,0,1]],"RGBColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[3]= ",ExpressionUUID -> "c28aa9c5-4d61-4e0c-9ec8-26b142026572"]},
+Open],ExpressionUUID -> "d787cbee-288b-43fe-bb15-060dd66d2fd2"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Style","[",RowBox[{"1234",",","Red"}],"]"}]],"Input",CellLabel -> "In[6]:= ",
+ExpressionUUID -> "204756b9-a55d-453a-9ac3-2e9b37895ea1"],Cell[
+BoxData[StyleBox[
+"1234",RGBColor[1,0,0],StripOnInput -> False],StandardForm],"Output",CellLabel -> "Out[6]= ",
+ExpressionUUID -> "3b9e0cee-fe6d-40f0-8996-4637f6ba5dc0"]},Open],ExpressionUUID -> "f68914a9-a415-4ce6-8495-644c72eab5c3"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Style","[",RowBox[{"1234",",","100"}],"]"}]],"Input",CellLabel -> "In[7]:= ",
+ExpressionUUID -> "eff63c25-7667-4512-9c8e-f53126d3da92"],Cell[
+BoxData[StyleBox[
+"1234",100,StripOnInput -> False],StandardForm],"Output",CellLabel -> "Out[7]= ",
+ExpressionUUID -> "7c5afd73-157b-474a-873d-0c62f47e2ae6"]},Open],ExpressionUUID -> "56d195a3-8973-4435-9f2f-557561a0db8d"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Style","[",RowBox[{"1234",",","100",",","red"}],"]"}]],"Input",
+CellLabel -> "In[8]:= ",ExpressionUUID -> "68241286-fddd-4a0a-99ff-d47e82dc0dfe"],Cell[
+BoxData[
+RowBox[{"Style","[",RowBox[{"1234",",","100",",","red"}],"]"}],StandardForm],"Output",
+CellLabel -> "Out[8]= ",ExpressionUUID -> "e061cd7f-eb78-486d-ad2b-ca30a35a22da"]},
+Open],ExpressionUUID -> "a0d2c2a2-b5f0-40fc-b5e4-016ac48e2690"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Table","[",RowBox[{RowBox[{"Style","[",RowBox[{"\"ABC\"",",","Red",",","y"}],"]"}],",",RowBox[
+{"{",RowBox[{"y",",","10",",","50",",","10"}],"}"}]}],"]"}]],"Input",CellLabel -> "In[9]:= ",
+ExpressionUUID -> "538328a7-0987-4c9a-830f-bba2dbf9c17f"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{StyleBox["\"ABC\"",RGBColor[1,0,0],10,StripOnInput -> False],",",StyleBox["\"ABC\"",
+RGBColor[1,0,0],20,StripOnInput -> False],",",StyleBox["\"ABC\"",RGBColor[1,0,0],
+30,StripOnInput -> False],",",StyleBox["\"ABC\"",RGBColor[1,0,0],40,StripOnInput -> False],",",StyleBox[
+"\"ABC\"",RGBColor[1,0,0],50,StripOnInput -> False]}],"}"}],StandardForm],"Output",
+CellLabel -> "Out[9]= ",ExpressionUUID -> "e5fda954-025d-44d2-a298-324cdc8cf854"]},
+Open],ExpressionUUID -> "a68c108d-57d8-4c1e-acd1-d44eb99d6105"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Style","[",RowBox[{"1234",","," ","100",","," ","Red",","," ","Italic",","," ","Underlined"}],"]"}]],
+"Input",CellLabel -> "In[10]:= ",ExpressionUUID -> "6cd2ada4-8e76-4355-812e-f44c7199edb7"],Cell[
+BoxData[
+StyleBox["1234",100,RGBColor[1,0,0],Italic,Underlined,StripOnInput -> False],StandardForm],
+"Output",CellLabel -> "Out[10]= ",ExpressionUUID -> "8d41bef5-ba09-45c7-9db3-9297c76615b9"]},
+Open],ExpressionUUID -> "e6f61cc2-9334-4b10-ab6a-2153fa7d7e5e"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"ColorNegate","[","Blue","]"}]],"Input",CellLabel -> "In[12]:= ",
+ExpressionUUID -> "3a497af4-3e8e-4c0d-bc8d-5f66e1fb44e9"],Cell[
+BoxData[TemplateBox[
+Association["color" -> RGBColor[1.`,1.`,0.`]],"RGBColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[12]= ",ExpressionUUID -> "813406ae-f754-479c-b67d-74f3c77d2d48"]},
+Open],ExpressionUUID -> "dcf78afc-406c-4125-a9f5-69c9f2b70b32"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"ColorNegate","[","Yellow","]"}]],"Input",CellLabel -> "In[14]:= ",
+ExpressionUUID -> "b885435e-2047-4646-a93f-c3389911c02b"],Cell[
+BoxData[TemplateBox[
+Association["color" -> RGBColor[0.`,0.`,1.`]],"RGBColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[14]= ",ExpressionUUID -> "ffd11220-8e36-45c6-96d2-be7c47014d63"]},
+Open],ExpressionUUID -> "ad5248a8-6b03-42ae-97fa-ad85dc4c39dd"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Blend","[",RowBox[{"{",RowBox[{"Yellow",",","Red"}],"}"}],"]"}]],
+"Input",CellLabel -> "In[15]:= ",ExpressionUUID -> "ef03d201-ba29-4c15-953c-0741730739db"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[1,Rational[1,2],0]],"RGBColorSwatchTemplate"],
+StandardForm],"Output",CellLabel -> "Out[15]= ",ExpressionUUID -> "902f25a4-270f-4619-954d-fec88ca0eac5"]},
+Open],ExpressionUUID -> "26ada3c3-d584-43ff-8efc-5d12bfbfdb1f"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"RGBColor","[",RowBox[{"1",",","0",",","0"}],"]"}]," "}]],
+"Input",CellLabel -> "In[16]:= ",ExpressionUUID -> "57bb2e24-007b-4fbb-beb9-a82cd4c7fe31"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[1,0,0]],"RGBColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[16]= ",ExpressionUUID -> "c361eb26-8557-44bb-8523-f159ebacc439"]},
+Open],ExpressionUUID -> "e116d80f-2744-465a-9685-08bdb1025f1b"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"RGBColor","[",RowBox[{"1",",","1",",","0"}],"]"}]," "}]],
+"Input",CellLabel -> "In[17]:= ",ExpressionUUID -> "8f375428-9e3c-409c-80bc-d74c92a30b8c"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[1,1,0]],"RGBColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[17]= ",ExpressionUUID -> "f609be00-d207-48b8-9335-b5d3442427bc"]},
+Open],ExpressionUUID -> "fb0e8d6a-37bc-4fef-a40c-19b1e93fa0cc"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"RGBColor","[",RowBox[{"0",",","1",",","0"}],"]"}]," "}]],
+"Input",CellLabel -> "In[18]:= ",ExpressionUUID -> "0b069f0f-aa91-48ba-8087-7d066c074478"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[0,1,0]],"RGBColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[18]= ",ExpressionUUID -> "d531dc75-fb40-4b0b-8ffd-d73749da6d5f"]},
+Open],ExpressionUUID -> "ed000545-4c7d-44a9-8403-8885c0ff111d"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"RGBColor","[",RowBox[{"0",",","0",",","1"}],"]"}]," "}]],
+"Input",CellLabel -> "In[19]:= ",ExpressionUUID -> "f65a6a39-d4a1-43f5-8822-0e034fb6da15"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[0,0,1]],"RGBColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[19]= ",ExpressionUUID -> "e545f8b0-8da0-40de-8e98-8e89170671ea"]},
+Open],ExpressionUUID -> "c0079c8c-1efb-49d5-a61e-30a2af63e896"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"RGBColor","[",RowBox[{"1",",",RowBox[{"1","/","2"}],",","0"}],"]"}]," "}]],
+"Input",CellLabel -> "In[20]:= ",ExpressionUUID -> "8a197ae6-6f7e-4f91-b7c5-58dd06a08296"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[1,Rational[1,2],0]],"RGBColorSwatchTemplate"],
+StandardForm],"Output",CellLabel -> "Out[20]= ",ExpressionUUID -> "dd145670-d332-4486-ae40-fe8bd31b3c91"]},
+Open],ExpressionUUID -> "2fccb955-a709-458b-9cee-2771d18dbcc4"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"RGBColor","[",RowBox[{"1",",","1",",","1"}],"]"}]," "}]],
+"Input",CellLabel -> "In[21]:= ",ExpressionUUID -> "f34c8793-ccf0-4592-aa92-6b426b4b2708"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[1,1,1]],"RGBColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[21]= ",ExpressionUUID -> "cc710a60-9d45-43a4-bc0e-765b5cb7a561"]},
+Open],ExpressionUUID -> "60197352-0187-4e1d-bd45-91c2343b6b6c"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"RGBColor","[",RowBox[{"0",",","0",",","0"}],"]"}]," "}]],
+"Input",CellLabel -> "In[22]:= ",ExpressionUUID -> "3dcdb517-a9e6-42de-b8d5-12bf2f66c1b0"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[0,0,0]],"RGBColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[22]= ",ExpressionUUID -> "d3231ccc-4228-4535-8578-f930a90f77d1"]},
+Open],ExpressionUUID -> "1a1879c9-34ab-417b-986f-c7955408aab8"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Hue","[",RowBox[{RowBox[{"1","/","3"}],",","0.5",",","1"}],"]"}]],
+"Input",CellLabel -> "In[23]:= ",ExpressionUUID -> "320af1b0-244e-40fe-835e-75db380c96cb"],Cell[
+BoxData[
+TemplateBox[Association["color" -> Hue[Rational[1,3],0.5`,1]],"HueColorSwatchTemplate"],
+StandardForm],"Output",CellLabel -> "Out[23]= ",ExpressionUUID -> "12d954a3-5d08-4c64-8768-df884494f41e"]},
+Open],ExpressionUUID -> "6c0f6981-66c9-4a72-bdf8-a76244a1d765"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Hue","[","0","]"}]],"Input",CellLabel -> "In[24]:= ",ExpressionUUID -> "eb811de0-0d10-4fd5-89f0-bf3d2f1941fb"],Cell[
+BoxData[
+TemplateBox[Association["color" -> Hue[0]],"HueColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[24]= ",ExpressionUUID -> "875a37c4-9552-4227-8cd2-5938be06669e"]},
+Open],ExpressionUUID -> "85d3e720-84a0-4098-b341-c8982b5283be"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Hue","[",RowBox[{"1","/","2"}],"]"}]],"Input",CellLabel -> "In[25]:= ",
+ExpressionUUID -> "906f5d88-4238-4e9d-acc9-c5769f9961e9"],Cell[
+BoxData[TemplateBox[
+Association["color" -> Hue[Rational[1,2]]],"HueColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[25]= ",ExpressionUUID -> "c832d71a-bb9c-452f-8c49-45065bce9751"]},
+Open],ExpressionUUID -> "8c36c8a3-3425-4073-83d9-856dec842080"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Hue","[","1","]"}]],"Input",CellLabel -> "In[26]:= ",ExpressionUUID -> "b7651053-d23d-4cc6-b444-b877efef6477"],Cell[
+BoxData[
+TemplateBox[Association["color" -> Hue[1]],"HueColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[26]= ",ExpressionUUID -> "2117dd54-d38e-4ef7-a105-bfcb3466729a"]},
+Open],ExpressionUUID -> "5ba801f6-43a0-407d-a4a8-3abe0123e5c6"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Table","[",RowBox[{RowBox[{"Hue","[","x","]"}],",",RowBox[
+{"{",RowBox[{"x",",","0",",","1",",","0.05"}],"}"}]}],"]"}]],"Input",CellLabel -> "In[27]:= ",
+ExpressionUUID -> "bcae1c03-ae45-406c-a5e8-dfe320688a5a"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{TemplateBox[Association["color" -> Hue[0.`]],"HueColorSwatchTemplate"],",",TemplateBox[
+Association["color" -> Hue[0.05`]],"HueColorSwatchTemplate"],",",TemplateBox[Association[
+"color" -> Hue[0.1`]],"HueColorSwatchTemplate"],",",TemplateBox[Association["color" -> Hue[
+0.15000000000000002`]],"HueColorSwatchTemplate"],",",TemplateBox[Association["color" -> Hue[
+0.2`]],"HueColorSwatchTemplate"],",",TemplateBox[Association["color" -> Hue[0.25`]],
+"HueColorSwatchTemplate"],",",TemplateBox[Association["color" -> Hue[0.30000000000000004`]],
+"HueColorSwatchTemplate"],",",TemplateBox[Association["color" -> Hue[0.35000000000000003`]],
+"HueColorSwatchTemplate"],",",TemplateBox[Association["color" -> Hue[0.4`]],"HueColorSwatchTemplate"],",",TemplateBox[
+Association["color" -> Hue[0.45`]],"HueColorSwatchTemplate"],",",TemplateBox[Association[
+"color" -> Hue[0.5`]],"HueColorSwatchTemplate"],",",TemplateBox[Association["color" -> Hue[
+0.55`]],"HueColorSwatchTemplate"],",",TemplateBox[Association["color" -> Hue[0.6000000000000001`]],
+"HueColorSwatchTemplate"],",",TemplateBox[Association["color" -> Hue[0.65`]],"HueColorSwatchTemplate"],",",TemplateBox[
+Association["color" -> Hue[0.7000000000000001`]],"HueColorSwatchTemplate"],",",TemplateBox[
+Association["color" -> Hue[0.75`]],"HueColorSwatchTemplate"],",",TemplateBox[Association[
+"color" -> Hue[0.8`]],"HueColorSwatchTemplate"],",",TemplateBox[Association["color" -> Hue[
+0.8500000000000001`]],"HueColorSwatchTemplate"],",",TemplateBox[Association["color" -> Hue[
+0.9`]],"HueColorSwatchTemplate"],",",TemplateBox[Association["color" -> Hue[0.9500000000000001`]],
+"HueColorSwatchTemplate"],",",TemplateBox[Association["color" -> Hue[1.`]],"HueColorSwatchTemplate"]}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[27]= ",ExpressionUUID -> "4c50cb8c-d152-4100-9cf2-5b9d2c074c88"]},
+Open],ExpressionUUID -> "8f4d8278-db07-45dc-8a7b-87ff8fbefb7d"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"RandomColor","[","]"}]],"Input",CellLabel -> "In[28]:= ",
+ExpressionUUID -> "1f5210da-56fd-4a18-bfd4-2a5b904e01f1"],Cell[
+BoxData[TemplateBox[
+Association["color" -> RGBColor[0.7100067408523936`,0.7021061213066997`,0.0059710753838337904`]],
+"RGBColorSwatchTemplate"],StandardForm],"Output",CellLabel -> "Out[28]= ",ExpressionUUID -> "0f370a62-2315-4282-918d-b070b0972030"]},
+Open],ExpressionUUID -> "f279ee81-3332-499c-aa4c-b2b0ef4b63b7"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"RandomColor","[","20","]"}]],"Input",CellLabel -> "In[29]:= ",
+ExpressionUUID -> "429da45c-e03a-4633-910b-906025e66ced"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{TemplateBox[Association["color" -> RGBColor[0.9030779989813722`,0.4892784278271767`,
+0.9845958064805216`]],"RGBColorSwatchTemplate"],",",TemplateBox[Association["color" -> RGBColor[
+0.3909760453396969`,0.10744583052841117`,0.1591159724064828`]],"RGBColorSwatchTemplate"],",",TemplateBox[
+Association["color" -> RGBColor[0.27335461721742393`,0.6936254344259303`,0.7751516319407725`]],
+"RGBColorSwatchTemplate"],",",TemplateBox[Association["color" -> RGBColor[0.5801737982451529`,
+0.7620746554825797`,0.8666164429970951`]],"RGBColorSwatchTemplate"],",",TemplateBox[
+Association["color" -> RGBColor[0.4737637193170263`,0.24460989681304368`,0.4840986931110438`]],
+"RGBColorSwatchTemplate"],",",TemplateBox[Association["color" -> RGBColor[0.8413077049951632`,
+0.3762573226683754`,0.4096063940571111`]],"RGBColorSwatchTemplate"],",",TemplateBox[
+Association["color" -> RGBColor[0.796418137286186`,0.19864264532976716`,0.2842718063403822`]],
+"RGBColorSwatchTemplate"],",",TemplateBox[Association["color" -> RGBColor[0.6227413698771938`,
+0.2874597974189581`,0.8582914874506247`]],"RGBColorSwatchTemplate"],",",TemplateBox[
+Association["color" -> RGBColor[0.19276689313956608`,0.2653004139093147`,0.030336857268030037`]],
+"RGBColorSwatchTemplate"],",",TemplateBox[Association["color" -> RGBColor[0.5032074846171621`,
+0.086626837280533`,0.3395345069043503`]],"RGBColorSwatchTemplate"],",",TemplateBox[
+Association["color" -> RGBColor[0.5977206669506374`,0.012542059411163153`,0.340484246682893`]],
+"RGBColorSwatchTemplate"],",",TemplateBox[Association["color" -> RGBColor[0.3966727522500799`,
+0.8728777324592893`,0.3685586523531579`]],"RGBColorSwatchTemplate"],",",TemplateBox[
+Association["color" -> RGBColor[0.14795509185405664`,0.3541576105397095`,0.5965947845612694`]],
+"RGBColorSwatchTemplate"],",",TemplateBox[Association["color" -> RGBColor[0.7494474695562663`,
+0.39126398467226786`,0.031332064965226225`]],"RGBColorSwatchTemplate"],",",TemplateBox[
+Association["color" -> RGBColor[0.737010171472493`,0.1353960418699265`,0.731997052051172`]],
+"RGBColorSwatchTemplate"],",",TemplateBox[Association["color" -> RGBColor[0.6245487603556668`,
+0.6593410452836623`,0.5145507946685799`]],"RGBColorSwatchTemplate"],",",TemplateBox[
+Association["color" -> RGBColor[0.6034361337624485`,0.45762389664462333`,0.3349638103765231`]],
+"RGBColorSwatchTemplate"],",",TemplateBox[Association["color" -> RGBColor[0.16461609488531104`,
+0.7979502062283137`,0.759171745123389`]],"RGBColorSwatchTemplate"],",",TemplateBox[
+Association["color" -> RGBColor[0.7399783850232549`,0.9398018049393222`,0.07572466108746445`]],
+"RGBColorSwatchTemplate"],",",TemplateBox[Association["color" -> RGBColor[0.9294067968825659`,
+0.39127337261680895`,0.11834662830098508`]],"RGBColorSwatchTemplate"]}],"}"}],StandardForm],
+"Output",CellLabel -> "Out[29]= ",ExpressionUUID -> "8331a7a5-ac9e-470b-b17e-6d57b1e332f0"]},
+Open],ExpressionUUID -> "808249a8-690f-4392-b13f-96ad485c1639"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Style","[",RowBox[{"1234",",","50",",",RowBox[{"Hue","[",RowBox[
+{"2","/","3"}],"]"}]}],"]"}]],"Input",CellLabel -> "In[30]:= ",ExpressionUUID -> "98b46bb5-dd8b-41f9-8d02-88674e53c225"],Cell[
+BoxData[
+StyleBox["1234",50,Hue[Rational[2,3]],StripOnInput -> False],StandardForm],"Output",
+CellLabel -> "Out[30]= ",ExpressionUUID -> "edb4f3f7-f6ab-4477-a181-72927d693ca0"]},
+Open],ExpressionUUID -> "c0ea87ee-743c-4f65-97a8-921c65d0ca50"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Table","[",RowBox[{RowBox[{"Style","[",RowBox[{"\"ABC\"",","," ",RowBox[
+{"Hue","[","x","]"}],",","40"}],"]"}],",",RowBox[{"{",RowBox[{"x",",","0",",","1",",","0.1"}],"}"}]}],"]"}]],
+"Input",CellLabel -> "In[32]:= ",ExpressionUUID -> "36498b8a-7585-4c4d-a4e5-edb102b30747"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{StyleBox["\"ABC\"",Hue[0.`],40,StripOnInput -> False],",",StyleBox[
+"\"ABC\"",Hue[0.1`],40,StripOnInput -> False],",",StyleBox["\"ABC\"",Hue[0.2`],40,
+StripOnInput -> False],",",StyleBox["\"ABC\"",Hue[0.30000000000000004`],40,StripOnInput -> False],",",StyleBox[
+"\"ABC\"",Hue[0.4`],40,StripOnInput -> False],",",StyleBox["\"ABC\"",Hue[0.5`],40,
+StripOnInput -> False],",",StyleBox["\"ABC\"",Hue[0.6000000000000001`],40,StripOnInput -> False],",",StyleBox[
+"\"ABC\"",Hue[0.7000000000000001`],40,StripOnInput -> False],",",StyleBox["\"ABC\"",
+Hue[0.8`],40,StripOnInput -> False],",",StyleBox["\"ABC\"",Hue[0.9`],40,StripOnInput -> False],",",StyleBox[
+"\"ABC\"",Hue[1.`],40,StripOnInput -> False]}],"}"}],StandardForm],"Output",CellLabel -> "Out[32]= ",
+ExpressionUUID -> "0f6da06d-76ba-4401-9751-ea1dd2d46ec0"]},Open],ExpressionUUID -> "89401c76-f6ef-4446-8c48-98b8a8414c84"],Cell[
+
+"\<Vocabulary\>","Text",ExpressionUUID -> "c70a92ad-2b6d-42d7-99cd-c1d7769eae54"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{"Red","\n","Green","\n","Blue","\n","Yellow","\n","Orange"}],"Input",
+CellLabel -> "In[33]:= ",ExpressionUUID -> "704bc550-73f1-4827-a608-9fc77a5f2513"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[1,0,0]],"RGBColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[33]= ",ExpressionUUID -> "e6233bda-f11f-4cb0-8293-6b9452e1fa18"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[0,1,0]],"RGBColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[34]= ",ExpressionUUID -> "c10f3dd4-38ac-441e-9844-7e8fab065722"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[0,0,1]],"RGBColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[35]= ",ExpressionUUID -> "46c40204-96bd-4cf3-9ac9-a5e9c26e20f7"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[1,1,0]],"RGBColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[36]= ",ExpressionUUID -> "2cf8f779-c99c-492c-b0a4-1b5a8498018e"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[1,0.5`,0]],"RGBColorSwatchTemplate"],
+StandardForm],"Output",CellLabel -> "Out[37]= ",ExpressionUUID -> "33827c3d-6690-4c22-bc33-f010e7f6f5fe"]},
+Open],ExpressionUUID -> "d0cb579a-5c4a-4db4-9cc6-69e3f786ed30"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"RGBColor","[",RowBox[{"1",",","0.5",",","0"}],"]"}]],"Input",
+CellLabel -> "In[38]:= ",ExpressionUUID -> "9d5ec5a2-b00f-4f76-b02f-1801d762293e"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[1,0.5`,0]],"RGBColorSwatchTemplate"],
+StandardForm],"Output",CellLabel -> "Out[38]= ",ExpressionUUID -> "2060dcb5-e3e7-409c-954b-ba9491ed99ee"]},
+Open],ExpressionUUID -> "a6372005-fdc3-4192-a6e8-54ec5ee234d3"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Hue","[",RowBox[{"2","/","3"}],"]"}]],"Input",CellLabel -> "In[39]:= ",
+ExpressionUUID -> "e5cec8d4-add0-4c32-aafb-52e190350e96"],Cell[
+BoxData[TemplateBox[
+Association["color" -> Hue[Rational[2,3]]],"HueColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[39]= ",ExpressionUUID -> "832d173a-612d-48a8-9529-84ae385a3ff8"]},
+Open],ExpressionUUID -> "6ae39b6b-c118-40c7-9144-3f3b04a76868"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"RandomColor","[","]"}]],"Input",CellLabel -> "In[40]:= ",
+ExpressionUUID -> "b1674917-a4dc-4460-a871-081c57dafa5f"],Cell[
+BoxData[TemplateBox[
+Association["color" -> RGBColor[0.7149841108263448`,0.6127282413097395`,0.40161005855097187`]],
+"RGBColorSwatchTemplate"],StandardForm],"Output",CellLabel -> "Out[40]= ",ExpressionUUID -> "ff646cb3-5737-4ebe-a103-a5716751ca9a"]},
+Open],ExpressionUUID -> "35a9f2be-08dd-47d5-9bde-d9b82231bff5"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"ColorNegate","[","Red","]"}]],"Input",CellLabel -> "In[41]:= ",
+ExpressionUUID -> "76519316-42b8-4c59-9403-0c33151d7955"],Cell[
+BoxData[TemplateBox[
+Association["color" -> RGBColor[0.`,1.`,1.`]],"RGBColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[41]= ",ExpressionUUID -> "b80614b4-cca3-481c-b22f-936bbd0c5434"]},
+Open],ExpressionUUID -> "9e4d9f0f-8636-4b2e-b3a9-11d9df74dc7f"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Blend","[",RowBox[{"{",RowBox[{"Red",",","Blue"}],"}"}],"]"}]],
+"Input",CellLabel -> "In[42]:= ",ExpressionUUID -> "3d2c3547-9de3-43ad-aa30-fc55cff11636"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[Rational[1,2],0,Rational[1,2]]],"RGBColorSwatchTemplate"],
+StandardForm],"Output",CellLabel -> "Out[42]= ",ExpressionUUID -> "b0609f1e-34e4-456e-a4aa-dda0ec820366"]},
+Open],ExpressionUUID -> "7eac86b3-92b1-4904-9695-7a0335b6863c"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Style","[",RowBox[{"abc",",","Red"}],"]"}]],"Input",CellLabel -> "In[43]:= ",
+ExpressionUUID -> "3568ec3e-3220-4c3f-a730-7a6ec1e39055"],Cell[
+BoxData[StyleBox[
+"abc",RGBColor[1,0,0],StripOnInput -> False],StandardForm],"Output",CellLabel -> "Out[43]= ",
+ExpressionUUID -> "fe05c7b3-39a0-4911-98bd-2ec944a1cd93"]},Open],ExpressionUUID -> "aa4eda94-3c3c-4027-a6ca-0e80f03378d3"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Style","[",RowBox[{"abc",","," ","100"}],"]"}]],"Input",CellLabel -> "In[44]:= ",
+ExpressionUUID -> "9cfc681b-ca3d-4855-830f-5422d33e9d79"],Cell[
+BoxData[StyleBox[
+"abc",100,StripOnInput -> False],StandardForm],"Output",CellLabel -> "Out[44]= ",
+ExpressionUUID -> "7009d2bb-7d78-449f-b5bb-e1248e4a39c3"]},Open],ExpressionUUID -> "944d6d53-e745-4f1e-b374-4072258d79c5"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Style","[",RowBox[{"abc",",","100",",","Red"}],"]"}]],"Input",
+CellLabel -> "In[45]:= ",ExpressionUUID -> "31b2602f-a9a6-44f8-ae7c-1f4ee06eb311"],Cell[
+BoxData[
+StyleBox["abc",100,RGBColor[1,0,0],StripOnInput -> False],StandardForm],"Output",
+CellLabel -> "Out[45]= ",ExpressionUUID -> "9fa9debc-33cb-4194-9088-fdb459a66cc9"]},
+Open],ExpressionUUID -> "d1d2975d-876e-4f1a-958c-3e3082f197f0"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Table","[",RowBox[{RowBox[{"{",RowBox[{RowBox[{"Hue","[","n","]"}],","," ",RowBox[
+{"Style","[",RowBox[{"n",","," ",RowBox[{"Hue","[","n","]"}]}],"]"}]}],"}"}],","," ",RowBox[
+{"{",RowBox[{"n",",","0",",","1",",","0.1"}],"}"}]}],"]"}]],"Input",CellLabel -> "In[46]:= ",
+ExpressionUUID -> "0731204a-3d26-4074-ae23-b69d6b1551cc"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{RowBox[{"{",RowBox[{TemplateBox[Association["color" -> Hue[0.`]],"HueColorSwatchTemplate"],",",StyleBox[
+"0.`",Hue[0.`],StripOnInput -> False]}],"}"}],",",RowBox[{"{",RowBox[{TemplateBox[
+Association["color" -> Hue[0.1`]],"HueColorSwatchTemplate"],",",StyleBox["0.1`",Hue[
+0.1`],StripOnInput -> False]}],"}"}],",",RowBox[{"{",RowBox[{TemplateBox[Association[
+"color" -> Hue[0.2`]],"HueColorSwatchTemplate"],",",StyleBox["0.2`",Hue[0.2`],StripOnInput -> False]}],"}"}],",",RowBox[
+{"{",RowBox[{TemplateBox[Association["color" -> Hue[0.30000000000000004`]],"HueColorSwatchTemplate"],",",StyleBox[
+"0.30000000000000004`",Hue[0.30000000000000004`],StripOnInput -> False]}],"}"}],",",RowBox[
+{"{",RowBox[{TemplateBox[Association["color" -> Hue[0.4`]],"HueColorSwatchTemplate"],",",StyleBox[
+"0.4`",Hue[0.4`],StripOnInput -> False]}],"}"}],",",RowBox[{"{",RowBox[{TemplateBox[
+Association["color" -> Hue[0.5`]],"HueColorSwatchTemplate"],",",StyleBox["0.5`",Hue[
+0.5`],StripOnInput -> False]}],"}"}],",",RowBox[{"{",RowBox[{TemplateBox[Association[
+"color" -> Hue[0.6000000000000001`]],"HueColorSwatchTemplate"],",",StyleBox["0.6000000000000001`",
+Hue[0.6000000000000001`],StripOnInput -> False]}],"}"}],",",RowBox[{"{",RowBox[{TemplateBox[
+Association["color" -> Hue[0.7000000000000001`]],"HueColorSwatchTemplate"],",",StyleBox[
+"0.7000000000000001`",Hue[0.7000000000000001`],StripOnInput -> False]}],"}"}],",",RowBox[
+{"{",RowBox[{TemplateBox[Association["color" -> Hue[0.8`]],"HueColorSwatchTemplate"],",",StyleBox[
+"0.8`",Hue[0.8`],StripOnInput -> False]}],"}"}],",",RowBox[{"{",RowBox[{TemplateBox[
+Association["color" -> Hue[0.9`]],"HueColorSwatchTemplate"],",",StyleBox["0.9`",Hue[
+0.9`],StripOnInput -> False]}],"}"}],",",RowBox[{"{",RowBox[{TemplateBox[Association[
+"color" -> Hue[1.`]],"HueColorSwatchTemplate"],",",StyleBox["1.`",Hue[1.`],StripOnInput -> False]}],"}"}]}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[46]= ",ExpressionUUID -> "1222ba82-6f10-4880-a143-90b630abc670"]},
+Open],ExpressionUUID -> "a6ad469f-b3d1-4faa-b911-d2249984100d"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "13. for Wolfram Cloud 1.61.2 (November 30, 2021)"]
