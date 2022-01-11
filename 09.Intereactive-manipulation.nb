@@ -1,0 +1,867 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[RowBox[{"Manipulate","[",RowBox[{RowBox[
+{"Range","[","n","]"}],","," ",RowBox[{"{",RowBox[{"n",",","1",",","5",",","1"}],"}"}]}],"]"}]],
+"Input",CellLabel -> "In[74]:= ",ExpressionUUID -> "08b3b8a4-6a34-47fc-b436-decf685db73b"],Cell[
+BoxData[
+TagBox[StyleBox[DynamicModuleBox[{Set[n$$,1],Set[Typeset`show$$,True],Set[Typeset`bookmarkList$$,
+{}],Set[Typeset`bookmarkMode$$,"Menu"],Typeset`animator$$,Set[Typeset`animvar$$,1],Set[
+Typeset`name$$,"\"untitled\""],Set[Typeset`specs$$,{{Hold[n$$],1,5,1}}],Set[Typeset`size$$,
+Automatic],Set[Typeset`update$$,0],Set[Typeset`initDone$$,False],Set[Typeset`skipInitDone$$,
+True]},DynamicBox[Manipulate`ManipulateBoxes[1,StandardForm,RuleDelayed["Variables",
+{Set[n$$,1]}],RuleDelayed["ControllerVariables",{}],RuleDelayed["OtherVariables",
+{Typeset`show$$,Typeset`bookmarkList$$,Typeset`bookmarkMode$$,Typeset`animator$$,Typeset`animvar$$,Typeset`name$$,Typeset`specs$$,Typeset`size$$,Typeset`update$$,Typeset`initDone$$,Typeset`skipInitDone$$}],
+RuleDelayed["Body",Range[n$$]],RuleDelayed["Specifications",{{n$$,1,5,1}}],RuleDelayed[
+"Options",{}],RuleDelayed["DefaultOptions",{}]],SingleEvaluation -> True],RuleDelayed[
+DynamicModuleValues,{}],RuleDelayed[Deinitialization,None],RuleDelayed[UntrackedVariables,
+{Typeset`size$$}],SynchronousInitialization -> True,RuleDelayed[UnsavedVariables,
+{Typeset`initDone$$}],RuleDelayed[UndoTrackedVariables,{Typeset`show$$,Typeset`bookmarkMode$$}],
+ExpressionUUID -> "927af9a9-3f02-4c0c-a87e-781b445ffa9a"],"Manipulate",Deployed -> True,
+StripOnInput -> False],Manipulate`InterpretManipulate[1]],StandardForm],"Output",
+CellLabel -> "Out[74]= ",ExpressionUUID -> "4a8ea6ae-59f5-4e7b-b858-8081dec4a309"]},
+Open],ExpressionUUID -> "cd8e5162-ad7b-4dae-899f-6ff036a16b9a"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Table","[",RowBox[{RowBox[{"Range","[","n","]"}],","," ",RowBox[
+{"{",RowBox[{"n",",","1",",","5",",","1"}],"}"}]}],"]"}]],"Input",CellLabel -> "In[75]:= ",
+ExpressionUUID -> "8f10aa84-fa90-4fbb-a3fe-83a39882af15"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{RowBox[{"{","1","}"}],",",RowBox[{"{",RowBox[{"1",",","2"}],"}"}],",",RowBox[{"{",RowBox[
+{"1",",","2",",","3"}],"}"}],",",RowBox[{"{",RowBox[{"1",",","2",",","3",",","4"}],"}"}],",",RowBox[
+{"{",RowBox[{"1",",","2",",","3",",","4",",","5"}],"}"}]}],"}"}],StandardForm],"Output",
+CellLabel -> "Out[75]= ",ExpressionUUID -> "bf643976-5c34-42a7-a6a3-33654b9974a5"]},
+Open],ExpressionUUID -> "6d52b456-70f0-4a15-a4b7-2ff7989707ca"],Cell[
+TextData[{"pick",StyleBox[
+RowBox[{"!\:d560"," ","\:c218"," ","\:c788\:b2e4."}]]}],"Text",ExpressionUUID -> "d236f7e3-dfb0-42cc-8103-eaa41cc9bdcd"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Table","[",RowBox[{RowBox[{"Style","[",RowBox[{"\"ABC\"",",","50",",","c"}],"]"}],",",RowBox[
+{"{",RowBox[{",",RowBox[{"{",RowBox[{"Red",","," ","Green",","," ","Blue"}],"}"}]}],"}"}]}],"]"}]],
+"Input",CellLabel -> "In[76]:= ",ExpressionUUID -> "0f54cff2-541e-453a-aa4d-b2b11e817701"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{RowBox[{"Style","[",RowBox[{"\"ABC\"",",","50",",","c"}],"]"}],",",RowBox[
+{"Style","[",RowBox[{"\"ABC\"",",","50",",","c"}],"]"}],",",RowBox[{"Style","[",RowBox[
+{"\"ABC\"",",","50",",","c"}],"]"}]}],"}"}],StandardForm],"Output",CellLabel -> "Out[76]= ",
+ExpressionUUID -> "63368d64-afeb-43d6-b0e4-607fd16c3e48"]},Open],ExpressionUUID -> "fe5925cd-46a9-43b4-8835-d1ab92c4ba0e"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Manipulate","[",RowBox[{RowBox[{"Style","[",RowBox[{"\"ABC\"",","," ","50",","," ","c"}],"]"}],","," ",RowBox[
+{"{",RowBox[{"c",","," ",RowBox[{"{",RowBox[{"Red",","," ","Green",","," ","Blue"}],"}"}]}],"}"}]}],"]"}]],
+"Input",CellLabel -> "In[77]:= ",ExpressionUUID -> "cee36c7d-c3f8-4b9b-a90b-46a385a7319a"],Cell[
+BoxData[
+TagBox[StyleBox[DynamicModuleBox[{Set[c$$,RGBColor[1,0,0]],Set[Typeset`show$$,True],Set[
+Typeset`bookmarkList$$,{}],Set[Typeset`bookmarkMode$$,"Menu"],Typeset`animator$$,Set[
+Typeset`animvar$$,1],Set[Typeset`name$$,"\"untitled\""],Set[Typeset`specs$$,{{Hold[
+c$$],{RGBColor[1,0,0],RGBColor[0,1,0],RGBColor[0,0,1]}}}],Set[Typeset`size$$,Automatic],Set[
+Typeset`update$$,0],Set[Typeset`initDone$$,False],Set[Typeset`skipInitDone$$,True]},
+DynamicBox[Manipulate`ManipulateBoxes[1,StandardForm,RuleDelayed["Variables",{Set[
+c$$,RGBColor[1,0,0]]}],RuleDelayed["ControllerVariables",{}],RuleDelayed["OtherVariables",
+{Typeset`show$$,Typeset`bookmarkList$$,Typeset`bookmarkMode$$,Typeset`animator$$,Typeset`animvar$$,Typeset`name$$,Typeset`specs$$,Typeset`size$$,Typeset`update$$,Typeset`initDone$$,Typeset`skipInitDone$$}],
+RuleDelayed["Body",Style["ABC",50,c$$]],RuleDelayed["Specifications",{{c$$,{RGBColor[
+1,0,0],RGBColor[0,1,0],RGBColor[0,0,1]}}}],RuleDelayed["Options",{}],RuleDelayed[
+"DefaultOptions",{}]],SingleEvaluation -> True],RuleDelayed[DynamicModuleValues,{}],
+RuleDelayed[Deinitialization,None],RuleDelayed[UntrackedVariables,{Typeset`size$$}],
+SynchronousInitialization -> True,RuleDelayed[UnsavedVariables,{Typeset`initDone$$}],
+RuleDelayed[UndoTrackedVariables,{Typeset`show$$,Typeset`bookmarkMode$$}],ExpressionUUID -> "f1578a56-0aeb-446e-a3d3-92cc67385ef3"],
+"Manipulate",Deployed -> True,StripOnInput -> False],Manipulate`InterpretManipulate[
+1]],StandardForm],"Output",CellLabel -> "Out[77]= ",ExpressionUUID -> "5d290a2a-6862-4485-b4ad-877b0b047a43"]},
+Open],ExpressionUUID -> "cc7450e1-f826-4a9f-ba13-af85b8df3c5c"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Manipulate","[",RowBox[{RowBox[{"BarChart","[",RowBox[{"{",RowBox[
+{"x",",","6",",",RowBox[{"2","x"}],",","12",",",RowBox[{"3",RowBox[{"(",RowBox[{"7","-","x"}],")"}]}],","," ","18"}],"}"}],"]"}],",",RowBox[
+{"{",RowBox[{"x",",","1",",","6"}],"}"}]}],"]"}]],"Input",CellLabel -> "In[78]:= ",
+ExpressionUUID -> "6e3e299e-66b8-4277-967e-bc0889bc183e"],Cell[
+BoxData[TagBox[StyleBox[
+DynamicModuleBox[{Set[x$$,3.12`],Set[Typeset`show$$,True],Set[Typeset`bookmarkList$$,
+{}],Set[Typeset`bookmarkMode$$,"Menu"],Typeset`animator$$,Set[Typeset`animvar$$,1],Set[
+Typeset`name$$,"\"untitled\""],Set[Typeset`specs$$,{{Hold[x$$],1,6}}],Set[Typeset`size$$,
+Automatic],Set[Typeset`update$$,0],Set[Typeset`initDone$$,False],Set[Typeset`skipInitDone$$,
+True]},DynamicBox[Manipulate`ManipulateBoxes[1,StandardForm,RuleDelayed["Variables",
+{Set[x$$,1]}],RuleDelayed["ControllerVariables",{}],RuleDelayed["OtherVariables",
+{Typeset`show$$,Typeset`bookmarkList$$,Typeset`bookmarkMode$$,Typeset`animator$$,Typeset`animvar$$,Typeset`name$$,Typeset`specs$$,Typeset`size$$,Typeset`update$$,Typeset`initDone$$,Typeset`skipInitDone$$}],
+RuleDelayed["Body",BarChart[{x$$,6,Times[2,x$$],12,Times[3,Plus[7,Times[-1,x$$]]],18}]],
+RuleDelayed["Specifications",{{x$$,1,6}}],RuleDelayed["Options",{}],RuleDelayed["DefaultOptions",
+{}]],SingleEvaluation -> True],RuleDelayed[DynamicModuleValues,{}],RuleDelayed[Deinitialization,
+None],RuleDelayed[UntrackedVariables,{Typeset`size$$}],SynchronousInitialization -> True,
+RuleDelayed[UnsavedVariables,{Typeset`initDone$$}],RuleDelayed[UndoTrackedVariables,
+{Typeset`show$$,Typeset`bookmarkMode$$}],ExpressionUUID -> "c2d706f2-36cc-430d-9e18-d6b14ae946fe"],
+"Manipulate",Deployed -> True,StripOnInput -> False],Manipulate`InterpretManipulate[
+1]],StandardForm],"Output",CellLabel -> "Out[78]= ",ExpressionUUID -> "c9e63dfc-94a7-4f80-8125-276120e1768e"]},
+Open],ExpressionUUID -> "83d2dd33-8fe1-4059-a9b9-35007624579b"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Table","[",RowBox[{RowBox[{"BarChart","[",RowBox[{"{",RowBox[
+{"x",",","6",",",RowBox[{"2","x"}],",","12",",",RowBox[{"3",RowBox[{"(",RowBox[{"7","-","x"}],")"}]}],","," ","18"}],"}"}],"]"}],",",RowBox[
+{"{",RowBox[{"x",",","1",",","6"}],"}"}]}],"]"}]],"Input",CellLabel -> "In[79]:= ",
+ExpressionUUID -> "d6818883-afd3-4405-98eb-2b8ca2ba4844"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{GraphicsBox[{{Opacity[0],PointBox[{{0.43075018208302984`,0.`},{6.451201747997087`,0.`}}]},{{},{Directive[
+EdgeForm[Directive[Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,
+0.7431472`,0.3262672`]],{{Directive[EdgeForm[Directive[Thickness[Small],Opacity[0.6579999999999999`]]],
+RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[TooltipBox[TagBox[TagBox[DynamicBox[
+{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[{GrayLevel[0.5`],AbsoluteThickness[
+1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{0.5487982520029133`,0.`},{1.4512017479970867`,1.`},
+"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[StatusArea[Slot[1],1]],
+TagBoxNote -> "1"],StyleBox["1",{},StripOnInput -> False]],Function[Annotation[Slot[
+1],Style[1,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[Thickness[Small],Opacity[
+0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[TooltipBox[
+TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[{GrayLevel[
+0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{1.5487982520029133`,0.`},
+{2.4512017479970867`,6.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],6]],TagBoxNote -> "6"],StyleBox["6",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[6,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{2.5487982520029133`,0.`},
+{3.4512017479970867`,2.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],2]],TagBoxNote -> "2"],StyleBox["2",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[2,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{3.5487982520029133`,0.`},
+{4.451201747997087`,12.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],12]],TagBoxNote -> "12"],StyleBox["12",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[12,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{4.548798252002913`,0.`},
+{5.451201747997087`,18.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],18]],TagBoxNote -> "18"],StyleBox["18",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[18,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{5.548798252002913`,0.`},
+{6.451201747997087`,18.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],18]],TagBoxNote -> "18"],StyleBox["18",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[18,{}],"Tooltip"]]]}}},{},{}},{},{},{},{},{StyleBox[
+{Antialiasing -> False,{Directive[Thickness[Tiny]],{LineBox[{{0.43075018208302984`,0.`},{6.5716107793153675`,0.`}}]},StyleBox[
+{},{"GraphicsLabel"},StripOnInput -> False]},StyleBox[{{Directive[Thickness[Tiny]],LineBox[
+{{0.5487982520029133`,0.`},Offset[{-1.102182119232618`*^-15,-6.`},{0.5487982520029133`,0.`}]}],LineBox[
+{{6.451201747997087`,0.`},Offset[{-1.102182119232618`*^-15,-6.`},{6.451201747997087`,0.`}]}],{{},{},{},{},{},{},{},{}}},StyleBox[
+{},{"GraphicsLabel"},StripOnInput -> False]},{"GraphicsTicks"},StripOnInput -> False]},
+{"GraphicsAxes"},StripOnInput -> False]}},{DisplayFunction -> Identity,AspectRatio -> NCache[
+Power[GoldenRatio,-1],0.6180339887498948`],Axes -> {False,True},AxesLabel -> {None,None},AxesOrigin -> {0.43075018208302984`,0.`},CoordinatesToolOptions -> CompressedData[
+"1:eJxTTMoPSmNiYGAoZgESPpnFJQheUGlOajA/kOGSWVyQk1jpVpqXXJKZn5fGCFLBASTgIqgmwOU9U1LzSjJLKhHyAYlFUHkQLzgnvyQTxAMT5OgDKUBzsTCQ4ZxfkJmaEpaYU5o6WF0NAFk5TEk="],FrameLabel -> {{None,None},{None,None}},FrameTicks -> {{Automatic,Automatic},{Automatic,Automatic}},GridLines -> {None,None},GridLinesStyle -> Directive[
+GrayLevel[0.5`,0.4`]],PlotRange -> {{All,All},{All,All}},PlotRangePadding -> {{Scaled[
+0.02`],Scaled[0.02`]},{Scaled[0.02`],Scaled[0.05`]}},Ticks -> {None,Automatic}}],",",GraphicsBox[
+{{Opacity[0],PointBox[{{0.43075018208302984`,0.`},{6.451201747997087`,0.`}}]},{{},{Directive[
+EdgeForm[Directive[Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,
+0.7431472`,0.3262672`]],{{Directive[EdgeForm[Directive[Thickness[Small],Opacity[0.6579999999999999`]]],
+RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[TooltipBox[TagBox[TagBox[DynamicBox[
+{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[{GrayLevel[0.5`],AbsoluteThickness[
+1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{0.5487982520029133`,0.`},{1.4512017479970867`,2.`},
+"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[StatusArea[Slot[1],2]],
+TagBoxNote -> "2"],StyleBox["2",{},StripOnInput -> False]],Function[Annotation[Slot[
+1],Style[2,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[Thickness[Small],Opacity[
+0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[TooltipBox[
+TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[{GrayLevel[
+0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{1.5487982520029133`,0.`},
+{2.4512017479970867`,6.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],6]],TagBoxNote -> "6"],StyleBox["6",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[6,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{2.5487982520029133`,0.`},
+{3.4512017479970867`,4.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],4]],TagBoxNote -> "4"],StyleBox["4",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[4,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{3.5487982520029133`,0.`},
+{4.451201747997087`,12.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],12]],TagBoxNote -> "12"],StyleBox["12",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[12,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{4.548798252002913`,0.`},
+{5.451201747997087`,15.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],15]],TagBoxNote -> "15"],StyleBox["15",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[15,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{5.548798252002913`,0.`},
+{6.451201747997087`,18.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],18]],TagBoxNote -> "18"],StyleBox["18",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[18,{}],"Tooltip"]]]}}},{},{}},{},{},{},{},{StyleBox[
+{Antialiasing -> False,{Directive[Thickness[Tiny]],{LineBox[{{0.43075018208302984`,0.`},{6.5716107793153675`,0.`}}]},StyleBox[
+{},{"GraphicsLabel"},StripOnInput -> False]},StyleBox[{{Directive[Thickness[Tiny]],LineBox[
+{{0.5487982520029133`,0.`},Offset[{-1.102182119232618`*^-15,-6.`},{0.5487982520029133`,0.`}]}],LineBox[
+{{6.451201747997087`,0.`},Offset[{-1.102182119232618`*^-15,-6.`},{6.451201747997087`,0.`}]}],{{},{},{},{},{},{},{},{}}},StyleBox[
+{},{"GraphicsLabel"},StripOnInput -> False]},{"GraphicsTicks"},StripOnInput -> False]},
+{"GraphicsAxes"},StripOnInput -> False]}},{DisplayFunction -> Identity,AspectRatio -> NCache[
+Power[GoldenRatio,-1],0.6180339887498948`],Axes -> {False,True},AxesLabel -> {None,None},AxesOrigin -> {0.43075018208302984`,0.`},CoordinatesToolOptions -> CompressedData[
+"1:eJxTTMoPSmNiYGAoZgESPpnFJQheUGlOajA/kOGSWVyQk1jpVpqXXJKZn5fGCFLBASTgIqgmwOU9U1LzSjJLKhHyAYlFUHkQLzgnvyQTxAMT5OgDKUBzsTCQ4ZxfkJmaEpaYU5o6WF0NAFk5TEk="],FrameLabel -> {{None,None},{None,None}},FrameTicks -> {{Automatic,Automatic},{Automatic,Automatic}},GridLines -> {None,None},GridLinesStyle -> Directive[
+GrayLevel[0.5`,0.4`]],PlotRange -> {{All,All},{All,All}},PlotRangePadding -> {{Scaled[
+0.02`],Scaled[0.02`]},{Scaled[0.02`],Scaled[0.05`]}},Ticks -> {None,Automatic}}],",",GraphicsBox[
+{{Opacity[0],PointBox[{{0.43075018208302984`,0.`},{6.451201747997087`,0.`}}]},{{},{Directive[
+EdgeForm[Directive[Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,
+0.7431472`,0.3262672`]],{{Directive[EdgeForm[Directive[Thickness[Small],Opacity[0.6579999999999999`]]],
+RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[TooltipBox[TagBox[TagBox[DynamicBox[
+{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[{GrayLevel[0.5`],AbsoluteThickness[
+1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{0.5487982520029133`,0.`},{1.4512017479970867`,3.`},
+"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[StatusArea[Slot[1],3]],
+TagBoxNote -> "3"],StyleBox["3",{},StripOnInput -> False]],Function[Annotation[Slot[
+1],Style[3,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[Thickness[Small],Opacity[
+0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[TooltipBox[
+TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[{GrayLevel[
+0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{1.5487982520029133`,0.`},
+{2.4512017479970867`,6.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],6]],TagBoxNote -> "6"],StyleBox["6",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[6,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{2.5487982520029133`,0.`},
+{3.4512017479970867`,6.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],6]],TagBoxNote -> "6"],StyleBox["6",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[6,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{3.5487982520029133`,0.`},
+{4.451201747997087`,12.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],12]],TagBoxNote -> "12"],StyleBox["12",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[12,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{4.548798252002913`,0.`},
+{5.451201747997087`,12.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],12]],TagBoxNote -> "12"],StyleBox["12",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[12,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{5.548798252002913`,0.`},
+{6.451201747997087`,18.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],18]],TagBoxNote -> "18"],StyleBox["18",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[18,{}],"Tooltip"]]]}}},{},{}},{},{},{},{},{StyleBox[
+{Antialiasing -> False,{Directive[Thickness[Tiny]],{LineBox[{{0.43075018208302984`,0.`},{6.5716107793153675`,0.`}}]},StyleBox[
+{},{"GraphicsLabel"},StripOnInput -> False]},StyleBox[{{Directive[Thickness[Tiny]],LineBox[
+{{0.5487982520029133`,0.`},Offset[{-1.102182119232618`*^-15,-6.`},{0.5487982520029133`,0.`}]}],LineBox[
+{{6.451201747997087`,0.`},Offset[{-1.102182119232618`*^-15,-6.`},{6.451201747997087`,0.`}]}],{{},{},{},{},{},{},{},{}}},StyleBox[
+{},{"GraphicsLabel"},StripOnInput -> False]},{"GraphicsTicks"},StripOnInput -> False]},
+{"GraphicsAxes"},StripOnInput -> False]}},{DisplayFunction -> Identity,AspectRatio -> NCache[
+Power[GoldenRatio,-1],0.6180339887498948`],Axes -> {False,True},AxesLabel -> {None,None},AxesOrigin -> {0.43075018208302984`,0.`},CoordinatesToolOptions -> CompressedData[
+"1:eJxTTMoPSmNiYGAoZgESPpnFJQheUGlOajA/kOGSWVyQk1jpVpqXXJKZn5fGCFLBASTgIqgmwOU9U1LzSjJLKhHyAYlFUHkQLzgnvyQTxAMT5OgDKUBzsTCQ4ZxfkJmaEpaYU5o6WF0NAFk5TEk="],FrameLabel -> {{None,None},{None,None}},FrameTicks -> {{Automatic,Automatic},{Automatic,Automatic}},GridLines -> {None,None},GridLinesStyle -> Directive[
+GrayLevel[0.5`,0.4`]],PlotRange -> {{All,All},{All,All}},PlotRangePadding -> {{Scaled[
+0.02`],Scaled[0.02`]},{Scaled[0.02`],Scaled[0.05`]}},Ticks -> {None,Automatic}}],",",GraphicsBox[
+{{Opacity[0],PointBox[{{0.43075018208302984`,0.`},{6.451201747997087`,0.`}}]},{{},{Directive[
+EdgeForm[Directive[Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,
+0.7431472`,0.3262672`]],{{Directive[EdgeForm[Directive[Thickness[Small],Opacity[0.6579999999999999`]]],
+RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[TooltipBox[TagBox[TagBox[DynamicBox[
+{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[{GrayLevel[0.5`],AbsoluteThickness[
+1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{0.5487982520029133`,0.`},{1.4512017479970867`,4.`},
+"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[StatusArea[Slot[1],4]],
+TagBoxNote -> "4"],StyleBox["4",{},StripOnInput -> False]],Function[Annotation[Slot[
+1],Style[4,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[Thickness[Small],Opacity[
+0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[TooltipBox[
+TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[{GrayLevel[
+0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{1.5487982520029133`,0.`},
+{2.4512017479970867`,6.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],6]],TagBoxNote -> "6"],StyleBox["6",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[6,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{2.5487982520029133`,0.`},
+{3.4512017479970867`,8.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],8]],TagBoxNote -> "8"],StyleBox["8",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[8,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{3.5487982520029133`,0.`},
+{4.451201747997087`,12.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],12]],TagBoxNote -> "12"],StyleBox["12",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[12,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{4.548798252002913`,0.`},
+{5.451201747997087`,9.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],9]],TagBoxNote -> "9"],StyleBox["9",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[9,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{5.548798252002913`,0.`},
+{6.451201747997087`,18.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],18]],TagBoxNote -> "18"],StyleBox["18",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[18,{}],"Tooltip"]]]}}},{},{}},{},{},{},{},{StyleBox[
+{Antialiasing -> False,{Directive[Thickness[Tiny]],{LineBox[{{0.43075018208302984`,0.`},{6.5716107793153675`,0.`}}]},StyleBox[
+{},{"GraphicsLabel"},StripOnInput -> False]},StyleBox[{{Directive[Thickness[Tiny]],LineBox[
+{{0.5487982520029133`,0.`},Offset[{-1.102182119232618`*^-15,-6.`},{0.5487982520029133`,0.`}]}],LineBox[
+{{6.451201747997087`,0.`},Offset[{-1.102182119232618`*^-15,-6.`},{6.451201747997087`,0.`}]}],{{},{},{},{},{},{},{},{}}},StyleBox[
+{},{"GraphicsLabel"},StripOnInput -> False]},{"GraphicsTicks"},StripOnInput -> False]},
+{"GraphicsAxes"},StripOnInput -> False]}},{DisplayFunction -> Identity,AspectRatio -> NCache[
+Power[GoldenRatio,-1],0.6180339887498948`],Axes -> {False,True},AxesLabel -> {None,None},AxesOrigin -> {0.43075018208302984`,0.`},CoordinatesToolOptions -> CompressedData[
+"1:eJxTTMoPSmNiYGAoZgESPpnFJQheUGlOajA/kOGSWVyQk1jpVpqXXJKZn5fGCFLBASTgIqgmwOU9U1LzSjJLKhHyAYlFUHkQLzgnvyQTxAMT5OgDKUBzsTCQ4ZxfkJmaEpaYU5o6WF0NAFk5TEk="],FrameLabel -> {{None,None},{None,None}},FrameTicks -> {{Automatic,Automatic},{Automatic,Automatic}},GridLines -> {None,None},GridLinesStyle -> Directive[
+GrayLevel[0.5`,0.4`]],PlotRange -> {{All,All},{All,All}},PlotRangePadding -> {{Scaled[
+0.02`],Scaled[0.02`]},{Scaled[0.02`],Scaled[0.05`]}},Ticks -> {None,Automatic}}],",",GraphicsBox[
+{{Opacity[0],PointBox[{{0.43075018208302984`,0.`},{6.451201747997087`,0.`}}]},{{},{Directive[
+EdgeForm[Directive[Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,
+0.7431472`,0.3262672`]],{{Directive[EdgeForm[Directive[Thickness[Small],Opacity[0.6579999999999999`]]],
+RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[TooltipBox[TagBox[TagBox[DynamicBox[
+{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[{GrayLevel[0.5`],AbsoluteThickness[
+1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{0.5487982520029133`,0.`},{1.4512017479970867`,5.`},
+"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[StatusArea[Slot[1],5]],
+TagBoxNote -> "5"],StyleBox["5",{},StripOnInput -> False]],Function[Annotation[Slot[
+1],Style[5,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[Thickness[Small],Opacity[
+0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[TooltipBox[
+TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[{GrayLevel[
+0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{1.5487982520029133`,0.`},
+{2.4512017479970867`,6.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],6]],TagBoxNote -> "6"],StyleBox["6",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[6,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{2.5487982520029133`,0.`},
+{3.4512017479970867`,10.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],10]],TagBoxNote -> "10"],StyleBox["10",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[10,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{3.5487982520029133`,0.`},
+{4.451201747997087`,12.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],12]],TagBoxNote -> "12"],StyleBox["12",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[12,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{4.548798252002913`,0.`},
+{5.451201747997087`,6.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],6]],TagBoxNote -> "6"],StyleBox["6",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[6,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{5.548798252002913`,0.`},
+{6.451201747997087`,18.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],18]],TagBoxNote -> "18"],StyleBox["18",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[18,{}],"Tooltip"]]]}}},{},{}},{},{},{},{},{StyleBox[
+{Antialiasing -> False,{Directive[Thickness[Tiny]],{LineBox[{{0.43075018208302984`,0.`},{6.5716107793153675`,0.`}}]},StyleBox[
+{},{"GraphicsLabel"},StripOnInput -> False]},StyleBox[{{Directive[Thickness[Tiny]],LineBox[
+{{0.5487982520029133`,0.`},Offset[{-1.102182119232618`*^-15,-6.`},{0.5487982520029133`,0.`}]}],LineBox[
+{{6.451201747997087`,0.`},Offset[{-1.102182119232618`*^-15,-6.`},{6.451201747997087`,0.`}]}],{{},{},{},{},{},{},{},{}}},StyleBox[
+{},{"GraphicsLabel"},StripOnInput -> False]},{"GraphicsTicks"},StripOnInput -> False]},
+{"GraphicsAxes"},StripOnInput -> False]}},{DisplayFunction -> Identity,AspectRatio -> NCache[
+Power[GoldenRatio,-1],0.6180339887498948`],Axes -> {False,True},AxesLabel -> {None,None},AxesOrigin -> {0.43075018208302984`,0.`},CoordinatesToolOptions -> CompressedData[
+"1:eJxTTMoPSmNiYGAoZgESPpnFJQheUGlOajA/kOGSWVyQk1jpVpqXXJKZn5fGCFLBASTgIqgmwOU9U1LzSjJLKhHyAYlFUHkQLzgnvyQTxAMT5OgDKUBzsTCQ4ZxfkJmaEpaYU5o6WF0NAFk5TEk="],FrameLabel -> {{None,None},{None,None}},FrameTicks -> {{Automatic,Automatic},{Automatic,Automatic}},GridLines -> {None,None},GridLinesStyle -> Directive[
+GrayLevel[0.5`,0.4`]],PlotRange -> {{All,All},{All,All}},PlotRangePadding -> {{Scaled[
+0.02`],Scaled[0.02`]},{Scaled[0.02`],Scaled[0.05`]}},Ticks -> {None,Automatic}}],",",GraphicsBox[
+{{Opacity[0],PointBox[{{0.43075018208302984`,0.`},{6.451201747997087`,0.`}}]},{{},{Directive[
+EdgeForm[Directive[Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,
+0.7431472`,0.3262672`]],{{Directive[EdgeForm[Directive[Thickness[Small],Opacity[0.6579999999999999`]]],
+RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[TooltipBox[TagBox[TagBox[DynamicBox[
+{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[{GrayLevel[0.5`],AbsoluteThickness[
+1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{0.5487982520029133`,0.`},{1.4512017479970867`,6.`},
+"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[StatusArea[Slot[1],6]],
+TagBoxNote -> "6"],StyleBox["6",{},StripOnInput -> False]],Function[Annotation[Slot[
+1],Style[6,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[Thickness[Small],Opacity[
+0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[TooltipBox[
+TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[{GrayLevel[
+0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{1.5487982520029133`,0.`},
+{2.4512017479970867`,6.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],6]],TagBoxNote -> "6"],StyleBox["6",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[6,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{2.5487982520029133`,0.`},
+{3.4512017479970867`,12.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],12]],TagBoxNote -> "12"],StyleBox["12",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[12,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{3.5487982520029133`,0.`},
+{4.451201747997087`,12.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],12]],TagBoxNote -> "12"],StyleBox["12",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[12,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{4.548798252002913`,0.`},
+{5.451201747997087`,3.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],3]],TagBoxNote -> "3"],StyleBox["3",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[3,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{5.548798252002913`,0.`},
+{6.451201747997087`,18.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],18]],TagBoxNote -> "18"],StyleBox["18",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[18,{}],"Tooltip"]]]}}},{},{}},{},{},{},{},{StyleBox[
+{Antialiasing -> False,{Directive[Thickness[Tiny]],{LineBox[{{0.43075018208302984`,0.`},{6.5716107793153675`,0.`}}]},StyleBox[
+{},{"GraphicsLabel"},StripOnInput -> False]},StyleBox[{{Directive[Thickness[Tiny]],LineBox[
+{{0.5487982520029133`,0.`},Offset[{-1.102182119232618`*^-15,-6.`},{0.5487982520029133`,0.`}]}],LineBox[
+{{6.451201747997087`,0.`},Offset[{-1.102182119232618`*^-15,-6.`},{6.451201747997087`,0.`}]}],{{},{},{},{},{},{},{},{}}},StyleBox[
+{},{"GraphicsLabel"},StripOnInput -> False]},{"GraphicsTicks"},StripOnInput -> False]},
+{"GraphicsAxes"},StripOnInput -> False]}},{DisplayFunction -> Identity,AspectRatio -> NCache[
+Power[GoldenRatio,-1],0.6180339887498948`],Axes -> {False,True},AxesLabel -> {None,None},AxesOrigin -> {0.43075018208302984`,0.`},CoordinatesToolOptions -> CompressedData[
+"1:eJxTTMoPSmNiYGAoZgESPpnFJQheUGlOajA/kOGSWVyQk1jpVpqXXJKZn5fGCFLBASTgIqgmwOU9U1LzSjJLKhHyAYlFUHkQLzgnvyQTxAMT5OgDKUBzsTCQ4ZxfkJmaEpaYU5o6WF0NAFk5TEk="],FrameLabel -> {{None,None},{None,None}},FrameTicks -> {{Automatic,Automatic},{Automatic,Automatic}},GridLines -> {None,None},GridLinesStyle -> Directive[
+GrayLevel[0.5`,0.4`]],PlotRange -> {{All,All},{All,All}},PlotRangePadding -> {{Scaled[
+0.02`],Scaled[0.02`]},{Scaled[0.02`],Scaled[0.05`]}},Ticks -> {None,Automatic}}]}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[79]= ",ExpressionUUID -> "e51ef764-81ae-4dfa-adf9-c97ecb7fb5c5"]},
+Open],ExpressionUUID -> "fee8a249-e8b7-485b-a17b-454002cdf770"],Cell[
+BoxData[" "],
+"Input",ExpressionUUID -> "9ab8fdc6-03d1-47a1-8a32-3f34014104cd"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"BarChart","[",RowBox[{"{",RowBox[{"5.3",",","6",",",RowBox[
+{"2","*","5.3"}],",","12",",",RowBox[{"3",RowBox[{"(",RowBox[{"7","-","5.3"}],")"}]}],",","18"}],"}"}],"]"}]],
+"Input",CellLabel -> "In[80]:= ",ExpressionUUID -> "8721c268-ddb4-4211-959f-e56703b636c9"],Cell[
+BoxData[
+GraphicsBox[{{Opacity[0],PointBox[{{0.43075018208302984`,0.`},{6.451201747997087`,0.`}}]},{{},{Directive[
+EdgeForm[Directive[Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,
+0.7431472`,0.3262672`]],{{Directive[EdgeForm[Directive[Thickness[Small],Opacity[0.6579999999999999`]]],
+RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[TooltipBox[TagBox[TagBox[DynamicBox[
+{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[{GrayLevel[0.5`],AbsoluteThickness[
+1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{0.5487982520029133`,0.`},{1.4512017479970867`,5.3`},
+"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[StatusArea[Slot[1],5.3`]],
+TagBoxNote -> "5.3"],StyleBox["5.3`",{},StripOnInput -> False]],Function[Annotation[
+Slot[1],Style[5.3`,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[Thickness[Small],
+Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{1.5487982520029133`,0.`},
+{2.4512017479970867`,6.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],6]],TagBoxNote -> "6"],StyleBox["6",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[6,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{2.5487982520029133`,0.`},
+{3.4512017479970867`,10.6`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],10.6`]],TagBoxNote -> "10.6"],StyleBox["10.6`",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[10.6`,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{3.5487982520029133`,0.`},
+{4.451201747997087`,12.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],12]],TagBoxNote -> "12"],StyleBox["12",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[12,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{4.548798252002913`,0.`},
+{5.451201747997087`,5.1000000000000005`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],
+Function[StatusArea[Slot[1],5.1000000000000005`]],TagBoxNote -> "5.1000000000000005"],
+StyleBox["5.1000000000000005`",{},StripOnInput -> False]],Function[Annotation[Slot[
+1],Style[5.1000000000000005`,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[Thickness[
+Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{5.548798252002913`,0.`},
+{6.451201747997087`,18.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],18]],TagBoxNote -> "18"],StyleBox["18",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[18,{}],"Tooltip"]]]}}},{},{}},{},{},{},{},{StyleBox[
+{Antialiasing -> False,{Directive[Thickness[Tiny]],{LineBox[{{0.43075018208302984`,0.`},{6.5716107793153675`,0.`}}]},StyleBox[
+{},{"GraphicsLabel"},StripOnInput -> False]},StyleBox[{{Directive[Thickness[Tiny]],LineBox[
+{{0.5487982520029133`,0.`},Offset[{-1.102182119232618`*^-15,-6.`},{0.5487982520029133`,0.`}]}],LineBox[
+{{6.451201747997087`,0.`},Offset[{-1.102182119232618`*^-15,-6.`},{6.451201747997087`,0.`}]}],{{},{},{},{},{},{},{},{}}},StyleBox[
+{},{"GraphicsLabel"},StripOnInput -> False]},{"GraphicsTicks"},StripOnInput -> False]},
+{"GraphicsAxes"},StripOnInput -> False]}},{DisplayFunction -> Identity,AspectRatio -> NCache[
+Power[GoldenRatio,-1],0.6180339887498948`],Axes -> {False,True},AxesLabel -> {None,None},AxesOrigin -> {0.43075018208302984`,0.`},CoordinatesToolOptions -> CompressedData[
+"1:eJxTTMoPSmNiYGAoZgESPpnFJQheUGlOajA/kOGSWVyQk1jpVpqXXJKZn5fGCFLBASTgIqgmwOU9U1LzSjJLKhHyAYlFUHkQLzgnvyQTxAMT5OgDKUBzsTCQ4ZxfkJmaEpaYU5o6WF0NAFk5TEk="],FrameLabel -> {{None,None},{None,None}},FrameTicks -> {{Automatic,Automatic},{Automatic,Automatic}},GridLines -> {None,None},GridLinesStyle -> Directive[
+GrayLevel[0.5`,0.4`]],PlotRange -> {{All,All},{All,All}},PlotRangePadding -> {{Scaled[
+0.02`],Scaled[0.02`]},{Scaled[0.02`],Scaled[0.05`]}},Ticks -> {None,Automatic}}],
+StandardForm],"Output",CellLabel -> "Out[80]= ",ExpressionUUID -> "62a02443-6270-4294-90de-29b6a9ae0787"]},
+Open],ExpressionUUID -> "55aa40a0-8895-4f32-a4e8-a798c7a4d4fd"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Manipulate","[",RowBox[{RowBox[{"BarChart","[",RowBox[{"{",RowBox[
+{"x",",","6",",",RowBox[{"2","*","x"}],",","12",",",RowBox[{"3",RowBox[{"(",RowBox[
+{"7","-","x"}],")"}]}],",","18"}],"}"}],"]"}],",",RowBox[{"{",RowBox[{"x",",","1",",","6"}],"}"}]}],"]"}]],
+"Input",CellLabel -> "In[81]:= ",ExpressionUUID -> "dd8fecc7-8ed3-484c-b532-d02db4fb325c"],Cell[
+BoxData[
+TagBox[StyleBox[DynamicModuleBox[{Set[x$$,1.9`],Set[Typeset`show$$,True],Set[Typeset`bookmarkList$$,
+{}],Set[Typeset`bookmarkMode$$,"Menu"],Typeset`animator$$,Set[Typeset`animvar$$,1],Set[
+Typeset`name$$,"\"untitled\""],Set[Typeset`specs$$,{{Hold[x$$],1,6}}],Set[Typeset`size$$,
+Automatic],Set[Typeset`update$$,0],Set[Typeset`initDone$$,False],Set[Typeset`skipInitDone$$,
+True]},DynamicBox[Manipulate`ManipulateBoxes[1,StandardForm,RuleDelayed["Variables",
+{Set[x$$,1]}],RuleDelayed["ControllerVariables",{}],RuleDelayed["OtherVariables",
+{Typeset`show$$,Typeset`bookmarkList$$,Typeset`bookmarkMode$$,Typeset`animator$$,Typeset`animvar$$,Typeset`name$$,Typeset`specs$$,Typeset`size$$,Typeset`update$$,Typeset`initDone$$,Typeset`skipInitDone$$}],
+RuleDelayed["Body",BarChart[{x$$,6,Times[2,x$$],12,Times[3,Plus[7,Times[-1,x$$]]],18}]],
+RuleDelayed["Specifications",{{x$$,1,6}}],RuleDelayed["Options",{}],RuleDelayed["DefaultOptions",
+{}]],SingleEvaluation -> True],RuleDelayed[DynamicModuleValues,{}],RuleDelayed[Deinitialization,
+None],RuleDelayed[UntrackedVariables,{Typeset`size$$}],SynchronousInitialization -> True,
+RuleDelayed[UnsavedVariables,{Typeset`initDone$$}],RuleDelayed[UndoTrackedVariables,
+{Typeset`show$$,Typeset`bookmarkMode$$}],ExpressionUUID -> "1c8a8f48-bf6f-4b76-aac8-8adf2a647a49"],
+"Manipulate",Deployed -> True,StripOnInput -> False],Manipulate`InterpretManipulate[
+1]],StandardForm],"Output",CellLabel -> "Out[81]= ",ExpressionUUID -> "2e1caaa8-cb64-43b3-9223-f7dbc2b85cb2"]},
+Open],ExpressionUUID -> "125bb509-9b4e-434b-b1ee-287a6864e822"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"BarChart","[",RowBox[{"{",RowBox[{"5.3",",","6",",",RowBox[
+{"2","*","5.3"}],",","12",",",RowBox[{"3",RowBox[{"(",RowBox[{"7","-","5.3"}],")"}]}],",","18"}],"}"}],"]"}]],
+"Input",CellLabel -> "In[1]:= ",ExpressionUUID -> "c09174bd-8c15-45e3-817a-6cf1a9f36b59"],Cell[
+BoxData[
+GraphicsBox[{{Opacity[0],PointBox[{{0.43075018208302984`,0.`},{6.451201747997087`,0.`}}]},{{},{Directive[
+EdgeForm[Directive[Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,
+0.7431472`,0.3262672`]],{{Directive[EdgeForm[Directive[Thickness[Small],Opacity[0.6579999999999999`]]],
+RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[TooltipBox[TagBox[TagBox[DynamicBox[
+{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[{GrayLevel[0.5`],AbsoluteThickness[
+1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{0.5487982520029133`,0.`},{1.4512017479970867`,5.3`},
+"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[StatusArea[Slot[1],5.3`]],
+TagBoxNote -> "5.3"],StyleBox["5.3`",{},StripOnInput -> False]],Function[Annotation[
+Slot[1],Style[5.3`,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[Thickness[Small],
+Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{1.5487982520029133`,0.`},
+{2.4512017479970867`,6.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],6]],TagBoxNote -> "6"],StyleBox["6",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[6,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{2.5487982520029133`,0.`},
+{3.4512017479970867`,10.6`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],10.6`]],TagBoxNote -> "10.6"],StyleBox["10.6`",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[10.6`,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{3.5487982520029133`,0.`},
+{4.451201747997087`,12.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],12]],TagBoxNote -> "12"],StyleBox["12",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[12,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[
+Thickness[Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{4.548798252002913`,0.`},
+{5.451201747997087`,5.1000000000000005`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],
+Function[StatusArea[Slot[1],5.1000000000000005`]],TagBoxNote -> "5.1000000000000005"],
+StyleBox["5.1000000000000005`",{},StripOnInput -> False]],Function[Annotation[Slot[
+1],Style[5.1000000000000005`,{}],"Tooltip"]]]},{Directive[EdgeForm[Directive[Thickness[
+Small],Opacity[0.6579999999999999`]]],RGBColor[0.982864`,0.7431472`,0.3262672`]],TagBox[
+TooltipBox[TagBox[TagBox[DynamicBox[{FEPrivate`If[CurrentValue["MouseOver"],EdgeForm[
+{GrayLevel[0.5`],AbsoluteThickness[1.5`],Opacity[0.66`]}],{},{}],RectangleBox[{5.548798252002913`,0.`},
+{6.451201747997087`,18.`},"RoundingRadius" -> 0]}],"DelayedMouseEffectStyle"],Function[
+StatusArea[Slot[1],18]],TagBoxNote -> "18"],StyleBox["18",{},StripOnInput -> False]],
+Function[Annotation[Slot[1],Style[18,{}],"Tooltip"]]]}}},{},{}},{},{},{},{},{StyleBox[
+{Antialiasing -> False,{Directive[Thickness[Tiny]],{LineBox[{{0.43075018208302984`,0.`},{6.5716107793153675`,0.`}}]},StyleBox[
+{},{"GraphicsLabel"},StripOnInput -> False]},StyleBox[{{Directive[Thickness[Tiny]],LineBox[
+{{0.5487982520029133`,0.`},Offset[{-1.102182119232618`*^-15,-6.`},{0.5487982520029133`,0.`}]}],LineBox[
+{{6.451201747997087`,0.`},Offset[{-1.102182119232618`*^-15,-6.`},{6.451201747997087`,0.`}]}],{{},{},{},{},{},{},{},{}}},StyleBox[
+{},{"GraphicsLabel"},StripOnInput -> False]},{"GraphicsTicks"},StripOnInput -> False]},
+{"GraphicsAxes"},StripOnInput -> False]}},{DisplayFunction -> Identity,AspectRatio -> NCache[
+Power[GoldenRatio,-1],0.6180339887498948`],Axes -> {False,True},AxesLabel -> {None,None},AxesOrigin -> {0.43075018208302984`,0.`},CoordinatesToolOptions -> CompressedData[
+"1:eJxTTMoPSmNiYGAoZgESPpnFJQheUGlOajA/kOGSWVyQk1jpVpqXXJKZn5fGCFLBASTgIqgmwOU9U1LzSjJLKhHyAYlFUHkQLzgnvyQTxAMT5OgDKUBzsTCQ4ZxfkJmaEpaYU5o6WF0NAFk5TEk="],FrameLabel -> {{None,None},{None,None}},FrameTicks -> {{Automatic,Automatic},{Automatic,Automatic}},GridLines -> {None,None},GridLinesStyle -> Directive[
+GrayLevel[0.5`,0.4`]],PlotRange -> {{All,All},{All,All}},PlotRangePadding -> {{Scaled[
+0.02`],Scaled[0.02`]},{Scaled[0.02`],Scaled[0.05`]}},Ticks -> {None,Automatic}}],
+StandardForm],"Output",CellLabel -> "Out[1]= ",ExpressionUUID -> "6f7d8b0b-2354-4749-add2-b32ccd625b11"]},
+Open],ExpressionUUID -> "2f7f4d5e-f027-476f-ad58-412a86e65229"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Manipulate","[",RowBox[{RowBox[{"BarChart","[",RowBox[{"{",RowBox[
+{"5.3",",","6",",",RowBox[{"2","*","5.3"}],",","12",",",RowBox[{"3",RowBox[{"(",RowBox[
+{"7","-","5.3"}],")"}]}]}],"}"}],"]"}],",",RowBox[{"{",RowBox[{"x",",","1",",","6"}],"}"}]}],"]"}]],
+"Input",CellLabel -> "In[2]:= ",ExpressionUUID -> "c2603d47-6a7b-4c95-ad14-19bf65ec860b"],Cell[
+BoxData[
+TagBox[StyleBox[DynamicModuleBox[{Set[x$$,1],Set[Typeset`show$$,True],Set[Typeset`bookmarkList$$,
+{}],Set[Typeset`bookmarkMode$$,"Menu"],Typeset`animator$$,Set[Typeset`animvar$$,1],Set[
+Typeset`name$$,"\"untitled\""],Set[Typeset`specs$$,{{Hold[x$$],1,6}}],Set[Typeset`size$$,
+Automatic],Set[Typeset`update$$,0],Set[Typeset`initDone$$,False],Set[Typeset`skipInitDone$$,
+True]},DynamicBox[Manipulate`ManipulateBoxes[1,StandardForm,RuleDelayed["Variables",
+{Set[x$$,1]}],RuleDelayed["ControllerVariables",{}],RuleDelayed["OtherVariables",
+{Typeset`show$$,Typeset`bookmarkList$$,Typeset`bookmarkMode$$,Typeset`animator$$,Typeset`animvar$$,Typeset`name$$,Typeset`specs$$,Typeset`size$$,Typeset`update$$,Typeset`initDone$$,Typeset`skipInitDone$$}],
+RuleDelayed["Body",BarChart[{5.3`,6,Times[2,5.3`],12,Times[3,Plus[7,-5.3`]]}]],RuleDelayed[
+"Specifications",{{x$$,1,6}}],RuleDelayed["Options",{}],RuleDelayed["DefaultOptions",
+{}]],SingleEvaluation -> True],RuleDelayed[DynamicModuleValues,{}],RuleDelayed[Deinitialization,
+None],RuleDelayed[UntrackedVariables,{Typeset`size$$}],SynchronousInitialization -> True,
+RuleDelayed[UnsavedVariables,{Typeset`initDone$$}],RuleDelayed[UndoTrackedVariables,
+{Typeset`show$$,Typeset`bookmarkMode$$}],ExpressionUUID -> "8f46e5b7-1877-4524-b330-d1102ea33517"],
+"Manipulate",Deployed -> True,StripOnInput -> False],Manipulate`InterpretManipulate[
+1]],StandardForm],"Output",CellLabel -> "Out[2]= ",ExpressionUUID -> "b35bbb9b-92ad-48fa-9a00-36a26d9becbf"]},
+Open],ExpressionUUID -> "5c70c46e-3633-48c1-898c-5989021dad70"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Manipulate","[",RowBox[{RowBox[{"Graphics","[",RowBox[{"Style","[",RowBox[
+{RowBox[{"RegularPolygon","[","n","]"}],",",RowBox[{"Hue","[","h","]"}]}],"]"}],"]"}],",",RowBox[
+{"{",RowBox[{"n",",","5",",","20",",","1"}],"}"}],",",RowBox[{"{",RowBox[{"h",",","0",",","1"}],"}"}]}],"]"}]],
+"Input",CellLabel -> "In[3]:= ",ExpressionUUID -> "05039b70-c926-4fba-b341-29aaea8ed66d"],Cell[
+BoxData[
+TagBox[StyleBox[DynamicModuleBox[{Set[h$$,0.`],Set[n$$,9],Set[Typeset`show$$,True],Set[
+Typeset`bookmarkList$$,{}],Set[Typeset`bookmarkMode$$,"Menu"],Typeset`animator$$,Set[
+Typeset`animvar$$,1],Set[Typeset`name$$,"\"untitled\""],Set[Typeset`specs$$,{{Hold[
+n$$],5,20,1},{Hold[h$$],0,1}}],Set[Typeset`size$$,Automatic],Set[Typeset`update$$,
+0],Set[Typeset`initDone$$,False],Set[Typeset`skipInitDone$$,True]},DynamicBox[Manipulate`ManipulateBoxes[
+1,StandardForm,RuleDelayed["Variables",{Set[h$$,0],Set[n$$,5]}],RuleDelayed["ControllerVariables",
+{}],RuleDelayed["OtherVariables",{Typeset`show$$,Typeset`bookmarkList$$,Typeset`bookmarkMode$$,Typeset`animator$$,Typeset`animvar$$,Typeset`name$$,Typeset`specs$$,Typeset`size$$,Typeset`update$$,Typeset`initDone$$,Typeset`skipInitDone$$}],
+RuleDelayed["Body",Graphics[Style[RegularPolygon[n$$],Hue[h$$]]]],RuleDelayed["Specifications",
+{{n$$,5,20,1},{h$$,0,1}}],RuleDelayed["Options",{}],RuleDelayed["DefaultOptions",
+{}]],SingleEvaluation -> True],RuleDelayed[DynamicModuleValues,{}],RuleDelayed[Deinitialization,
+None],RuleDelayed[UntrackedVariables,{Typeset`size$$}],SynchronousInitialization -> True,
+RuleDelayed[UnsavedVariables,{Typeset`initDone$$}],RuleDelayed[UndoTrackedVariables,
+{Typeset`show$$,Typeset`bookmarkMode$$}],ExpressionUUID -> "a43f1f0d-9823-473f-9bdb-f682ee5c6865"],
+"Manipulate",Deployed -> True,StripOnInput -> False],Manipulate`InterpretManipulate[
+1]],StandardForm],"Output",CellLabel -> "Out[3]= ",ExpressionUUID -> "ce414ccf-96c5-4d96-b22d-9ec896a6c96c"]},
+Open],ExpressionUUID -> "cde9a9c9-90dd-4e30-b2b0-0e1bf07bc264"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Manipulate","[",RowBox[{RowBox[{"Graphics","[",RowBox[{"Style","[",RowBox[
+{RowBox[{"RegularPolygon","[","n","]"}],",","c"}],"]"}],"]"}],",",RowBox[{"{",RowBox[
+{"n",",","5",",","20",",","1"}],"}"}],",",RowBox[{"{",RowBox[{"c",",",RowBox[{"{",RowBox[
+{"Red",","," ","Yellow",","," ","Green",","," ","Blue",","," ","Black"}],"}"}]}],"}"}]}],"]"}]],
+"Input",CellLabel -> "In[4]:= ",ExpressionUUID -> "cb1fcb29-77bf-431e-bd1f-5fb2a6be6b90"],Cell[
+BoxData[
+TagBox[StyleBox[DynamicModuleBox[{Set[c$$,GrayLevel[0]],Set[n$$,5],Set[Typeset`show$$,
+True],Set[Typeset`bookmarkList$$,{}],Set[Typeset`bookmarkMode$$,"Menu"],Typeset`animator$$,Set[
+Typeset`animvar$$,1],Set[Typeset`name$$,"\"untitled\""],Set[Typeset`specs$$,{{Hold[
+n$$],5,20,1},{Hold[c$$],{RGBColor[1,0,0],RGBColor[1,1,0],RGBColor[0,1,0],RGBColor[
+0,0,1],GrayLevel[0]}}}],Set[Typeset`size$$,Automatic],Set[Typeset`update$$,0],Set[
+Typeset`initDone$$,False],Set[Typeset`skipInitDone$$,True]},DynamicBox[Manipulate`ManipulateBoxes[
+1,StandardForm,RuleDelayed["Variables",{Set[c$$,RGBColor[1,0,0]],Set[n$$,5]}],RuleDelayed[
+"ControllerVariables",{}],RuleDelayed["OtherVariables",{Typeset`show$$,Typeset`bookmarkList$$,Typeset`bookmarkMode$$,Typeset`animator$$,Typeset`animvar$$,Typeset`name$$,Typeset`specs$$,Typeset`size$$,Typeset`update$$,Typeset`initDone$$,Typeset`skipInitDone$$}],
+RuleDelayed["Body",Graphics[Style[RegularPolygon[n$$],c$$]]],RuleDelayed["Specifications",
+{{n$$,5,20,1},{c$$,{RGBColor[1,0,0],RGBColor[1,1,0],RGBColor[0,1,0],RGBColor[0,0,
+1],GrayLevel[0]}}}],RuleDelayed["Options",{}],RuleDelayed["DefaultOptions",{}]],SingleEvaluation -> True],
+RuleDelayed[DynamicModuleValues,{}],RuleDelayed[Deinitialization,None],RuleDelayed[
+UntrackedVariables,{Typeset`size$$}],SynchronousInitialization -> True,RuleDelayed[
+UnsavedVariables,{Typeset`initDone$$}],RuleDelayed[UndoTrackedVariables,{Typeset`show$$,Typeset`bookmarkMode$$}],
+ExpressionUUID -> "7d6e9fd9-1545-4a2c-93b1-73c1b44782bf"],"Manipulate",Deployed -> True,
+StripOnInput -> False],Manipulate`InterpretManipulate[1]],StandardForm],"Output",
+CellLabel -> "Out[4]= ",ExpressionUUID -> "d82bf1e2-3b20-4d75-8617-1ce8022415c8"]},
+Open],ExpressionUUID -> "23806899-97c9-413d-abb5-13babd196aa0"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Manipulate","[",RowBox[{RowBox[{"Graphics","[",RowBox[{"Style","[",RowBox[
+{RowBox[{"RegularPolygon","[","n","]"}],",","c"}],"]"}],"]"}],",",RowBox[{"{",RowBox[
+{"n",",","5",",","20",",","1"}],"}"}],",",RowBox[{"{",RowBox[{"c",",","ColorSetter"}],"}"}]}],"]"}]],
+"Input",CellLabel -> "In[5]:= ",ExpressionUUID -> "4d444336-27be-4869-9dcc-5cf7817901e6"],Cell[
+BoxData[
+TagBox[StyleBox[DynamicModuleBox[{Set[c$$,RGBColor[0.7411764705882353`,0.9647058823529412`,
+0.5058823529411764`]],Set[n$$,5],Set[Typeset`show$$,True],Set[Typeset`bookmarkList$$,
+{}],Set[Typeset`bookmarkMode$$,"Menu"],Typeset`animator$$,Set[Typeset`animvar$$,1],Set[
+Typeset`name$$,"\"untitled\""],Set[Typeset`specs$$,{{Hold[n$$],5,20,1},{Hold[c$$],GrayLevel[
+0.5`]}}],Set[Typeset`size$$,Automatic],Set[Typeset`update$$,0],Set[Typeset`initDone$$,
+False],Set[Typeset`skipInitDone$$,True]},DynamicBox[Manipulate`ManipulateBoxes[1,
+StandardForm,RuleDelayed["Variables",{Set[c$$,GrayLevel[0.5`]],Set[n$$,5]}],RuleDelayed[
+"ControllerVariables",{}],RuleDelayed["OtherVariables",{Typeset`show$$,Typeset`bookmarkList$$,Typeset`bookmarkMode$$,Typeset`animator$$,Typeset`animvar$$,Typeset`name$$,Typeset`specs$$,Typeset`size$$,Typeset`update$$,Typeset`initDone$$,Typeset`skipInitDone$$}],
+RuleDelayed["Body",Graphics[Style[RegularPolygon[n$$],c$$]]],RuleDelayed["Specifications",
+{{n$$,5,20,1},{c$$,Gray,ControlType -> ColorSetter}}],RuleDelayed["Options",{}],RuleDelayed[
+"DefaultOptions",{}]],SingleEvaluation -> True],RuleDelayed[DynamicModuleValues,{}],
+RuleDelayed[Deinitialization,None],RuleDelayed[UntrackedVariables,{Typeset`size$$}],
+SynchronousInitialization -> True,RuleDelayed[UnsavedVariables,{Typeset`initDone$$}],
+RuleDelayed[UndoTrackedVariables,{Typeset`show$$,Typeset`bookmarkMode$$}],ExpressionUUID -> "88b98db5-a647-4238-821f-7b033e349b25"],
+"Manipulate",Deployed -> True,StripOnInput -> False],Manipulate`InterpretManipulate[
+1]],StandardForm],"Output",CellLabel -> "Out[5]= ",ExpressionUUID -> "6b0ffc0c-706d-4f65-a527-62850dcce44f"]},
+Open],ExpressionUUID -> "311f409c-ddd9-49c5-a21d-d9689926c504"],Cell[
+"\<Vocabulary\>",
+"Text",ExpressionUUID -> "217fcf76-37a3-4552-88d4-5670823b23cd"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"?","Manipulate"}]],"Input",CellLabel -> "In[9]:= ",ExpressionUUID -> "b50bdfc1-99ff-4bb6-b6a6-320c8e9a2421"],Cell[
+BoxData[
+InterpretationBox[StyleBox[FrameBox[DynamicModuleBox[{Set[System`InformationDump`open$$,
+False],Set[System`InformationDump`mouseOver$$,False]},PaneSelectorBox[{True -> TagBox[
+GridBox[{{ItemBox[PaneBox[StyleBox["\" Symbol\"","InformationTitleText",BaseStyle -> None,
+StripOnInput -> False],FrameMargins -> {{4,0},{-1,1}}],BaseStyle -> "InformationTitleBackground",
+StripOnInput -> False],ItemBox["\"\"",BaseStyle -> "InformationTitleBackground",StripOnInput -> False]},{ItemBox[
+PaneBox[StyleBox["\"\\!\\(\\*RowBox[{\\\"Manipulate\\\", \\\"[\\\", RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"u\\\", \\\"TI\\\"], \\\",\\\", SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"max\\\", \\\"TI\\\"]]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) generates a version of \\!\\(\\*StyleBox[\\\"expr\\\", \\\"TI\\\"]\\) with controls added to allow interactive manipulation of the value of \\!\\(\\*StyleBox[\\\"u\\\", \\\"TI\\\"]\\). \\n\\!\\(\\*RowBox[{\\\"Manipulate\\\", \\\"[\\\", RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"u\\\", \\\"TI\\\"], \\\",\\\", SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"max\\\", \\\"TI\\\"]], \\\",\\\", StyleBox[\\\"du\\\", \\\"TI\\\"]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) allows the value of \\!\\(\\*StyleBox[\\\"u\\\", \\\"TI\\\"]\\) to vary between \\!\\(\\*SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \\\"TI\\\"]]\\) and \\!\\(\\*SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"max\\\", \\\"TI\\\"]]\\) in steps \\!\\(\\*StyleBox[\\\"du\\\", \\\"TI\\\"]\\). \\n\\!\\(\\*RowBox[{\\\"Manipulate\\\", \\\"[\\\", RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"u\\\", \\\"TI\\\"], \\\",\\\", SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"init\\\", \\\"TI\\\"]]}], \\\"}\\\"}], \\\",\\\", SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"max\\\", \\\"TI\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) takes the initial value of \\!\\(\\*StyleBox[\\\"u\\\", \\\"TI\\\"]\\) to be \\!\\(\\*SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"init\\\", \\\"TI\\\"]]\\). \\n\\!\\(\\*RowBox[{\\\"Manipulate\\\", \\\"[\\\", RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"u\\\", \\\"TI\\\"], \\\",\\\", SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"init\\\", \\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"lbl\\\", \\\"TI\\\"]]}], \\\"}\\\"}], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) labels the controls for \\!\\(\\*StyleBox[\\\"u\\\", \\\"TI\\\"]\\) with \\!\\(\\*SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"lbl\\\", \\\"TI\\\"]]\\). \\n\\!\\(\\*RowBox[{\\\"Manipulate\\\", \\\"[\\\", RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"u\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\"}]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) allows \\!\\(\\*StyleBox[\\\"u\\\", \\\"TI\\\"]\\) to take on discrete values \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}]\\). \\n\\!\\(\\*RowBox[{\\\"Manipulate\\\", \\\"[\\\", RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"u\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"v\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\"}], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"]\\\"}]\\) provides controls to manipulate each of the \\!\\(\\*RowBox[{StyleBox[\\\"u\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"v\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}]\\). \\n\\!\\(\\*RowBox[{\\\"Manipulate\\\", \\\"[\\\", RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{SubscriptBox[StyleBox[\\\"c\\\", \\\"TI\\\"], StyleBox[\\\"u\\\", \\\"TI\\\"]], \\\"\[Rule]\\\", RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"u\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\"}]}], \\\",\\\", RowBox[{SubscriptBox[StyleBox[\\\"c\\\", \\\"TI\\\"], StyleBox[\\\"v\\\", \\\"TI\\\"]], \\\"\[Rule]\\\", RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"v\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\"}]}], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"]\\\"}]\\) links the controls to the specified controllers on an external device.\"",
+"InformationUsageText",LineSpacing -> {1.5`,1.5`,3.`},StripOnInput -> False],FrameMargins -> {{10,10},{8,10}}],
+BaseStyle -> "InformationUsageSubtitleBackground",StripOnInput -> False],ItemBox[
+"\"\"",BaseStyle -> "InformationUsageSubtitleBackground",StripOnInput -> False]},{PaneBox[
+GridBox[{{DynamicModuleBox[{Set[System`InformationDump`open$$,{False,False,False,False,False,False}]},
+StyleBox[GridBox[{{PaneSelectorBox[{True -> ButtonBox[PaneSelectorBox[{False -> TemplateBox[
+{"\[ThickSpace]","\"\[ThickSpace]\"",StyleBox["\"Options\"","InformationRowLabel",
+StripOnInput -> False],DynamicBox[FEPrivate`FrontEndResource["FEBitmaps","DownPointerOpener"]]},
+"RowWithSeparators"],True -> TemplateBox[{"\[ThickSpace]","\"\[ThickSpace]\"",StyleBox[
+"\"Options\"","InformationRowLabel",StripOnInput -> False],DynamicBox[FEPrivate`FrontEndResource[
+"FEBitmaps","DownPointerOpenerHot"]]},"RowWithSeparators"]},Dynamic[CurrentValue[
+"MouseOver"]],ImageSize -> Automatic,FrameMargins -> 0],RuleDelayed[ButtonFunction,
+Set[Part[System`InformationDump`open$$,3],False]],Appearance -> None,FrameMargins -> 0,
+ImageMargins -> 0,BaseStyle -> None,Evaluator -> Automatic,Method -> "Preemptive"],False -> ButtonBox[
+PaneSelectorBox[{False -> TemplateBox[{"\[ThickSpace]","\"\[ThickSpace]\"",StyleBox[
+"\"Options\"","InformationRowLabel",StripOnInput -> False],DynamicBox[FEPrivate`FrontEndResource[
+"FEBitmaps","RightPointerOpener"]]},"RowWithSeparators"],True -> TemplateBox[{"\[ThickSpace]","\"\[ThickSpace]\"",StyleBox[
+"\"Options\"","InformationRowLabel",StripOnInput -> False],DynamicBox[FEPrivate`FrontEndResource[
+"FEBitmaps","RightPointerOpenerHot"]]},"RowWithSeparators"]},Dynamic[CurrentValue[
+"MouseOver"]],ImageSize -> Automatic,FrameMargins -> 0],RuleDelayed[ButtonFunction,
+Set[Part[System`InformationDump`open$$,3],True]],Appearance -> None,FrameMargins -> 0,
+ImageMargins -> 0,BaseStyle -> None,Evaluator -> Automatic,Method -> "Preemptive"]},
+Dynamic[FEPrivate`Part[System`InformationDump`open$$,3]]],PaneSelectorBox[{True -> GridBox[
+{{RowBox[{"Alignment","\[Rule]","Automatic"}]},{RowBox[{"AppearanceElements","\[Rule]","Automatic"}]},{RowBox[
+{"AutoAction","\[Rule]","False"}]},{RowBox[{"AutorunSequencing","\[Rule]","Automatic"}]},{RowBox[
+{"BaselinePosition","\[Rule]","Automatic"}]},{RowBox[{"BaseStyle","\[Rule]",RowBox[
+{"{","}"}]}]},{RowBox[{"Bookmarks","\[Rule]",RowBox[{"{","}"}]}]},{RowBox[{"ContentSize","\[Rule]","Automatic"}]},{RowBox[
+{"ContinuousAction","\[Rule]","Automatic"}]},{RowBox[{"ControlAlignment","\[Rule]","Automatic"}]},{RowBox[
+{"ControllerLinking","\[Rule]","Automatic"}]},{RowBox[{"ControllerMethod","\[Rule]","None"}]},{RowBox[
+{"ControllerPath","\[Rule]","Automatic"}]},{RowBox[{"ControlPlacement","\[Rule]","Automatic"}]},{RowBox[
+{"ControlType","\[Rule]","Automatic"}]},{RowBox[{"DefaultBaseStyle","\[Rule]","\"Manipulate\""}]},{RowBox[
+{"DefaultLabelStyle","\[Rule]","\"ManipulateLabel\""}]},{RowBox[{"Deinitialization","\[RuleDelayed]","None"}]},{RowBox[
+{"Deployed","\[Rule]","False"}]},{RowBox[{"Evaluator","\[Rule]","Automatic"}]},{RowBox[
+{"ExcludedContexts","\[Rule]","Automatic"}]},{RowBox[{"Frame","\[Rule]","False"}]},{RowBox[
+{"FrameLabel","\[Rule]","None"}]},{RowBox[{"FrameMargins","\[Rule]","Automatic"}]},{RowBox[
+{"ImageMargins","\[Rule]","0"}]},{RowBox[{"IncludedContexts","\[Rule]","All"}]},{RowBox[
+{"Initialization","\[RuleDelayed]","None"}]},{RowBox[{"InterpolationOrder","\[Rule]","Automatic"}]},{RowBox[
+{"LabelStyle","\[Rule]",RowBox[{"{","}"}]}]},{RowBox[{"LocalizeVariables","\[Rule]","True"}]},{RowBox[
+{"Method","\[Rule]",RowBox[{"{","}"}]}]},{RowBox[{"Paneled","\[Rule]","True"}]},{RowBox[
+{"PreserveImageOptions","\[Rule]","True"}]},{RowBox[{"RotateLabel","\[Rule]","False"}]},{RowBox[
+{"SaveDefinitions","\[Rule]","False"}]},{RowBox[{"ShrinkingDelay","\[Rule]","0"}]},{RowBox[
+{"SynchronousInitialization","\[Rule]","True"}]},{RowBox[{"SynchronousUpdating","\[Rule]","Automatic"}]},{RowBox[
+{"TouchscreenAutoZoom","\[Rule]","False"}]},{RowBox[{"TouchscreenControlPlacement","\[Rule]","Automatic"}]},{RowBox[
+{"TrackedSymbols","\[Rule]","Full"}]},{RowBox[{"UndoTrackedVariables","\[RuleDelayed]","None"}]},{RowBox[
+{"UnsavedVariables","\[RuleDelayed]","None"}]},{RowBox[{"UntrackedVariables","\[RuleDelayed]","None"}]},{StyleBox[
+TemplateBox[{"\"(\"","\"\[InvisibleSpace]\"","44","\" total)\""},"RowDefault"],"InformationRowOpener",
+StripOnInput -> False]}},GridBoxAlignment -> {"Columns" -> {{Left}}},BaselinePosition -> {Baseline,{1,1}},
+DefaultBaseStyle -> "Column",GridBoxItemSize -> {"Columns" -> {{Automatic}},"Rows" -> {{Automatic}}},
+ColumnWidths -> Automatic],False -> RowBox[{RowBox[{"Alignment","\[Rule]","Automatic"}],"\[ThinSpace]",StyleBox[
+"\"\[Ellipsis]\"","InformationRowOpener",StripOnInput -> False],"\[ThinSpace]",StyleBox[
+TemplateBox[{"\"(\"","\"\[InvisibleSpace]\"","44","\" total)\""},"RowDefault"],"InformationRowOpener",
+StripOnInput -> False]}]},Dynamic[FEPrivate`Part[System`InformationDump`open$$,3]],
+BaselinePosition -> Baseline,ImageSize -> Automatic]},{TagBox[TooltipBox[StyleBox[
+"\" Attributes\"","InformationRowLabel",StripOnInput -> False],"\"Attributes\"",LabelStyle -> "TextStyling"],
+Function[Annotation[Slot[1],"Attributes","Tooltip"]]],RowBox[{"{",RowBox[{"HoldAll",",","Protected",",","ReadProtected"}],"}"}]},{TagBox[
+TooltipBox[StyleBox["\" Full Name\"","InformationRowLabel",StripOnInput -> False],
+"\"FullName\"",LabelStyle -> "TextStyling"],Function[Annotation[Slot[1],"FullName",
+"Tooltip"]]],"\"System`Manipulate\""}},AutoDelete -> False,GridBoxItemSize -> {"Columns" -> {Automatic,Automatic}},
+GridBoxAlignment -> {"Columns" -> {Right,Left}},RowSpacings -> 2,GridBoxDividers -> None],
+"DialogStyle",StripOnInput -> False],RuleDelayed[DynamicModuleValues,{}]]}},GridBoxAlignment -> {"Columns" -> {{Left}}},
+DefaultBaseStyle -> "Column",GridBoxDividers -> {"Columns" -> {{False}},"Rows" -> {{False}}},
+GridBoxItemSize -> {"Columns" -> {{Automatic}},"Rows" -> {{Automatic}}},RowSpacings -> 9],
+FrameMargins -> {{6,6},{6,3}}],""},{ItemBox[TagBox[ButtonBox[PaneSelectorBox[{False -> DynamicBox[
+FEPrivate`FrontEndResource["FEBitmaps","UpPointerOpener"]],True -> DynamicBox[FEPrivate`FrontEndResource[
+"FEBitmaps","UpPointerOpenerHot"]]},Dynamic[System`InformationDump`mouseOver$$]],
+RuleDelayed[ButtonFunction,FEPrivate`Set[System`InformationDump`open$$,False]],Alignment -> Left,
+ImageSize -> Full,FrameMargins -> {{9,0},{0,0}},ImageMargins -> 0,Appearance -> {"Default" -> None},
+Evaluator -> Automatic,Method -> "Preemptive"],EventHandlerTag[{RuleDelayed["MouseEntered",
+FEPrivate`Set[System`InformationDump`mouseOver$$,True]],RuleDelayed["MouseExited",
+FEPrivate`Set[System`InformationDump`mouseOver$$,False]],Method -> "Preemptive",PassEventsDown -> Automatic,PassEventsUp -> True}]],
+BaseStyle -> "InformationTitleBackground",StripOnInput -> False],"\[SpanFromLeft]"}},
+GridBoxAlignment -> {"Columns" -> {Left,Right},"Rows" -> {{Center}}},AutoDelete -> False,
+GridBoxDividers -> {"Columns" -> {{None}},"Rows" -> {False,{True},False}},GridBoxItemSize -> {"Columns" -> {{Automatic}},"Rows" -> {{Automatic}}},
+FrameStyle -> Directive[GrayLevel[0.8`],Thickness[Tiny]]],"Grid"],False -> TagBox[
+GridBox[{{ItemBox[PaneBox[StyleBox["\" Symbol\"","InformationTitleText",StripOnInput -> False],
+FrameMargins -> {{4,0},{-1,1}}],BaseStyle -> "InformationTitleBackground",StripOnInput -> False],ItemBox[
+"\"\"",BaseStyle -> "InformationTitleBackground",StripOnInput -> False]},{ItemBox[
+PaneBox[StyleBox["\"\\!\\(\\*RowBox[{\\\"Manipulate\\\", \\\"[\\\", RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"u\\\", \\\"TI\\\"], \\\",\\\", SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"max\\\", \\\"TI\\\"]]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) generates a version of \\!\\(\\*StyleBox[\\\"expr\\\", \\\"TI\\\"]\\) with controls added to allow interactive manipulation of the value of \\!\\(\\*StyleBox[\\\"u\\\", \\\"TI\\\"]\\). \\n\\!\\(\\*RowBox[{\\\"Manipulate\\\", \\\"[\\\", RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"u\\\", \\\"TI\\\"], \\\",\\\", SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"max\\\", \\\"TI\\\"]], \\\",\\\", StyleBox[\\\"du\\\", \\\"TI\\\"]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) allows the value of \\!\\(\\*StyleBox[\\\"u\\\", \\\"TI\\\"]\\) to vary between \\!\\(\\*SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \\\"TI\\\"]]\\) and \\!\\(\\*SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"max\\\", \\\"TI\\\"]]\\) in steps \\!\\(\\*StyleBox[\\\"du\\\", \\\"TI\\\"]\\). \\n\\!\\(\\*RowBox[{\\\"Manipulate\\\", \\\"[\\\", RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"u\\\", \\\"TI\\\"], \\\",\\\", SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"init\\\", \\\"TI\\\"]]}], \\\"}\\\"}], \\\",\\\", SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"max\\\", \\\"TI\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) takes the initial value of \\!\\(\\*StyleBox[\\\"u\\\", \\\"TI\\\"]\\) to be \\!\\(\\*SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"init\\\", \\\"TI\\\"]]\\). \\n\\!\\(\\*RowBox[{\\\"Manipulate\\\", \\\"[\\\", RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"u\\\", \\\"TI\\\"], \\\",\\\", SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"init\\\", \\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"lbl\\\", \\\"TI\\\"]]}], \\\"}\\\"}], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) labels the controls for \\!\\(\\*StyleBox[\\\"u\\\", \\\"TI\\\"]\\) with \\!\\(\\*SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"lbl\\\", \\\"TI\\\"]]\\). \\n\\!\\(\\*RowBox[{\\\"Manipulate\\\", \\\"[\\\", RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"u\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\"}]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) allows \\!\\(\\*StyleBox[\\\"u\\\", \\\"TI\\\"]\\) to take on discrete values \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}]\\). \\n\\!\\(\\*RowBox[{\\\"Manipulate\\\", \\\"[\\\", RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"u\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"v\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\"}], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"]\\\"}]\\) provides controls to manipulate each of the \\!\\(\\*RowBox[{StyleBox[\\\"u\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"v\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}]\\). \\n\\!\\(\\*RowBox[{\\\"Manipulate\\\", \\\"[\\\", RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{SubscriptBox[StyleBox[\\\"c\\\", \\\"TI\\\"], StyleBox[\\\"u\\\", \\\"TI\\\"]], \\\"\[Rule]\\\", RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"u\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\"}]}], \\\",\\\", RowBox[{SubscriptBox[StyleBox[\\\"c\\\", \\\"TI\\\"], StyleBox[\\\"v\\\", \\\"TI\\\"]], \\\"\[Rule]\\\", RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"v\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\"}]}], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"]\\\"}]\\) links the controls to the specified controllers on an external device.\"",
+"InformationUsageText",LineSpacing -> {1.5`,1.5`,3.`},StripOnInput -> False],FrameMargins -> {{10,10},{8,10}}],
+BaseStyle -> "InformationUsageSubtitleBackground",StripOnInput -> False],ItemBox[
+"\"\"",BaseStyle -> "InformationUsageSubtitleBackground",StripOnInput -> False]},{ItemBox[
+TagBox[ButtonBox[PaneSelectorBox[{False -> DynamicBox[FEPrivate`FrontEndResource[
+"FEBitmaps","DownPointerOpener"]],True -> DynamicBox[FEPrivate`FrontEndResource["FEBitmaps",
+"DownPointerOpenerHot"]]},Dynamic[System`InformationDump`mouseOver$$]],RuleDelayed[
+ButtonFunction,FEPrivate`Set[System`InformationDump`open$$,True]],Alignment -> Left,
+ImageSize -> Full,FrameMargins -> {{9,0},{0,0}},ImageMargins -> 0,Appearance -> {"Default" -> None},
+Evaluator -> Automatic,Method -> "Preemptive"],EventHandlerTag[{RuleDelayed["MouseEntered",
+FEPrivate`Set[System`InformationDump`mouseOver$$,True]],RuleDelayed["MouseExited",
+FEPrivate`Set[System`InformationDump`mouseOver$$,False]],Method -> "Preemptive",PassEventsDown -> Automatic,PassEventsUp -> True}]],
+BaseStyle -> "InformationTitleBackground",StripOnInput -> False],"\[SpanFromLeft]"}},
+GridBoxAlignment -> {"Columns" -> {Left,Right},"Rows" -> {{Center}}},AutoDelete -> False,
+GridBoxDividers -> {"Columns" -> {{None}},"Rows" -> {False,{True},False}},GridBoxItemSize -> {"Columns" -> {{Automatic}},"Rows" -> {{Automatic}}},
+FrameStyle -> Directive[GrayLevel[0.8`],Thickness[Tiny]]],"Grid"]},Dynamic[System`InformationDump`open$$],
+ImageSize -> Automatic,FrameMargins -> 0,BaselinePosition -> Baseline],RuleDelayed[
+DynamicModuleValues,{}],ExpressionUUID -> "eb1e2643-6bf6-47bc-b8bd-bb355ca4cb1f"],
+BaseStyle -> "InformationGridFrame",StripOnInput -> False],"InformationGridPlain",
+StripOnInput -> False],InformationData[Association["ObjectType" -> "Symbol","Usage" -> "\!\(\*RowBox[{\"Manipulate\", \"[\", RowBox[{StyleBox[\"expr\", \"TI\"], \",\", RowBox[{\"{\", RowBox[{StyleBox[\"u\", \"TI\"], \",\", SubscriptBox[StyleBox[\"u\", \"TI\"], StyleBox[\"min\", \"TI\"]], \",\", SubscriptBox[StyleBox[\"u\", \"TI\"], StyleBox[\"max\", \"TI\"]]}], \"}\"}]}], \"]\"}]\) generates a version of \!\(\*StyleBox[\"expr\", \"TI\"]\) with controls added to allow interactive manipulation of the value of \!\(\*StyleBox[\"u\", \"TI\"]\). \n\!\(\*RowBox[{\"Manipulate\", \"[\", RowBox[{StyleBox[\"expr\", \"TI\"], \",\", RowBox[{\"{\", RowBox[{StyleBox[\"u\", \"TI\"], \",\", SubscriptBox[StyleBox[\"u\", \"TI\"], StyleBox[\"min\", \"TI\"]], \",\", SubscriptBox[StyleBox[\"u\", \"TI\"], StyleBox[\"max\", \"TI\"]], \",\", StyleBox[\"du\", \"TI\"]}], \"}\"}]}], \"]\"}]\) allows the value of \!\(\*StyleBox[\"u\", \"TI\"]\) to vary between \!\(\*SubscriptBox[StyleBox[\"u\", \"TI\"], StyleBox[\"min\", \"TI\"]]\) and \!\(\*SubscriptBox[StyleBox[\"u\", \"TI\"], StyleBox[\"max\", \"TI\"]]\) in steps \!\(\*StyleBox[\"du\", \"TI\"]\). \n\!\(\*RowBox[{\"Manipulate\", \"[\", RowBox[{StyleBox[\"expr\", \"TI\"], \",\", RowBox[{\"{\", RowBox[{RowBox[{\"{\", RowBox[{StyleBox[\"u\", \"TI\"], \",\", SubscriptBox[StyleBox[\"u\", \"TI\"], StyleBox[\"init\", \"TI\"]]}], \"}\"}], \",\", SubscriptBox[StyleBox[\"u\", \"TI\"], StyleBox[\"min\", \"TI\"]], \",\", SubscriptBox[StyleBox[\"u\", \"TI\"], StyleBox[\"max\", \"TI\"]], \",\", StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"}\"}]}], \"]\"}]\) takes the initial value of \!\(\*StyleBox[\"u\", \"TI\"]\) to be \!\(\*SubscriptBox[StyleBox[\"u\", \"TI\"], StyleBox[\"init\", \"TI\"]]\). \n\!\(\*RowBox[{\"Manipulate\", \"[\", RowBox[{StyleBox[\"expr\", \"TI\"], \",\", RowBox[{\"{\", RowBox[{RowBox[{\"{\", RowBox[{StyleBox[\"u\", \"TI\"], \",\", SubscriptBox[StyleBox[\"u\", \"TI\"], StyleBox[\"init\", \"TI\"]], \",\", SubscriptBox[StyleBox[\"u\", \"TI\"], StyleBox[\"lbl\", \"TI\"]]}], \"}\"}], \",\", StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"}\"}]}], \"]\"}]\) labels the controls for \!\(\*StyleBox[\"u\", \"TI\"]\) with \!\(\*SubscriptBox[StyleBox[\"u\", \"TI\"], StyleBox[\"lbl\", \"TI\"]]\). \n\!\(\*RowBox[{\"Manipulate\", \"[\", RowBox[{StyleBox[\"expr\", \"TI\"], \",\", RowBox[{\"{\", RowBox[{StyleBox[\"u\", \"TI\"], \",\", RowBox[{\"{\", RowBox[{SubscriptBox[StyleBox[\"u\", \"TI\"], StyleBox[\"1\", \"TR\"]], \",\", SubscriptBox[StyleBox[\"u\", \"TI\"], StyleBox[\"2\", \"TR\"]], \",\", StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"}\"}]}], \"}\"}]}], \"]\"}]\) allows \!\(\*StyleBox[\"u\", \"TI\"]\) to take on discrete values \!\(\*RowBox[{SubscriptBox[StyleBox[\"u\", \"TI\"], StyleBox[\"1\", \"TR\"]], \",\", SubscriptBox[StyleBox[\"u\", \"TI\"], StyleBox[\"2\", \"TR\"]], \",\", StyleBox[\"\[Ellipsis]\", \"TR\"]}]\). \n\!\(\*RowBox[{\"Manipulate\", \"[\", RowBox[{StyleBox[\"expr\", \"TI\"], \",\", RowBox[{\"{\", RowBox[{StyleBox[\"u\", \"TI\"], \",\", StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"}\"}], \",\", RowBox[{\"{\", RowBox[{StyleBox[\"v\", \"TI\"], \",\", StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"}\"}], \",\", StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"]\"}]\) provides controls to manipulate each of the \!\(\*RowBox[{StyleBox[\"u\", \"TI\"], \",\", StyleBox[\"v\", \"TI\"], \",\", StyleBox[\"\[Ellipsis]\", \"TR\"]}]\). \n\!\(\*RowBox[{\"Manipulate\", \"[\", RowBox[{StyleBox[\"expr\", \"TI\"], \",\", RowBox[{SubscriptBox[StyleBox[\"c\", \"TI\"], StyleBox[\"u\", \"TI\"]], \"\[Rule]\", RowBox[{\"{\", RowBox[{StyleBox[\"u\", \"TI\"], \",\", StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"}\"}]}], \",\", RowBox[{SubscriptBox[StyleBox[\"c\", \"TI\"], StyleBox[\"v\", \"TI\"]], \"\[Rule]\", RowBox[{\"{\", RowBox[{StyleBox[\"v\", \"TI\"], \",\", StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"}\"}]}], \",\", StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"]\"}]\) links the controls to the specified controllers on an external device.",
+"Documentation" -> None,"OwnValues" -> None,"UpValues" -> None,"DownValues" -> None,
+"SubValues" -> None,"DefaultValues" -> None,"NValues" -> None,"FormatValues" -> None,
+"Options" -> {Alignment -> Automatic,AppearanceElements -> Automatic,AutoAction -> False,AutorunSequencing -> Automatic,BaselinePosition -> Automatic,BaseStyle -> {},Bookmarks -> {},ContentSize -> Automatic,ContinuousAction -> Automatic,ControlAlignment -> Automatic,ControllerLinking -> Automatic,ControllerMethod -> None,ControllerPath -> Automatic,ControlPlacement -> Automatic,ControlType -> Automatic,DefaultBaseStyle -> "Manipulate",DefaultLabelStyle -> "ManipulateLabel",RuleDelayed[
+Deinitialization,None],Deployed -> False,Evaluator -> Automatic,ExcludedContexts -> Automatic,Frame -> False,FrameLabel -> None,FrameMargins -> Automatic,ImageMargins -> 0,IncludedContexts -> All,RuleDelayed[
+Initialization,None],InterpolationOrder -> Automatic,LabelStyle -> {},LocalizeVariables -> True,Method -> {},Paneled -> True,PreserveImageOptions -> True,RotateLabel -> False,SaveDefinitions -> False,ShrinkingDelay -> 0,SynchronousInitialization -> True,SynchronousUpdating -> Automatic,TouchscreenAutoZoom -> False,TouchscreenControlPlacement -> Automatic,TrackedSymbols -> Full,RuleDelayed[
+UndoTrackedVariables,None],RuleDelayed[UnsavedVariables,None],RuleDelayed[UntrackedVariables,
+None]},"Attributes" -> {HoldAll,Protected,ReadProtected},"FullName" -> "System`Manipulate"],
+False]],StandardForm],"Output",CellLabel -> "Out[9]= ",ExpressionUUID -> "7d704f5d-f6e1-467b-98fa-b37e18a0c6d9"]},
+Open],ExpressionUUID -> "98828496-b14b-48f0-936d-2960c973197a"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Manipulate","[",RowBox[{"anything",","," ",RowBox[{"{",RowBox[
+{"n",",","0",",","10",",","1"}],"}"}]}],"]"}]],"Input",CellLabel -> "In[10]:= ",ExpressionUUID -> "9769d593-2c5a-4e1b-ae17-0317f23f9cca"],Cell[
+BoxData[
+TagBox[StyleBox[DynamicModuleBox[{Set[n$$,0],Set[Typeset`show$$,True],Set[Typeset`bookmarkList$$,
+{}],Set[Typeset`bookmarkMode$$,"Menu"],Typeset`animator$$,Set[Typeset`animvar$$,1],Set[
+Typeset`name$$,"\"untitled\""],Set[Typeset`specs$$,{{Hold[n$$],0,10,1}}],Set[Typeset`size$$,
+Automatic],Set[Typeset`update$$,0],Set[Typeset`initDone$$,False],Set[Typeset`skipInitDone$$,
+True]},DynamicBox[Manipulate`ManipulateBoxes[1,StandardForm,RuleDelayed["Variables",
+{Set[n$$,0]}],RuleDelayed["ControllerVariables",{}],RuleDelayed["OtherVariables",
+{Typeset`show$$,Typeset`bookmarkList$$,Typeset`bookmarkMode$$,Typeset`animator$$,Typeset`animvar$$,Typeset`name$$,Typeset`specs$$,Typeset`size$$,Typeset`update$$,Typeset`initDone$$,Typeset`skipInitDone$$}],
+RuleDelayed["Body",anything],RuleDelayed["Specifications",{{n$$,0,10,1}}],RuleDelayed[
+"Options",{}],RuleDelayed["DefaultOptions",{}]],SingleEvaluation -> True],RuleDelayed[
+DynamicModuleValues,{}],RuleDelayed[Deinitialization,None],RuleDelayed[UntrackedVariables,
+{Typeset`size$$}],SynchronousInitialization -> True,RuleDelayed[UnsavedVariables,
+{Typeset`initDone$$}],RuleDelayed[UndoTrackedVariables,{Typeset`show$$,Typeset`bookmarkMode$$}],
+ExpressionUUID -> "e3f76119-1cdf-4d8d-ab0f-6d73f3365f29"],"Manipulate",Deployed -> True,
+StripOnInput -> False],Manipulate`InterpretManipulate[1]],StandardForm],"Output",
+CellLabel -> "Out[10]= ",ExpressionUUID -> "c36c8410-c52c-497c-90dd-3ed2b665022f"]},
+Open],ExpressionUUID -> "dd246f4e-6cf9-4548-af19-23ec2efc9af4"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Manipulate","[",RowBox[{"anything",","," ",RowBox[{"{",RowBox[
+{"x",",","0",","," ","10"}],"}"}]}],"]"}]],"Input",CellLabel -> "In[11]:= ",ExpressionUUID -> "524d9358-6df7-4f3d-b79c-68a1b1586a45"],Cell[
+BoxData[
+TagBox[StyleBox[DynamicModuleBox[{Set[x$$,0],Set[Typeset`show$$,True],Set[Typeset`bookmarkList$$,
+{}],Set[Typeset`bookmarkMode$$,"Menu"],Typeset`animator$$,Set[Typeset`animvar$$,1],Set[
+Typeset`name$$,"\"untitled\""],Set[Typeset`specs$$,{{Hold[x$$],0,10}}],Set[Typeset`size$$,
+Automatic],Set[Typeset`update$$,0],Set[Typeset`initDone$$,False],Set[Typeset`skipInitDone$$,
+True]},DynamicBox[Manipulate`ManipulateBoxes[1,StandardForm,RuleDelayed["Variables",
+{Set[x$$,0]}],RuleDelayed["ControllerVariables",{}],RuleDelayed["OtherVariables",
+{Typeset`show$$,Typeset`bookmarkList$$,Typeset`bookmarkMode$$,Typeset`animator$$,Typeset`animvar$$,Typeset`name$$,Typeset`specs$$,Typeset`size$$,Typeset`update$$,Typeset`initDone$$,Typeset`skipInitDone$$}],
+RuleDelayed["Body",anything],RuleDelayed["Specifications",{{x$$,0,10}}],RuleDelayed[
+"Options",{}],RuleDelayed["DefaultOptions",{}]],SingleEvaluation -> True],RuleDelayed[
+DynamicModuleValues,{}],RuleDelayed[Deinitialization,None],RuleDelayed[UntrackedVariables,
+{Typeset`size$$}],SynchronousInitialization -> True,RuleDelayed[UnsavedVariables,
+{Typeset`initDone$$}],RuleDelayed[UndoTrackedVariables,{Typeset`show$$,Typeset`bookmarkMode$$}],
+ExpressionUUID -> "b3aa8c0e-8b4b-4a51-9433-fa07c02687d2"],"Manipulate",Deployed -> True,
+StripOnInput -> False],Manipulate`InterpretManipulate[1]],StandardForm],"Output",
+CellLabel -> "Out[11]= ",ExpressionUUID -> "ecec2278-2c22-4649-b0e5-79db267a2dc3"]},
+Open],ExpressionUUID -> "3c2a13c0-91d7-4b8d-97d0-eb1f83a62e33"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Manipulate","[",RowBox[{"anything",","," ",RowBox[{"{",RowBox[
+{"c",",",RowBox[{"{",RowBox[{"Red",","," ","Yellow",","," ","Blue"}],"}"}]}],"}"}]}],"]"}]],
+"Input",CellLabel -> "In[12]:= ",ExpressionUUID -> "c5bdbb85-61b4-4ee3-8ffb-b31dea07d460"],Cell[
+BoxData[
+TagBox[StyleBox[DynamicModuleBox[{Set[c$$,RGBColor[1,1,0]],Set[Typeset`show$$,True],Set[
+Typeset`bookmarkList$$,{}],Set[Typeset`bookmarkMode$$,"Menu"],Typeset`animator$$,Set[
+Typeset`animvar$$,1],Set[Typeset`name$$,"\"untitled\""],Set[Typeset`specs$$,{{Hold[
+c$$],{RGBColor[1,0,0],RGBColor[1,1,0],RGBColor[0,0,1]}}}],Set[Typeset`size$$,Automatic],Set[
+Typeset`update$$,0],Set[Typeset`initDone$$,False],Set[Typeset`skipInitDone$$,True]},
+DynamicBox[Manipulate`ManipulateBoxes[1,StandardForm,RuleDelayed["Variables",{Set[
+c$$,RGBColor[1,0,0]]}],RuleDelayed["ControllerVariables",{}],RuleDelayed["OtherVariables",
+{Typeset`show$$,Typeset`bookmarkList$$,Typeset`bookmarkMode$$,Typeset`animator$$,Typeset`animvar$$,Typeset`name$$,Typeset`specs$$,Typeset`size$$,Typeset`update$$,Typeset`initDone$$,Typeset`skipInitDone$$}],
+RuleDelayed["Body",anything],RuleDelayed["Specifications",{{c$$,{RGBColor[1,0,0],RGBColor[
+1,1,0],RGBColor[0,0,1]}}}],RuleDelayed["Options",{}],RuleDelayed["DefaultOptions",
+{}]],SingleEvaluation -> True],RuleDelayed[DynamicModuleValues,{}],RuleDelayed[Deinitialization,
+None],RuleDelayed[UntrackedVariables,{Typeset`size$$}],SynchronousInitialization -> True,
+RuleDelayed[UnsavedVariables,{Typeset`initDone$$}],RuleDelayed[UndoTrackedVariables,
+{Typeset`show$$,Typeset`bookmarkMode$$}],ExpressionUUID -> "fded2d34-06b4-4a8c-a31b-773a74363208"],
+"Manipulate",Deployed -> True,StripOnInput -> False],Manipulate`InterpretManipulate[
+1]],StandardForm],"Output",CellLabel -> "Out[12]= ",ExpressionUUID -> "a7322eb4-d64c-4be1-a50a-6f3de9a5905b"]},
+Open],ExpressionUUID -> "a430566e-6054-47a4-8561-afd13d26fdcf"],Cell[
+BoxData[""],
+"Input",ExpressionUUID -> "4bf355a7-bad1-4e74-b0cc-ecc4f72b68a2"],Cell[
+"\<--------------------------------------------------------------------------------\>",
+"Text",ExpressionUUID -> "410c281d-2ebd-4905-801a-925bb008950f"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Manipulate","[",RowBox[{RowBox[{"Graphics","[",RowBox[{"Style","[",RowBox[
+{RowBox[{"Disk","[","]"}],","," ",RowBox[{"Hue","[","h","]"}]}],"]"}],"]"}],","," ",RowBox[
+{"{",RowBox[{"h",",","0",",","1"}],"}"}]}],"]"}]],"Input",CellLabel -> "In[14]:= ",
+ExpressionUUID -> "68d26d16-b91c-4733-b277-eead7824461d"],Cell[
+BoxData[TagBox[StyleBox[
+DynamicModuleBox[{Set[h$$,0.744`],Set[Typeset`show$$,True],Set[Typeset`bookmarkList$$,
+{}],Set[Typeset`bookmarkMode$$,"Menu"],Typeset`animator$$,Set[Typeset`animvar$$,1],Set[
+Typeset`name$$,"\"untitled\""],Set[Typeset`specs$$,{{Hold[h$$],0,1}}],Set[Typeset`size$$,
+Automatic],Set[Typeset`update$$,0],Set[Typeset`initDone$$,False],Set[Typeset`skipInitDone$$,
+True]},DynamicBox[Manipulate`ManipulateBoxes[1,StandardForm,RuleDelayed["Variables",
+{Set[h$$,0]}],RuleDelayed["ControllerVariables",{}],RuleDelayed["OtherVariables",
+{Typeset`show$$,Typeset`bookmarkList$$,Typeset`bookmarkMode$$,Typeset`animator$$,Typeset`animvar$$,Typeset`name$$,Typeset`specs$$,Typeset`size$$,Typeset`update$$,Typeset`initDone$$,Typeset`skipInitDone$$}],
+RuleDelayed["Body",Graphics[Style[Disk[],Hue[h$$]]]],RuleDelayed["Specifications",
+{{h$$,0,1}}],RuleDelayed["Options",{}],RuleDelayed["DefaultOptions",{}]],SingleEvaluation -> True],
+RuleDelayed[DynamicModuleValues,{}],RuleDelayed[Deinitialization,None],RuleDelayed[
+UntrackedVariables,{Typeset`size$$}],SynchronousInitialization -> True,RuleDelayed[
+UnsavedVariables,{Typeset`initDone$$}],RuleDelayed[UndoTrackedVariables,{Typeset`show$$,Typeset`bookmarkMode$$}],
+ExpressionUUID -> "a469c32a-24fd-4386-be8d-5c6150c735f7"],"Manipulate",Deployed -> True,
+StripOnInput -> False],Manipulate`InterpretManipulate[1]],StandardForm],"Output",
+CellLabel -> "Out[14]= ",ExpressionUUID -> "cf8e3b4b-7049-4c34-83a6-5b77db1cf4f2"]},
+Open],ExpressionUUID -> "49ac1ae1-8401-4db3-abf7-3adf54de0a60"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Manipulate","[",RowBox[{RowBox[{"Graphics","[",RowBox[{"Style","[",RowBox[
+{RowBox[{"Disk","[","]"}],","," ",RowBox[{"Hue","[",RowBox[{"hue",","," ","saturation",","," ","brightness"}],"]"}]}],"]"}],"]"}],",",RowBox[
+{"{",RowBox[{"hue",",","0",",","1"}],"}"}],",",RowBox[{"{",RowBox[{"saturation",",","0",",","1"}],"}"}],",",RowBox[
+{"{",RowBox[{"brightness",",","0",",","1"}],"}"}]}],"]"}]],"Input",CellLabel -> "In[15]:= ",
+ExpressionUUID -> "598ac0b0-8cdb-4bbc-82bf-ce90d93617d3"],Cell[
+BoxData[TagBox[StyleBox[
+DynamicModuleBox[{Set[brightness$$,0.488`],Set[hue$$,0.744`],Set[saturation$$,0.34600000000000003`],Set[
+Typeset`show$$,True],Set[Typeset`bookmarkList$$,{}],Set[Typeset`bookmarkMode$$,"Menu"],Typeset`animator$$,Set[
+Typeset`animvar$$,1],Set[Typeset`name$$,"\"untitled\""],Set[Typeset`specs$$,{{Hold[
+hue$$],0,1},{Hold[saturation$$],0,1},{Hold[brightness$$],0,1}}],Set[Typeset`size$$,
+Automatic],Set[Typeset`update$$,0],Set[Typeset`initDone$$,False],Set[Typeset`skipInitDone$$,
+True]},DynamicBox[Manipulate`ManipulateBoxes[1,StandardForm,RuleDelayed["Variables",
+{Set[brightness$$,0],Set[hue$$,0],Set[saturation$$,0]}],RuleDelayed["ControllerVariables",
+{}],RuleDelayed["OtherVariables",{Typeset`show$$,Typeset`bookmarkList$$,Typeset`bookmarkMode$$,Typeset`animator$$,Typeset`animvar$$,Typeset`name$$,Typeset`specs$$,Typeset`size$$,Typeset`update$$,Typeset`initDone$$,Typeset`skipInitDone$$}],
+RuleDelayed["Body",Graphics[Style[Disk[],Hue[hue$$,saturation$$,brightness$$]]]],
+RuleDelayed["Specifications",{{hue$$,0,1},{saturation$$,0,1},{brightness$$,0,1}}],
+RuleDelayed["Options",{}],RuleDelayed["DefaultOptions",{}]],SingleEvaluation -> True],
+RuleDelayed[DynamicModuleValues,{}],RuleDelayed[Deinitialization,None],RuleDelayed[
+UntrackedVariables,{Typeset`size$$}],SynchronousInitialization -> True,RuleDelayed[
+UnsavedVariables,{Typeset`initDone$$}],RuleDelayed[UndoTrackedVariables,{Typeset`show$$,Typeset`bookmarkMode$$}],
+ExpressionUUID -> "6191204f-734b-4d80-b662-cc480b7ea854"],"Manipulate",Deployed -> True,
+StripOnInput -> False],Manipulate`InterpretManipulate[1]],StandardForm],"Output",
+CellLabel -> "Out[15]= ",ExpressionUUID -> "c2ef66dc-78aa-4480-a867-9c488a641d95"]},
+Open],ExpressionUUID -> "46aa4d43-7f1a-408d-beb0-a2613c654324"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "13. for Wolfram Cloud 1.61.2 (November 30, 2021)"]
