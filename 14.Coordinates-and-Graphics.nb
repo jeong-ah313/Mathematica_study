@@ -1,0 +1,351 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[RowBox[{"ListPlot","[",RowBox[{"{",RowBox[
+{"4",",","3",",","2",",","1",",","1",",","1",",","1",",","1",",","2",",","3",",","4"}],"}"}],"]"}]],
+"Input",CellLabel -> "In[147]:= ",ExpressionUUID -> "70dc8e1c-e078-41d6-87a2-cb39afe450e7"],Cell[
+BoxData[
+GraphicsBox[{{},{{{Directive[PointSize[0.012833333333333334`],RGBColor[0.368417`,
+0.506779`,0.709798`],AbsoluteThickness[1.6`]],PointBox[CompressedData["1:eJxTTMoPSmViYGDgBmIQDQEf7CG0gANUAEpzoNEwcZg6mD4RNL4EGl8Gja+AxldCM18FzV41uL0Af40N7w=="]]}}},{{},{}}},
+{DisplayFunction -> Identity,DisplayFunction -> Identity,AspectRatio -> NCache[Power[
+GoldenRatio,-1],0.6180339887498948`],Axes -> {True,True},AxesLabel -> {None,None},AxesOrigin -> {0.`,0},RuleDelayed[
+DisplayFunction,Identity],Frame -> {{False,False},{False,False}},FrameLabel -> {{None,None},{None,None}},FrameTicks -> {{Automatic,Automatic},{Automatic,Automatic}},GridLines -> {None,None},GridLinesStyle -> Directive[
+GrayLevel[0.5`,0.4`]],Method -> CompressedData["1:eJzNUD0LwjAUjB+Dm4Pg7m+pCIJiaYt7NC/wMOaF5GWov96kaIvQSReX4y539ziyuVClZ0KIME9wwMB6+lZVNFCvEjk5xjs+oDTER+lv4EMXaHyE3+LrRAoir9BKhtAQmdwmG4bgyKhlIlsMzsh2F+01F/QkJxYJ+pfPC72/V2AZuR38UvqXn1WdZmNWHXzTy4GRfynIIaizNBH+dfUT3rB0HA=="],PlotRange -> {{0.`,11},{0,4.`}},PlotRangeClipping -> True,PlotRangePadding -> {{Scaled[
+0.02`],Scaled[0.02`]},{Scaled[0.02`],Scaled[0.05`]}},Ticks -> {Automatic,Automatic}}],
+StandardForm],"Output",CellLabel -> "Out[147]= ",ExpressionUUID -> "01c60330-c5d9-4782-920a-6ca4ded4c2fb"]},
+Open],ExpressionUUID -> "80b566c1-81d2-46fc-8ccd-e53f1e3e1728"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"ListPlot","[",RowBox[{"{",RowBox[{RowBox[{"{",RowBox[{"0.1",",","4"}],"}"}],",",RowBox[
+{"{",RowBox[{"0.2",",","3"}],"}"}],",",RowBox[{"{",RowBox[{"0.3",",","2"}],"}"}],",",RowBox[
+{"{",RowBox[{"0.4",",","1"}],"}"}],",",RowBox[{"{",RowBox[{"0.9",",","1"}],"}"}],",",RowBox[
+{"{",RowBox[{"1.0",",","1"}],"}"}],",",RowBox[{"{",RowBox[{"1.1",",","1"}],"}"}],",",RowBox[
+{"{",RowBox[{"1.2",",","2"}],"}"}],",",RowBox[{"{",RowBox[{"1.6",",","3"}],"}"}],",",RowBox[
+{"{",RowBox[{"1.7",",","4"}],"}"}]}],"}"}],"]"}]],"Input",CellLabel -> "In[149]:= ",
+ExpressionUUID -> "91e37a35-e0d6-46b5-a0ef-a85050041c7b"],Cell[
+BoxData[GraphicsBox[
+{{},{{{Directive[PointSize[0.012833333333333334`],RGBColor[0.368417`,0.506779`,0.709798`],
+AbsoluteThickness[1.6`]],PointBox[CompressedData["1:eJxTTMoPSmViYGDgAmIQPWsmCOy0ZwADAQcI/ySUz+FgDAaXoXwGqPxNKP+D/dkzIPAGzkenIeo/wvkQ8z6jmfcTzb7fcPcAAB4ILc4="]]}}},{{},{}}},
+{DisplayFunction -> Identity,DisplayFunction -> Identity,AspectRatio -> NCache[Power[
+GoldenRatio,-1],0.6180339887498948`],Axes -> {True,True},AxesLabel -> {None,None},AxesOrigin -> {0,0},RuleDelayed[
+DisplayFunction,Identity],Frame -> {{False,False},{False,False}},FrameLabel -> {{None,None},{None,None}},FrameTicks -> {{Automatic,Automatic},{Automatic,Automatic}},GridLines -> {None,None},GridLinesStyle -> Directive[
+GrayLevel[0.5`,0.4`]],Method -> CompressedData["1:eJzNUD0LwjAUjB+Dm4Pg7m+pCIJiaYt7NC/wMOaF5GWov96kaIvQSReX4y539ziyuVClZ0KIME9wwMB6+lZVNFCvEjk5xjs+oDTER+lv4EMXaHyE3+LrRAoir9BKhtAQmdwmG4bgyKhlIlsMzsh2F+01F/QkJxYJ+pfPC72/V2AZuR38UvqXn1WdZmNWHXzTy4GRfynIIaizNBH+dfUT3rB0HA=="],PlotRange -> {{0,1.7`},{0,4.`}},PlotRangeClipping -> True,PlotRangePadding -> {{Scaled[
+0.02`],Scaled[0.02`]},{Scaled[0.02`],Scaled[0.05`]}},Ticks -> {Automatic,Automatic}}],
+StandardForm],"Output",CellLabel -> "Out[149]= ",ExpressionUUID -> "6ac890c7-63b0-4b51-bea9-2ee70544f0bd"]},
+Open],ExpressionUUID -> "2ec5c3b3-a786-4707-8ad0-b6d2a66f66d3"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Graphics","[",RowBox[{"Circle","[","]"}],"]"}]],"Input",CellLabel -> "In[150]:= ",
+ExpressionUUID -> "87e0642d-655d-4938-8892-0445333706bd"],Cell[
+BoxData[GraphicsBox[
+CircleBox[{0,0}],ExpressionUUID -> "d0cecce4-d828-4748-adb3-fd2ef1dce521"],StandardForm],
+"Output",CellLabel -> "Out[150]= ",ExpressionUUID -> "7022d37f-740e-4212-8204-081b57341174"]},
+Open],ExpressionUUID -> "c2e39350-c62f-4cb8-bc6e-b1890da882d1"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Graphics","[",RowBox[{"{",RowBox[{RowBox[{"Circle","[",RowBox[
+{"{",RowBox[{"1",",","1"}],"}"}],"]"}],",",RowBox[{"Circle","[",RowBox[{"{",RowBox[
+{"1",",","2"}],"}"}],"]"}],",",RowBox[{"Circle","[",RowBox[{"{",RowBox[{"3",",","1"}],"}"}],"]"}]}],"}"}],"]"}]],
+"Input",CellLabel -> "In[151]:= ",ExpressionUUID -> "0bc5094f-ea42-4676-b4a6-f867fbfb42a3"],Cell[
+BoxData[
+GraphicsBox[{CircleBox[{1,1}],CircleBox[{1,2}],CircleBox[{3,1}]},ExpressionUUID -> "37639541-bc12-4022-ba19-acea3423dee3"],
+StandardForm],"Output",CellLabel -> "Out[151]= ",ExpressionUUID -> "70f1055f-49ac-43a7-a563-f58dec4f3a40"]},
+Open],ExpressionUUID -> "1200ec52-3945-48c4-ba8f-4d156eba0efb"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Graphics","[",RowBox[{"{",RowBox[{RowBox[{"Circle","[",RowBox[
+{RowBox[{"{",RowBox[{"1",",","1"}],"}"}],",","0.5"}],"]"}],",",RowBox[{"Circle","[",RowBox[
+{RowBox[{"{",RowBox[{"1",",","2"}],"}"}],",","1.2"}],"]"}],",",RowBox[{"Circle","[",RowBox[
+{RowBox[{"{",RowBox[{"3",",","1"}],"}"}],",","0.8"}],"]"}]}],"}"}],"]"}]],"Input",
+CellLabel -> "In[152]:= ",ExpressionUUID -> "5c2215e7-f70f-43ce-b957-08f87b92d6ae"],Cell[
+BoxData[
+GraphicsBox[{CircleBox[{1,1},0.5`],CircleBox[{1,2},1.2`],CircleBox[{3,1},0.8`]},ExpressionUUID -> "7ce8f11c-2a69-4584-a12c-530fc79974bc"],
+StandardForm],"Output",CellLabel -> "Out[152]= ",ExpressionUUID -> "bd5f7434-5c5a-4db5-bd6d-7dfd26b529fa"]},
+Open],ExpressionUUID -> "f2251a37-2675-43cd-aa26-5ee97247d911"],Cell[
+BoxData[RowBox[
+{"Rasterize","[",RowBox[{RowBox[{"Graphics","[",RowBox[{"{",RowBox[{RowBox[{"Circle","[",RowBox[
+{RowBox[{"{",RowBox[{"1",",","1"}],"}"}],",","0.5`"}],"]"}],",",RowBox[{"Circle","[",RowBox[
+{RowBox[{"{",RowBox[{"1",",","2"}],"}"}],",","1.2`"}],"]"}],",",RowBox[{"Circle","[",RowBox[
+{RowBox[{"{",RowBox[{"3",",","1"}],"}"}],",","0.8`"}],"]"}]}],"}"}],"]"}],",","\"Image\""}],"]"}]],
+"Input",NumberMarks -> False,CellLabel -> "In[153]:= ",ExpressionUUID -> "73e2e13a-2539-47fa-9271-5ca5455620c3"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Graphics","[",RowBox[{"Table","[",RowBox[{RowBox[{"Circle","[",RowBox[
+{RowBox[{"{",RowBox[{"x",",","0"}],"}"}],",","x"}],"]"}],",",RowBox[{"{",RowBox[{"x",",","1",",","10"}],"}"}]}],"]"}],"]"}]],
+"Input",CellLabel -> "In[154]:= ",ExpressionUUID -> "ed2e7f01-0a83-4489-a260-b63b53c80455"],Cell[
+BoxData[
+GraphicsBox[{CircleBox[{1,0},1],CircleBox[{2,0},2],CircleBox[{3,0},3],CircleBox[{4,0},
+4],CircleBox[{5,0},5],CircleBox[{6,0},6],CircleBox[{7,0},7],CircleBox[{8,0},8],CircleBox[
+{9,0},9],CircleBox[{10,0},10]},ExpressionUUID -> "1ac35621-cf4c-495d-943a-40aaef528b24"],
+StandardForm],"Output",CellLabel -> "Out[154]= ",ExpressionUUID -> "7b6f7eab-e30b-42b9-925e-8299e876e608"]},
+Open],ExpressionUUID -> "da75c3f5-96b2-4d80-b4fb-49dfd927e0b4"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Graphics","[",RowBox[{"{",RowBox[{RowBox[{"RegularPolygon","[",RowBox[
+{RowBox[{"{",RowBox[{"1",",","3"}],"}"}],",","2",",","5"}],"]"}],",",RowBox[{"RegularPolygon","[",RowBox[
+{RowBox[{"{",RowBox[{"5",",","4"}],"}"}],",","1",",","8"}],"]"}]}],"}"}],"]"}]],"Input",
+CellLabel -> "In[156]:= ",ExpressionUUID -> "c74a1c74-0f0c-4b45-b29a-b385f6861451"],Cell[
+BoxData[
+GraphicsBox[{InterpretationBox[PolygonBox[NCache[{{Plus[1,Times[2,Power[Plus[Rational[
+5,8],Times[Rational[-1,8],Power[5,Rational[1,2]]]],Rational[1,2]]]],Plus[3,Times[
+Rational[1,2],Plus[-1,Times[-1,Power[5,Rational[1,2]]]]]]},{Plus[1,Times[2,Power[
+Plus[Rational[5,8],Times[Rational[1,8],Power[5,Rational[1,2]]]],Rational[1,2]]]],Plus[
+3,Times[Rational[1,2],Plus[-1,Power[5,Rational[1,2]]]]]},{1,5},{Plus[1,Times[-2,Power[
+Plus[Rational[5,8],Times[Rational[1,8],Power[5,Rational[1,2]]]],Rational[1,2]]]],Plus[
+3,Times[Rational[1,2],Plus[-1,Power[5,Rational[1,2]]]]]},{Plus[1,Times[-2,Power[Plus[
+Rational[5,8],Times[Rational[-1,8],Power[5,Rational[1,2]]]],Rational[1,2]]]],Plus[
+3,Times[Rational[1,2],Plus[-1,Times[-1,Power[5,Rational[1,2]]]]]]}},{{2.1755705045849463`,1.381966011250105`},{2.9021130325903073`,3.618033988749895`},{1,5},{-0.9021130325903071`,3.618033988749895`},{-0.17557050458494627`,1.381966011250105`}}]],
+RegularPolygon[{1,3},2,5]],InterpretationBox[PolygonBox[NCache[{{Plus[5,Sin[Times[
+Rational[1,8],Pi]]],Plus[4,Times[-1,Cos[Times[Rational[1,8],Pi]]]]},{Plus[5,Cos[Times[
+Rational[1,8],Pi]]],Plus[4,Times[-1,Sin[Times[Rational[1,8],Pi]]]]},{Plus[5,Cos[Times[
+Rational[1,8],Pi]]],Plus[4,Sin[Times[Rational[1,8],Pi]]]},{Plus[5,Sin[Times[Rational[
+1,8],Pi]]],Plus[4,Cos[Times[Rational[1,8],Pi]]]},{Plus[5,Times[-1,Sin[Times[Rational[
+1,8],Pi]]]],Plus[4,Cos[Times[Rational[1,8],Pi]]]},{Plus[5,Times[-1,Cos[Times[Rational[
+1,8],Pi]]]],Plus[4,Sin[Times[Rational[1,8],Pi]]]},{Plus[5,Times[-1,Cos[Times[Rational[
+1,8],Pi]]]],Plus[4,Times[-1,Sin[Times[Rational[1,8],Pi]]]]},{Plus[5,Times[-1,Sin[
+Times[Rational[1,8],Pi]]]],Plus[4,Times[-1,Cos[Times[Rational[1,8],Pi]]]]}},{{5.38268343236509`,3.076120467488713`},{5.923879532511287`,3.6173165676349104`},{5.923879532511287`,4.38268343236509`},{5.38268343236509`,4.923879532511287`},{4.61731656763491`,4.923879532511287`},{4.076120467488713`,4.38268343236509`},{4.076120467488713`,3.6173165676349104`},{4.61731656763491`,3.076120467488713`}}]],
+RegularPolygon[{5,4},1,8]]}],StandardForm],"Output",CellLabel -> "Out[156]= ",ExpressionUUID -> "84ddf6af-0ab0-41f9-baf5-27e67ba525cc"]},
+Open],ExpressionUUID -> "43ee07e5-8560-444d-a72a-32fafea0d536"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Graphics","[",RowBox[{"{",RowBox[{RowBox[{"PointSize","[","0.1","]"}],",",RowBox[
+{"Point","[",RowBox[{"{",RowBox[{"0",",","0"}],"}"}],"]"}],",",RowBox[{"Point","[",RowBox[
+{"{",RowBox[{"2",",","0"}],"}"}],"]"}],",",RowBox[{"Point","[",RowBox[{"{",RowBox[
+{"1",",","1.5"}],"}"}],"]"}]}],"}"}],"]"}]],"Input",CellLabel -> "In[158]:= ",ExpressionUUID -> "303d9b00-89bb-4c3c-992c-e98a2c924813"],Cell[
+BoxData[
+GraphicsBox[{PointSize[0.1`],PointBox[{0,0}],PointBox[{2,0}],PointBox[{1,1.5`}]},
+ExpressionUUID -> "e46eeda5-c492-4d6c-bd44-55546c6c0979"],StandardForm],"Output",
+CellLabel -> "Out[158]= ",ExpressionUUID -> "1008019a-9a7b-4b3f-b7a2-1d64c41eac0d"]},
+Open],ExpressionUUID -> "a093f9fb-a261-4447-a669-c5158ea63115"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Graphics","[",RowBox[{"Line","[",RowBox[{"{",RowBox[{RowBox[
+{"{",RowBox[{"0",",","0"}],"}"}],",",RowBox[{"{",RowBox[{"2",",","0"}],"}"}],",",RowBox[
+{"{",RowBox[{"1",",","1.5"}],"}"}]}],"}"}],"]"}],"]"}]],"Input",CellLabel -> "In[160]:= ",
+ExpressionUUID -> "325c21c3-b225-42d4-9816-f8dabfca66d3"],Cell[
+BoxData[GraphicsBox[
+LineBox[{{0,0},{2,0},{1,1.5`}}],ExpressionUUID -> "7ae7a030-dfec-46ff-a79a-3f03050a1da8"],
+StandardForm],"Output",CellLabel -> "Out[160]= ",ExpressionUUID -> "d66708f9-1e82-42ed-8eed-d63e19e6d1e1"]},
+Open],ExpressionUUID -> "8b9e52d3-dfed-416a-a721-1d588f633d14"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Graphics","[",RowBox[{"Polygon","[",RowBox[{"{",RowBox[{RowBox[
+{"{",RowBox[{"0",",","0"}],"}"}],",",RowBox[{"{",RowBox[{"5",",","1"}],"}"}],",",RowBox[
+{"{",RowBox[{"3",",","4"}],"}"}],",",RowBox[{"{",RowBox[{"2",",","4"}],"}"}],",",RowBox[
+{"{",RowBox[{"2",",","2"}],"}"}]}],"}"}],"]"}],"]"}]],"Input",CellLabel -> "In[161]:= ",
+ExpressionUUID -> "972b244e-f71b-40ce-b9b5-286a628e641a"],Cell[
+BoxData[GraphicsBox[
+PolygonBox[{{0,0},{5,1},{3,4},{2,4},{2,2}}]],StandardForm],"Output",CellLabel -> "Out[161]= ",
+ExpressionUUID -> "f77ed57c-b275-421e-b515-150bbf96dd2e"]},Open],ExpressionUUID -> "001ae86c-620f-42c2-ba13-e451084d4d80"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Graphics3D","[",RowBox[{"{",RowBox[{RowBox[{"Sphere","[",RowBox[
+{RowBox[{"{",RowBox[{"0",",","0",",","0"}],"}"}],",","2"}],"]"}],",",RowBox[{"Sphere","[",RowBox[
+{RowBox[{"{",RowBox[{"0",",","0",",","3"}],"}"}],",","1"}],"]"}]}],"}"}],"]"}]],"Input",
+CellLabel -> "In[162]:= ",ExpressionUUID -> "7c847fb3-6811-406a-8a04-84ad30a717e5"],Cell[
+BoxData[
+Graphics3DBox[{SphereBox[{0,0,0},2],SphereBox[{0,0,3},1]},ExpressionUUID -> "9b1f6490-4eeb-43a5-aa69-5503ed0559a6"],
+StandardForm],"Output",CellLabel -> "Out[162]= ",ExpressionUUID -> "2923f592-c8df-406c-8f09-062cb80afa04"]},
+Open],ExpressionUUID -> "764fd641-c847-4ee8-a774-fe309b0e2495"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Graphics3D","[",RowBox[{"Table","[",RowBox[{RowBox[{"Point","[",RowBox[
+{"{",RowBox[{"x",",","y",",","z"}],"}"}],"]"}],",",RowBox[{"{",RowBox[{"x",",","0",",","6"}],"}"}],",",RowBox[
+{"{",RowBox[{"y",",","0",",","6"}],"}"}],",",RowBox[{"{",RowBox[{"z",",","0",",","6"}],"}"}]}],"]"}],"]"}]],
+"Input",CellLabel -> "In[163]:= ",ExpressionUUID -> "bf6ff9f0-29ee-4c55-90c5-d5d55cb3d31d"],Cell[
+BoxData[
+Graphics3DBox[{{{Point3DBox[{0,0,0}],Point3DBox[{0,0,1}],Point3DBox[{0,0,2}],Point3DBox[
+{0,0,3}],Point3DBox[{0,0,4}],Point3DBox[{0,0,5}],Point3DBox[{0,0,6}]},{Point3DBox[
+{0,1,0}],Point3DBox[{0,1,1}],Point3DBox[{0,1,2}],Point3DBox[{0,1,3}],Point3DBox[{0,1,4}],Point3DBox[
+{0,1,5}],Point3DBox[{0,1,6}]},{Point3DBox[{0,2,0}],Point3DBox[{0,2,1}],Point3DBox[
+{0,2,2}],Point3DBox[{0,2,3}],Point3DBox[{0,2,4}],Point3DBox[{0,2,5}],Point3DBox[{0,2,6}]},{Point3DBox[
+{0,3,0}],Point3DBox[{0,3,1}],Point3DBox[{0,3,2}],Point3DBox[{0,3,3}],Point3DBox[{0,3,4}],Point3DBox[
+{0,3,5}],Point3DBox[{0,3,6}]},{Point3DBox[{0,4,0}],Point3DBox[{0,4,1}],Point3DBox[
+{0,4,2}],Point3DBox[{0,4,3}],Point3DBox[{0,4,4}],Point3DBox[{0,4,5}],Point3DBox[{0,4,6}]},{Point3DBox[
+{0,5,0}],Point3DBox[{0,5,1}],Point3DBox[{0,5,2}],Point3DBox[{0,5,3}],Point3DBox[{0,5,4}],Point3DBox[
+{0,5,5}],Point3DBox[{0,5,6}]},{Point3DBox[{0,6,0}],Point3DBox[{0,6,1}],Point3DBox[
+{0,6,2}],Point3DBox[{0,6,3}],Point3DBox[{0,6,4}],Point3DBox[{0,6,5}],Point3DBox[{0,6,6}]}},{{Point3DBox[
+{1,0,0}],Point3DBox[{1,0,1}],Point3DBox[{1,0,2}],Point3DBox[{1,0,3}],Point3DBox[{1,0,4}],Point3DBox[
+{1,0,5}],Point3DBox[{1,0,6}]},{Point3DBox[{1,1,0}],Point3DBox[{1,1,1}],Point3DBox[
+{1,1,2}],Point3DBox[{1,1,3}],Point3DBox[{1,1,4}],Point3DBox[{1,1,5}],Point3DBox[{1,1,6}]},{Point3DBox[
+{1,2,0}],Point3DBox[{1,2,1}],Point3DBox[{1,2,2}],Point3DBox[{1,2,3}],Point3DBox[{1,2,4}],Point3DBox[
+{1,2,5}],Point3DBox[{1,2,6}]},{Point3DBox[{1,3,0}],Point3DBox[{1,3,1}],Point3DBox[
+{1,3,2}],Point3DBox[{1,3,3}],Point3DBox[{1,3,4}],Point3DBox[{1,3,5}],Point3DBox[{1,3,6}]},{Point3DBox[
+{1,4,0}],Point3DBox[{1,4,1}],Point3DBox[{1,4,2}],Point3DBox[{1,4,3}],Point3DBox[{1,4,4}],Point3DBox[
+{1,4,5}],Point3DBox[{1,4,6}]},{Point3DBox[{1,5,0}],Point3DBox[{1,5,1}],Point3DBox[
+{1,5,2}],Point3DBox[{1,5,3}],Point3DBox[{1,5,4}],Point3DBox[{1,5,5}],Point3DBox[{1,5,6}]},{Point3DBox[
+{1,6,0}],Point3DBox[{1,6,1}],Point3DBox[{1,6,2}],Point3DBox[{1,6,3}],Point3DBox[{1,6,4}],Point3DBox[
+{1,6,5}],Point3DBox[{1,6,6}]}},{{Point3DBox[{2,0,0}],Point3DBox[{2,0,1}],Point3DBox[
+{2,0,2}],Point3DBox[{2,0,3}],Point3DBox[{2,0,4}],Point3DBox[{2,0,5}],Point3DBox[{2,0,6}]},{Point3DBox[
+{2,1,0}],Point3DBox[{2,1,1}],Point3DBox[{2,1,2}],Point3DBox[{2,1,3}],Point3DBox[{2,1,4}],Point3DBox[
+{2,1,5}],Point3DBox[{2,1,6}]},{Point3DBox[{2,2,0}],Point3DBox[{2,2,1}],Point3DBox[
+{2,2,2}],Point3DBox[{2,2,3}],Point3DBox[{2,2,4}],Point3DBox[{2,2,5}],Point3DBox[{2,2,6}]},{Point3DBox[
+{2,3,0}],Point3DBox[{2,3,1}],Point3DBox[{2,3,2}],Point3DBox[{2,3,3}],Point3DBox[{2,3,4}],Point3DBox[
+{2,3,5}],Point3DBox[{2,3,6}]},{Point3DBox[{2,4,0}],Point3DBox[{2,4,1}],Point3DBox[
+{2,4,2}],Point3DBox[{2,4,3}],Point3DBox[{2,4,4}],Point3DBox[{2,4,5}],Point3DBox[{2,4,6}]},{Point3DBox[
+{2,5,0}],Point3DBox[{2,5,1}],Point3DBox[{2,5,2}],Point3DBox[{2,5,3}],Point3DBox[{2,5,4}],Point3DBox[
+{2,5,5}],Point3DBox[{2,5,6}]},{Point3DBox[{2,6,0}],Point3DBox[{2,6,1}],Point3DBox[
+{2,6,2}],Point3DBox[{2,6,3}],Point3DBox[{2,6,4}],Point3DBox[{2,6,5}],Point3DBox[{2,6,6}]}},{{Point3DBox[
+{3,0,0}],Point3DBox[{3,0,1}],Point3DBox[{3,0,2}],Point3DBox[{3,0,3}],Point3DBox[{3,0,4}],Point3DBox[
+{3,0,5}],Point3DBox[{3,0,6}]},{Point3DBox[{3,1,0}],Point3DBox[{3,1,1}],Point3DBox[
+{3,1,2}],Point3DBox[{3,1,3}],Point3DBox[{3,1,4}],Point3DBox[{3,1,5}],Point3DBox[{3,1,6}]},{Point3DBox[
+{3,2,0}],Point3DBox[{3,2,1}],Point3DBox[{3,2,2}],Point3DBox[{3,2,3}],Point3DBox[{3,2,4}],Point3DBox[
+{3,2,5}],Point3DBox[{3,2,6}]},{Point3DBox[{3,3,0}],Point3DBox[{3,3,1}],Point3DBox[
+{3,3,2}],Point3DBox[{3,3,3}],Point3DBox[{3,3,4}],Point3DBox[{3,3,5}],Point3DBox[{3,3,6}]},{Point3DBox[
+{3,4,0}],Point3DBox[{3,4,1}],Point3DBox[{3,4,2}],Point3DBox[{3,4,3}],Point3DBox[{3,4,4}],Point3DBox[
+{3,4,5}],Point3DBox[{3,4,6}]},{Point3DBox[{3,5,0}],Point3DBox[{3,5,1}],Point3DBox[
+{3,5,2}],Point3DBox[{3,5,3}],Point3DBox[{3,5,4}],Point3DBox[{3,5,5}],Point3DBox[{3,5,6}]},{Point3DBox[
+{3,6,0}],Point3DBox[{3,6,1}],Point3DBox[{3,6,2}],Point3DBox[{3,6,3}],Point3DBox[{3,6,4}],Point3DBox[
+{3,6,5}],Point3DBox[{3,6,6}]}},{{Point3DBox[{4,0,0}],Point3DBox[{4,0,1}],Point3DBox[
+{4,0,2}],Point3DBox[{4,0,3}],Point3DBox[{4,0,4}],Point3DBox[{4,0,5}],Point3DBox[{4,0,6}]},{Point3DBox[
+{4,1,0}],Point3DBox[{4,1,1}],Point3DBox[{4,1,2}],Point3DBox[{4,1,3}],Point3DBox[{4,1,4}],Point3DBox[
+{4,1,5}],Point3DBox[{4,1,6}]},{Point3DBox[{4,2,0}],Point3DBox[{4,2,1}],Point3DBox[
+{4,2,2}],Point3DBox[{4,2,3}],Point3DBox[{4,2,4}],Point3DBox[{4,2,5}],Point3DBox[{4,2,6}]},{Point3DBox[
+{4,3,0}],Point3DBox[{4,3,1}],Point3DBox[{4,3,2}],Point3DBox[{4,3,3}],Point3DBox[{4,3,4}],Point3DBox[
+{4,3,5}],Point3DBox[{4,3,6}]},{Point3DBox[{4,4,0}],Point3DBox[{4,4,1}],Point3DBox[
+{4,4,2}],Point3DBox[{4,4,3}],Point3DBox[{4,4,4}],Point3DBox[{4,4,5}],Point3DBox[{4,4,6}]},{Point3DBox[
+{4,5,0}],Point3DBox[{4,5,1}],Point3DBox[{4,5,2}],Point3DBox[{4,5,3}],Point3DBox[{4,5,4}],Point3DBox[
+{4,5,5}],Point3DBox[{4,5,6}]},{Point3DBox[{4,6,0}],Point3DBox[{4,6,1}],Point3DBox[
+{4,6,2}],Point3DBox[{4,6,3}],Point3DBox[{4,6,4}],Point3DBox[{4,6,5}],Point3DBox[{4,6,6}]}},{{Point3DBox[
+{5,0,0}],Point3DBox[{5,0,1}],Point3DBox[{5,0,2}],Point3DBox[{5,0,3}],Point3DBox[{5,0,4}],Point3DBox[
+{5,0,5}],Point3DBox[{5,0,6}]},{Point3DBox[{5,1,0}],Point3DBox[{5,1,1}],Point3DBox[
+{5,1,2}],Point3DBox[{5,1,3}],Point3DBox[{5,1,4}],Point3DBox[{5,1,5}],Point3DBox[{5,1,6}]},{Point3DBox[
+{5,2,0}],Point3DBox[{5,2,1}],Point3DBox[{5,2,2}],Point3DBox[{5,2,3}],Point3DBox[{5,2,4}],Point3DBox[
+{5,2,5}],Point3DBox[{5,2,6}]},{Point3DBox[{5,3,0}],Point3DBox[{5,3,1}],Point3DBox[
+{5,3,2}],Point3DBox[{5,3,3}],Point3DBox[{5,3,4}],Point3DBox[{5,3,5}],Point3DBox[{5,3,6}]},{Point3DBox[
+{5,4,0}],Point3DBox[{5,4,1}],Point3DBox[{5,4,2}],Point3DBox[{5,4,3}],Point3DBox[{5,4,4}],Point3DBox[
+{5,4,5}],Point3DBox[{5,4,6}]},{Point3DBox[{5,5,0}],Point3DBox[{5,5,1}],Point3DBox[
+{5,5,2}],Point3DBox[{5,5,3}],Point3DBox[{5,5,4}],Point3DBox[{5,5,5}],Point3DBox[{5,5,6}]},{Point3DBox[
+{5,6,0}],Point3DBox[{5,6,1}],Point3DBox[{5,6,2}],Point3DBox[{5,6,3}],Point3DBox[{5,6,4}],Point3DBox[
+{5,6,5}],Point3DBox[{5,6,6}]}},{{Point3DBox[{6,0,0}],Point3DBox[{6,0,1}],Point3DBox[
+{6,0,2}],Point3DBox[{6,0,3}],Point3DBox[{6,0,4}],Point3DBox[{6,0,5}],Point3DBox[{6,0,6}]},{Point3DBox[
+{6,1,0}],Point3DBox[{6,1,1}],Point3DBox[{6,1,2}],Point3DBox[{6,1,3}],Point3DBox[{6,1,4}],Point3DBox[
+{6,1,5}],Point3DBox[{6,1,6}]},{Point3DBox[{6,2,0}],Point3DBox[{6,2,1}],Point3DBox[
+{6,2,2}],Point3DBox[{6,2,3}],Point3DBox[{6,2,4}],Point3DBox[{6,2,5}],Point3DBox[{6,2,6}]},{Point3DBox[
+{6,3,0}],Point3DBox[{6,3,1}],Point3DBox[{6,3,2}],Point3DBox[{6,3,3}],Point3DBox[{6,3,4}],Point3DBox[
+{6,3,5}],Point3DBox[{6,3,6}]},{Point3DBox[{6,4,0}],Point3DBox[{6,4,1}],Point3DBox[
+{6,4,2}],Point3DBox[{6,4,3}],Point3DBox[{6,4,4}],Point3DBox[{6,4,5}],Point3DBox[{6,4,6}]},{Point3DBox[
+{6,5,0}],Point3DBox[{6,5,1}],Point3DBox[{6,5,2}],Point3DBox[{6,5,3}],Point3DBox[{6,5,4}],Point3DBox[
+{6,5,5}],Point3DBox[{6,5,6}]},{Point3DBox[{6,6,0}],Point3DBox[{6,6,1}],Point3DBox[
+{6,6,2}],Point3DBox[{6,6,3}],Point3DBox[{6,6,4}],Point3DBox[{6,6,5}],Point3DBox[{6,6,6}]}}},
+ExpressionUUID -> "e7628443-54a7-4eba-be0b-3f027a38b726"],StandardForm],"Output",
+CellLabel -> "Out[163]= ",ExpressionUUID -> "7b42b2ee-5377-4131-82fe-c2b33a1094fa"]},
+Open],ExpressionUUID -> "a9729f2e-8f33-4087-92fa-47b621a527b0"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Graphics3D","[",RowBox[{"{",RowBox[{RowBox[{"Table","[",RowBox[
+{RowBox[{"Point","[",RowBox[{"{",RowBox[{"x",",","y",",","z"}],"}"}],"]"}],",",RowBox[
+{"{",RowBox[{"x",",","0",",","6"}],"}"}],",",RowBox[{"{",RowBox[{"y",",","0",",","6"}],"}"}],",",RowBox[
+{"{",RowBox[{"z",",","0",",","6"}],"}"}]}],"]"}],",",RowBox[{"Sphere","[",RowBox[
+{RowBox[{"{",RowBox[{"1",",","3",",","3"}],"}"}],",","0.5"}],"]"}],",",RowBox[{"Sphere","[",RowBox[
+{RowBox[{"{",RowBox[{"3",",","3",",","3"}],"}"}],",","1.2"}],"]"}]}],"}"}],"]"}]],
+"Input",CellLabel -> "In[165]:= ",ExpressionUUID -> "ca2bbd61-ef64-4749-a59b-8acb93ede23a"],Cell[
+BoxData[
+Graphics3DBox[{{{{Point3DBox[{0,0,0}],Point3DBox[{0,0,1}],Point3DBox[{0,0,2}],Point3DBox[
+{0,0,3}],Point3DBox[{0,0,4}],Point3DBox[{0,0,5}],Point3DBox[{0,0,6}]},{Point3DBox[
+{0,1,0}],Point3DBox[{0,1,1}],Point3DBox[{0,1,2}],Point3DBox[{0,1,3}],Point3DBox[{0,1,4}],Point3DBox[
+{0,1,5}],Point3DBox[{0,1,6}]},{Point3DBox[{0,2,0}],Point3DBox[{0,2,1}],Point3DBox[
+{0,2,2}],Point3DBox[{0,2,3}],Point3DBox[{0,2,4}],Point3DBox[{0,2,5}],Point3DBox[{0,2,6}]},{Point3DBox[
+{0,3,0}],Point3DBox[{0,3,1}],Point3DBox[{0,3,2}],Point3DBox[{0,3,3}],Point3DBox[{0,3,4}],Point3DBox[
+{0,3,5}],Point3DBox[{0,3,6}]},{Point3DBox[{0,4,0}],Point3DBox[{0,4,1}],Point3DBox[
+{0,4,2}],Point3DBox[{0,4,3}],Point3DBox[{0,4,4}],Point3DBox[{0,4,5}],Point3DBox[{0,4,6}]},{Point3DBox[
+{0,5,0}],Point3DBox[{0,5,1}],Point3DBox[{0,5,2}],Point3DBox[{0,5,3}],Point3DBox[{0,5,4}],Point3DBox[
+{0,5,5}],Point3DBox[{0,5,6}]},{Point3DBox[{0,6,0}],Point3DBox[{0,6,1}],Point3DBox[
+{0,6,2}],Point3DBox[{0,6,3}],Point3DBox[{0,6,4}],Point3DBox[{0,6,5}],Point3DBox[{0,6,6}]}},{{Point3DBox[
+{1,0,0}],Point3DBox[{1,0,1}],Point3DBox[{1,0,2}],Point3DBox[{1,0,3}],Point3DBox[{1,0,4}],Point3DBox[
+{1,0,5}],Point3DBox[{1,0,6}]},{Point3DBox[{1,1,0}],Point3DBox[{1,1,1}],Point3DBox[
+{1,1,2}],Point3DBox[{1,1,3}],Point3DBox[{1,1,4}],Point3DBox[{1,1,5}],Point3DBox[{1,1,6}]},{Point3DBox[
+{1,2,0}],Point3DBox[{1,2,1}],Point3DBox[{1,2,2}],Point3DBox[{1,2,3}],Point3DBox[{1,2,4}],Point3DBox[
+{1,2,5}],Point3DBox[{1,2,6}]},{Point3DBox[{1,3,0}],Point3DBox[{1,3,1}],Point3DBox[
+{1,3,2}],Point3DBox[{1,3,3}],Point3DBox[{1,3,4}],Point3DBox[{1,3,5}],Point3DBox[{1,3,6}]},{Point3DBox[
+{1,4,0}],Point3DBox[{1,4,1}],Point3DBox[{1,4,2}],Point3DBox[{1,4,3}],Point3DBox[{1,4,4}],Point3DBox[
+{1,4,5}],Point3DBox[{1,4,6}]},{Point3DBox[{1,5,0}],Point3DBox[{1,5,1}],Point3DBox[
+{1,5,2}],Point3DBox[{1,5,3}],Point3DBox[{1,5,4}],Point3DBox[{1,5,5}],Point3DBox[{1,5,6}]},{Point3DBox[
+{1,6,0}],Point3DBox[{1,6,1}],Point3DBox[{1,6,2}],Point3DBox[{1,6,3}],Point3DBox[{1,6,4}],Point3DBox[
+{1,6,5}],Point3DBox[{1,6,6}]}},{{Point3DBox[{2,0,0}],Point3DBox[{2,0,1}],Point3DBox[
+{2,0,2}],Point3DBox[{2,0,3}],Point3DBox[{2,0,4}],Point3DBox[{2,0,5}],Point3DBox[{2,0,6}]},{Point3DBox[
+{2,1,0}],Point3DBox[{2,1,1}],Point3DBox[{2,1,2}],Point3DBox[{2,1,3}],Point3DBox[{2,1,4}],Point3DBox[
+{2,1,5}],Point3DBox[{2,1,6}]},{Point3DBox[{2,2,0}],Point3DBox[{2,2,1}],Point3DBox[
+{2,2,2}],Point3DBox[{2,2,3}],Point3DBox[{2,2,4}],Point3DBox[{2,2,5}],Point3DBox[{2,2,6}]},{Point3DBox[
+{2,3,0}],Point3DBox[{2,3,1}],Point3DBox[{2,3,2}],Point3DBox[{2,3,3}],Point3DBox[{2,3,4}],Point3DBox[
+{2,3,5}],Point3DBox[{2,3,6}]},{Point3DBox[{2,4,0}],Point3DBox[{2,4,1}],Point3DBox[
+{2,4,2}],Point3DBox[{2,4,3}],Point3DBox[{2,4,4}],Point3DBox[{2,4,5}],Point3DBox[{2,4,6}]},{Point3DBox[
+{2,5,0}],Point3DBox[{2,5,1}],Point3DBox[{2,5,2}],Point3DBox[{2,5,3}],Point3DBox[{2,5,4}],Point3DBox[
+{2,5,5}],Point3DBox[{2,5,6}]},{Point3DBox[{2,6,0}],Point3DBox[{2,6,1}],Point3DBox[
+{2,6,2}],Point3DBox[{2,6,3}],Point3DBox[{2,6,4}],Point3DBox[{2,6,5}],Point3DBox[{2,6,6}]}},{{Point3DBox[
+{3,0,0}],Point3DBox[{3,0,1}],Point3DBox[{3,0,2}],Point3DBox[{3,0,3}],Point3DBox[{3,0,4}],Point3DBox[
+{3,0,5}],Point3DBox[{3,0,6}]},{Point3DBox[{3,1,0}],Point3DBox[{3,1,1}],Point3DBox[
+{3,1,2}],Point3DBox[{3,1,3}],Point3DBox[{3,1,4}],Point3DBox[{3,1,5}],Point3DBox[{3,1,6}]},{Point3DBox[
+{3,2,0}],Point3DBox[{3,2,1}],Point3DBox[{3,2,2}],Point3DBox[{3,2,3}],Point3DBox[{3,2,4}],Point3DBox[
+{3,2,5}],Point3DBox[{3,2,6}]},{Point3DBox[{3,3,0}],Point3DBox[{3,3,1}],Point3DBox[
+{3,3,2}],Point3DBox[{3,3,3}],Point3DBox[{3,3,4}],Point3DBox[{3,3,5}],Point3DBox[{3,3,6}]},{Point3DBox[
+{3,4,0}],Point3DBox[{3,4,1}],Point3DBox[{3,4,2}],Point3DBox[{3,4,3}],Point3DBox[{3,4,4}],Point3DBox[
+{3,4,5}],Point3DBox[{3,4,6}]},{Point3DBox[{3,5,0}],Point3DBox[{3,5,1}],Point3DBox[
+{3,5,2}],Point3DBox[{3,5,3}],Point3DBox[{3,5,4}],Point3DBox[{3,5,5}],Point3DBox[{3,5,6}]},{Point3DBox[
+{3,6,0}],Point3DBox[{3,6,1}],Point3DBox[{3,6,2}],Point3DBox[{3,6,3}],Point3DBox[{3,6,4}],Point3DBox[
+{3,6,5}],Point3DBox[{3,6,6}]}},{{Point3DBox[{4,0,0}],Point3DBox[{4,0,1}],Point3DBox[
+{4,0,2}],Point3DBox[{4,0,3}],Point3DBox[{4,0,4}],Point3DBox[{4,0,5}],Point3DBox[{4,0,6}]},{Point3DBox[
+{4,1,0}],Point3DBox[{4,1,1}],Point3DBox[{4,1,2}],Point3DBox[{4,1,3}],Point3DBox[{4,1,4}],Point3DBox[
+{4,1,5}],Point3DBox[{4,1,6}]},{Point3DBox[{4,2,0}],Point3DBox[{4,2,1}],Point3DBox[
+{4,2,2}],Point3DBox[{4,2,3}],Point3DBox[{4,2,4}],Point3DBox[{4,2,5}],Point3DBox[{4,2,6}]},{Point3DBox[
+{4,3,0}],Point3DBox[{4,3,1}],Point3DBox[{4,3,2}],Point3DBox[{4,3,3}],Point3DBox[{4,3,4}],Point3DBox[
+{4,3,5}],Point3DBox[{4,3,6}]},{Point3DBox[{4,4,0}],Point3DBox[{4,4,1}],Point3DBox[
+{4,4,2}],Point3DBox[{4,4,3}],Point3DBox[{4,4,4}],Point3DBox[{4,4,5}],Point3DBox[{4,4,6}]},{Point3DBox[
+{4,5,0}],Point3DBox[{4,5,1}],Point3DBox[{4,5,2}],Point3DBox[{4,5,3}],Point3DBox[{4,5,4}],Point3DBox[
+{4,5,5}],Point3DBox[{4,5,6}]},{Point3DBox[{4,6,0}],Point3DBox[{4,6,1}],Point3DBox[
+{4,6,2}],Point3DBox[{4,6,3}],Point3DBox[{4,6,4}],Point3DBox[{4,6,5}],Point3DBox[{4,6,6}]}},{{Point3DBox[
+{5,0,0}],Point3DBox[{5,0,1}],Point3DBox[{5,0,2}],Point3DBox[{5,0,3}],Point3DBox[{5,0,4}],Point3DBox[
+{5,0,5}],Point3DBox[{5,0,6}]},{Point3DBox[{5,1,0}],Point3DBox[{5,1,1}],Point3DBox[
+{5,1,2}],Point3DBox[{5,1,3}],Point3DBox[{5,1,4}],Point3DBox[{5,1,5}],Point3DBox[{5,1,6}]},{Point3DBox[
+{5,2,0}],Point3DBox[{5,2,1}],Point3DBox[{5,2,2}],Point3DBox[{5,2,3}],Point3DBox[{5,2,4}],Point3DBox[
+{5,2,5}],Point3DBox[{5,2,6}]},{Point3DBox[{5,3,0}],Point3DBox[{5,3,1}],Point3DBox[
+{5,3,2}],Point3DBox[{5,3,3}],Point3DBox[{5,3,4}],Point3DBox[{5,3,5}],Point3DBox[{5,3,6}]},{Point3DBox[
+{5,4,0}],Point3DBox[{5,4,1}],Point3DBox[{5,4,2}],Point3DBox[{5,4,3}],Point3DBox[{5,4,4}],Point3DBox[
+{5,4,5}],Point3DBox[{5,4,6}]},{Point3DBox[{5,5,0}],Point3DBox[{5,5,1}],Point3DBox[
+{5,5,2}],Point3DBox[{5,5,3}],Point3DBox[{5,5,4}],Point3DBox[{5,5,5}],Point3DBox[{5,5,6}]},{Point3DBox[
+{5,6,0}],Point3DBox[{5,6,1}],Point3DBox[{5,6,2}],Point3DBox[{5,6,3}],Point3DBox[{5,6,4}],Point3DBox[
+{5,6,5}],Point3DBox[{5,6,6}]}},{{Point3DBox[{6,0,0}],Point3DBox[{6,0,1}],Point3DBox[
+{6,0,2}],Point3DBox[{6,0,3}],Point3DBox[{6,0,4}],Point3DBox[{6,0,5}],Point3DBox[{6,0,6}]},{Point3DBox[
+{6,1,0}],Point3DBox[{6,1,1}],Point3DBox[{6,1,2}],Point3DBox[{6,1,3}],Point3DBox[{6,1,4}],Point3DBox[
+{6,1,5}],Point3DBox[{6,1,6}]},{Point3DBox[{6,2,0}],Point3DBox[{6,2,1}],Point3DBox[
+{6,2,2}],Point3DBox[{6,2,3}],Point3DBox[{6,2,4}],Point3DBox[{6,2,5}],Point3DBox[{6,2,6}]},{Point3DBox[
+{6,3,0}],Point3DBox[{6,3,1}],Point3DBox[{6,3,2}],Point3DBox[{6,3,3}],Point3DBox[{6,3,4}],Point3DBox[
+{6,3,5}],Point3DBox[{6,3,6}]},{Point3DBox[{6,4,0}],Point3DBox[{6,4,1}],Point3DBox[
+{6,4,2}],Point3DBox[{6,4,3}],Point3DBox[{6,4,4}],Point3DBox[{6,4,5}],Point3DBox[{6,4,6}]},{Point3DBox[
+{6,5,0}],Point3DBox[{6,5,1}],Point3DBox[{6,5,2}],Point3DBox[{6,5,3}],Point3DBox[{6,5,4}],Point3DBox[
+{6,5,5}],Point3DBox[{6,5,6}]},{Point3DBox[{6,6,0}],Point3DBox[{6,6,1}],Point3DBox[
+{6,6,2}],Point3DBox[{6,6,3}],Point3DBox[{6,6,4}],Point3DBox[{6,6,5}],Point3DBox[{6,6,6}]}}},SphereBox[
+{1,3,3},0.5`],SphereBox[{3,3,3},1.2`]},ExpressionUUID -> "8be6bfe2-8161-4d9b-8322-b04d59c88b5c"],
+StandardForm],"Output",CellLabel -> "Out[165]= ",ExpressionUUID -> "9c2fa05f-fcaa-4ccb-8e3c-c7a5569ea64b"]},
+Open],ExpressionUUID -> "7b91e752-a2c4-4f9f-97a3-c0b86f5922dc"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Manipulate","[",RowBox[{RowBox[{"Graphics3D","[",RowBox[{"{",RowBox[
+{RowBox[{"Table","[",RowBox[{RowBox[{"Point","[",RowBox[{"{",RowBox[{"x",",","y",",","z"}],"}"}],"]"}],",",RowBox[
+{"{",RowBox[{"x",",","0",",","6"}],"}"}],",",RowBox[{"{",RowBox[{"y",",","0",",","6"}],"}"}],",",RowBox[
+{"{",RowBox[{"z",",","0",",","6"}],"}"}]}],"]"}],",",RowBox[{"Sphere","[",RowBox[
+{RowBox[{"{",RowBox[{"x",",","3",",","3"}],"}"}],",","0.5"}],"]"}],",",RowBox[{"Style","[",RowBox[
+{RowBox[{"Sphere","[",RowBox[{RowBox[{"{",RowBox[{"3",",","3",",","3"}],"}"}],",","1.2"}],"]"}],",",RowBox[
+{"Opacity","[","o","]"}]}],"]"}]}],"}"}],"]"}],","," ",RowBox[{"{",RowBox[{"x",",","1",",","5"}],"}"}],",",RowBox[
+{"{",RowBox[{"o",",","0",",","1"}],"}"}]}],"]"}]],"Input",CellLabel -> "In[170]:= ",
+ExpressionUUID -> "5440792e-61d4-4aa8-bc69-c28eaa76a5f0"],Cell[
+BoxData[TagBox[StyleBox[
+DynamicModuleBox[{Set[o$$,0.786`],Set[x$$,4.4399999999999995`],Set[Typeset`show$$,
+True],Set[Typeset`bookmarkList$$,{}],Set[Typeset`bookmarkMode$$,"Menu"],Typeset`animator$$,Set[
+Typeset`animvar$$,1],Set[Typeset`name$$,"\"untitled\""],Set[Typeset`specs$$,{{Hold[
+x$$],1,5},{Hold[o$$],0,1}}],Set[Typeset`size$$,Automatic],Set[Typeset`update$$,0],Set[
+Typeset`initDone$$,False],Set[Typeset`skipInitDone$$,True]},DynamicBox[Manipulate`ManipulateBoxes[
+1,StandardForm,RuleDelayed["Variables",{Set[o$$,0],Set[x$$,1]}],RuleDelayed["ControllerVariables",
+{}],RuleDelayed["OtherVariables",{Typeset`show$$,Typeset`bookmarkList$$,Typeset`bookmarkMode$$,Typeset`animator$$,Typeset`animvar$$,Typeset`name$$,Typeset`specs$$,Typeset`size$$,Typeset`update$$,Typeset`initDone$$,Typeset`skipInitDone$$}],
+RuleDelayed["Body",Graphics3D[{Table[Point[{x$$,y,z}],{x$$,0,6},{y,0,6},{z,0,6}],Sphere[
+{x$$,3,3},0.5`],Style[Sphere[{3,3,3},1.2`],Opacity[o$$]]}]],RuleDelayed["Specifications",
+{{x$$,1,5},{o$$,0,1}}],RuleDelayed["Options",{}],RuleDelayed["DefaultOptions",{}]],
+SingleEvaluation -> True],RuleDelayed[DynamicModuleValues,{}],RuleDelayed[Deinitialization,
+None],RuleDelayed[UntrackedVariables,{Typeset`size$$}],SynchronousInitialization -> True,
+RuleDelayed[UnsavedVariables,{Typeset`initDone$$}],RuleDelayed[UndoTrackedVariables,
+{Typeset`show$$,Typeset`bookmarkMode$$}],ExpressionUUID -> "32b09279-19cc-4b41-ba99-c6d0999a20ad"],
+"Manipulate",Deployed -> True,StripOnInput -> False],Manipulate`InterpretManipulate[
+1]],StandardForm],"Output",CellLabel -> "Out[170]= ",ExpressionUUID -> "33b2c264-b9cf-4892-b5bf-aa36c9ba8ecc"]},
+Open],ExpressionUUID -> "d9d7563e-65e6-4223-b662-c662ba0bfafb"],Cell[
+TextData[{"Vocabulary","\n","\t","skip"}],
+"Text",ExpressionUUID -> "4431afeb-2973-43cb-82f5-8bdd33dbb0d1"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "13. for Wolfram Cloud 1.61.2 (November 30, 2021)"]
