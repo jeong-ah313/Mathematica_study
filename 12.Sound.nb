@@ -1,0 +1,653 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[RowBox[{"Graphics","[",RowBox[{"Disk","[","]"}],"]"}]],
+"Input",CellLabel -> "In[101]:= ",ExpressionUUID -> "98ab0ed2-2115-4e12-8e2f-1a05727f5a96"],Cell[
+BoxData[
+GraphicsBox[DiskBox[{0,0}],ExpressionUUID -> "7929418c-ee57-4f15-aa39-d8bbf461f33f"],
+StandardForm],"Output",CellLabel -> "Out[101]= ",ExpressionUUID -> "8414f80d-263d-440f-a9b8-a57179125795"]},
+Open],ExpressionUUID -> "5c0cef21-0a58-4f60-bfa9-547c14f848ee"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Sound","[",RowBox[{"SoundNote","[","\"C\"","]"}],"]"}]],"Input",
+CellLabel -> "In[102]:= ",ExpressionUUID -> "35771470-f29a-456d-946e-7c7be5f59322"],Cell[
+BoxData[
+InterpretationBox[GraphicsBox[{{RGBColor[0.9568627450980393`,0.9568627450980393`,
+0.9568627450980393`],RectangleBox[{0,0},{360,-164}]},{InsetBox[GraphicsBox[{{{RGBColor[
+0.5`,0,0.5`],Antialiasing -> True,{{RectangleBox[{0.`,0.43198696602798653`},{0.95`,0.4438917279327484`}]}}}}},
+{Background -> GrayLevel[1],Frame -> True,FrameStyle -> GrayLevel[0.75`],FrameTicks -> False,ImagePadding -> None,AspectRatio -> NCache[
+Rational[6,35],0.17142857142857143`],PlotRange -> {All,All},AspectRatio -> NCache[
+Times[Rational[1,4],Power[GoldenRatio,-1]],0.1545084971874737`],PlotRangePadding -> {Automatic,0.05`}},
+ExpressionUUID -> "8d640e0a-5a9a-4706-8433-a088a34f82b6",ImageSize -> {242,41}],{180,-35},
+ImageScaled[{0.5`,0.5`}],{350,60},Background -> RGBColor[0.9568627450980393`,0.9568627450980393`,
+0.9568627450980393`]],InsetBox[GraphicsBox[{GrayLevel[0.6`],RectangleBox[{0,0}]},
+{Background -> GrayLevel[1],Frame -> True,FrameStyle -> GrayLevel[0.75`],FrameTicks -> False,ImagePadding -> None,AspectRatio -> NCache[
+Rational[6,35],0.17142857142857143`]},ExpressionUUID -> "149c6bd4-f5bd-455d-b92a-04ea0cb1c535",
+ImageSize -> {242,41}],{180,-100},ImageScaled[{0.5`,0.5`}],{350,60},Background -> RGBColor[
+0.9568627450980393`,0.9568627450980393`,0.9568627450980393`]]},InsetBox[BoxData[FormBox[
+StyleBox[TemplateBox[{StyleBox["\" | \"",FontSize -> 14,FontColor -> RGBColor[0.5098039215686274`,
+0.5098039215686274`,0.5098039215686274`],StripOnInput -> False],StyleBox[TemplateBox[
+{"\"1\"","\" s\""},"RowDefault"],FontColor -> RGBColor[0.5098039215686274`,0.5098039215686274`,
+0.5098039215686274`],StripOnInput -> False]},"RowWithSeparator"],"DialogStyle",StripOnInput -> False],
+TraditionalForm]],{355,-159},Scaled[{1,0}]],TagBox[{RGBColor[0.9568627450980393`,
+0.9568627450980393`,0.9568627450980393`],RectangleBox[{5,-158},{29,-135}],RGBColor[
+0.27450980392156865`,0.5411764705882353`,0.796078431372549`],PolygonBox[NCache[{{11,-157},{11,-136},{20.`,Rational[
+-293,2]},{11,-157}},{{11,-157},{11,-136},{20.`,-146.5`},{11,-157}}]],Antialiasing -> False},
+EventHandlerTag[{RuleDelayed["MouseClicked",If[True,CompoundExpression[Sound`EmitMIDI[
+Sound`MIDISequence[{Sound`MIDITrack[{Sound`MIDIEvent[0,"SetTempo","Tempo" -> 1000000],Sound`MIDIEvent[
+0,"ProgramCommand","Channel" -> 0,"Value" -> 0],Sound`MIDIEvent[0,"NoteOn","Note" -> 60,
+"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[48,"NoteOff","Note" -> 60,"Channel" -> 0,
+"Velocity" -> 0]}]},"DivisionType" -> "PPQ","Resolution" -> 48]],Sound`EmitSampledSound[
+None,"Preemptive"]],FEPrivate`EmitSound[None,"Preemptive",ExpressionUUID -> "1f5e5c2c-530e-4ca5-97dd-e57a68592232"]]],Method -> "Preemptive",PassEventsDown -> Automatic,PassEventsUp -> True}]],TagBox[
+{RGBColor[0.9568627450980393`,0.9568627450980393`,0.9568627450980393`],RectangleBox[
+{29,-158},{53,-135}],RGBColor[0.27450980392156865`,0.5411764705882353`,0.796078431372549`],RectangleBox[
+{35,-152},{47,-141}],Antialiasing -> False},EventHandlerTag[{RuleDelayed["MouseClicked",
+If[True,CompoundExpression[Sound`EmitSampledSound[SampledSoundList[{{0.`}},8000],
+"Preemptive"],Sound`StopMIDI[]],FEPrivate`EmitSound[SampledSoundList[{{0.`}},8000],
+"Preemptive",ExpressionUUID -> "c31266c7-b87a-434e-9de7-940f3dc852c0"]]],Method -> "Preemptive",PassEventsDown -> Automatic,PassEventsUp -> True}]],{GrayLevel[
+0.75`],Antialiasing -> False,LineBox[{{0,0},{360,0},{360,-164},{0,-164},{0,0}}]}},
+ContentSelectable -> False,ImageSize -> 250,PlotRange -> {{0,360},{-164,0}},PlotRangePadding -> 1],
+Sound[SoundNote["C"]]],StandardForm],"Output",CellLabel -> "Out[102]= ",ExpressionUUID -> "ed85d765-ef77-4997-95ed-809477e8756e"]},
+Open],ExpressionUUID -> "03876aa0-4614-453d-af09-75cddf11894c"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Sound","[",RowBox[{"{",RowBox[{RowBox[{"SoundNote","[","\"C\"","]"}],",",RowBox[
+{"SoundNote","[","\"C\"","]"}],",",RowBox[{"SoundNote","[","\"E\"","]"}]}],"}"}],"]"}]],
+"Input",CellLabel -> "In[103]:= ",ExpressionUUID -> "a4d8c234-7ea9-4f71-811f-20a3a4aa0b89"],Cell[
+BoxData[
+InterpretationBox[GraphicsBox[{{RGBColor[0.9568627450980393`,0.9568627450980393`,
+0.9568627450980393`],RectangleBox[{0,0},{360,-164}]},{InsetBox[GraphicsBox[{{{RGBColor[
+0.5`,0,0.5`],Antialiasing -> True,{{RectangleBox[{0.`,0.43198696602798653`},{0.95`,0.4438917279327484`}],RectangleBox[
+{1.`,0.43198696602798653`},{1.95`,0.4438917279327484`}],RectangleBox[{2.`,0.4796060136470343`},
+{2.95`,0.49151077555179606`}]}}}}},{Background -> GrayLevel[1],Frame -> True,FrameStyle -> GrayLevel[
+0.75`],FrameTicks -> False,ImagePadding -> None,AspectRatio -> NCache[Rational[6,
+35],0.17142857142857143`],PlotRange -> {All,All},AspectRatio -> NCache[Times[Rational[
+1,4],Power[GoldenRatio,-1]],0.1545084971874737`],PlotRangePadding -> {Automatic,0.05`}},
+ExpressionUUID -> "7cc11ad9-7f88-4caa-8034-5251b38ef14e",ImageSize -> {242,41}],{180,-35},
+ImageScaled[{0.5`,0.5`}],{350,60},Background -> RGBColor[0.9568627450980393`,0.9568627450980393`,
+0.9568627450980393`]],InsetBox[GraphicsBox[{GrayLevel[0.6`],RectangleBox[{0,0}]},
+{Background -> GrayLevel[1],Frame -> True,FrameStyle -> GrayLevel[0.75`],FrameTicks -> False,ImagePadding -> None,AspectRatio -> NCache[
+Rational[6,35],0.17142857142857143`]},ExpressionUUID -> "457fec97-323a-4347-b4ca-e3cf0ef1c6cc",
+ImageSize -> {242,41}],{180,-100},ImageScaled[{0.5`,0.5`}],{350,60},Background -> RGBColor[
+0.9568627450980393`,0.9568627450980393`,0.9568627450980393`]]},InsetBox[BoxData[FormBox[
+StyleBox[TemplateBox[{StyleBox["\" | \"",FontSize -> 14,FontColor -> RGBColor[0.5098039215686274`,
+0.5098039215686274`,0.5098039215686274`],StripOnInput -> False],StyleBox[TemplateBox[
+{"\"3\"","\" s\""},"RowDefault"],FontColor -> RGBColor[0.5098039215686274`,0.5098039215686274`,
+0.5098039215686274`],StripOnInput -> False]},"RowWithSeparator"],"DialogStyle",StripOnInput -> False],
+TraditionalForm]],{355,-159},Scaled[{1,0}]],TagBox[{RGBColor[0.9568627450980393`,
+0.9568627450980393`,0.9568627450980393`],RectangleBox[{5,-158},{29,-135}],RGBColor[
+0.27450980392156865`,0.5411764705882353`,0.796078431372549`],PolygonBox[NCache[{{11,-157},{11,-136},{20.`,Rational[
+-293,2]},{11,-157}},{{11,-157},{11,-136},{20.`,-146.5`},{11,-157}}]],Antialiasing -> False},
+EventHandlerTag[{RuleDelayed["MouseClicked",If[True,CompoundExpression[Sound`EmitMIDI[
+Sound`MIDISequence[{Sound`MIDITrack[{Sound`MIDIEvent[0,"SetTempo","Tempo" -> 1000000],Sound`MIDIEvent[
+0,"ProgramCommand","Channel" -> 0,"Value" -> 0],Sound`MIDIEvent[0,"NoteOn","Note" -> 60,
+"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[48,"NoteOff","Note" -> 60,"Channel" -> 0,
+"Velocity" -> 0],Sound`MIDIEvent[48,"NoteOn","Note" -> 60,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[
+96,"NoteOff","Note" -> 60,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[96,"NoteOn",
+"Note" -> 64,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[144,"NoteOff","Note" -> 64,
+"Channel" -> 0,"Velocity" -> 0]}]},"DivisionType" -> "PPQ","Resolution" -> 48]],Sound`EmitSampledSound[
+None,"Preemptive"]],FEPrivate`EmitSound[None,"Preemptive",ExpressionUUID -> "6e8d950a-6a73-4113-b88c-a805f492a011"]]],Method -> "Preemptive",PassEventsDown -> Automatic,PassEventsUp -> True}]],TagBox[
+{RGBColor[0.9568627450980393`,0.9568627450980393`,0.9568627450980393`],RectangleBox[
+{29,-158},{53,-135}],RGBColor[0.27450980392156865`,0.5411764705882353`,0.796078431372549`],RectangleBox[
+{35,-152},{47,-141}],Antialiasing -> False},EventHandlerTag[{RuleDelayed["MouseClicked",
+If[True,CompoundExpression[Sound`EmitSampledSound[SampledSoundList[{{0.`}},8000],
+"Preemptive"],Sound`StopMIDI[]],FEPrivate`EmitSound[SampledSoundList[{{0.`}},8000],
+"Preemptive",ExpressionUUID -> "d7e45002-ac48-4298-acc7-78e7445592d7"]]],Method -> "Preemptive",PassEventsDown -> Automatic,PassEventsUp -> True}]],{GrayLevel[
+0.75`],Antialiasing -> False,LineBox[{{0,0},{360,0},{360,-164},{0,-164},{0,0}}]}},
+ContentSelectable -> False,ImageSize -> 250,PlotRange -> {{0,360},{-164,0}},PlotRangePadding -> 1],
+Sound[{SoundNote["C"],SoundNote["C"],SoundNote["E"]}]],StandardForm],"Output",CellLabel -> "Out[103]= ",
+ExpressionUUID -> "a7770ce3-5dc0-4445-99cf-cc5116391712"]},Open],ExpressionUUID -> "6729e06b-8e6e-47cd-afb2-fece4ff5ca9f"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Sound","[",RowBox[{"{",RowBox[{RowBox[{"SoundNote","[","0","]"}],",",RowBox[
+{"SoundNote","[","0","]"}],","," ",RowBox[{"SoundNote","[","4","]"}]}],"}"}],"]"}]],
+"Input",CellLabel -> "In[105]:= ",ExpressionUUID -> "b6d5a77b-12db-4ed5-ad7e-5d5173fe0746"],Cell[
+BoxData[
+InterpretationBox[GraphicsBox[{{RGBColor[0.9568627450980393`,0.9568627450980393`,
+0.9568627450980393`],RectangleBox[{0,0},{360,-164}]},{InsetBox[GraphicsBox[{{{RGBColor[
+0.5`,0,0.5`],Antialiasing -> True,{{RectangleBox[{0.`,0.43198696602798653`},{0.95`,0.4438917279327484`}],RectangleBox[
+{1.`,0.43198696602798653`},{1.95`,0.4438917279327484`}],RectangleBox[{2.`,0.4796060136470343`},
+{2.95`,0.49151077555179606`}]}}}}},{Background -> GrayLevel[1],Frame -> True,FrameStyle -> GrayLevel[
+0.75`],FrameTicks -> False,ImagePadding -> None,AspectRatio -> NCache[Rational[6,
+35],0.17142857142857143`],PlotRange -> {All,All},AspectRatio -> NCache[Times[Rational[
+1,4],Power[GoldenRatio,-1]],0.1545084971874737`],PlotRangePadding -> {Automatic,0.05`}},
+ExpressionUUID -> "e5bc443a-d253-427b-95a1-ddf69940b5bc",ImageSize -> {242,41}],{180,-35},
+ImageScaled[{0.5`,0.5`}],{350,60},Background -> RGBColor[0.9568627450980393`,0.9568627450980393`,
+0.9568627450980393`]],InsetBox[GraphicsBox[{GrayLevel[0.6`],RectangleBox[{0,0}]},
+{Background -> GrayLevel[1],Frame -> True,FrameStyle -> GrayLevel[0.75`],FrameTicks -> False,ImagePadding -> None,AspectRatio -> NCache[
+Rational[6,35],0.17142857142857143`]},ExpressionUUID -> "ffd1eb34-92a4-495a-b833-9706beb66e67",
+ImageSize -> {242,41}],{180,-100},ImageScaled[{0.5`,0.5`}],{350,60},Background -> RGBColor[
+0.9568627450980393`,0.9568627450980393`,0.9568627450980393`]]},InsetBox[BoxData[FormBox[
+StyleBox[TemplateBox[{StyleBox["\" | \"",FontSize -> 14,FontColor -> RGBColor[0.5098039215686274`,
+0.5098039215686274`,0.5098039215686274`],StripOnInput -> False],StyleBox[TemplateBox[
+{"\"3\"","\" s\""},"RowDefault"],FontColor -> RGBColor[0.5098039215686274`,0.5098039215686274`,
+0.5098039215686274`],StripOnInput -> False]},"RowWithSeparator"],"DialogStyle",StripOnInput -> False],
+TraditionalForm]],{355,-159},Scaled[{1,0}]],TagBox[{RGBColor[0.9568627450980393`,
+0.9568627450980393`,0.9568627450980393`],RectangleBox[{5,-158},{29,-135}],RGBColor[
+0.27450980392156865`,0.5411764705882353`,0.796078431372549`],PolygonBox[NCache[{{11,-157},{11,-136},{20.`,Rational[
+-293,2]},{11,-157}},{{11,-157},{11,-136},{20.`,-146.5`},{11,-157}}]],Antialiasing -> False},
+EventHandlerTag[{RuleDelayed["MouseClicked",If[True,CompoundExpression[Sound`EmitMIDI[
+Sound`MIDISequence[{Sound`MIDITrack[{Sound`MIDIEvent[0,"SetTempo","Tempo" -> 1000000],Sound`MIDIEvent[
+0,"ProgramCommand","Channel" -> 0,"Value" -> 0],Sound`MIDIEvent[0,"NoteOn","Note" -> 60,
+"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[48,"NoteOff","Note" -> 60,"Channel" -> 0,
+"Velocity" -> 0],Sound`MIDIEvent[48,"NoteOn","Note" -> 60,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[
+96,"NoteOff","Note" -> 60,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[96,"NoteOn",
+"Note" -> 64,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[144,"NoteOff","Note" -> 64,
+"Channel" -> 0,"Velocity" -> 0]}]},"DivisionType" -> "PPQ","Resolution" -> 48]],Sound`EmitSampledSound[
+None,"Preemptive"]],FEPrivate`EmitSound[None,"Preemptive",ExpressionUUID -> "294113be-a89e-4d41-a89c-3183c1c6d434"]]],Method -> "Preemptive",PassEventsDown -> Automatic,PassEventsUp -> True}]],TagBox[
+{RGBColor[0.9568627450980393`,0.9568627450980393`,0.9568627450980393`],RectangleBox[
+{29,-158},{53,-135}],RGBColor[0.27450980392156865`,0.5411764705882353`,0.796078431372549`],RectangleBox[
+{35,-152},{47,-141}],Antialiasing -> False},EventHandlerTag[{RuleDelayed["MouseClicked",
+If[True,CompoundExpression[Sound`EmitSampledSound[SampledSoundList[{{0.`}},8000],
+"Preemptive"],Sound`StopMIDI[]],FEPrivate`EmitSound[SampledSoundList[{{0.`}},8000],
+"Preemptive",ExpressionUUID -> "a2bfa38e-f217-4b16-91ec-67b6938864bc"]]],Method -> "Preemptive",PassEventsDown -> Automatic,PassEventsUp -> True}]],{GrayLevel[
+0.75`],Antialiasing -> False,LineBox[{{0,0},{360,0},{360,-164},{0,-164},{0,0}}]}},
+ContentSelectable -> False,ImageSize -> 250,PlotRange -> {{0,360},{-164,0}},PlotRangePadding -> 1],
+Sound[{SoundNote[0],SoundNote[0],SoundNote[4]}]],StandardForm],"Output",CellLabel -> "Out[105]= ",
+ExpressionUUID -> "70bda86f-9d20-4269-ac24-6a54e9330212"]},Open],ExpressionUUID -> "90f7d26b-0c54-430f-b893-b89048721141"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Sound","[",RowBox[{"{",RowBox[{RowBox[{"SoundNote","[",RowBox[
+{"0",",","0.2"}],"]"}],",",RowBox[{"SoundNote","[",RowBox[{"2",",","0.2"}],"]"}],",",RowBox[
+{"SoundNote","[",RowBox[{"4",",","0.2"}],"]"}],",",RowBox[{"SoundNote","[",RowBox[
+{"5",",","0.2"}],"]"}],","," ",RowBox[{"SoundNote","[",RowBox[{"7",",","0.2"}],"]"}]}],"}"}],"]"}]],
+"Input",CellLabel -> "In[107]:= ",ExpressionUUID -> "5ea91102-8376-423c-a68b-b1faf89b30d3"],Cell[
+BoxData[
+InterpretationBox[GraphicsBox[{{RGBColor[0.9568627450980393`,0.9568627450980393`,
+0.9568627450980393`],RectangleBox[{0,0},{360,-164}]},{InsetBox[GraphicsBox[{{{RGBColor[
+0.5`,0,0.5`],Antialiasing -> True,{{RectangleBox[{0.`,0.43198696602798653`},{0.19`,0.4438917279327484`}],RectangleBox[
+{0.2`,0.45579648983751037`},{0.39`,0.4677012517422721`}],RectangleBox[{0.4`,0.4796060136470343`},
+{0.59`,0.49151077555179606`}],RectangleBox[{0.6`,0.49151077555179606`},{0.79`,0.5034155374565581`}],RectangleBox[
+{0.8`,0.5153202993613198`},{0.99`,0.5272250612660818`}]}}}}},{Background -> GrayLevel[
+1],Frame -> True,FrameStyle -> GrayLevel[0.75`],FrameTicks -> False,ImagePadding -> None,AspectRatio -> NCache[
+Rational[6,35],0.17142857142857143`],PlotRange -> {All,All},AspectRatio -> NCache[
+Times[Rational[1,4],Power[GoldenRatio,-1]],0.1545084971874737`],PlotRangePadding -> {Automatic,0.05`}},
+ExpressionUUID -> "2f826a33-688b-4f98-a26c-a87c76dd3f72",ImageSize -> {242,41}],{180,-35},
+ImageScaled[{0.5`,0.5`}],{350,60},Background -> RGBColor[0.9568627450980393`,0.9568627450980393`,
+0.9568627450980393`]],InsetBox[GraphicsBox[{GrayLevel[0.6`],RectangleBox[{0,0}]},
+{Background -> GrayLevel[1],Frame -> True,FrameStyle -> GrayLevel[0.75`],FrameTicks -> False,ImagePadding -> None,AspectRatio -> NCache[
+Rational[6,35],0.17142857142857143`]},ExpressionUUID -> "7b077565-347b-4f4f-8b96-6d0d794daea3",
+ImageSize -> {242,41}],{180,-100},ImageScaled[{0.5`,0.5`}],{350,60},Background -> RGBColor[
+0.9568627450980393`,0.9568627450980393`,0.9568627450980393`]]},InsetBox[BoxData[FormBox[
+StyleBox[TemplateBox[{StyleBox["\" | \"",FontSize -> 14,FontColor -> RGBColor[0.5098039215686274`,
+0.5098039215686274`,0.5098039215686274`],StripOnInput -> False],StyleBox[TemplateBox[
+{"\"1\"","\" s\""},"RowDefault"],FontColor -> RGBColor[0.5098039215686274`,0.5098039215686274`,
+0.5098039215686274`],StripOnInput -> False]},"RowWithSeparator"],"DialogStyle",StripOnInput -> False],
+TraditionalForm]],{355,-159},Scaled[{1,0}]],TagBox[{RGBColor[0.9568627450980393`,
+0.9568627450980393`,0.9568627450980393`],RectangleBox[{5,-158},{29,-135}],RGBColor[
+0.27450980392156865`,0.5411764705882353`,0.796078431372549`],PolygonBox[NCache[{{11,-157},{11,-136},{20.`,Rational[
+-293,2]},{11,-157}},{{11,-157},{11,-136},{20.`,-146.5`},{11,-157}}]],Antialiasing -> False},
+EventHandlerTag[{RuleDelayed["MouseClicked",If[True,CompoundExpression[Sound`EmitMIDI[
+Sound`MIDISequence[{Sound`MIDITrack[{Sound`MIDIEvent[0,"SetTempo","Tempo" -> 1000000],Sound`MIDIEvent[
+0,"ProgramCommand","Channel" -> 0,"Value" -> 0],Sound`MIDIEvent[0,"NoteOn","Note" -> 60,
+"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[48,"NoteOff","Note" -> 60,"Channel" -> 0,
+"Velocity" -> 0],Sound`MIDIEvent[48,"NoteOn","Note" -> 62,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[
+96,"NoteOff","Note" -> 62,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[96,"NoteOn",
+"Note" -> 64,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[144,"NoteOff","Note" -> 64,
+"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[144,"NoteOn","Note" -> 65,"Channel" -> 0,
+"Velocity" -> 127],Sound`MIDIEvent[192,"NoteOff","Note" -> 65,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[
+192,"NoteOn","Note" -> 67,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[240,"NoteOff",
+"Note" -> 67,"Channel" -> 0,"Velocity" -> 0]}]},"DivisionType" -> "PPQ","Resolution" -> 240]],
+Sound`EmitSampledSound[None,"Preemptive"]],FEPrivate`EmitSound[None,"Preemptive",
+ExpressionUUID -> "3780f6ec-f0f3-409f-a9b6-03da99bbcbc4"]]],Method -> "Preemptive",PassEventsDown -> Automatic,PassEventsUp -> True}]],TagBox[
+{RGBColor[0.9568627450980393`,0.9568627450980393`,0.9568627450980393`],RectangleBox[
+{29,-158},{53,-135}],RGBColor[0.27450980392156865`,0.5411764705882353`,0.796078431372549`],RectangleBox[
+{35,-152},{47,-141}],Antialiasing -> False},EventHandlerTag[{RuleDelayed["MouseClicked",
+If[True,CompoundExpression[Sound`EmitSampledSound[SampledSoundList[{{0.`}},8000],
+"Preemptive"],Sound`StopMIDI[]],FEPrivate`EmitSound[SampledSoundList[{{0.`}},8000],
+"Preemptive",ExpressionUUID -> "a651a837-addc-4f72-b09e-73122344205d"]]],Method -> "Preemptive",PassEventsDown -> Automatic,PassEventsUp -> True}]],{GrayLevel[
+0.75`],Antialiasing -> False,LineBox[{{0,0},{360,0},{360,-164},{0,-164},{0,0}}]}},
+ContentSelectable -> False,ImageSize -> 250,PlotRange -> {{0,360},{-164,0}},PlotRangePadding -> 1],
+Sound[{SoundNote[0,0.2`],SoundNote[2,0.2`],SoundNote[4,0.2`],SoundNote[5,0.2`],SoundNote[
+7,0.2`]}]],StandardForm],"Output",CellLabel -> "Out[107]= ",ExpressionUUID -> "a60cf5c5-74e6-4402-988c-83339c33e048"]},
+Open],ExpressionUUID -> "c70637c7-3edf-4e13-9e83-bca5593910d5"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Sound","[",RowBox[{"SoundNote","[",RowBox[{"0",",","2",",","\"Violin\""}],"]"}],"]"}]],
+"Input",CellLabel -> "In[108]:= ",ExpressionUUID -> "6881e77a-7eec-4beb-a1fe-3dd044fc61e9"],Cell[
+BoxData[
+InterpretationBox[GraphicsBox[{{RGBColor[0.9568627450980393`,0.9568627450980393`,
+0.9568627450980393`],RectangleBox[{0,0},{360,-164}]},{InsetBox[GraphicsBox[{{{Hue[
+-0.1599553194190092`,0.9`,0.7`],Antialiasing -> True,{{RectangleBox[{0.`,0.43198696602798653`},
+{1.95`,0.4438917279327484`}]}}}}},{Background -> GrayLevel[1],Frame -> True,FrameStyle -> GrayLevel[
+0.75`],FrameTicks -> False,ImagePadding -> None,AspectRatio -> NCache[Rational[6,
+35],0.17142857142857143`],PlotRange -> {All,All},AspectRatio -> NCache[Times[Rational[
+1,4],Power[GoldenRatio,-1]],0.1545084971874737`],PlotRangePadding -> {Automatic,0.05`}},
+ExpressionUUID -> "f39b0c73-96e8-4ef9-bf16-73148dd737e8",ImageSize -> {242,41}],{180,-35},
+ImageScaled[{0.5`,0.5`}],{350,60},Background -> RGBColor[0.9568627450980393`,0.9568627450980393`,
+0.9568627450980393`]],InsetBox[GraphicsBox[{GrayLevel[0.6`],RectangleBox[{0,0}]},
+{Background -> GrayLevel[1],Frame -> True,FrameStyle -> GrayLevel[0.75`],FrameTicks -> False,ImagePadding -> None,AspectRatio -> NCache[
+Rational[6,35],0.17142857142857143`]},ExpressionUUID -> "7d74c516-b9eb-4bf6-975e-f16adf9b83b2",
+ImageSize -> {242,41}],{180,-100},ImageScaled[{0.5`,0.5`}],{350,60},Background -> RGBColor[
+0.9568627450980393`,0.9568627450980393`,0.9568627450980393`]]},InsetBox[BoxData[FormBox[
+StyleBox[TemplateBox[{StyleBox["\" | \"",FontSize -> 14,FontColor -> RGBColor[0.5098039215686274`,
+0.5098039215686274`,0.5098039215686274`],StripOnInput -> False],StyleBox[TemplateBox[
+{"\"2\"","\" s\""},"RowDefault"],FontColor -> RGBColor[0.5098039215686274`,0.5098039215686274`,
+0.5098039215686274`],StripOnInput -> False]},"RowWithSeparator"],"DialogStyle",StripOnInput -> False],
+TraditionalForm]],{355,-159},Scaled[{1,0}]],TagBox[{RGBColor[0.9568627450980393`,
+0.9568627450980393`,0.9568627450980393`],RectangleBox[{5,-158},{29,-135}],RGBColor[
+0.27450980392156865`,0.5411764705882353`,0.796078431372549`],PolygonBox[NCache[{{11,-157},{11,-136},{20.`,Rational[
+-293,2]},{11,-157}},{{11,-157},{11,-136},{20.`,-146.5`},{11,-157}}]],Antialiasing -> False},
+EventHandlerTag[{RuleDelayed["MouseClicked",If[True,CompoundExpression[Sound`EmitMIDI[
+Sound`MIDISequence[{Sound`MIDITrack[{Sound`MIDIEvent[0,"SetTempo","Tempo" -> 1000000],Sound`MIDIEvent[
+0,"ProgramCommand","Channel" -> 0,"Value" -> 40],Sound`MIDIEvent[0,"NoteOn","Note" -> 60,
+"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[96,"NoteOff","Note" -> 60,"Channel" -> 0,
+"Velocity" -> 0]}]},"DivisionType" -> "PPQ","Resolution" -> 48]],Sound`EmitSampledSound[
+None,"Preemptive"]],FEPrivate`EmitSound[None,"Preemptive",ExpressionUUID -> "c49f7b02-53d1-45a9-bff2-9adad0bdd77e"]]],Method -> "Preemptive",PassEventsDown -> Automatic,PassEventsUp -> True}]],TagBox[
+{RGBColor[0.9568627450980393`,0.9568627450980393`,0.9568627450980393`],RectangleBox[
+{29,-158},{53,-135}],RGBColor[0.27450980392156865`,0.5411764705882353`,0.796078431372549`],RectangleBox[
+{35,-152},{47,-141}],Antialiasing -> False},EventHandlerTag[{RuleDelayed["MouseClicked",
+If[True,CompoundExpression[Sound`EmitSampledSound[SampledSoundList[{{0.`}},8000],
+"Preemptive"],Sound`StopMIDI[]],FEPrivate`EmitSound[SampledSoundList[{{0.`}},8000],
+"Preemptive",ExpressionUUID -> "66b27e89-b3a7-4a2f-ae68-dee1aa490d1b"]]],Method -> "Preemptive",PassEventsDown -> Automatic,PassEventsUp -> True}]],{GrayLevel[
+0.75`],Antialiasing -> False,LineBox[{{0,0},{360,0},{360,-164},{0,-164},{0,0}}]}},
+ContentSelectable -> False,ImageSize -> 250,PlotRange -> {{0,360},{-164,0}},PlotRangePadding -> 1],
+Sound[SoundNote[0,2,"Violin"]]],StandardForm],"Output",CellLabel -> "Out[108]= ",
+ExpressionUUID -> "6618b123-b0c9-43da-891f-53e09f78bc48"]},Open],ExpressionUUID -> "b459f043-7f59-4965-8aa0-b9d281e2c84c"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Sound","[",RowBox[{"{",RowBox[{RowBox[{"SoundNote","[",RowBox[
+{"0",",",RowBox[{"{",RowBox[{"0",",","3"}],"}"}],",","\"Violin\""}],"]"}],",",RowBox[
+{"SoundNote","[",RowBox[{RowBox[{"5",RowBox[{"{",RowBox[{"1",",","3"}],"}"}]}],",","\"Violin\""}],"]"}],",",RowBox[
+{"SoundNote","[",RowBox[{"9",",",RowBox[{"{",RowBox[{"2",",","3"}],"}"}],",","\"Violin\""}],"]"}]}],"}"}],"]"}]],
+"Input",CellLabel -> "In[109]:= ",ExpressionUUID -> "8e2dfc4f-1296-47c3-a0fa-cef86a4df66e"],Cell[
+BoxData[
+RowBox[{"Sound","[",RowBox[{"{",RowBox[{RowBox[{"SoundNote","[",RowBox[{"0",",",RowBox[
+{"{",RowBox[{"0",",","3"}],"}"}],",","\"Violin\""}],"]"}],",",RowBox[{"SoundNote","[",RowBox[
+{RowBox[{"{",RowBox[{"5",",","15"}],"}"}],",","\"Violin\""}],"]"}],",",RowBox[{"SoundNote","[",RowBox[
+{"9",",",RowBox[{"{",RowBox[{"2",",","3"}],"}"}],",","\"Violin\""}],"]"}]}],"}"}],"]"}],
+StandardForm],"Output",CellLabel -> "Out[109]= ",ExpressionUUID -> "0623b23e-89de-441f-88d9-f7dd3fa8d14e"]},
+Open],ExpressionUUID -> "1c61a9f7-4ae8-4e89-b77a-a37febb14c8c"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Table","[",RowBox[{RowBox[{"SoundNote","[",RowBox[{"n",",","0.2"}],"]"}],",",RowBox[
+{"{",RowBox[{"n",",","5"}],"}"}]}],"]"}]],"Input",CellLabel -> "In[110]:= ",ExpressionUUID -> "49e395d5-72ab-4de2-ad35-2c844d95426e"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{RowBox[{"SoundNote","[",RowBox[{"1",",","0.2`"}],"]"}],",",RowBox[
+{"SoundNote","[",RowBox[{"2",",","0.2`"}],"]"}],",",RowBox[{"SoundNote","[",RowBox[
+{"3",",","0.2`"}],"]"}],",",RowBox[{"SoundNote","[",RowBox[{"4",",","0.2`"}],"]"}],",",RowBox[
+{"SoundNote","[",RowBox[{"5",",","0.2`"}],"]"}]}],"}"}],StandardForm],"Output",CellLabel -> "Out[110]= ",
+ExpressionUUID -> "d08f5f3f-78be-463f-9967-8fada735a338"]},Open],ExpressionUUID -> "f81bb5b4-3128-4066-aa9f-a1439a149996"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Sound","[",RowBox[{"Table","[",RowBox[{RowBox[{"SoundNote","[",RowBox[
+{"n",",","0.2"}],"]"}],",",RowBox[{"{",RowBox[{"n",",","5"}],"}"}]}],"]"}],"]"}]],
+"Input",CellLabel -> "In[111]:= ",ExpressionUUID -> "d8d821c6-33fa-4d0f-9db8-e366ac8c6f1d"],Cell[
+BoxData[
+InterpretationBox[GraphicsBox[{{RGBColor[0.9568627450980393`,0.9568627450980393`,
+0.9568627450980393`],RectangleBox[{0,0},{360,-164}]},{InsetBox[GraphicsBox[{{{RGBColor[
+0.5`,0,0.5`],Antialiasing -> True,{{RectangleBox[{0.`,0.4438917279327484`},{0.19`,0.45579648983751037`}],RectangleBox[
+{0.2`,0.45579648983751037`},{0.39`,0.4677012517422721`}],RectangleBox[{0.4`,0.4677012517422721`},
+{0.59`,0.4796060136470343`}],RectangleBox[{0.6`,0.4796060136470343`},{0.79`,0.49151077555179606`}],RectangleBox[
+{0.8`,0.49151077555179606`},{0.99`,0.5034155374565581`}]}}}}},{Background -> GrayLevel[
+1],Frame -> True,FrameStyle -> GrayLevel[0.75`],FrameTicks -> False,ImagePadding -> None,AspectRatio -> NCache[
+Rational[6,35],0.17142857142857143`],PlotRange -> {All,All},AspectRatio -> NCache[
+Times[Rational[1,4],Power[GoldenRatio,-1]],0.1545084971874737`],PlotRangePadding -> {Automatic,0.05`}},
+ExpressionUUID -> "c2dc256e-3b26-43f7-8e06-a7bb6df17fb7",ImageSize -> {242,41}],{180,-35},
+ImageScaled[{0.5`,0.5`}],{350,60},Background -> RGBColor[0.9568627450980393`,0.9568627450980393`,
+0.9568627450980393`]],InsetBox[GraphicsBox[{GrayLevel[0.6`],RectangleBox[{0,0}]},
+{Background -> GrayLevel[1],Frame -> True,FrameStyle -> GrayLevel[0.75`],FrameTicks -> False,ImagePadding -> None,AspectRatio -> NCache[
+Rational[6,35],0.17142857142857143`]},ExpressionUUID -> "3a226793-9551-4585-8c84-cdf23cb6903c",
+ImageSize -> {242,41}],{180,-100},ImageScaled[{0.5`,0.5`}],{350,60},Background -> RGBColor[
+0.9568627450980393`,0.9568627450980393`,0.9568627450980393`]]},InsetBox[BoxData[FormBox[
+StyleBox[TemplateBox[{StyleBox["\" | \"",FontSize -> 14,FontColor -> RGBColor[0.5098039215686274`,
+0.5098039215686274`,0.5098039215686274`],StripOnInput -> False],StyleBox[TemplateBox[
+{"\"1\"","\" s\""},"RowDefault"],FontColor -> RGBColor[0.5098039215686274`,0.5098039215686274`,
+0.5098039215686274`],StripOnInput -> False]},"RowWithSeparator"],"DialogStyle",StripOnInput -> False],
+TraditionalForm]],{355,-159},Scaled[{1,0}]],TagBox[{RGBColor[0.9568627450980393`,
+0.9568627450980393`,0.9568627450980393`],RectangleBox[{5,-158},{29,-135}],RGBColor[
+0.27450980392156865`,0.5411764705882353`,0.796078431372549`],PolygonBox[NCache[{{11,-157},{11,-136},{20.`,Rational[
+-293,2]},{11,-157}},{{11,-157},{11,-136},{20.`,-146.5`},{11,-157}}]],Antialiasing -> False},
+EventHandlerTag[{RuleDelayed["MouseClicked",If[True,CompoundExpression[Sound`EmitMIDI[
+Sound`MIDISequence[{Sound`MIDITrack[{Sound`MIDIEvent[0,"SetTempo","Tempo" -> 1000000],Sound`MIDIEvent[
+0,"ProgramCommand","Channel" -> 0,"Value" -> 0],Sound`MIDIEvent[0,"NoteOn","Note" -> 61,
+"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[48,"NoteOff","Note" -> 61,"Channel" -> 0,
+"Velocity" -> 0],Sound`MIDIEvent[48,"NoteOn","Note" -> 62,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[
+96,"NoteOff","Note" -> 62,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[96,"NoteOn",
+"Note" -> 63,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[144,"NoteOff","Note" -> 63,
+"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[144,"NoteOn","Note" -> 64,"Channel" -> 0,
+"Velocity" -> 127],Sound`MIDIEvent[192,"NoteOff","Note" -> 64,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[
+192,"NoteOn","Note" -> 65,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[240,"NoteOff",
+"Note" -> 65,"Channel" -> 0,"Velocity" -> 0]}]},"DivisionType" -> "PPQ","Resolution" -> 240]],
+Sound`EmitSampledSound[None,"Preemptive"]],FEPrivate`EmitSound[None,"Preemptive",
+ExpressionUUID -> "27bf34f2-975a-4eaa-9991-68f012831a87"]]],Method -> "Preemptive",PassEventsDown -> Automatic,PassEventsUp -> True}]],TagBox[
+{RGBColor[0.9568627450980393`,0.9568627450980393`,0.9568627450980393`],RectangleBox[
+{29,-158},{53,-135}],RGBColor[0.27450980392156865`,0.5411764705882353`,0.796078431372549`],RectangleBox[
+{35,-152},{47,-141}],Antialiasing -> False},EventHandlerTag[{RuleDelayed["MouseClicked",
+If[True,CompoundExpression[Sound`EmitSampledSound[SampledSoundList[{{0.`}},8000],
+"Preemptive"],Sound`StopMIDI[]],FEPrivate`EmitSound[SampledSoundList[{{0.`}},8000],
+"Preemptive",ExpressionUUID -> "14c62811-3cd0-4d65-ba50-8b77e74e598c"]]],Method -> "Preemptive",PassEventsDown -> Automatic,PassEventsUp -> True}]],{GrayLevel[
+0.75`],Antialiasing -> False,LineBox[{{0,0},{360,0},{360,-164},{0,-164},{0,0}}]}},
+ContentSelectable -> False,ImageSize -> 250,PlotRange -> {{0,360},{-164,0}},PlotRangePadding -> 1],
+Sound[{SoundNote[1,0.2`],SoundNote[2,0.2`],SoundNote[3,0.2`],SoundNote[4,0.2`],SoundNote[
+5,0.2`]}]],StandardForm],"Output",CellLabel -> "Out[111]= ",ExpressionUUID -> "e681711c-af08-4031-9104-42f414410164"]},
+Open],ExpressionUUID -> "1471e787-0ad5-49d1-ab47-f5404fa72719"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Sound","[",RowBox[{"Table","[",RowBox[{RowBox[{"SoundNote","[",RowBox[
+{RowBox[{"RandomInteger","[","12","]"}],",","0.2",",","\"Violin\""}],"]"}],",","20"}],"]"}],"]"}]],
+"Input",CellLabel -> "In[112]:= ",ExpressionUUID -> "8801f907-348c-46c7-a71c-9d70df175255"],Cell[
+BoxData[
+InterpretationBox[GraphicsBox[{{RGBColor[0.9568627450980393`,0.9568627450980393`,
+0.9568627450980393`],RectangleBox[{0,0},{360,-164}]},{InsetBox[GraphicsBox[{{{Hue[
+-0.1599553194190092`,0.9`,0.7`],Antialiasing -> True,{{RectangleBox[{0.6`,0.43198696602798653`},
+{0.79`,0.4438917279327484`}],RectangleBox[{1.6`,0.43198696602798653`},{1.79`,0.4438917279327484`}],RectangleBox[
+{2.8`,0.43198696602798653`},{2.99`,0.4438917279327484`}],RectangleBox[{3.2`,0.43198696602798653`},
+{3.39`,0.4438917279327484`}],RectangleBox[{2.4`,0.4438917279327484`},{2.59`,0.45579648983751037`}],RectangleBox[
+{2.6`,0.4438917279327484`},{2.79`,0.45579648983751037`}],RectangleBox[{3.6`,0.4438917279327484`},
+{3.79`,0.45579648983751037`}],RectangleBox[{0.`,0.45579648983751037`},{0.19`,0.4677012517422721`}],RectangleBox[
+{1.8`,0.45579648983751037`},{1.99`,0.4677012517422721`}],RectangleBox[{1.4`,0.4677012517422721`},
+{1.59`,0.4796060136470343`}],RectangleBox[{0.4`,0.49151077555179606`},{0.59`,0.5034155374565581`}],RectangleBox[
+{0.8`,0.5034155374565581`},{0.99`,0.5153202993613198`}],RectangleBox[{1.2`,0.5034155374565581`},
+{1.39`,0.5153202993613198`}],RectangleBox[{2.`,0.5034155374565581`},{2.1900000000000004`,0.5153202993613198`}],RectangleBox[
+{2.2`,0.5034155374565581`},{2.39`,0.5153202993613198`}],RectangleBox[{3.4`,0.5034155374565581`},
+{3.59`,0.5153202993613198`}],RectangleBox[{1.`,0.5272250612660818`},{1.19`,0.5391298231708438`}],RectangleBox[
+{3.`,0.5391298231708438`},{3.1900000000000004`,0.5510345850756055`}],RectangleBox[
+{0.2`,0.5510345850756055`},{0.39`,0.5629393469803675`}],RectangleBox[{3.8`,0.5748441088851295`},
+{3.99`,0.5867488707898912`}]}}}}},{Background -> GrayLevel[1],Frame -> True,FrameStyle -> GrayLevel[
+0.75`],FrameTicks -> False,ImagePadding -> None,AspectRatio -> NCache[Rational[6,
+35],0.17142857142857143`],PlotRange -> {All,All},AspectRatio -> NCache[Times[Rational[
+1,4],Power[GoldenRatio,-1]],0.1545084971874737`],PlotRangePadding -> {Automatic,0.05`}},
+ExpressionUUID -> "5979f495-a0e8-4af2-95b0-b2e292d8cea1",ImageSize -> {242,41}],{180,-35},
+ImageScaled[{0.5`,0.5`}],{350,60},Background -> RGBColor[0.9568627450980393`,0.9568627450980393`,
+0.9568627450980393`]],InsetBox[GraphicsBox[{GrayLevel[0.6`],RectangleBox[{0,0}]},
+{Background -> GrayLevel[1],Frame -> True,FrameStyle -> GrayLevel[0.75`],FrameTicks -> False,ImagePadding -> None,AspectRatio -> NCache[
+Rational[6,35],0.17142857142857143`]},ExpressionUUID -> "1bc026a7-518a-4f3d-9fa8-c202c35ee469",
+ImageSize -> {242,41}],{180,-100},ImageScaled[{0.5`,0.5`}],{350,60},Background -> RGBColor[
+0.9568627450980393`,0.9568627450980393`,0.9568627450980393`]]},InsetBox[BoxData[FormBox[
+StyleBox[TemplateBox[{StyleBox["\" | \"",FontSize -> 14,FontColor -> RGBColor[0.5098039215686274`,
+0.5098039215686274`,0.5098039215686274`],StripOnInput -> False],StyleBox[TemplateBox[
+{"\"4\"","\" s\""},"RowDefault"],FontColor -> RGBColor[0.5098039215686274`,0.5098039215686274`,
+0.5098039215686274`],StripOnInput -> False]},"RowWithSeparator"],"DialogStyle",StripOnInput -> False],
+TraditionalForm]],{355,-159},Scaled[{1,0}]],TagBox[{RGBColor[0.9568627450980393`,
+0.9568627450980393`,0.9568627450980393`],RectangleBox[{5,-158},{29,-135}],RGBColor[
+0.27450980392156865`,0.5411764705882353`,0.796078431372549`],PolygonBox[NCache[{{11,-157},{11,-136},{20.`,Rational[
+-293,2]},{11,-157}},{{11,-157},{11,-136},{20.`,-146.5`},{11,-157}}]],Antialiasing -> False},
+EventHandlerTag[{RuleDelayed["MouseClicked",If[True,CompoundExpression[Sound`EmitMIDI[
+Sound`MIDISequence[{Sound`MIDITrack[{Sound`MIDIEvent[0,"SetTempo","Tempo" -> 1000000],Sound`MIDIEvent[
+0,"ProgramCommand","Channel" -> 0,"Value" -> 40],Sound`MIDIEvent[0,"NoteOn","Note" -> 62,
+"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[48,"NoteOff","Note" -> 62,"Channel" -> 0,
+"Velocity" -> 0],Sound`MIDIEvent[48,"NoteOn","Note" -> 70,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[
+96,"NoteOff","Note" -> 70,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[96,"NoteOn",
+"Note" -> 65,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[144,"NoteOff","Note" -> 65,
+"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[144,"NoteOn","Note" -> 60,"Channel" -> 0,
+"Velocity" -> 127],Sound`MIDIEvent[192,"NoteOff","Note" -> 60,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[
+192,"NoteOn","Note" -> 66,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[240,"NoteOff",
+"Note" -> 66,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[240,"NoteOn","Note" -> 68,
+"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[288,"NoteOff","Note" -> 68,"Channel" -> 0,
+"Velocity" -> 0],Sound`MIDIEvent[288,"NoteOn","Note" -> 66,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[
+336,"NoteOff","Note" -> 66,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[336,"NoteOn",
+"Note" -> 63,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[384,"NoteOff","Note" -> 63,
+"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[384,"NoteOn","Note" -> 60,"Channel" -> 0,
+"Velocity" -> 127],Sound`MIDIEvent[432,"NoteOff","Note" -> 60,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[
+432,"NoteOn","Note" -> 62,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[480,"NoteOff",
+"Note" -> 62,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[480,"NoteOn","Note" -> 66,
+"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[528,"NoteOff","Note" -> 66,"Channel" -> 0,
+"Velocity" -> 0],Sound`MIDIEvent[528,"NoteOn","Note" -> 66,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[
+576,"NoteOff","Note" -> 66,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[576,"NoteOn",
+"Note" -> 61,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[624,"NoteOff","Note" -> 61,
+"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[624,"NoteOn","Note" -> 61,"Channel" -> 0,
+"Velocity" -> 127],Sound`MIDIEvent[672,"NoteOff","Note" -> 61,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[
+672,"NoteOn","Note" -> 60,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[720,"NoteOff",
+"Note" -> 60,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[720,"NoteOn","Note" -> 69,
+"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[768,"NoteOff","Note" -> 69,"Channel" -> 0,
+"Velocity" -> 0],Sound`MIDIEvent[768,"NoteOn","Note" -> 60,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[
+816,"NoteOff","Note" -> 60,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[816,"NoteOn",
+"Note" -> 66,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[864,"NoteOff","Note" -> 66,
+"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[864,"NoteOn","Note" -> 61,"Channel" -> 0,
+"Velocity" -> 127],Sound`MIDIEvent[912,"NoteOff","Note" -> 61,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[
+912,"NoteOn","Note" -> 72,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[960,"NoteOff",
+"Note" -> 72,"Channel" -> 0,"Velocity" -> 0]}]},"DivisionType" -> "PPQ","Resolution" -> 240]],
+Sound`EmitSampledSound[None,"Preemptive"]],FEPrivate`EmitSound[None,"Preemptive",
+ExpressionUUID -> "ecf5fb69-feda-43ae-9ad2-54e0f28797a5"]]],Method -> "Preemptive",PassEventsDown -> Automatic,PassEventsUp -> True}]],TagBox[
+{RGBColor[0.9568627450980393`,0.9568627450980393`,0.9568627450980393`],RectangleBox[
+{29,-158},{53,-135}],RGBColor[0.27450980392156865`,0.5411764705882353`,0.796078431372549`],RectangleBox[
+{35,-152},{47,-141}],Antialiasing -> False},EventHandlerTag[{RuleDelayed["MouseClicked",
+If[True,CompoundExpression[Sound`EmitSampledSound[SampledSoundList[{{0.`}},8000],
+"Preemptive"],Sound`StopMIDI[]],FEPrivate`EmitSound[SampledSoundList[{{0.`}},8000],
+"Preemptive",ExpressionUUID -> "ecf07a9b-f48d-4eb2-a206-cd11aa41f35e"]]],Method -> "Preemptive",PassEventsDown -> Automatic,PassEventsUp -> True}]],{GrayLevel[
+0.75`],Antialiasing -> False,LineBox[{{0,0},{360,0},{360,-164},{0,-164},{0,0}}]}},
+ContentSelectable -> False,ImageSize -> 250,PlotRange -> {{0,360},{-164,0}},PlotRangePadding -> 1],
+Sound[{SoundNote[2,0.2`,"Violin"],SoundNote[10,0.2`,"Violin"],SoundNote[5,0.2`,"Violin"],SoundNote[
+0,0.2`,"Violin"],SoundNote[6,0.2`,"Violin"],SoundNote[8,0.2`,"Violin"],SoundNote[
+6,0.2`,"Violin"],SoundNote[3,0.2`,"Violin"],SoundNote[0,0.2`,"Violin"],SoundNote[
+2,0.2`,"Violin"],SoundNote[6,0.2`,"Violin"],SoundNote[6,0.2`,"Violin"],SoundNote[
+1,0.2`,"Violin"],SoundNote[1,0.2`,"Violin"],SoundNote[0,0.2`,"Violin"],SoundNote[
+9,0.2`,"Violin"],SoundNote[0,0.2`,"Violin"],SoundNote[6,0.2`,"Violin"],SoundNote[
+1,0.2`,"Violin"],SoundNote[12,0.2`,"Violin"]}]],StandardForm],"Output",CellLabel -> "Out[112]= ",
+ExpressionUUID -> "12c27e8f-0902-4840-96b5-7ee6466311da"]},Open],ExpressionUUID -> "87761050-0ae2-40b0-92fb-4c01e54a5db2"],Cell[
+BoxData[
+RowBox[{"EmitSound","[",RowBox[{"Sound","[",RowBox[{"Table","[",RowBox[{RowBox[{"SoundNote","[",RowBox[
+{RowBox[{"RandomInteger","[","12","]"}],",","0.2",",","\"Violin\""}],"]"}],",","20"}],"]"}],"]"}],"]"}]],
+"Input",CellLabel -> "In[113]:= ",ExpressionUUID -> "9a88eccb-9a9e-4355-a095-9e00dcb313e2"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Table","[",RowBox[{RowBox[{"f","[","n","]"}],",",RowBox[{"{",RowBox[
+{"n",",",RowBox[{"{",RowBox[{"2",",","5",",","8",",","1",",","7"}],"}"}]}],"}"}]}],"]"}]],
+"Input",CellLabel -> "In[114]:= ",ExpressionUUID -> "eeb9b8c6-4ec9-43cb-b5d9-98d5368501d2"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{RowBox[{"f","[","2","]"}],",",RowBox[{"f","[","5","]"}],",",RowBox[
+{"f","[","8","]"}],",",RowBox[{"f","[","1","]"}],",",RowBox[{"f","[","7","]"}]}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[114]= ",ExpressionUUID -> "352e7535-3153-43de-96ff-c872a9d78696"]},
+Open],ExpressionUUID -> "0679e657-0033-4aea-b7aa-e6ed14b78bdb"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"{",RowBox[{"0",",","0",",","7",",","7",",","9",",","9",",","7",",","4",",","5",",","2",",","4",",","0",",","2",",",RowBox[
+{"-","1"}],",","0"}],"}"}]],"Input",CellLabel -> "In[115]:= ",ExpressionUUID -> "fa3769d3-b0bf-4217-a613-610d6ef66ec5"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"0",",","0",",","7",",","7",",","9",",","9",",","7",",","4",",","5",",","2",",","4",",","0",",","2",",",RowBox[
+{"-","1"}],",","0"}],"}"}],StandardForm],"Output",CellLabel -> "Out[115]= ",ExpressionUUID -> "f71e3d87-27ee-498f-b927-06446d1b2683"]},
+Open],ExpressionUUID -> "bdf769e9-7753-4df5-b691-2a314b148e1e"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Sound","[",RowBox[{"Table","[",RowBox[{RowBox[{"SoundNote","[",RowBox[
+{"n",",","0.2",",","\"Violin\""}],"]"}],",",RowBox[{"{",RowBox[{"n",",",RowBox[{"{",RowBox[
+{"0",",","0",",","7",",","7",",","9",",","9",",","7",",","4",",","5",",","2",",","4",",","0",",","2",",",RowBox[
+{"-","1"}],",","0"}],"}"}]}],"}"}]}],"]"}],"]"}]],"Input",CellLabel -> "In[118]:= ",
+ExpressionUUID -> "bf2b5b74-40ad-4023-ba8e-0ed55a6eba23"],Cell[
+BoxData[InterpretationBox[
+GraphicsBox[{{RGBColor[0.9568627450980393`,0.9568627450980393`,0.9568627450980393`],RectangleBox[
+{0,0},{360,-164}]},{InsetBox[GraphicsBox[{{{Hue[-0.1599553194190092`,0.9`,0.7`],Antialiasing -> True,{{RectangleBox[
+{2.6`,0.4200822041232246`},{2.79`,0.43198696602798653`}],RectangleBox[{0.`,0.43198696602798653`},
+{0.19`,0.4438917279327484`}],RectangleBox[{0.2`,0.43198696602798653`},{0.39`,0.4438917279327484`}],RectangleBox[
+{2.2`,0.43198696602798653`},{2.39`,0.4438917279327484`}],RectangleBox[{2.8`,0.43198696602798653`},
+{2.99`,0.4438917279327484`}],RectangleBox[{1.8`,0.45579648983751037`},{1.99`,0.4677012517422721`}],RectangleBox[
+{2.4`,0.45579648983751037`},{2.59`,0.4677012517422721`}],RectangleBox[{1.4`,0.4796060136470343`},
+{1.59`,0.49151077555179606`}],RectangleBox[{2.`,0.4796060136470343`},{2.1900000000000004`,0.49151077555179606`}],RectangleBox[
+{1.6`,0.49151077555179606`},{1.79`,0.5034155374565581`}],RectangleBox[{0.4`,0.5153202993613198`},
+{0.59`,0.5272250612660818`}],RectangleBox[{0.6`,0.5153202993613198`},{0.79`,0.5272250612660818`}],RectangleBox[
+{1.2`,0.5153202993613198`},{1.39`,0.5272250612660818`}],RectangleBox[{0.8`,0.5391298231708438`},
+{0.99`,0.5510345850756055`}],RectangleBox[{1.`,0.5391298231708438`},{1.19`,0.5510345850756055`}]}}}}},
+{Background -> GrayLevel[1],Frame -> True,FrameStyle -> GrayLevel[0.75`],FrameTicks -> False,ImagePadding -> None,AspectRatio -> NCache[
+Rational[6,35],0.17142857142857143`],PlotRange -> {All,All},AspectRatio -> NCache[
+Times[Rational[1,4],Power[GoldenRatio,-1]],0.1545084971874737`],PlotRangePadding -> {Automatic,0.05`}},
+ExpressionUUID -> "ac51d9b6-61b2-4637-8687-1452fafe2d9c",ImageSize -> {242,41}],{180,-35},
+ImageScaled[{0.5`,0.5`}],{350,60},Background -> RGBColor[0.9568627450980393`,0.9568627450980393`,
+0.9568627450980393`]],InsetBox[GraphicsBox[{GrayLevel[0.6`],RectangleBox[{0,0}]},
+{Background -> GrayLevel[1],Frame -> True,FrameStyle -> GrayLevel[0.75`],FrameTicks -> False,ImagePadding -> None,AspectRatio -> NCache[
+Rational[6,35],0.17142857142857143`]},ExpressionUUID -> "38e10b29-f68a-40d4-8a92-2b0b77b945eb",
+ImageSize -> {242,41}],{180,-100},ImageScaled[{0.5`,0.5`}],{350,60},Background -> RGBColor[
+0.9568627450980393`,0.9568627450980393`,0.9568627450980393`]]},InsetBox[BoxData[FormBox[
+StyleBox[TemplateBox[{StyleBox["\" | \"",FontSize -> 14,FontColor -> RGBColor[0.5098039215686274`,
+0.5098039215686274`,0.5098039215686274`],StripOnInput -> False],StyleBox[TemplateBox[
+{"\"3\"","\" s\""},"RowDefault"],FontColor -> RGBColor[0.5098039215686274`,0.5098039215686274`,
+0.5098039215686274`],StripOnInput -> False]},"RowWithSeparator"],"DialogStyle",StripOnInput -> False],
+TraditionalForm]],{355,-159},Scaled[{1,0}]],TagBox[{RGBColor[0.9568627450980393`,
+0.9568627450980393`,0.9568627450980393`],RectangleBox[{5,-158},{29,-135}],RGBColor[
+0.27450980392156865`,0.5411764705882353`,0.796078431372549`],PolygonBox[NCache[{{11,-157},{11,-136},{20.`,Rational[
+-293,2]},{11,-157}},{{11,-157},{11,-136},{20.`,-146.5`},{11,-157}}]],Antialiasing -> False},
+EventHandlerTag[{RuleDelayed["MouseClicked",If[True,CompoundExpression[Sound`EmitMIDI[
+Sound`MIDISequence[{Sound`MIDITrack[{Sound`MIDIEvent[0,"SetTempo","Tempo" -> 1000000],Sound`MIDIEvent[
+0,"ProgramCommand","Channel" -> 0,"Value" -> 40],Sound`MIDIEvent[0,"NoteOn","Note" -> 60,
+"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[48,"NoteOff","Note" -> 60,"Channel" -> 0,
+"Velocity" -> 0],Sound`MIDIEvent[48,"NoteOn","Note" -> 60,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[
+96,"NoteOff","Note" -> 60,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[96,"NoteOn",
+"Note" -> 67,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[144,"NoteOff","Note" -> 67,
+"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[144,"NoteOn","Note" -> 67,"Channel" -> 0,
+"Velocity" -> 127],Sound`MIDIEvent[192,"NoteOff","Note" -> 67,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[
+192,"NoteOn","Note" -> 69,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[240,"NoteOff",
+"Note" -> 69,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[240,"NoteOn","Note" -> 69,
+"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[288,"NoteOff","Note" -> 69,"Channel" -> 0,
+"Velocity" -> 0],Sound`MIDIEvent[288,"NoteOn","Note" -> 67,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[
+336,"NoteOff","Note" -> 67,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[336,"NoteOn",
+"Note" -> 64,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[384,"NoteOff","Note" -> 64,
+"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[384,"NoteOn","Note" -> 65,"Channel" -> 0,
+"Velocity" -> 127],Sound`MIDIEvent[432,"NoteOff","Note" -> 65,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[
+432,"NoteOn","Note" -> 62,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[480,"NoteOff",
+"Note" -> 62,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[480,"NoteOn","Note" -> 64,
+"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[528,"NoteOff","Note" -> 64,"Channel" -> 0,
+"Velocity" -> 0],Sound`MIDIEvent[528,"NoteOn","Note" -> 60,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[
+576,"NoteOff","Note" -> 60,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[576,"NoteOn",
+"Note" -> 62,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[624,"NoteOff","Note" -> 62,
+"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[624,"NoteOn","Note" -> 59,"Channel" -> 0,
+"Velocity" -> 127],Sound`MIDIEvent[672,"NoteOff","Note" -> 59,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[
+672,"NoteOn","Note" -> 60,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[720,"NoteOff",
+"Note" -> 60,"Channel" -> 0,"Velocity" -> 0]}]},"DivisionType" -> "PPQ","Resolution" -> 240]],
+Sound`EmitSampledSound[None,"Preemptive"]],FEPrivate`EmitSound[None,"Preemptive",
+ExpressionUUID -> "ece3a0f5-dcc9-400b-8313-05c9cc6abd94"]]],Method -> "Preemptive",PassEventsDown -> Automatic,PassEventsUp -> True}]],TagBox[
+{RGBColor[0.9568627450980393`,0.9568627450980393`,0.9568627450980393`],RectangleBox[
+{29,-158},{53,-135}],RGBColor[0.27450980392156865`,0.5411764705882353`,0.796078431372549`],RectangleBox[
+{35,-152},{47,-141}],Antialiasing -> False},EventHandlerTag[{RuleDelayed["MouseClicked",
+If[True,CompoundExpression[Sound`EmitSampledSound[SampledSoundList[{{0.`}},8000],
+"Preemptive"],Sound`StopMIDI[]],FEPrivate`EmitSound[SampledSoundList[{{0.`}},8000],
+"Preemptive",ExpressionUUID -> "5920aa40-0711-4e6d-945e-729d6b5021ec"]]],Method -> "Preemptive",PassEventsDown -> Automatic,PassEventsUp -> True}]],{GrayLevel[
+0.75`],Antialiasing -> False,LineBox[{{0,0},{360,0},{360,-164},{0,-164},{0,0}}]}},
+ContentSelectable -> False,ImageSize -> 250,PlotRange -> {{0,360},{-164,0}},PlotRangePadding -> 1],
+Sound[{SoundNote[0,0.2`,"Violin"],SoundNote[0,0.2`,"Violin"],SoundNote[7,0.2`,"Violin"],SoundNote[
+7,0.2`,"Violin"],SoundNote[9,0.2`,"Violin"],SoundNote[9,0.2`,"Violin"],SoundNote[
+7,0.2`,"Violin"],SoundNote[4,0.2`,"Violin"],SoundNote[5,0.2`,"Violin"],SoundNote[
+2,0.2`,"Violin"],SoundNote[4,0.2`,"Violin"],SoundNote[0,0.2`,"Violin"],SoundNote[
+2,0.2`,"Violin"],SoundNote[-1,0.2`,"Violin"],SoundNote[0,0.2`,"Violin"]}]],StandardForm],
+"Output",CellLabel -> "Out[118]= ",ExpressionUUID -> "03d19785-2c47-4e7b-8615-eaa55c29c322"]},
+Open],ExpressionUUID -> "bfef1804-4a18-4f8b-9824-56753868bfed"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"{",RowBox[{"4",",","4",",","4",",","4",",","4",",","4",",","4",",","4",",","4",",","4",",","7",",","4",",","7",",","4",",","7",",","4",",","7",",","4",",","7",",","4",",","7",",","4",",","4",",","5",",","6",",","7",",","5",",","6",",","4",",","2"}],"}"}]],
+"Input",CellLabel -> "In[119]:= ",ExpressionUUID -> "8e7f1eaa-e2a1-4053-a29b-2c86db1b0273"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"4",",","4",",","4",",","4",",","4",",","4",",","4",",","4",",","4",",","4",",","7",",","4",",","7",",","4",",","7",",","4",",","7",",","4",",","7",",","4",",","7",",","4",",","4",",","5",",","6",",","7",",","5",",","6",",","4",",","2"}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[119]= ",ExpressionUUID -> "40861d6e-ba82-4b7e-9d7a-f4d207d4cdcd"]},
+Open],ExpressionUUID -> "2dab8443-ee61-447f-87af-285c557f6ae2"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Sound","[",RowBox[{"Table","[",RowBox[{RowBox[{"SoundNote","[",RowBox[
+{"n",",","0.15",",","\"violin\""}],"]"}],",",RowBox[{"{",RowBox[{"n",",",RowBox[{"{",RowBox[
+{"4",",","4",",","4",",","4",",","4",",","4",",","4",",","4",",","4",",","4",",","7",",","4",",","7",",","4",",","7",",","4",",","7",",","4",",","7",",","4",",","7",",","4",",","4",",","5",",","6",",","7",",","5",",","6",",","4",",","2"}],"}"}]}],"}"}]}],"]"}],"]"}]],
+"Input",CellLabel -> "In[121]:= ",ExpressionUUID -> "8ec955ae-62b8-477e-a0ba-d63030500e18"],Cell[
+BoxData[
+RowBox[{"Sound","[",RowBox[{"{",RowBox[{RowBox[{"SoundNote","[",RowBox[{"4",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[
+{"SoundNote","[",RowBox[{"4",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[{"SoundNote","[",RowBox[
+{"4",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[{"SoundNote","[",RowBox[{"4",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[
+{"SoundNote","[",RowBox[{"4",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[{"SoundNote","[",RowBox[
+{"4",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[{"SoundNote","[",RowBox[{"4",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[
+{"SoundNote","[",RowBox[{"4",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[{"SoundNote","[",RowBox[
+{"4",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[{"SoundNote","[",RowBox[{"4",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[
+{"SoundNote","[",RowBox[{"7",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[{"SoundNote","[",RowBox[
+{"4",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[{"SoundNote","[",RowBox[{"7",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[
+{"SoundNote","[",RowBox[{"4",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[{"SoundNote","[",RowBox[
+{"7",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[{"SoundNote","[",RowBox[{"4",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[
+{"SoundNote","[",RowBox[{"7",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[{"SoundNote","[",RowBox[
+{"4",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[{"SoundNote","[",RowBox[{"7",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[
+{"SoundNote","[",RowBox[{"4",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[{"SoundNote","[",RowBox[
+{"7",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[{"SoundNote","[",RowBox[{"4",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[
+{"SoundNote","[",RowBox[{"4",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[{"SoundNote","[",RowBox[
+{"5",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[{"SoundNote","[",RowBox[{"6",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[
+{"SoundNote","[",RowBox[{"7",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[{"SoundNote","[",RowBox[
+{"5",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[{"SoundNote","[",RowBox[{"6",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[
+{"SoundNote","[",RowBox[{"4",",","0.15`",",","\"violin\""}],"]"}],",",RowBox[{"SoundNote","[",RowBox[
+{"2",",","0.15`",",","\"violin\""}],"]"}]}],"}"}],"]"}],StandardForm],"Output",CellLabel -> "Out[121]= ",
+ExpressionUUID -> "c079a6dc-4c2d-45e3-8f26-2292841bdc8c"]},Open],ExpressionUUID -> "ad667789-07fd-4a4a-a685-c40a4af995a3"],Cell[
+TextData[
+{"vacabulary","\n","\t","Sound","[(...)]","\n",StyleBox[RowBox[{"\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\t"}]],"SoundNote","[\"","C","\"]","\n",StyleBox[
+RowBox[{"\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\t"}]],"SoundNote","[","5","]","\n",StyleBox[
+RowBox[{"\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\t"}]],"SoundNote","[","5",",","0",".","1","]","\n",StyleBox[
+RowBox[{"\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]"}]],"SoundNote","[","5",",{","1",",","3","}]","\n",StyleBox[
+RowBox[{"\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]"}]],"SoundNote","[","5",",","1",",\"","Violin","\"]"}],
+"Text",ExpressionUUID -> "fbf88d33-47e8-47d4-9bfd-7fc3ca718a39"],Cell[
+BoxData[RowBox[
+{"--",RowBox[{"--",RowBox[{"--",RowBox[{"--",RowBox[{"--",RowBox[{"--",RowBox[{"--",RowBox[
+{"--",RowBox[{"--",RowBox[{"--",RowBox[{"--",RowBox[{"--",RowBox[{"--",RowBox[{"--",RowBox[
+{"--",RowBox[{"--",RowBox[{"--",RowBox[{"--",RowBox[{"--",RowBox[{"--",RowBox[{"--",RowBox[
+{"--",RowBox[{"--",RowBox[{"--",RowBox[{"--",RowBox[{"--",RowBox[{"--","-"}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]],
+"Input",ExpressionUUID -> "9fed9b21-232f-4fce-83f7-e97f48d309b4"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Characters","[","\"CABBAGE\"","]"}]],"Input",CellLabel -> "In[122]:= ",
+ExpressionUUID -> "e024b284-1036-480e-8861-55768f0b2757"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{"\"C\"",",","\"A\"",",","\"B\"",",","\"B\"",",","\"A\"",",","\"G\"",",","\"E\""}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[122]= ",ExpressionUUID -> "81a41178-d1c7-4522-a819-172235a21f6e"]},
+Open],ExpressionUUID -> "5df0dfaa-13ca-48e8-ad44-0ddf69adf6b2"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Table","[",RowBox[{RowBox[{"SoundNote","[",RowBox[{"n",",","0.3",","," ","\"Guitar\""}],"]"}],","," ",RowBox[
+{"{",RowBox[{"n",",",RowBox[{"Characters","[","\"CABBAGE\"","]"}]}],"}"}]}],"]"}]],
+"Input",CellLabel -> "In[123]:= ",ExpressionUUID -> "49e0d347-de24-40cd-8eed-57f279d9d978"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{RowBox[{"SoundNote","[",RowBox[{"\"C\"",",","0.3`",",","\"Guitar\""}],"]"}],",",RowBox[
+{"SoundNote","[",RowBox[{"\"A\"",",","0.3`",",","\"Guitar\""}],"]"}],",",RowBox[{"SoundNote","[",RowBox[
+{"\"B\"",",","0.3`",",","\"Guitar\""}],"]"}],",",RowBox[{"SoundNote","[",RowBox[{"\"B\"",",","0.3`",",","\"Guitar\""}],"]"}],",",RowBox[
+{"SoundNote","[",RowBox[{"\"A\"",",","0.3`",",","\"Guitar\""}],"]"}],",",RowBox[{"SoundNote","[",RowBox[
+{"\"G\"",",","0.3`",",","\"Guitar\""}],"]"}],",",RowBox[{"SoundNote","[",RowBox[{"\"E\"",",","0.3`",",","\"Guitar\""}],"]"}]}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[123]= ",ExpressionUUID -> "083feea5-09c1-4818-b125-9dec233d8b15"]},
+Open],ExpressionUUID -> "54a7819b-8d0c-4ee8-9826-f1184b46bede"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Sound","[",RowBox[{"Table","[",RowBox[{RowBox[{"SoundNote","[",RowBox[
+{"n",",","0.3",","," ","\"Guitar\""}],"]"}],","," ",RowBox[{"{",RowBox[{"n",",",RowBox[
+{"Characters","[","\"CABBAGE\"","]"}]}],"}"}]}],"]"}],"]"}]],"Input",CellLabel -> "In[124]:= ",
+ExpressionUUID -> "aab430ff-3564-4d2d-a1c3-4b421a627109"],Cell[
+BoxData[InterpretationBox[
+GraphicsBox[{{RGBColor[0.9568627450980393`,0.9568627450980393`,0.9568627450980393`],RectangleBox[
+{0,0},{360,-164}]},{InsetBox[GraphicsBox[{{{Hue[0.4073186577785305`,0.9`,0.7`],Antialiasing -> True,{{RectangleBox[
+{0.`,0.43198696602798653`},{0.285`,0.4438917279327484`}],RectangleBox[{1.8`,0.4796060136470343`},
+{2.085`,0.49151077555179606`}],RectangleBox[{1.5`,0.5153202993613198`},{1.7850000000000001`,0.5272250612660818`}],RectangleBox[
+{0.3`,0.5391298231708438`},{0.585`,0.5510345850756055`}],RectangleBox[{1.2`,0.5391298231708438`},
+{1.485`,0.5510345850756055`}],RectangleBox[{0.6`,0.5629393469803675`},{0.885`,0.5748441088851295`}],RectangleBox[
+{0.9`,0.5629393469803675`},{1.185`,0.5748441088851295`}]}}}}},{Background -> GrayLevel[
+1],Frame -> True,FrameStyle -> GrayLevel[0.75`],FrameTicks -> False,ImagePadding -> None,AspectRatio -> NCache[
+Rational[6,35],0.17142857142857143`],PlotRange -> {All,All},AspectRatio -> NCache[
+Times[Rational[1,4],Power[GoldenRatio,-1]],0.1545084971874737`],PlotRangePadding -> {Automatic,0.05`}},
+ExpressionUUID -> "64282105-b27a-4772-91fa-472ef83d229a",ImageSize -> {242,41}],{180,-35},
+ImageScaled[{0.5`,0.5`}],{350,60},Background -> RGBColor[0.9568627450980393`,0.9568627450980393`,
+0.9568627450980393`]],InsetBox[GraphicsBox[{GrayLevel[0.6`],RectangleBox[{0,0}]},
+{Background -> GrayLevel[1],Frame -> True,FrameStyle -> GrayLevel[0.75`],FrameTicks -> False,ImagePadding -> None,AspectRatio -> NCache[
+Rational[6,35],0.17142857142857143`]},ExpressionUUID -> "29eca308-1b10-4d4e-bbee-e93c20adc08a",
+ImageSize -> {242,41}],{180,-100},ImageScaled[{0.5`,0.5`}],{350,60},Background -> RGBColor[
+0.9568627450980393`,0.9568627450980393`,0.9568627450980393`]]},InsetBox[BoxData[FormBox[
+StyleBox[TemplateBox[{StyleBox["\" | \"",FontSize -> 14,FontColor -> RGBColor[0.5098039215686274`,
+0.5098039215686274`,0.5098039215686274`],StripOnInput -> False],StyleBox[TemplateBox[
+{"\"2.1\"","\" s\""},"RowDefault"],FontColor -> RGBColor[0.5098039215686274`,0.5098039215686274`,
+0.5098039215686274`],StripOnInput -> False]},"RowWithSeparator"],"DialogStyle",StripOnInput -> False],
+TraditionalForm]],{355,-159},Scaled[{1,0}]],TagBox[{RGBColor[0.9568627450980393`,
+0.9568627450980393`,0.9568627450980393`],RectangleBox[{5,-158},{29,-135}],RGBColor[
+0.27450980392156865`,0.5411764705882353`,0.796078431372549`],PolygonBox[NCache[{{11,-157},{11,-136},{20.`,Rational[
+-293,2]},{11,-157}},{{11,-157},{11,-136},{20.`,-146.5`},{11,-157}}]],Antialiasing -> False},
+EventHandlerTag[{RuleDelayed["MouseClicked",If[True,CompoundExpression[Sound`EmitMIDI[
+Sound`MIDISequence[{Sound`MIDITrack[{Sound`MIDIEvent[0,"SetTempo","Tempo" -> 1000000],Sound`MIDIEvent[
+0,"ProgramCommand","Channel" -> 0,"Value" -> 24],Sound`MIDIEvent[0,"NoteOn","Note" -> 60,
+"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[72,"NoteOff","Note" -> 60,"Channel" -> 0,
+"Velocity" -> 0],Sound`MIDIEvent[72,"NoteOn","Note" -> 69,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[
+144,"NoteOff","Note" -> 69,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[144,"NoteOn",
+"Note" -> 71,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[216,"NoteOff","Note" -> 71,
+"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[216,"NoteOn","Note" -> 71,"Channel" -> 0,
+"Velocity" -> 127],Sound`MIDIEvent[288,"NoteOff","Note" -> 71,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[
+288,"NoteOn","Note" -> 69,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[360,"NoteOff",
+"Note" -> 69,"Channel" -> 0,"Velocity" -> 0],Sound`MIDIEvent[360,"NoteOn","Note" -> 67,
+"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[432,"NoteOff","Note" -> 67,"Channel" -> 0,
+"Velocity" -> 0],Sound`MIDIEvent[432,"NoteOn","Note" -> 64,"Channel" -> 0,"Velocity" -> 127],Sound`MIDIEvent[
+504,"NoteOff","Note" -> 64,"Channel" -> 0,"Velocity" -> 0]}]},"DivisionType" -> "PPQ",
+"Resolution" -> 240]],Sound`EmitSampledSound[None,"Preemptive"]],FEPrivate`EmitSound[
+None,"Preemptive",ExpressionUUID -> "5740c8a0-efc2-4686-b582-c100cf029ba2"]]],Method -> "Preemptive",PassEventsDown -> Automatic,PassEventsUp -> True}]],TagBox[
+{RGBColor[0.9568627450980393`,0.9568627450980393`,0.9568627450980393`],RectangleBox[
+{29,-158},{53,-135}],RGBColor[0.27450980392156865`,0.5411764705882353`,0.796078431372549`],RectangleBox[
+{35,-152},{47,-141}],Antialiasing -> False},EventHandlerTag[{RuleDelayed["MouseClicked",
+If[True,CompoundExpression[Sound`EmitSampledSound[SampledSoundList[{{0.`}},8000],
+"Preemptive"],Sound`StopMIDI[]],FEPrivate`EmitSound[SampledSoundList[{{0.`}},8000],
+"Preemptive",ExpressionUUID -> "02f6693a-c254-4e3e-9c6e-4e070e973084"]]],Method -> "Preemptive",PassEventsDown -> Automatic,PassEventsUp -> True}]],{GrayLevel[
+0.75`],Antialiasing -> False,LineBox[{{0,0},{360,0},{360,-164},{0,-164},{0,0}}]}},
+ContentSelectable -> False,ImageSize -> 250,PlotRange -> {{0,360},{-164,0}},PlotRangePadding -> 1],
+Sound[{SoundNote["C",0.3`,"Guitar"],SoundNote["A",0.3`,"Guitar"],SoundNote["B",0.3`,
+"Guitar"],SoundNote["B",0.3`,"Guitar"],SoundNote["A",0.3`,"Guitar"],SoundNote["G",
+0.3`,"Guitar"],SoundNote["E",0.3`,"Guitar"]}]],StandardForm],"Output",CellLabel -> "Out[124]= ",
+ExpressionUUID -> "092e40b2-93a3-4346-9a91-98d890ba4870"]},Open],ExpressionUUID -> "7b5a70ab-0a49-48e3-858c-5eafdece5ef0"]},
+StyleDefinitions -> "Default.nb",FrontEndVersion -> "13. for Wolfram Cloud 1.61.2 (November 30, 2021)"]
