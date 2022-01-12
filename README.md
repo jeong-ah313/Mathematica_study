@@ -1,2 +1,2 @@
 # Mathematica_study
-Wolfram 공부하기
+Wolfram 언어 공부하기
